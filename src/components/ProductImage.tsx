@@ -87,6 +87,7 @@ const defaultConfig = {
 interface ProductImageProps {
   category: string;
   brand: string;
+  imageUrl?: string;
   className?: string;
   iconSize?: "sm" | "md" | "lg";
 }
@@ -94,12 +95,14 @@ interface ProductImageProps {
 export default function ProductImage({
   category,
   brand,
+  imageUrl,
   className,
   iconSize = "md",
 }: ProductImageProps) {
   const config = categoryConfig[category] ?? defaultConfig;
   const Icon = config.icon;
   const brandInitial = brand.charAt(0).toUpperCase();
+  const hasImage = imageUrl && imageUrl.length > 0;
 
   const iconSizes = {
     sm: "h-6 w-6",
@@ -110,35 +113,53 @@ export default function ProductImage({
   return (
     <div
       className={cn(
-        "relative flex items-center justify-center overflow-hidden bg-gradient-to-br",
-        config.gradient,
+        "relative flex items-center justify-center overflow-hidden",
+        !hasImage && "bg-gradient-to-br",
+        !hasImage && config.gradient,
         className
       )}
     >
-      {/* Decorative pattern */}
-      <div className="absolute inset-0 opacity-[0.04]">
-        <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
-          <pattern id={`grid-${category}`} width="20" height="20" patternUnits="userSpaceOnUse">
-            <circle cx="10" cy="10" r="1" fill="currentColor" />
-          </pattern>
-          <rect width="100%" height="100%" fill={`url(#grid-${category})`} />
-        </svg>
-      </div>
+      {hasImage ? (
+        /* eslint-disable-next-line @next/next/no-img-element */
+        <img
+          src={imageUrl}
+          alt=""
+          className="h-full w-full object-cover"
+          loading="lazy"
+        />
+      ) : (
+        <>
+          {/* Decorative pattern */}
+          <div className="absolute inset-0 opacity-[0.04]">
+            <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+              <pattern id={`grid-${category}`} width="20" height="20" patternUnits="userSpaceOnUse">
+                <circle cx="10" cy="10" r="1" fill="currentColor" />
+              </pattern>
+              <rect width="100%" height="100%" fill={`url(#grid-${category})`} />
+            </svg>
+          </div>
+
+          {/* Category icon */}
+          <Icon
+            className={cn(
+              iconSizes[iconSize],
+              config.accent,
+              "opacity-60 transition-transform group-hover:scale-110"
+            )}
+            strokeWidth={1.5}
+          />
+        </>
+      )}
 
       {/* Brand initial badge */}
-      <div className="absolute top-2 right-2 flex h-5 w-5 items-center justify-center rounded-full bg-white/60 dark:bg-black/30 text-[10px] font-bold text-foreground/50">
+      <div className={cn(
+        "absolute top-2 right-2 flex h-5 w-5 items-center justify-center rounded-full text-[10px] font-bold",
+        hasImage
+          ? "bg-black/40 text-white"
+          : "bg-white/60 dark:bg-black/30 text-foreground/50"
+      )}>
         {brandInitial}
       </div>
-
-      {/* Category icon */}
-      <Icon
-        className={cn(
-          iconSizes[iconSize],
-          config.accent,
-          "opacity-60 transition-transform group-hover:scale-110"
-        )}
-        strokeWidth={1.5}
-      />
     </div>
   );
 }

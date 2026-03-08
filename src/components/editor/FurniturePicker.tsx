@@ -227,6 +227,7 @@ export default function FurniturePicker({ onAddProduct }: FurniturePickerProps) 
                     <ProductImage
                       category={product.category}
                       brand={product.brand}
+                      imageUrl={product.image_url}
                       className="aspect-square"
                       iconSize="sm"
                     />

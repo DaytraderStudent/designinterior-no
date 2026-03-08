@@ -156,6 +156,7 @@ export default function ProdukterPage() {
               <ProductImage
                 category={product.category}
                 brand={product.brand}
+                imageUrl={product.image_url}
                 className="aspect-square"
                 iconSize="lg"
               />

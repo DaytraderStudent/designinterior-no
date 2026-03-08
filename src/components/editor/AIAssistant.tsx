@@ -6,9 +6,11 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { cn } from "@/lib/utils";
+import { saveChatMessage, getChatMessages } from "@/lib/supabase";
 import type { RoomAnalysis, SessionProduct, ChatMessage } from "@/types";
 
 interface AIAssistantProps {
+  sessionId: string | null;
   roomAnalysis: RoomAnalysis | null;
   selectedProducts: SessionProduct[];
   totalCost: number;
@@ -22,6 +24,7 @@ const exampleQuestions = [
 ];
 
 export default function AIAssistant({
+  sessionId,
   roomAnalysis,
   selectedProducts,
   totalCost,
@@ -30,6 +33,21 @@ export default function AIAssistant({
   const [input, setInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const scrollRef = useRef<HTMLDivElement>(null);
+  const loadedSessionRef = useRef<string | null>(null);
+
+  // Load existing chat messages when sessionId changes
+  useEffect(() => {
+    if (!sessionId || loadedSessionRef.current === sessionId) return;
+    loadedSessionRef.current = sessionId;
+
+    async function loadMessages() {
+      const existing = await getChatMessages(sessionId!);
+      if (existing.length > 0) {
+        setMessages(existing);
+      }
+    }
+    loadMessages();
+  }, [sessionId]);
 
   // Auto-scroll to bottom when messages change
   useEffect(() => {
@@ -53,6 +71,11 @@ export default function AIAssistant({
     setInput("");
     setIsLoading(true);
 
+    // Save user message to Supabase
+    if (sessionId) {
+      saveChatMessage(sessionId, "user", userMessage.content);
+    }
+
     try {
       const response = await fetch("/api/ai-assistant", {
         method: "POST",
@@ -75,19 +98,26 @@ export default function AIAssistant({
 
       const data = await response.json();
 
+      const replyContent = data.reply ?? data.error ?? "Beklager, noe gikk galt. Prøv igjen.";
+
       const assistantMessage: ChatMessage = {
         id: crypto.randomUUID(),
         role: "assistant",
-        content: data.message ?? "Beklager, noe gikk galt. Prov igjen.",
+        content: replyContent,
         created_at: new Date().toISOString(),
       };
 
       setMessages((prev) => [...prev, assistantMessage]);
+
+      // Save assistant message to Supabase
+      if (sessionId) {
+        saveChatMessage(sessionId, "assistant", replyContent);
+      }
     } catch {
       const errorMessage: ChatMessage = {
         id: crypto.randomUUID(),
         role: "assistant",
-        content: "Beklager, jeg kunne ikke koble til. Prov igjen senere.",
+        content: "Beklager, jeg kunne ikke koble til. Prøv igjen senere.",
         created_at: new Date().toISOString(),
       };
       setMessages((prev) => [...prev, errorMessage]);
@@ -111,7 +141,7 @@ export default function AIAssistant({
         <div>
           <h3 className="text-sm font-semibold">AI-assistent</h3>
           <p className="text-[11px] text-muted-foreground">
-            Hjelper deg med interiortips
+            Hjelper deg med interiørtips
           </p>
         </div>
       </div>
@@ -123,10 +153,10 @@ export default function AIAssistant({
             <div className="flex flex-col items-center justify-center py-8 text-center">
               <Bot className="mb-3 h-10 w-10 text-muted-foreground/30" />
               <p className="mb-1 text-sm font-medium text-muted-foreground">
-                Hei! Jeg er din interiorradviger.
+                Hei! Jeg er din interiørrådgiver.
               </p>
               <p className="text-xs text-muted-foreground/70">
-                Still meg et sporsmaal om rommet ditt.
+                Still meg et spørsmål om rommet ditt.
               </p>
             </div>
           )}

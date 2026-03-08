@@ -1,22 +1,48 @@
 import { NextRequest, NextResponse } from "next/server";
-import { products } from "@/data/products";
+import { products as hardcodedProducts } from "@/data/products";
+import { fetchProducts } from "@/lib/supabase";
+
+export const dynamic = "force-dynamic";
 
 export async function GET(request: NextRequest) {
   try {
     const { searchParams } = new URL(request.url);
 
-    const category = searchParams.get("category");
-    const style = searchParams.get("style");
-    const color = searchParams.get("color");
+    const category = searchParams.get("category") || undefined;
+    const brand = searchParams.get("brand") || undefined;
+    const style = searchParams.get("style") || undefined;
+    const color = searchParams.get("color") || undefined;
     const minPrice = searchParams.get("minPrice");
     const maxPrice = searchParams.get("maxPrice");
-    const search = searchParams.get("search");
+    const search = searchParams.get("search") || undefined;
 
-    let filtered = [...products];
+    // Try Supabase first
+    const supabaseProducts = await fetchProducts({
+      category,
+      brand,
+      style,
+      color,
+      minPrice: minPrice ? parseFloat(minPrice) : undefined,
+      maxPrice: maxPrice ? parseFloat(maxPrice) : undefined,
+      search,
+    });
+
+    if (supabaseProducts.length > 0) {
+      return NextResponse.json(supabaseProducts);
+    }
+
+    // Fallback to hardcoded data
+    let filtered = [...hardcodedProducts];
 
     if (category) {
       filtered = filtered.filter(
         (p) => p.category.toLowerCase() === category.toLowerCase()
+      );
+    }
+
+    if (brand) {
+      filtered = filtered.filter(
+        (p) => p.brand.toLowerCase() === brand.toLowerCase()
       );
     }
 
@@ -44,8 +70,10 @@ export async function GET(request: NextRequest) {
 
     if (search) {
       const searchLower = search.toLowerCase();
-      filtered = filtered.filter((p) =>
-        p.name.toLowerCase().includes(searchLower)
+      filtered = filtered.filter(
+        (p) =>
+          p.name.toLowerCase().includes(searchLower) ||
+          p.brand.toLowerCase().includes(searchLower)
       );
     }
 

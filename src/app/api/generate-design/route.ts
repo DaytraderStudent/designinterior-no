@@ -14,17 +14,42 @@ const stylePrompts: Record<string, string> = {
 
 export async function POST(request: NextRequest) {
   try {
-    const { imageBase64, prompt, style } = await request.json();
+    if (!process.env.REPLICATE_API_TOKEN) {
+      return NextResponse.json(
+        { error: "Designgenerering er ikke konfigurert. Replicate API-nøkkel mangler." },
+        { status: 503 }
+      );
+    }
 
-    if (!imageBase64) {
+    let body: unknown;
+    try {
+      body = await request.json();
+    } catch {
+      return NextResponse.json(
+        { error: "Ugyldig forespørsel. Forventet JSON." },
+        { status: 400 }
+      );
+    }
+
+    const { imageBase64, prompt, style } = body as Record<string, unknown>;
+
+    if (!imageBase64 || typeof imageBase64 !== "string") {
       return NextResponse.json(
         { error: "Bilde er påkrevd for designgenerering." },
         { status: 400 }
       );
     }
 
-    const styleDescription = stylePrompts[style] || stylePrompts.skandinavisk;
-    const fullPrompt = `${styleDescription}, ${prompt || "beautifully redesigned room"}, professional interior photography, high quality, 8k`;
+    if (prompt !== undefined && typeof prompt !== "string") {
+      return NextResponse.json(
+        { error: "Ugyldig prompt-format." },
+        { status: 400 }
+      );
+    }
+
+    const styleKey = typeof style === "string" ? style : "skandinavisk";
+    const styleDescription = stylePrompts[styleKey] || stylePrompts.skandinavisk;
+    const fullPrompt = `${styleDescription}, ${(prompt as string) || "beautifully redesigned room"}, professional interior photography, high quality, 8k`;
 
     const imageDataUrl = `data:image/jpeg;base64,${imageBase64}`;
 
@@ -48,12 +73,12 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ generatedImageUrl });
   } catch (error) {
     console.error("Feil ved designgenerering:", error);
-    return NextResponse.json(
-      {
-        error:
-          "Noe gikk galt under genereringen av designforslaget. Vennligst prøv igjen.",
-      },
-      { status: 500 }
-    );
+
+    const message =
+      error instanceof Error && error.message.includes("authentication")
+        ? "Replicate-tjenesten kunne ikke autentiseres. Sjekk API-nøkkelen."
+        : "Noe gikk galt under genereringen av designforslaget. Vennligst prøv igjen.";
+
+    return NextResponse.json({ error: message }, { status: 500 });
   }
 }

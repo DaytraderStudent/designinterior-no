@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback, useMemo } from "react";
+import { useState, useCallback, useMemo, useEffect, useRef } from "react";
 import Link from "next/link";
 import {
   Menu,
@@ -11,6 +11,8 @@ import {
   ChevronLeft,
   ChevronRight,
   Home,
+  Loader2,
+  Check,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
@@ -28,10 +30,21 @@ import CanvasEditor from "@/components/editor/CanvasEditor";
 import RoomUploader from "@/components/editor/RoomUploader";
 import RoomAnalysisPanel from "@/components/editor/RoomAnalysisPanel";
 import { formatNOK } from "@/lib/utils";
+import {
+  createSession,
+  updateSession,
+  getSession,
+  addSessionProduct,
+  removeSessionProduct,
+  updateSessionProduct,
+  getSessionProducts,
+  supabase,
+} from "@/lib/supabase";
 import type { RoomAnalysis, SessionProduct, Product } from "@/types";
 
 export default function DesignPage() {
   // --- State ---
+  const [sessionId, setSessionId] = useState<string | null>(null);
   const [backgroundImage, setBackgroundImage] = useState<string | null>(null);
   const [roomAnalysis, setRoomAnalysis] = useState<RoomAnalysis | null>(null);
   const [selectedProducts, setSelectedProducts] = useState<SessionProduct[]>(
@@ -41,11 +54,17 @@ export default function DesignPage() {
     null
   );
   const [isAnalyzing, setIsAnalyzing] = useState(false);
+  const [isSaving, setIsSaving] = useState(false);
+  const [saveStatus, setSaveStatus] = useState<"idle" | "saved" | "error">("idle");
   const [showUploader, setShowUploader] = useState(true);
   const [leftSidebarOpen, setLeftSidebarOpen] = useState(true);
   const [rightSidebarOpen, setRightSidebarOpen] = useState(false);
   const [projectName, setProjectName] = useState("Mitt prosjekt");
   const [selectedColor, setSelectedColor] = useState("#FFFFFF");
+  const [analysisError, setAnalysisError] = useState<string | null>(null);
+
+  // Map local session product IDs to Supabase session_product IDs
+  const dbProductIds = useRef<Map<string, string>>(new Map());
 
   // --- Computed ---
   const totalCost = useMemo(
@@ -57,63 +76,179 @@ export default function DesignPage() {
     [selectedProducts]
   );
 
+  // --- Restore or create session on mount ---
+  useEffect(() => {
+    async function initSession() {
+      const STORAGE_KEY = "designinterior_session_id";
+      const existingId = localStorage.getItem(STORAGE_KEY);
+
+      // Try to restore existing session
+      if (existingId) {
+        const existing = await getSession(existingId);
+        if (existing) {
+          setSessionId(existing.id);
+          setProjectName(existing.name || "Mitt prosjekt");
+          if (existing.room_analysis) {
+            setRoomAnalysis(existing.room_analysis);
+          }
+
+          // Restore session products
+          const dbProducts = await getSessionProducts(existing.id);
+          if (dbProducts.length > 0) {
+            // Fetch full product data for each session_product
+            const productIds = dbProducts.map((sp) => sp.product_id);
+            const { data: products } = await supabase
+              .from("products")
+              .select("*")
+              .in("id", productIds);
+
+            if (products) {
+              const productMap = new Map(products.map((p) => [p.id, p]));
+              const restored: SessionProduct[] = [];
+              for (const sp of dbProducts) {
+                const product = productMap.get(sp.product_id);
+                if (product) {
+                  const localId = `${sp.product_id}-${Date.now()}-${Math.random()}`;
+                  dbProductIds.current.set(localId, sp.id);
+                  restored.push({
+                    id: localId,
+                    product: product as Product,
+                    position: sp.position as SessionProduct["position"],
+                    room_name: sp.room_name,
+                    quantity: sp.quantity,
+                  });
+                }
+              }
+              setSelectedProducts(restored);
+            }
+          }
+
+          if (existing.room_analysis || dbProducts.length > 0) {
+            setShowUploader(false);
+          }
+          return;
+        }
+      }
+
+      // Create new session
+      const session = await createSession("Mitt prosjekt");
+      if (session) {
+        setSessionId(session.id);
+        localStorage.setItem(STORAGE_KEY, session.id);
+      }
+    }
+    initSession();
+  }, []);
+
   // --- Handlers ---
   const handleImageUpload = useCallback(async (base64: string) => {
     setBackgroundImage(base64);
     setShowUploader(false);
     setIsAnalyzing(true);
+    setAnalysisError(null);
 
     try {
       const res = await fetch("/api/analyze-room", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ image: base64 }),
+        body: JSON.stringify({ imageBase64: base64 }),
       });
 
-      if (res.ok) {
-        const data = await res.json();
+      const data = await res.json();
+
+      if (res.ok && !data.error) {
         setRoomAnalysis(data);
       } else {
-        console.error("Romanalyse feilet:", res.statusText);
+        const errorMsg = data.error || "Romanalysen feilet. Prøv igjen.";
+        setAnalysisError(errorMsg);
+        console.error("Romanalyse feilet:", errorMsg);
       }
     } catch (err) {
+      setAnalysisError("Kunne ikke koble til serveren. Prøv igjen senere.");
       console.error("Romanalyse feilet:", err);
     } finally {
       setIsAnalyzing(false);
     }
   }, []);
 
-  const handleAddProduct = useCallback((product: Product) => {
-    const sessionProduct: SessionProduct = {
-      id: `${product.id}-${Date.now()}`,
-      product,
-      position: { x: 300, y: 300, rotation: 0, scale: 1 },
-      room_name: "Stue",
-      quantity: 1,
-    };
-    setSelectedProducts((prev) => [...prev, sessionProduct]);
-  }, []);
+  const handleAddProduct = useCallback(
+    async (product: Product) => {
+      const localId = `${product.id}-${Date.now()}`;
+      const sessionProduct: SessionProduct = {
+        id: localId,
+        product,
+        position: { x: 300, y: 300, rotation: 0, scale: 1 },
+        room_name: "Stue",
+        quantity: 1,
+      };
+      setSelectedProducts((prev) => [...prev, sessionProduct]);
+
+      // Persist to Supabase if session exists
+      if (sessionId) {
+        const dbId = await addSessionProduct(
+          sessionId,
+          product.id,
+          sessionProduct.position,
+          sessionProduct.room_name
+        );
+        if (dbId) {
+          dbProductIds.current.set(localId, dbId);
+        }
+      }
+    },
+    [sessionId]
+  );
 
   const handleUpdateProduct = useCallback(
-    (
+    async (
       id: string,
       position: { x: number; y: number; rotation: number; scale: number }
     ) => {
       setSelectedProducts((prev) =>
         prev.map((sp) => (sp.id === id ? { ...sp, position } : sp))
       );
+
+      // Persist position to Supabase
+      const dbId = dbProductIds.current.get(id);
+      if (dbId) {
+        await updateSessionProduct(dbId, { position });
+      }
     },
     []
   );
 
-  const handleRemoveProduct = useCallback((id: string) => {
+  const handleRemoveProduct = useCallback(async (id: string) => {
     setSelectedProducts((prev) => prev.filter((sp) => sp.id !== id));
     setSelectedProductId((prev) => (prev === id ? null : prev));
+
+    // Remove from Supabase
+    const dbId = dbProductIds.current.get(id);
+    if (dbId) {
+      await removeSessionProduct(dbId);
+      dbProductIds.current.delete(id);
+    }
   }, []);
 
-  const handleSave = useCallback(() => {
-    alert("Koble til Supabase for a lagre");
-  }, []);
+  const handleSave = useCallback(async () => {
+    if (!sessionId) {
+      setSaveStatus("error");
+      setTimeout(() => setSaveStatus("idle"), 2000);
+      return;
+    }
+
+    setIsSaving(true);
+    setSaveStatus("idle");
+
+    const success = await updateSession(sessionId, {
+      name: projectName,
+      room_analysis: roomAnalysis,
+      total_cost: totalCost,
+    });
+
+    setIsSaving(false);
+    setSaveStatus(success ? "saved" : "error");
+    setTimeout(() => setSaveStatus("idle"), 2000);
+  }, [sessionId, projectName, roomAnalysis, totalCost]);
 
   // --- Left sidebar content (shared between desktop and mobile sheet) ---
   const leftSidebarContent = (
@@ -121,7 +256,7 @@ export default function DesignPage() {
       <Tabs defaultValue="mobler" className="flex flex-col flex-1 min-h-0">
         <TabsList className="w-full shrink-0">
           <TabsTrigger value="mobler" className="flex-1">
-            Mobler
+            Møbler
           </TabsTrigger>
           <TabsTrigger value="farger" className="flex-1">
             Farger
@@ -144,7 +279,13 @@ export default function DesignPage() {
         </TabsContent>
       </Tabs>
 
-      {roomAnalysis && (
+      {analysisError && (
+        <div className="border-t p-3">
+          <p className="text-xs text-destructive">{analysisError}</p>
+        </div>
+      )}
+
+      {(roomAnalysis || isAnalyzing) && (
         <div className="border-t p-2 overflow-y-auto max-h-64">
           <RoomAnalysisPanel analysis={roomAnalysis} isLoading={isAnalyzing} />
         </div>
@@ -156,6 +297,7 @@ export default function DesignPage() {
   const rightSidebarContent = (
     <div className="h-full">
       <AIAssistant
+        sessionId={sessionId}
         roomAnalysis={roomAnalysis}
         selectedProducts={selectedProducts}
         totalCost={totalCost}
@@ -176,13 +318,13 @@ export default function DesignPage() {
                 variant="ghost"
                 size="icon"
                 className="lg:hidden"
-                aria-label="Apne mobelvelger"
+                aria-label="Åpne møbelvelger"
               >
                 <Menu className="h-5 w-5" />
               </Button>
             </SheetTrigger>
             <SheetContent side="left" className="w-80 p-0">
-              <SheetTitle className="sr-only">Mobelvelger</SheetTitle>
+              <SheetTitle className="sr-only">Møbelvelger</SheetTitle>
               {leftSidebarContent}
             </SheetContent>
           </Sheet>
@@ -243,19 +385,33 @@ export default function DesignPage() {
             variant="ghost"
             size="sm"
             onClick={handleSave}
+            disabled={isSaving}
             className="hidden sm:inline-flex"
           >
-            <Save className="h-4 w-4 mr-1" />
-            Lagre
+            {isSaving ? (
+              <Loader2 className="h-4 w-4 mr-1 animate-spin" />
+            ) : saveStatus === "saved" ? (
+              <Check className="h-4 w-4 mr-1 text-green-500" />
+            ) : (
+              <Save className="h-4 w-4 mr-1" />
+            )}
+            {isSaving ? "Lagrer..." : saveStatus === "saved" ? "Lagret!" : "Lagre"}
           </Button>
           <Button
             variant="ghost"
             size="icon"
             onClick={handleSave}
+            disabled={isSaving}
             className="sm:hidden"
             aria-label="Lagre"
           >
-            <Save className="h-4 w-4" />
+            {isSaving ? (
+              <Loader2 className="h-4 w-4 animate-spin" />
+            ) : saveStatus === "saved" ? (
+              <Check className="h-4 w-4 text-green-500" />
+            ) : (
+              <Save className="h-4 w-4" />
+            )}
           </Button>
 
           <Button
@@ -275,7 +431,7 @@ export default function DesignPage() {
                 variant="ghost"
                 size="icon"
                 className="lg:hidden"
-                aria-label="Apne AI-assistent"
+                aria-label="Åpne AI-assistent"
               >
                 <ChevronLeft className="h-5 w-5" />
               </Button>
@@ -300,7 +456,7 @@ export default function DesignPage() {
             <>
               <div className="flex items-center justify-between p-2 border-b">
                 <span className="text-sm font-semibold text-muted-foreground uppercase tracking-wider">
-                  Verktoy
+                  Verktøy
                 </span>
                 <Button
                   variant="ghost"
@@ -369,7 +525,7 @@ export default function DesignPage() {
           {!backgroundImage && !showUploader && (
             <div className="flex flex-col items-center justify-center h-full text-muted-foreground gap-4">
               <Upload className="h-12 w-12" />
-              <p className="text-lg">Last opp et bilde av rommet ditt for a komme i gang</p>
+              <p className="text-lg">Last opp et bilde av rommet ditt for å komme i gang</p>
               <Button onClick={() => setShowUploader(true)}>
                 <Upload className="h-4 w-4 mr-2" />
                 Last opp bilde

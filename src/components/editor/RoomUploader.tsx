@@ -99,7 +99,7 @@ export default function RoomUploader({ onImageUpload, isAnalyzing }: RoomUploade
       <div className="relative overflow-hidden rounded-xl border">
         <img
           src={preview}
-          alt="Forhandsvisning av rom"
+          alt="Forhåndsvisning av rom"
           className="h-48 w-full object-cover"
         />
         <Button
@@ -138,7 +138,7 @@ export default function RoomUploader({ onImageUpload, isAnalyzing }: RoomUploade
         <div className="text-center">
           <p className="text-sm font-medium">Dra og slipp et bilde her</p>
           <p className="mt-0.5 text-xs text-muted-foreground">
-            eller klikk for aa velge fil
+            eller klikk for å velge fil
           </p>
         </div>
         <div className="flex items-center gap-1.5">

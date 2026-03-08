@@ -1,15 +1,15 @@
 "use client";
 
-import { useState, useMemo } from "react";
-import { Search, Sofa, Table, Armchair, Lamp, Circle, Square, Flower2, BookOpen, Bed, Archive } from "lucide-react";
+import { useState, useMemo, useEffect } from "react";
+import { Search, Sofa, Table, Armchair, Lamp, Circle, Square, Flower2, BookOpen, Bed, Archive, Loader2 } from "lucide-react";
 import { Input } from "@/components/ui/input";
-import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Slider } from "@/components/ui/slider";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
+import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Separator } from "@/components/ui/separator";
-import { products } from "@/data/products";
+import { products as hardcodedProducts } from "@/data/products";
+import { supabase } from "@/lib/supabase";
 import { formatNOK, cn } from "@/lib/utils";
 import type { Product } from "@/types";
 
@@ -25,6 +25,8 @@ const categories = [
   { value: "hylle", label: "Hylle", icon: BookOpen },
   { value: "seng", label: "Seng", icon: Bed },
   { value: "kommode", label: "Kommode", icon: Archive },
+  { value: "gardin", label: "Gardin", icon: Square },
+  { value: "speil", label: "Speil", icon: Circle },
 ];
 
 const styles = [
@@ -46,6 +48,8 @@ const categoryColors: Record<string, string> = {
   hylle: "bg-orange-100 dark:bg-orange-900/30",
   seng: "bg-indigo-100 dark:bg-indigo-900/30",
   kommode: "bg-teal-100 dark:bg-teal-900/30",
+  gardin: "bg-cyan-100 dark:bg-cyan-900/30",
+  speil: "bg-sky-100 dark:bg-sky-900/30",
 };
 
 function getCategoryIcon(category: string) {
@@ -62,7 +66,31 @@ export default function FurniturePicker({ onAddProduct }: FurniturePickerProps) 
   const [search, setSearch] = useState("");
   const [activeCategory, setActiveCategory] = useState("alle");
   const [activeStyles, setActiveStyles] = useState<string[]>([]);
-  const [budgetRange, setBudgetRange] = useState<number[]>([0, 20000]);
+  const [budgetRange, setBudgetRange] = useState<number[]>([0, 100000]);
+  const [allProducts, setAllProducts] = useState<Product[]>(hardcodedProducts);
+  const [isLoading, setIsLoading] = useState(true);
+
+  // Load products from Supabase on mount, fallback to hardcoded
+  useEffect(() => {
+    async function loadProducts() {
+      try {
+        const { data, error } = await supabase
+          .from("products")
+          .select("*")
+          .order("brand")
+          .order("name");
+
+        if (!error && data && data.length > 0) {
+          setAllProducts(data as Product[]);
+        }
+      } catch {
+        // Keep hardcoded products on error
+      } finally {
+        setIsLoading(false);
+      }
+    }
+    loadProducts();
+  }, []);
 
   const toggleStyle = (style: string) => {
     setActiveStyles((prev) =>
@@ -71,11 +99,9 @@ export default function FurniturePicker({ onAddProduct }: FurniturePickerProps) 
   };
 
   const filteredProducts = useMemo(() => {
-    return products.filter((p) => {
-      // Category filter
+    return allProducts.filter((p) => {
       if (activeCategory !== "alle" && p.category !== activeCategory) return false;
 
-      // Search filter
       if (search) {
         const q = search.toLowerCase();
         if (
@@ -86,19 +112,17 @@ export default function FurniturePicker({ onAddProduct }: FurniturePickerProps) 
           return false;
       }
 
-      // Style filter
       if (activeStyles.length > 0) {
         const productStyles = p.style_tags.map((s) => s.toLowerCase());
         if (!activeStyles.some((s) => productStyles.includes(s.toLowerCase())))
           return false;
       }
 
-      // Budget filter
       if (p.price < budgetRange[0] || p.price > budgetRange[1]) return false;
 
       return true;
     });
-  }, [search, activeCategory, activeStyles, budgetRange]);
+  }, [search, activeCategory, activeStyles, budgetRange, allProducts]);
 
   return (
     <div className="flex h-full flex-col">
@@ -107,7 +131,7 @@ export default function FurniturePicker({ onAddProduct }: FurniturePickerProps) 
         <div className="relative">
           <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
           <Input
-            placeholder="Sok etter mobler..."
+            placeholder="Søk etter møbler..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
             className="pl-9"
@@ -165,8 +189,8 @@ export default function FurniturePicker({ onAddProduct }: FurniturePickerProps) 
         </div>
         <Slider
           min={0}
-          max={20000}
-          step={500}
+          max={100000}
+          step={1000}
           value={budgetRange}
           onValueChange={setBudgetRange}
         />
@@ -177,52 +201,61 @@ export default function FurniturePicker({ onAddProduct }: FurniturePickerProps) 
       {/* Product count */}
       <div className="px-4 py-2">
         <p className="text-xs text-muted-foreground">
-          Viser {filteredProducts.length} produkter
+          {isLoading ? "Laster produkter..." : `Viser ${filteredProducts.length} produkter`}
         </p>
       </div>
 
       {/* Product grid */}
       <ScrollArea className="flex-1 px-4">
-        <div className="grid grid-cols-2 gap-3 pb-4">
-          {filteredProducts.map((product) => {
-            const Icon = getCategoryIcon(product.category);
-            return (
-              <button
-                key={product.id}
-                onClick={() => onAddProduct(product)}
-                className="group flex flex-col overflow-hidden rounded-lg border bg-card text-left transition-all hover:shadow-md hover:border-primary/50"
-              >
-                <div
-                  className={cn(
-                    "flex aspect-square items-center justify-center",
-                    categoryColors[product.category] ?? "bg-muted"
-                  )}
-                >
-                  <Icon className="h-8 w-8 text-muted-foreground/60 transition-transform group-hover:scale-110" />
-                </div>
-                <div className="flex flex-1 flex-col gap-1 p-2">
-                  <p className="text-xs font-medium leading-tight line-clamp-2">
-                    {product.name}
-                  </p>
-                  <Badge variant="secondary" className="w-fit text-[10px] px-1.5 py-0">
-                    {product.brand}
-                  </Badge>
-                  <p className="mt-auto font-mono text-xs font-semibold text-primary">
-                    {formatNOK(product.price)}
-                  </p>
-                </div>
-              </button>
-            );
-          })}
-        </div>
-        {filteredProducts.length === 0 && (
-          <div className="flex flex-col items-center justify-center py-12 text-center">
-            <Search className="mb-2 h-8 w-8 text-muted-foreground/40" />
-            <p className="text-sm text-muted-foreground">Ingen produkter funnet</p>
-            <p className="text-xs text-muted-foreground/60">
-              Prov a endre filtrene dine
-            </p>
+        {isLoading ? (
+          <div className="flex flex-col items-center justify-center py-12">
+            <Loader2 className="mb-2 h-6 w-6 animate-spin text-muted-foreground" />
+            <p className="text-sm text-muted-foreground">Laster produkter...</p>
           </div>
+        ) : (
+          <>
+            <div className="grid grid-cols-2 gap-3 pb-4">
+              {filteredProducts.map((product) => {
+                const Icon = getCategoryIcon(product.category);
+                return (
+                  <button
+                    key={product.id}
+                    onClick={() => onAddProduct(product)}
+                    className="group flex flex-col overflow-hidden rounded-lg border bg-card text-left transition-all hover:shadow-md hover:border-primary/50"
+                  >
+                    <div
+                      className={cn(
+                        "flex aspect-square items-center justify-center",
+                        categoryColors[product.category] ?? "bg-muted"
+                      )}
+                    >
+                      <Icon className="h-8 w-8 text-muted-foreground/60 transition-transform group-hover:scale-110" />
+                    </div>
+                    <div className="flex flex-1 flex-col gap-1 p-2">
+                      <p className="text-xs font-medium leading-tight line-clamp-2">
+                        {product.name}
+                      </p>
+                      <Badge variant="secondary" className="w-fit text-[10px] px-1.5 py-0">
+                        {product.brand}
+                      </Badge>
+                      <p className="mt-auto font-mono text-xs font-semibold text-primary">
+                        {formatNOK(product.price)}
+                      </p>
+                    </div>
+                  </button>
+                );
+              })}
+            </div>
+            {filteredProducts.length === 0 && (
+              <div className="flex flex-col items-center justify-center py-12 text-center">
+                <Search className="mb-2 h-8 w-8 text-muted-foreground/40" />
+                <p className="text-sm text-muted-foreground">Ingen produkter funnet</p>
+                <p className="text-xs text-muted-foreground/60">
+                  Prøv å endre filtrene dine
+                </p>
+              </div>
+            )}
+          </>
         )}
       </ScrollArea>
     </div>

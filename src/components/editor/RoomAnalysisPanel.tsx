@@ -57,9 +57,9 @@ export default function RoomAnalysisPanel({
     return (
       <div className="flex flex-col items-center justify-center gap-2 p-8 text-center">
         <Home className="h-8 w-8 text-muted-foreground/30" />
-        <p className="text-sm text-muted-foreground">Ingen romanalyse enna</p>
+        <p className="text-sm text-muted-foreground">Ingen romanalyse ennå</p>
         <p className="text-xs text-muted-foreground/60">
-          Last opp et bilde for aa analysere rommet
+          Last opp et bilde for å analysere rommet
         </p>
       </div>
     );
@@ -87,7 +87,7 @@ export default function RoomAnalysisPanel({
         <div className="rounded-lg border p-3">
           <div className="mb-1 flex items-center gap-1.5">
             <Ruler className="h-3.5 w-3.5 text-muted-foreground" />
-            <p className="text-[11px] text-muted-foreground">Estimert storrelse</p>
+            <p className="text-[11px] text-muted-foreground">Estimert størrelse</p>
           </div>
           <p className="text-sm font-medium">{analysis.estimertStorrelse}</p>
         </div>
@@ -147,7 +147,7 @@ export default function RoomAnalysisPanel({
       {/* Eksisterende mobler */}
       <div>
         <p className="mb-2 text-xs font-medium text-muted-foreground">
-          Eksisterende mobler
+          Eksisterende møbler
         </p>
         <div className="flex flex-wrap gap-1.5">
           {analysis.eksisterendeMobler.map((item, i) => (
@@ -156,7 +156,7 @@ export default function RoomAnalysisPanel({
             </Badge>
           ))}
           {analysis.eksisterendeMobler.length === 0 && (
-            <p className="text-xs text-muted-foreground/60">Ingen mobler oppdaget</p>
+            <p className="text-xs text-muted-foreground/60">Ingen møbler oppdaget</p>
           )}
         </div>
       </div>

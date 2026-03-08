@@ -3,26 +3,45 @@ import { anthropic } from "@/lib/claude";
 
 export async function POST(request: NextRequest) {
   try {
-    const { messages, sessionContext } = await request.json();
+    if (!process.env.ANTHROPIC_API_KEY) {
+      return NextResponse.json(
+        { error: "AI-tjenesten er ikke konfigurert. Kontakt administrator." },
+        { status: 503 }
+      );
+    }
 
-    if (!messages || !Array.isArray(messages)) {
+    let body: unknown;
+    try {
+      body = await request.json();
+    } catch {
+      return NextResponse.json(
+        { error: "Ugyldig forespørsel. Forventet JSON." },
+        { status: 400 }
+      );
+    }
+
+    const { messages, sessionContext, context } = body as Record<string, unknown>;
+
+    if (!messages || !Array.isArray(messages) || messages.length === 0) {
       return NextResponse.json(
         { error: "Meldinger er påkrevd." },
         { status: 400 }
       );
     }
 
-    const { roomAnalysis, selectedProducts, totalCost, userBudget } =
-      sessionContext || {};
+    // Accept both "sessionContext" and "context" from client
+    const ctx = (sessionContext ?? context ?? {}) as Record<string, unknown>;
+    const { roomAnalysis, selectedProducts, totalCost, userBudget } = ctx;
 
     let systemPrompt =
       "Du er en profesjonell norsk interiørdesigner og rådgiver. Svar alltid på norsk. Gi konkrete, praktiske råd om interiørdesign, fargevalg, møblering og romplanlegging.";
 
-    if (roomAnalysis) {
-      systemPrompt += `\n\nKontekst om rommet som analyseres:\n- Romtype: ${roomAnalysis.romtype || "Ukjent"}\n- Estimert størrelse: ${roomAnalysis.estimertStorrelse || "Ukjent"}\n- Nåværende stil: ${roomAnalysis.stil || "Ukjent"}\n- Veggfarge: ${roomAnalysis.veggerFarge || "Ukjent"}\n- Gulvtype: ${roomAnalysis.gulvType || "Ukjent"}\n- Lysforhold: ${roomAnalysis.lysforhold || "Ukjent"}`;
+    if (roomAnalysis && typeof roomAnalysis === "object") {
+      const ra = roomAnalysis as Record<string, unknown>;
+      systemPrompt += `\n\nKontekst om rommet som analyseres:\n- Romtype: ${ra.romtype || "Ukjent"}\n- Estimert størrelse: ${ra.estimertStorrelse || "Ukjent"}\n- Nåværende stil: ${ra.stil || "Ukjent"}\n- Veggfarge: ${ra.veggerFarge || "Ukjent"}\n- Gulvtype: ${ra.gulvType || "Ukjent"}\n- Lysforhold: ${ra.lysforhold || "Ukjent"}`;
     }
 
-    if (selectedProducts && selectedProducts.length > 0) {
+    if (Array.isArray(selectedProducts) && selectedProducts.length > 0) {
       systemPrompt += `\n\nValgte produkter:\n${selectedProducts
         .map(
           (p: { name: string; price: number }) =>
@@ -40,7 +59,7 @@ export async function POST(request: NextRequest) {
     }
 
     const response = await anthropic.messages.create({
-      model: "claude-sonnet-4-5-20250514",
+      model: "claude-sonnet-4-6",
       max_tokens: 1024,
       system: systemPrompt,
       messages: messages.map(
@@ -62,12 +81,12 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ reply: textContent.text });
   } catch (error) {
     console.error("Feil i AI-assistent:", error);
-    return NextResponse.json(
-      {
-        error:
-          "Noe gikk galt med AI-assistenten. Vennligst prøv igjen senere.",
-      },
-      { status: 500 }
-    );
+
+    const message =
+      error instanceof Error && error.message.includes("authentication")
+        ? "AI-tjenesten kunne ikke autentiseres. Sjekk API-nøkkelen."
+        : "Noe gikk galt med AI-assistenten. Vennligst prøv igjen senere.";
+
+    return NextResponse.json({ error: message }, { status: 500 });
   }
 }

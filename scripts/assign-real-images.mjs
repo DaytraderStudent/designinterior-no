@@ -46,6 +46,90 @@ const ikeaImages = {
 // ─── Brand-level images (from store websites) ─────────────────────
 // For brands where we have real store images, rotate per category
 const brandImages = {
+  "Jysk": {
+    sofa: [
+      "https://s3.eu-west-2.amazonaws.com/imagerepositorypressloft/clients/36565/m/7879452_m.jpg",
+      "https://s3.eu-west-2.amazonaws.com/imagerepositorypressloft/clients/36565/m/7260632_m.jpg",
+      "https://s3.eu-west-2.amazonaws.com/imagerepositorypressloft/clients/36565/m/8367838_m.jpg",
+      "https://s3.eu-west-2.amazonaws.com/imagerepositorypressloft/clients/36565/m/8026671_m.jpg",
+      "https://s3.eu-west-2.amazonaws.com/imagerepositorypressloft/clients/36565/m/7260627_m.jpg",
+    ],
+    stol: [
+      "https://s3.eu-west-2.amazonaws.com/imagerepositorypressloft/clients/36565/m/7316651_m.jpg",
+      "https://s3.eu-west-2.amazonaws.com/imagerepositorypressloft/clients/36565/m/7316647_m.jpg",
+      "https://s3.eu-west-2.amazonaws.com/imagerepositorypressloft/clients/36565/m/8616898_m.jpg",
+      "https://s3.eu-west-2.amazonaws.com/imagerepositorypressloft/clients/36565/m/7260623_m.jpg",
+    ],
+    bord: [
+      "https://s3.eu-west-2.amazonaws.com/imagerepositorypressloft/clients/36565/m/8616897_m.jpg",
+      "https://s3.eu-west-2.amazonaws.com/imagerepositorypressloft/clients/36565/m/7260603_m.jpg",
+      "https://s3.eu-west-2.amazonaws.com/imagerepositorypressloft/clients/36565/m/7619453_m.jpg",
+      "https://s3.eu-west-2.amazonaws.com/imagerepositorypressloft/clients/36565/m/8162695_m.jpg",
+    ],
+    seng: [
+      "https://s3.eu-west-2.amazonaws.com/imagerepositorypressloft/clients/36565/m/7260585_m.jpg",
+      "https://s3.eu-west-2.amazonaws.com/imagerepositorypressloft/clients/36565/m/7260587_m.jpg",
+    ],
+    kommode: [
+      "https://s3.eu-west-2.amazonaws.com/imagerepositorypressloft/clients/36565/m/7260601_m.jpg",
+    ],
+    hylle: [
+      "https://s3.eu-west-2.amazonaws.com/imagerepositorypressloft/clients/36565/m/7316644_m.jpg",
+      "https://s3.eu-west-2.amazonaws.com/imagerepositorypressloft/clients/36565/m/8367841_m.jpg",
+      "https://s3.eu-west-2.amazonaws.com/imagerepositorypressloft/clients/36565/m/8164178_m.jpg",
+    ],
+    pute: [
+      "https://s3.eu-west-2.amazonaws.com/imagerepositorypressloft/clients/36565/m/7266172_m.jpg",
+      "https://s3.eu-west-2.amazonaws.com/imagerepositorypressloft/clients/36565/m/8367858_m.jpg",
+    ],
+    lampe: [
+      "https://s3.eu-west-2.amazonaws.com/imagerepositorypressloft/clients/36565/m/7930989_m.jpg",
+      "https://s3.eu-west-2.amazonaws.com/imagerepositorypressloft/clients/36565/m/7618068_m.jpg",
+      "https://s3.eu-west-2.amazonaws.com/imagerepositorypressloft/clients/36565/m/7316654_m.jpg",
+      "https://s3.eu-west-2.amazonaws.com/imagerepositorypressloft/clients/36565/m/7618078_m.jpg",
+      "https://s3.eu-west-2.amazonaws.com/imagerepositorypressloft/clients/36565/m/7618077_m.jpg",
+    ],
+    dekor: [
+      "https://s3.eu-west-2.amazonaws.com/imagerepositorypressloft/clients/36565/m/8367826_m.jpg",
+      "https://s3.eu-west-2.amazonaws.com/imagerepositorypressloft/clients/36565/m/7608142_m.jpg",
+    ],
+  },
+  "Kid": {
+    pute: [
+      "https://www.kid.no/globalassets/productimages/206562060200_.jpg?ref=8B529452BA&w=590&h=787&mode=pad",
+      "https://www.kid.no/globalassets/productimages/200099050157.jpg?ref=B242440397&w=590&h=787&mode=pad",
+      "https://www.kid.no/globalassets/productimages/208611060818.jpg?ref=8124520631&w=590&h=787&mode=pad",
+      "https://www.kid.no/globalassets/productimages/115206036.jpg?ref=0F1AC3E1E8&w=590&h=787&mode=pad",
+    ],
+    lampe: [
+      "https://www.kid.no/globalassets/productimages/210958032210.jpg?ref=385BD28407&w=590&h=787&mode=pad",
+      "https://www.kid.no/globalassets/productimages/207942059900.jpg?ref=E4D1053512&w=590&h=787&mode=pad",
+      "https://www.kid.no/globalassets/productimages/203792158199.jpg?ref=BBB0D8F00F&w=590&h=787&mode=pad",
+    ],
+    teppe: [
+      "https://www.kid.no/globalassets/productimages/213374150070.jpg?ref=4B77D2AFEE&w=590&h=787&mode=pad",
+      "https://www.kid.no/globalassets/productimages/209641200323.jpg?ref=FB5599A781&w=590&h=787&mode=pad",
+      "https://www.kid.no/globalassets/productimages/212190230888.jpg?ref=2F98611A73&w=590&h=787&mode=pad",
+    ],
+    gardin: [
+      "https://www.kid.no/globalassets/productimages/206126220070.jpg?ref=6CD6ADC981&w=590&h=787&mode=pad",
+      "https://www.kid.no/globalassets/productimages/211325220929.jpg?ref=59BCD0C6D0&w=590&h=787&mode=pad",
+      "https://www.kid.no/globalassets/productimages/209156220070.jpg?ref=03B57A7D61&w=590&h=787&mode=pad",
+    ],
+    speil: [
+      "https://www.kid.no/globalassets/productimages/20022605099.jpg?ref=9267E17B62&w=590&h=787&mode=pad",
+    ],
+    dekor: [
+      "https://www.kid.no/globalassets/productimages/213076145000.jpg?ref=F29982B86B&w=590&h=787&mode=pad",
+      "https://www.kid.no/globalassets/productimages/205018021920.jpg?ref=EC43F9FEB2&w=590&h=787&mode=pad",
+      "https://www.kid.no/globalassets/productimages/262001299.jpg?ref=86A80AC43D&w=590&h=787&mode=pad",
+      "https://www.kid.no/globalassets/productimages/202730021191.jpg?ref=C6466EB75A&w=590&h=787&mode=pad",
+      "https://www.kid.no/globalassets/productimages/212943016800.jpg?ref=1E456FE72F&w=590&h=787&mode=pad",
+    ],
+    hylle: [
+      "https://www.kid.no/globalassets/productimages/206059035900_5.jpg?ref=DA31B7F98C&w=590&h=787&mode=pad",
+    ],
+  },
   "Chilli": {
     sofa: ["https://www.chilli.no/assets/blobs/m%C3%B8bler-sofaer-sovesofaer-sovesofa-eksjo-220-cm-gr%C3%A5/1010733(9)-406dad69e7.jpeg"],
     bord: ["https://www.chilli.no/assets/blobs/m%C3%B8bler-bord-avlastningsbord-lampebord-sidebord-falan-sidebord-40-cm-sekskant/923eeefd-6ee3-462e-a6c9-64f6bc8e653c-b9344e58cd.jpeg"],

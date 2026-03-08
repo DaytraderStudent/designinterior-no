@@ -1,3 +1,6 @@
+"use client";
+
+import { useState } from "react";
 import {
   Sofa,
   Table,
@@ -99,10 +102,11 @@ export default function ProductImage({
   className,
   iconSize = "md",
 }: ProductImageProps) {
+  const [imgError, setImgError] = useState(false);
   const config = categoryConfig[category] ?? defaultConfig;
   const Icon = config.icon;
   const brandInitial = brand.charAt(0).toUpperCase();
-  const hasImage = imageUrl && imageUrl.length > 0;
+  const hasImage = !imgError && imageUrl && imageUrl.startsWith("http");
 
   const iconSizes = {
     sm: "h-6 w-6",
@@ -126,10 +130,10 @@ export default function ProductImage({
           alt=""
           className="h-full w-full object-cover"
           loading="lazy"
+          onError={() => setImgError(true)}
         />
       ) : (
         <>
-          {/* Decorative pattern */}
           <div className="absolute inset-0 opacity-[0.04]">
             <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
               <pattern id={`grid-${category}`} width="20" height="20" patternUnits="userSpaceOnUse">
@@ -138,8 +142,6 @@ export default function ProductImage({
               <rect width="100%" height="100%" fill={`url(#grid-${category})`} />
             </svg>
           </div>
-
-          {/* Category icon */}
           <Icon
             className={cn(
               iconSizes[iconSize],
@@ -151,7 +153,6 @@ export default function ProductImage({
         </>
       )}
 
-      {/* Brand initial badge */}
       <div className={cn(
         "absolute top-2 right-2 flex h-5 w-5 items-center justify-center rounded-full text-[10px] font-bold",
         hasImage

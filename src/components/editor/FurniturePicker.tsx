@@ -2,6 +2,7 @@
 
 import { useState, useMemo, useEffect } from "react";
 import { Search, Sofa, Table, Armchair, Lamp, Circle, Square, Flower2, BookOpen, Bed, Archive, Loader2 } from "lucide-react";
+import ProductImage from "@/components/ProductImage";
 import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
 import { Slider } from "@/components/ui/slider";
@@ -223,14 +224,12 @@ export default function FurniturePicker({ onAddProduct }: FurniturePickerProps) 
                     onClick={() => onAddProduct(product)}
                     className="group flex flex-col overflow-hidden rounded-lg border bg-card text-left transition-all hover:shadow-md hover:border-primary/50"
                   >
-                    <div
-                      className={cn(
-                        "flex aspect-square items-center justify-center",
-                        categoryColors[product.category] ?? "bg-muted"
-                      )}
-                    >
-                      <Icon className="h-8 w-8 text-muted-foreground/60 transition-transform group-hover:scale-110" />
-                    </div>
+                    <ProductImage
+                      category={product.category}
+                      brand={product.brand}
+                      className="aspect-square"
+                      iconSize="sm"
+                    />
                     <div className="flex flex-1 flex-col gap-1 p-2">
                       <p className="text-xs font-medium leading-tight line-clamp-2">
                         {product.name}

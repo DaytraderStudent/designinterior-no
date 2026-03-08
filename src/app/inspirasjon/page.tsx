@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight, Sparkles } from "lucide-react";
@@ -72,22 +71,6 @@ const inspirations = [
 export default function InspirasjonPage() {
   return (
     <div className="min-h-screen bg-background">
-      <header className="border-b bg-card/80 backdrop-blur-sm sticky top-0 z-50">
-        <div className="container mx-auto px-4 h-16 flex items-center justify-between">
-          <Link href="/" className="font-display text-xl font-bold text-primary">
-            designinterior.no
-          </Link>
-          <nav className="flex items-center gap-4">
-            <Link href="/produkter" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              Produkter
-            </Link>
-            <Link href="/design">
-              <Button size="sm">Start design</Button>
-            </Link>
-          </nav>
-        </div>
-      </header>
-
       <main className="container mx-auto px-4 py-16">
         <div className="text-center mb-12">
           <h1 className="font-display text-4xl lg:text-5xl font-bold text-primary mb-4">

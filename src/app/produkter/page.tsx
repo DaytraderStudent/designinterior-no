@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -9,7 +8,8 @@ import { Input } from "@/components/ui/input";
 import { Slider } from "@/components/ui/slider";
 import { products } from "@/data/products";
 import { formatNOK } from "@/lib/utils";
-import { Search, SlidersHorizontal, Sofa, Lamp, Armchair, Table, Bed } from "lucide-react";
+import { Search, SlidersHorizontal } from "lucide-react";
+import ProductImage from "@/components/ProductImage";
 
 const categories = [
   { label: "Alle", value: "" },
@@ -23,23 +23,23 @@ const categories = [
   { label: "Hylle", value: "hylle" },
   { label: "Seng", value: "seng" },
   { label: "Kommode", value: "kommode" },
+  { label: "Gardin", value: "gardin" },
+  { label: "Speil", value: "speil" },
 ];
 
-const brands = ["IKEA", "Bohus", "Bolia", "Jysk", "Kid"];
+const brands = [
+  "IKEA", "Bohus", "Bolia", "Jysk", "Kid", "Skeidar", "HAY",
+  "Møbelringen", "Fagmøbler", "Princess", "Home & Cottage",
+  "Elkjøp", "Kremmerhuset", "Ekornes", "Slettvoll", "Hødnebø",
+  "HTH", "Høie", "Clas Ohlson", "Plantasjen", "Tilbords",
+];
 
-const categoryIcons: Record<string, React.ReactNode> = {
-  sofa: <Sofa className="w-8 h-8" />,
-  stol: <Armchair className="w-8 h-8" />,
-  lampe: <Lamp className="w-8 h-8" />,
-  bord: <Table className="w-8 h-8" />,
-  seng: <Bed className="w-8 h-8" />,
-};
 
 export default function ProdukterPage() {
   const [search, setSearch] = useState("");
   const [category, setCategory] = useState("");
   const [brand, setBrand] = useState("");
-  const [maxPrice, setMaxPrice] = useState(25000);
+  const [maxPrice, setMaxPrice] = useState(100000);
   const [showFilters, setShowFilters] = useState(false);
 
   const filtered = useMemo(() => {
@@ -54,22 +54,6 @@ export default function ProdukterPage() {
 
   return (
     <div className="min-h-screen bg-background">
-      <header className="border-b bg-card/80 backdrop-blur-sm sticky top-0 z-50">
-        <div className="container mx-auto px-4 h-16 flex items-center justify-between">
-          <Link href="/" className="font-display text-xl font-bold text-primary">
-            designinterior.no
-          </Link>
-          <nav className="flex items-center gap-4">
-            <Link href="/inspirasjon" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              Inspirasjon
-            </Link>
-            <Link href="/design">
-              <Button size="sm">Start design</Button>
-            </Link>
-          </nav>
-        </div>
-      </header>
-
       <main className="container mx-auto px-4 py-16">
         <div className="text-center mb-12">
           <h1 className="font-display text-4xl lg:text-5xl font-bold text-primary mb-4">
@@ -149,8 +133,8 @@ export default function ProdukterPage() {
                   value={[maxPrice]}
                   onValueChange={(v) => setMaxPrice(v[0])}
                   min={0}
-                  max={25000}
-                  step={500}
+                  max={100000}
+                  step={1000}
                   className="max-w-md"
                 />
               </div>
@@ -169,11 +153,12 @@ export default function ProdukterPage() {
               key={product.id}
               className="overflow-hidden group hover:shadow-md transition-all duration-200"
             >
-              <div className="aspect-square bg-muted flex items-center justify-center text-muted-foreground">
-                {categoryIcons[product.category] || (
-                  <Sofa className="w-8 h-8" />
-                )}
-              </div>
+              <ProductImage
+                category={product.category}
+                brand={product.brand}
+                className="aspect-square"
+                iconSize="lg"
+              />
               <div className="p-3">
                 <Badge variant="secondary" className="mb-1.5 text-xs">
                   {product.brand}
@@ -212,7 +197,7 @@ export default function ProdukterPage() {
                 setSearch("");
                 setCategory("");
                 setBrand("");
-                setMaxPrice(25000);
+                setMaxPrice(100000);
               }}
             >
               Nullstill filter

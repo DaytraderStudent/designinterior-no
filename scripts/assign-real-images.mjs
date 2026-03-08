@@ -46,6 +46,139 @@ const ikeaImages = {
 // ─── Brand-level images (from store websites) ─────────────────────
 // For brands where we have real store images, rotate per category
 const brandImages = {
+  "Bolia": {
+    sofa: [
+      "https://images.bolia.com/cdn-cgi/image/width=1100,height=530,fit=pad/products/01-026-20_8112329.webp?cachebusting=2",
+    ],
+    bord: [
+      "https://images.bolia.com/cdn-cgi/image/width=1100,height=530,fit=pad/products/03-033-70_6816336.webp?cachebusting=2",
+      "https://images.bolia.com/cdn-cgi/image/width=1100,height=530,fit=pad/products/03-105-15_00003.webp?cachebusting=2",
+      "https://images.bolia.com/cdn-cgi/image/width=1100,height=530,fit=pad/products/03-114-30_00002.webp?cachebusting=3",
+    ],
+    stol: [
+      "https://images.bolia.com/cdn-cgi/image/width=1100,height=530,fit=pad/products/02-103-10_00002.webp?cachebusting=0",
+    ],
+    lampe: [
+      "https://images.bolia.com/cdn-cgi/image/width=1100,height=530,fit=pad/products/20-129-01_00001.webp?cachebusting=2",
+      "https://images.bolia.com/cdn-cgi/image/width=1100,height=530,fit=pad/products/20-116-03_8305164.webp?cachebusting=2",
+    ],
+    hylle: [
+      "https://images.bolia.com/cdn-cgi/image/width=1100,height=530,fit=pad/products/04-150-01_00004.webp?cachebusting=2",
+    ],
+    seng: [
+      "https://images.bolia.com/cdn-cgi/image/width=1100,height=530,fit=pad/products/01-500-10_00002.webp?cachebusting=4",
+    ],
+    teppe: [
+      "https://images.bolia.com/cdn-cgi/image/width=1100,height=530,fit=pad/products/22-152-22_00001.webp?cachebusting=2",
+      "https://images.bolia.com/cdn-cgi/image/width=1100,height=530,fit=pad/products/22-142-01_33.webp?cachebusting=2",
+    ],
+    pute: [
+      "https://images.bolia.com/cdn-cgi/image/width=1100,height=530,fit=pad/products/21-006-03_10716038.webp?cachebusting=0",
+      "https://images.bolia.com/cdn-cgi/image/width=1100,height=530,fit=pad/products/21-006-04_329.webp?cachebusting=2",
+    ],
+    dekor: [
+      "https://images.bolia.com/cdn-cgi/image/width=1100,height=530,fit=pad/products/24-943-25_00002.webp?cachebusting=3",
+    ],
+    kommode: [
+      "https://images.bolia.com/cdn-cgi/image/width=1100,height=530,fit=pad/products/04-007-38_4802.webp?cachebusting=0",
+    ],
+    gardin: [
+      "https://images.bolia.com/cdn-cgi/image/width=1100,height=530,fit=pad/products/21-230-02_00003.webp?cachebusting=2",
+    ],
+  },
+  "Skeidar": {
+    sofa: [
+      "https://www.skeidar.no/globalassets/9999/alle-produkter/alle-sofaer/sofa/112295_sjv2oehneve16sorteben_100_001.jpg?id=q9oWq+",
+    ],
+    bord: [
+      "https://www.skeidar.no/globalassets/9999/alle-produkter/alle-bord/spisebord/108880_210cm_hvitoljet_100_001.jpg?id=6e+C9n",
+      "https://www.skeidar.no/globalassets/9999/alle-produkter/alle-bord/sofabord/112377_80x80cm_beige_sortstal_100_001.jpg?id=QLiz9Q",
+    ],
+    stol: [
+      "https://www.skeidar.no/globalassets/9999/alle-produkter/alle-stoler/lenestoler/113683_slowlygra_100_001.jpg?id=xW3aXc",
+      "https://www.skeidar.no/globalassets/9999/alle-produkter/alle-stoler/spisestoler/115523_ubehandleteikmedseteisydneysvart_000_001.jpg?id=vnveF2",
+      "https://www.skeidar.no/globalassets/9999/alle-produkter/alle-stoler/kontorstoler/109741_135009709419_000_001.jpg?id=pNjdj7",
+    ],
+    seng: [
+      "https://www.skeidar.no/globalassets/9999/alle-produkter/alle-senger-og-madrasser/kontinentalsenger/116246_180x200cmtesktilcloud08beigefastfast_000_001.jpg?id=JMt171",
+      "https://www.skeidar.no/globalassets/9999/alle-produkter/alle-senger-og-madrasser/kontinentalsenger/110798_200x210cmtekstildreamgreyintegrertovermadras_000_001.jpg?id=EdAyWW",
+    ],
+    teppe: [
+      "https://www.skeidar.no/globalassets/9999/alle-produkter/alle-tepper/gulvtepper/103422_160x230cm_hvit_000_001.jpg?id=efinbX",
+    ],
+    lampe: [
+      "https://www.skeidar.no/globalassets/9999/alle-produkter/all-belysning/bordlamper/113570_100_001.jpg?id=ItFWhU",
+      "https://www.skeidar.no/globalassets/9999/alle-produkter/all-belysning/gulvlamper/113478_rosa_000_001.jpg?id=UdhkW+",
+    ],
+    pute: [
+      "https://www.skeidar.no/globalassets/9999/alle-produkter/alle-tekstiler-og-sengetoy/pynteputer-og-putetrekk/117938_100_001.jpg?id=JDPSIY",
+    ],
+    kommode: [
+      "https://www.skeidar.no/globalassets/9999/alle-produkter/all-oppbevaring-og-skap/kommoder/111878_3_sort_000_001.jpg?id=6I6N7q",
+    ],
+    hylle: [
+      "https://www.skeidar.no/globalassets/9999/alle-produkter/all-oppbevaring-og-skap/hyller-og-reoler/115398_100_001.jpg?id=x8sVZw",
+    ],
+    dekor: [
+      "https://www.skeidar.no/globalassets/9999/alle-produkter/alle-dekorartikler/dekor-og-pynt/113423_100_001.jpg?id=KIKkFp",
+    ],
+  },
+  "A-Møbler": {
+    sofa: [
+      "https://www.a-mobler.no/storage/22EA2A330E654E3E239165FBA4FA02914AFDDBDC5F988A1C78B96F720EBF6F73/72ad7bcbcae8420db5e33be2f30bae2f/300-212-0-png.Png/media/35b61a2c2b604f83940a657e539d9721/RB1570010103_H.png",
+      "https://www.a-mobler.no/storage/E96181DED16AD58F9DE526C760E7175F17D6C8B9CE066462D75B426570DD3E79/81c7bf17f1c646d89c7c9fbb434dcd74/300-212-0-png.Png/media/bffadf55a5af4859acba43f8735bdac9/CO1240020301_H.png",
+    ],
+    bord: [
+      "https://www.a-mobler.no/storage/2DC71DCAB15B91AC27FC42E201F99DB19AA989548C0DADD2B840661FC46D311E/c9d7d607b6da4bb69970e59ede98e653/420-298-0-png.Png/media/8f493088002046a385da628e12d26b65/SE1810352106_H.png",
+      "https://www.a-mobler.no/storage/2B34D485425470303468DB91CD1718E0C43B3E5F98323DC20A45DE9619DFFC70/d1924f02fec34a458dc9f021e0a6c3c8/420-298-0-png.Png/media/5c679ad8e0f24ed7bc15bdaeb75701fd/SE18501_H.png",
+    ],
+    stol: [
+      "https://www.a-mobler.no/storage/4C4A1E26D132C3D04BAA44D3ACE0846481503FEAB6DF22FCD9239488DCE5B756/694bf678518a4bc7aab196052b2171df/420-298-0-png.Png/media/62c69c60782c429899a29ff94c60df64/MR1730022292_H.png",
+      "https://www.a-mobler.no/storage/F0DB65ADDE3D7E43DF0C36813322E88756B3CA0D532BA3BCD1EE0808855544F5/e044a8df1ed946ae9258ff5f22f9fece/300-212-0-png.Png/media/f04d0ef17a0046eeb5ac045fd9ee41c2/UQ1820050525.png",
+      "https://www.a-mobler.no/storage/86172DA5873510DAA77E8E7A40536CBBB466F4239B2B7A58549569CBD70EAED3/a05c1e40e6a7408183e483362c781736/300-212-0-png.Png/media/589d7c2d715e4866b3d9ea62baa4bb13/MR18202008048.png",
+    ],
+    seng: [
+      "https://www.a-mobler.no/storage/8CE5CF538F3192A0532354957C27C90BB5F734348092040373F70CE429CA270E/76c2e1f7939c48a5a41d2d65d47eeac3/420-298-0-png.Png/media/64331602ba3a41b69658e8d0029ac6d8/RT14300108000100_H.png",
+    ],
+    teppe: [
+      "https://www.a-mobler.no/storage/49837245767106C484468D44313746DFF0736D60C863FE8D91F2A4E99EF3BB72/4d19001ffb9d48229703721379d80deb/300-212-0-png.Png/media/289e4a87af5a47afbb4a5eb9ab47ced2/GX94115203313.png",
+      "https://www.a-mobler.no/storage/1A7781A95C91C87174DE178DB90F90D1CBBB31C661261CAD4D47823E31850C98/abb66a190f4148d085f24e822a31e53f/300-212-0-png.Png/media/2419e9430baa47a5af855ea38ed01192/LO941100002203.png",
+    ],
+    kommode: [
+      "https://www.a-mobler.no/storage/11202BD7ED836F2297B07A544094499911E470FF1B8A834E6F1CE27DC0195BC2/627458aff64345d48476d4d9649e34b4/420-298-0-png.Png/media/a2c8f00042634df78958ada4a0134841/FR1920010414.png",
+    ],
+  },
+  "Møbelringen": {
+    sofa: [
+      "https://backend.mobelringen.no/media/catalog/product/3/2/322319001_8639326.png?width=650&height=650&quality=80&fit=bounds&optimise=high",
+    ],
+    bord: [
+      "https://backend.mobelringen.no/media/catalog/product/3/1/319190_8804492.png?width=650&height=650&quality=80&fit=bounds&optimise=high",
+      "https://backend.mobelringen.no/media/catalog/product/5/7/5743613_como_sofabord_90_cm_hvitoljet_ps_ka_copy_dir.png?width=650&height=650&quality=80&fit=bounds&optimise=high",
+    ],
+    stol: [
+      "https://backend.mobelringen.no/media/catalog/product/3/7/373073_9061429.png?width=650&height=650&quality=80&fit=bounds&optimise=high",
+    ],
+    seng: [
+      "https://backend.mobelringen.no/media/catalog/product/6/1/6122171_lyngen_kontinental_line_r_oda_creme_ps_ka_dir398908004_398908006_398908001_398908003_3.png?width=650&height=650&quality=80&fit=bounds&optimise=high",
+    ],
+    teppe: [
+      "https://backend.mobelringen.no/media/catalog/product/3/7/374377_9063031.png?width=650&height=650&quality=80&fit=bounds&optimise=high",
+    ],
+    lampe: [
+      "https://backend.mobelringen.no/media/catalog/product/3/1/317325_9099348.png?width=650&height=650&quality=80&fit=bounds&optimise=high",
+    ],
+    pute: [
+      "https://backend.mobelringen.no/media/catalog/product/6/5/6573835_pyntepute_maze_40_x_60_403039_ps_ka_copy.png?width=650&height=650&quality=80&fit=bounds&optimise=high",
+    ],
+    kommode: [
+      "https://backend.mobelringen.no/media/catalog/product/5/7/5755383_oslo_kommode_4_skf_copy.png?width=650&height=650&quality=80&fit=bounds&optimise=high",
+    ],
+    hylle: [
+      "https://backend.mobelringen.no/media/catalog/product/3/2/326024_8716944.png?width=650&height=650&quality=80&fit=bounds&optimise=high",
+      "https://backend.mobelringen.no/media/catalog/product/2/4/243912_9045289.png?width=650&height=650&quality=80&fit=bounds&optimise=high",
+    ],
+  },
   "Jysk": {
     sofa: [
       "https://s3.eu-west-2.amazonaws.com/imagerepositorypressloft/clients/36565/m/7879452_m.jpg",

@@ -24,21 +24,21 @@ export default function Hero() {
             Norske priser
           </Badge>
           <Badge variant="secondary" className="px-3 py-1 text-xs font-medium">
-            50+ mobler
+            250+ møbler
           </Badge>
         </div>
 
         {/* Heading */}
         <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-foreground mb-6 leading-[1.1]">
           Innred{" "}
-          <span className="text-primary">dromme&shy;hjemmet</span>{" "}
+          <span className="text-primary">drømme&shy;hjemmet</span>{" "}
           ditt
         </h1>
 
         {/* Subheading */}
         <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed">
-          Last opp et bilde av rommet ditt. Innred det med ekte mobler fra
-          norske butikker. Se prisen &ndash; kjop med ett klikk.
+          Last opp et bilde av rommet ditt. Innred det med ekte møbler fra
+          norske butikker. Se prisen &ndash; kjøp med ett klikk.
         </p>
 
         {/* CTA */}
@@ -50,7 +50,7 @@ export default function Hero() {
             </Link>
           </Button>
           <p className="text-sm text-muted-foreground">
-            Ingen registrering nodvendig
+            Ingen registrering nødvendig
           </p>
         </div>
 

@@ -17,14 +17,14 @@ const steps = [
     number: "2",
     title: "Innred rommet",
     description:
-      "Dra og slipp mobler, velg farger og stil \u2013 som et spill",
+      "Dra og slipp møbler, velg farger og stil \u2013 som et spill",
   },
   {
     icon: ShoppingBag,
     number: "3",
-    title: "Se prisen og kjop",
+    title: "Se prisen og kjøp",
     description:
-      "Fa en komplett handleliste med norske priser og kjopslenker",
+      "Få en komplett handleliste med norske priser og kjøpslenker",
   },
 ];
 

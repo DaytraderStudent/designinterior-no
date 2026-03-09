@@ -18,7 +18,7 @@ export default function Footer() {
               designinterior.no
             </Link>
             <p className="text-sm text-muted-foreground mt-1">
-              Laget med kjerlighet i Norge
+              Laget med kjærlighet i Norge
             </p>
           </div>
 

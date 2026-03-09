@@ -133,7 +133,7 @@ export default function CostOverview({ products, onRemoveProduct }: CostOverview
                               size="sm"
                               className="text-muted-foreground opacity-60 hover:opacity-100"
                               disabled
-                              title="Ga til butikk (kommer snart)"
+                              title="Gå til butikk (kommer snart)"
                             >
                               <ExternalLink className="h-3.5 w-3.5" />
                             </Button>

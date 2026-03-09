@@ -16,7 +16,7 @@ export default function Home() {
       <section className="py-20 px-6 bg-background">
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-sm uppercase tracking-wider text-muted-foreground mb-8">
-            Mobler fra Norges beste butikker
+            Møbler fra Norges beste butikker
           </p>
           <div className="flex flex-wrap items-center justify-center gap-8 sm:gap-12">
             {stores.map((store) => (

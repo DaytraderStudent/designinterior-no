@@ -28,7 +28,7 @@ const features = [
     icon: Store,
     title: "Norske butikker",
     description:
-      "Mobler fra IKEA, Bohus, Bolia, Jysk og Kid \u2013 med ekte priser",
+      "Møbler fra IKEA, Bohus, Bolia, Jysk og Kid \u2013 med ekte priser",
   },
   {
     icon: Calculator,
@@ -40,7 +40,7 @@ const features = [
     icon: MessageSquare,
     title: "AI-designassistent",
     description:
-      "Spor om fargevalg, stil eller budsjett \u2013 pa norsk",
+      "Spør om fargevalg, stil eller budsjett \u2013 på norsk",
   },
   {
     icon: Image,
@@ -60,7 +60,7 @@ export default function FeaturesGrid() {
             Funksjoner
           </Badge>
           <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground">
-            Alt du trenger for a innrede
+            Alt du trenger for å innrede
           </h2>
         </div>
 

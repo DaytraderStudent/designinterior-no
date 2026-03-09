@@ -1,14 +1,9 @@
-import { createClient } from "@supabase/supabase-js";
+import { supabase } from "./supabase-client.mjs";
 import { readFileSync } from "fs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-
-const supabase = createClient(
-  "https://vbcmeueohlmutmwsknna.supabase.co",
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZiY21ldWVvaGxtdXRtd3Nrbm5hIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3Mjc5MjMzNSwiZXhwIjoyMDg4MzY4MzM1fQ.ydtUGs1mIvASa-YzE2-2A7M3EOScw6Htplil3uxW5oY"
-);
 
 // Read products.ts to extract the image URLs we just assigned
 const content = readFileSync(join(__dirname, "..", "src", "data", "products.ts"), "utf-8");

@@ -1,10 +1,4 @@
-import { createClient } from "@supabase/supabase-js";
-
-const supabase = createClient(
-  "https://vbcmeueohlmutmwsknna.supabase.co",
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZiY21ldWVvaGxtdXRtd3Nrbm5hIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3Mjc5MjMzNSwiZXhwIjoyMDg4MzY4MzM1fQ.ydtUGs1mIvASa-YzE2-2A7M3EOScw6Htplil3uxW5oY"
-);
-
+import { supabase } from "./supabase-client.mjs";
 const products = [
   // IKEA (15)
   { name: "KIVIK sofa", brand: "IKEA", category: "sofa", price: 5995, image_url: "https://www.ikea.com/no/no/images/products/kivik-3-seters-sofa-tresund-lys-beige__1124111_pe875024_s5.jpg", affiliate_url: "#", style_tags: ["skandinavisk","moderne"], color_tags: ["grå","beige"], room_tags: ["stue"], dimensions: {width:228,depth:95,height:83} },

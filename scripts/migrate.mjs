@@ -1,10 +1,4 @@
-import { createClient } from "@supabase/supabase-js";
-
-const supabase = createClient(
-  "https://vbcmeueohlmutmwsknna.supabase.co",
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZiY21ldWVvaGxtdXRtd3Nrbm5hIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3Mjc5MjMzNSwiZXhwIjoyMDg4MzY4MzM1fQ.ydtUGs1mIvASa-YzE2-2A7M3EOScw6Htplil3uxW5oY"
-);
-
+import { supabase } from "./supabase-client.mjs";
 const migrations = [
   // Profiles table
   `CREATE TABLE IF NOT EXISTS profiles (

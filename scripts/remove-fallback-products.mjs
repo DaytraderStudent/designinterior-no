@@ -2,17 +2,11 @@
  * Removes all products that have Unsplash fallback images (not real store images).
  * Updates products.ts, seed.mjs, and Supabase.
  */
+import { supabase } from "./supabase-client.mjs";
 import { readFileSync, writeFileSync } from "fs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
-import { createClient } from "@supabase/supabase-js";
-
 const __dirname = dirname(fileURLToPath(import.meta.url));
-
-const supabase = createClient(
-  "https://vbcmeueohlmutmwsknna.supabase.co",
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZiY21ldWVvaGxtdXRtd3Nrbm5hIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3Mjc5MjMzNSwiZXhwIjoyMDg4MzY4MzM1fQ.ydtUGs1mIvASa-YzE2-2A7M3EOScw6Htplil3uxW5oY"
-);
 
 // ─── 1. Process products.ts ───────────────────────────────────────
 const productsPath = join(__dirname, "..", "src", "data", "products.ts");

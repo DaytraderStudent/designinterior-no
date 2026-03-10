@@ -3,13 +3,14 @@ import Image from "next/image";
 import Link from "next/link";
 import {
   Star, ThumbsUp, ThumbsDown, CheckCircle, ExternalLink,
-  Ruler, Tag, Palette, Home, ShoppingBag, Ticket, ArrowRight,
+  Ruler, Tag, Palette, Home, ShoppingBag, Ticket, ArrowRight, Sparkles, ImageIcon,
 } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import Footer from "@/components/landing/Footer";
+import ProductImageGallery from "@/components/ProductImageGallery";
 import { products } from "@/data/products";
 import { formatNOK } from "@/lib/utils";
 import type { Metadata } from "next";
@@ -203,19 +204,13 @@ export default async function ProductPage({ params }: Props) {
         <div className="max-w-5xl mx-auto">
           {/* ============ PRODUCT HERO ============ */}
           <div className="flex flex-col md:flex-row gap-8 mb-10">
-            {/* Image */}
+            {/* Image gallery with AI lifestyle image */}
             <div className="md:w-1/2">
-              <div className="aspect-square bg-muted rounded-2xl overflow-hidden relative">
-                <Image
-                  src={product.image_url}
-                  alt={`${product.name} fra ${product.brand}`}
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 768px) 100vw, 50vw"
-                  unoptimized
-                  priority
-                />
-              </div>
+              <ProductImageGallery
+                productImage={product.image_url}
+                lifestyleImageUrl={`/api/lifestyle-image?name=${encodeURIComponent(product.name)}&category=${encodeURIComponent(product.category)}&style=${encodeURIComponent(product.style_tags[0] || "moderne")}&room=${encodeURIComponent(product.room_tags[0] || "stue")}&colors=${encodeURIComponent(product.color_tags.join(","))}&seed=${encodeURIComponent(product.id)}`}
+                alt={`${product.name} fra ${product.brand}`}
+              />
             </div>
 
             {/* Info */}

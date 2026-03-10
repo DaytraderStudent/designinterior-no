@@ -60,21 +60,22 @@ function StarRating({ rating, size = "md" }: { rating: number; size?: "sm" | "md
   );
 }
 
-function BuyButton({ brand, affiliate_url, size = "lg" }: { brand: string; affiliate_url: string; size?: "lg" | "default" }) {
-  const href = affiliate_url !== "#" ? affiliate_url : "#";
+function BuyButton({ brand, affiliate_url, discountPercent, size = "lg" }: {
+  brand: string; affiliate_url: string; discountPercent?: number; size?: "lg" | "default";
+}) {
   return (
     <Button asChild size={size} className="gap-2 bg-green-600 hover:bg-green-700 text-white font-semibold shadow-lg shadow-green-600/20">
-      <a href={href} target="_blank" rel="noopener noreferrer">
+      <a href={affiliate_url} target="_blank" rel="noopener noreferrer">
         <ShoppingBag className="h-4 w-4" />
-        Kjøp hos {brand}
+        {discountPercent ? `Kjøp med ${discountPercent}% rabatt hos ${brand}` : `Kjøp hos ${brand}`}
         <ArrowRight className="h-4 w-4" />
       </a>
     </Button>
   );
 }
 
-function DiscountSection({ price, discountPercent, discountCode, brand }: {
-  price: number; discountPercent: number; discountCode: string; brand: string;
+function DiscountSection({ price, discountPercent, discountCode, brand, affiliateUrl }: {
+  price: number; discountPercent: number; discountCode: string; brand: string; affiliateUrl: string;
 }) {
   const savings = Math.round(price * (discountPercent / 100));
   const discountedPrice = price - savings;
@@ -131,7 +132,7 @@ function DiscountSection({ price, discountPercent, discountCode, brand }: {
 
           {/* CTA */}
           <Button asChild size="lg" className="w-full gap-2 bg-green-600 hover:bg-green-700 text-white font-semibold shadow-lg shadow-green-600/20">
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href={affiliateUrl} target="_blank" rel="noopener noreferrer">
               <ShoppingBag className="h-5 w-5" />
               Kjøp med {discountPercent}% rabatt hos {brand}
               <ArrowRight className="h-4 w-4" />
@@ -255,7 +256,7 @@ export default async function ProductPage({ params }: Props) {
 
               {/* Top buy button + try in room */}
               <div className="flex gap-3 mb-6">
-                <BuyButton brand={product.brand} affiliate_url={product.affiliate_url} />
+                <BuyButton brand={product.brand} affiliate_url={product.affiliate_url} discountPercent={product.discount_percent} />
                 <Button asChild variant="outline" size="lg" className="gap-2">
                   <Link href="/design">
                     Prøv i rommet ditt
@@ -308,6 +309,7 @@ export default async function ProductPage({ params }: Props) {
               discountPercent={product.discount_percent}
               discountCode={product.discount_code}
               brand={product.brand}
+              affiliateUrl={product.affiliate_url}
             />
           </div>
 
@@ -394,7 +396,7 @@ export default async function ProductPage({ params }: Props) {
                   </p>
                 </div>
                 <div className="flex gap-3 shrink-0">
-                  <BuyButton brand={product.brand} affiliate_url={product.affiliate_url} />
+                  <BuyButton brand={product.brand} affiliate_url={product.affiliate_url} discountPercent={product.discount_percent} />
                 </div>
               </div>
             </CardContent>

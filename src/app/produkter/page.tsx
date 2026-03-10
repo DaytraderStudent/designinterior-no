@@ -14,25 +14,26 @@ import ProductImage from "@/components/ProductImage";
 
 const categories = [
   { label: "Alle", value: "" },
-  { label: "Sofa", value: "sofa" },
   { label: "Bord", value: "bord" },
-  { label: "Stol", value: "stol" },
-  { label: "Lampe", value: "lampe" },
-  { label: "Teppe", value: "teppe" },
-  { label: "Pute", value: "pute" },
   { label: "Dekor", value: "dekor" },
-  { label: "Hylle", value: "hylle" },
-  { label: "Seng", value: "seng" },
-  { label: "Kommode", value: "kommode" },
   { label: "Gardin", value: "gardin" },
+  { label: "Hylle", value: "hylle" },
+  { label: "Kommode", value: "kommode" },
+  { label: "Lampe", value: "lampe" },
+  { label: "Pute", value: "pute" },
+  { label: "Seng", value: "seng" },
+  { label: "Sofa", value: "sofa" },
   { label: "Speil", value: "speil" },
+  { label: "Stol", value: "stol" },
+  { label: "Teppe", value: "teppe" },
 ];
 
 const brands = [
-  "IKEA", "Bohus", "Bolia", "Jysk", "Kid", "Skeidar", "HAY",
-  "Møbelringen", "Fagmøbler", "Princess", "Home & Cottage",
-  "Elkjøp", "Kremmerhuset", "Ekornes", "Slettvoll", "Hødnebø",
-  "HTH", "Høie", "Clas Ohlson", "Plantasjen", "Tilbords",
+  "Bohus", "Bolia", "Clas Ohlson", "Ekornes", "Elkjøp",
+  "Fagmøbler", "HAY", "Home & Cottage", "HTH", "Hødnebø",
+  "Høie", "IKEA", "Jysk", "Kid", "Kremmerhuset",
+  "Møbelringen", "Plantasjen", "Princess", "Skeidar",
+  "Slettvoll", "Tilbords",
 ];
 
 

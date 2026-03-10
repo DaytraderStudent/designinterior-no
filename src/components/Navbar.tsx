@@ -10,6 +10,8 @@ import { cn } from "@/lib/utils";
 const navLinks = [
   { href: "/", label: "Hjem" },
   { href: "/design", label: "Designer" },
+  { href: "/anmeldelser", label: "Anmeldelser" },
+  { href: "/blogg", label: "Blogg" },
   { href: "/inspirasjon", label: "Inspirasjon" },
   { href: "/produkter", label: "Produkter" },
 ];

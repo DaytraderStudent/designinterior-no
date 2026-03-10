@@ -3,6 +3,7 @@ export interface Product {
   name: string;
   brand: string;
   category: string;
+  description: string;
   price: number;
   image_url: string;
   affiliate_url: string;
@@ -11,6 +12,11 @@ export interface Product {
   room_tags: string[];
   dimensions: { width: number; depth: number; height: number };
   in_stock: boolean;
+  rating: number;
+  pros: string[];
+  cons: string[];
+  review_summary: string;
+  review_sections: { heading: string; content: string }[];
 }
 
 export interface RoomAnalysis {
@@ -51,4 +57,36 @@ export interface ChatMessage {
   role: "user" | "assistant";
   content: string;
   created_at: string;
+}
+
+export interface Review {
+  slug: string;
+  title: string;
+  excerpt: string;
+  product_name: string;
+  product_brand: string;
+  product_category: string;
+  product_image: string;
+  rating: number;
+  author: string;
+  date: string;
+  hero_image: string;
+  pros: string[];
+  cons: string[];
+  verdict: string;
+  sections: { heading: string; content: string }[];
+  related_product_ids?: string[];
+}
+
+export interface BlogPost {
+  slug: string;
+  title: string;
+  excerpt: string;
+  author: string;
+  date: string;
+  hero_image: string;
+  category: string;
+  read_time: string;
+  sections: { heading: string; content: string; image?: string }[];
+  tags: string[];
 }

@@ -9,6 +9,7 @@ import { Slider } from "@/components/ui/slider";
 import { products } from "@/data/products";
 import { formatNOK } from "@/lib/utils";
 import { Search, SlidersHorizontal } from "lucide-react";
+import Link from "next/link";
 import ProductImage from "@/components/ProductImage";
 
 const categories = [
@@ -149,40 +150,39 @@ export default function ProdukterPage() {
         {/* Product grid */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
           {filtered.map((product) => (
-            <Card
-              key={product.id}
-              className="overflow-hidden group hover:shadow-md transition-all duration-200"
-            >
-              <ProductImage
-                category={product.category}
-                brand={product.brand}
-                imageUrl={product.image_url}
-                className="aspect-square"
-                iconSize="lg"
-              />
-              <div className="p-3">
-                <Badge variant="secondary" className="mb-1.5 text-xs">
-                  {product.brand}
-                </Badge>
-                <h3 className="font-medium text-sm mb-1 line-clamp-1">
-                  {product.name}
-                </h3>
-                <p className="font-mono text-sm font-bold text-accent">
-                  {formatNOK(product.price)}
-                </p>
-                <div className="flex flex-wrap gap-1 mt-2">
-                  {product.style_tags.slice(0, 2).map((tag) => (
-                    <Badge key={tag} variant="outline" className="text-xs py-0">
-                      {tag}
-                    </Badge>
-                  ))}
+            <Link key={product.id} href={`/produkter/${product.id}`}>
+              <Card className="overflow-hidden group hover:shadow-md transition-all duration-200 h-full">
+                <ProductImage
+                  category={product.category}
+                  brand={product.brand}
+                  imageUrl={product.image_url}
+                  className="aspect-square"
+                  iconSize="lg"
+                />
+                <div className="p-3">
+                  <Badge variant="secondary" className="mb-1.5 text-xs">
+                    {product.brand}
+                  </Badge>
+                  <h3 className="font-medium text-sm mb-1 line-clamp-1">
+                    {product.name}
+                  </h3>
+                  <p className="font-mono text-sm font-bold text-accent">
+                    {formatNOK(product.price)}
+                  </p>
+                  <div className="flex flex-wrap gap-1 mt-2">
+                    {product.style_tags.slice(0, 2).map((tag) => (
+                      <Badge key={tag} variant="outline" className="text-xs py-0">
+                        {tag}
+                      </Badge>
+                    ))}
+                  </div>
+                  <div className="mt-2 text-xs text-muted-foreground">
+                    {product.dimensions.width} × {product.dimensions.depth} ×{" "}
+                    {product.dimensions.height} cm
+                  </div>
                 </div>
-                <div className="mt-2 text-xs text-muted-foreground">
-                  {product.dimensions.width} × {product.dimensions.depth} ×{" "}
-                  {product.dimensions.height} cm
-                </div>
-              </div>
-            </Card>
+              </Card>
+            </Link>
           ))}
         </div>
 

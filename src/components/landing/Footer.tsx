@@ -1,10 +1,10 @@
 import Link from "next/link";
 
 const links = [
+  { label: "Anmeldelser", href: "/anmeldelser" },
+  { label: "Blogg", href: "/blogg" },
   { label: "Inspirasjon", href: "/inspirasjon" },
   { label: "Produkter", href: "/produkter" },
-  { label: "Om oss", href: "/om-oss" },
-  { label: "Kontakt", href: "/kontakt" },
 ];
 
 export default function Footer() {

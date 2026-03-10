@@ -2,9 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 
 /**
  * Generates a lifestyle room image for a product using Pollinations.ai (free, no API key).
- * Returns a redirect to the generated image URL.
- *
- * Usage: /api/lifestyle-image?name=KIVIK+sofa&category=sofa&style=skandinavisk&room=stue&colors=grå,beige
+ * Proxies the image back so it loads from our domain without CORS issues.
  */
 export async function GET(req: NextRequest) {
   const { searchParams } = req.nextUrl;
@@ -16,40 +14,22 @@ export async function GET(req: NextRequest) {
   const seed = searchParams.get("seed") || "42";
 
   const roomMap: Record<string, string> = {
-    stue: "living room",
-    soverom: "bedroom",
-    kontor: "home office",
-    kjøkken: "kitchen",
-    bad: "bathroom",
-    gang: "hallway",
-    barnerom: "children's room",
-    entre: "entryway",
+    stue: "living room", soverom: "bedroom", kontor: "home office",
+    kjøkken: "kitchen", bad: "bathroom", gang: "hallway",
+    barnerom: "children's room", entre: "entryway",
   };
 
   const styleMap: Record<string, string> = {
-    skandinavisk: "scandinavian",
-    moderne: "modern",
-    minimalistisk: "minimalist",
-    industriell: "industrial",
-    tradisjonell: "traditional",
-    boho: "bohemian",
-    klassisk: "classic",
-    rustikk: "rustic",
+    skandinavisk: "scandinavian", moderne: "modern", minimalistisk: "minimalist",
+    industriell: "industrial", tradisjonell: "traditional", boho: "bohemian",
+    klassisk: "classic", rustikk: "rustic",
   };
 
   const categoryMap: Record<string, string> = {
-    sofa: "sofa",
-    bord: "table",
-    stol: "chair",
-    lampe: "lamp",
-    teppe: "area rug",
-    pute: "decorative cushions",
-    dekor: "decorative object",
-    hylle: "bookshelf",
-    seng: "bed",
-    kommode: "dresser",
-    gardin: "curtains",
-    speil: "mirror",
+    sofa: "sofa", bord: "table", stol: "chair", lampe: "lamp",
+    teppe: "area rug", pute: "decorative cushions", dekor: "decorative object",
+    hylle: "bookshelf", seng: "bed", kommode: "dresser",
+    gardin: "curtains", speil: "wall mirror",
   };
 
   const engRoom = roomMap[room] || room;
@@ -67,11 +47,30 @@ export async function GET(req: NextRequest) {
   ].join(", ");
 
   const width = 768;
-  const height = 512;
+  const height = 768;
 
-  // Pollinations.ai free image generation
-  const imageUrl = `https://image.pollinations.ai/prompt/${encodeURIComponent(prompt)}?width=${width}&height=${height}&seed=${seed}&nologo=true`;
+  const imageUrl = `https://image.pollinations.ai/prompt/${encodeURIComponent(prompt)}?width=${width}&height=${height}&seed=${encodeURIComponent(seed)}&nologo=true`;
 
-  // Redirect to the image (browser/img tag will load it directly)
-  return NextResponse.redirect(imageUrl, 302);
+  try {
+    const response = await fetch(imageUrl, {
+      headers: { "User-Agent": "Mozilla/5.0" },
+    });
+
+    if (!response.ok) {
+      return NextResponse.json({ error: "Failed to generate image" }, { status: 502 });
+    }
+
+    const buffer = await response.arrayBuffer();
+    const contentType = response.headers.get("content-type") || "image/jpeg";
+
+    return new NextResponse(buffer, {
+      headers: {
+        "Content-Type": contentType,
+        "Cache-Control": "public, max-age=604800, s-maxage=2592000",
+        "Access-Control-Allow-Origin": "*",
+      },
+    });
+  } catch {
+    return NextResponse.json({ error: "Image generation failed" }, { status: 500 });
+  }
 }

@@ -8,7 +8,7 @@ import { Input } from "@/components/ui/input";
 import { Slider } from "@/components/ui/slider";
 import { products } from "@/data/products";
 import { formatNOK } from "@/lib/utils";
-import { Search, SlidersHorizontal } from "lucide-react";
+import { Search, SlidersHorizontal, Star, ArrowUpDown } from "lucide-react";
 import Link from "next/link";
 import ProductImage from "@/components/ProductImage";
 
@@ -36,23 +36,54 @@ const brands = [
   "Slettvoll", "Tilbords",
 ];
 
+type SortOption = "default" | "price-asc" | "price-desc" | "rating-desc" | "rating-asc" | "name-asc";
+
+const sortOptions: { label: string; value: SortOption }[] = [
+  { label: "Standard", value: "default" },
+  { label: "Pris: Lav → Høy", value: "price-asc" },
+  { label: "Pris: Høy → Lav", value: "price-desc" },
+  { label: "Rating: Høy → Lav", value: "rating-desc" },
+  { label: "Rating: Lav → Høy", value: "rating-asc" },
+  { label: "Navn: A → Å", value: "name-asc" },
+];
 
 export default function ProdukterPage() {
   const [search, setSearch] = useState("");
   const [category, setCategory] = useState("");
   const [brand, setBrand] = useState("");
   const [maxPrice, setMaxPrice] = useState(100000);
+  const [sortBy, setSortBy] = useState<SortOption>("default");
   const [showFilters, setShowFilters] = useState(false);
 
   const filtered = useMemo(() => {
-    return products.filter((p) => {
+    let result = products.filter((p) => {
       if (category && p.category !== category) return false;
       if (brand && p.brand !== brand) return false;
       if (p.price > maxPrice) return false;
       if (search && !p.name.toLowerCase().includes(search.toLowerCase())) return false;
       return true;
     });
-  }, [search, category, brand, maxPrice]);
+
+    switch (sortBy) {
+      case "price-asc":
+        result = [...result].sort((a, b) => a.price - b.price);
+        break;
+      case "price-desc":
+        result = [...result].sort((a, b) => b.price - a.price);
+        break;
+      case "rating-desc":
+        result = [...result].sort((a, b) => b.rating - a.rating);
+        break;
+      case "rating-asc":
+        result = [...result].sort((a, b) => a.rating - b.rating);
+        break;
+      case "name-asc":
+        result = [...result].sort((a, b) => a.name.localeCompare(b.name, "nb"));
+        break;
+    }
+
+    return result;
+  }, [search, category, brand, maxPrice, sortBy]);
 
   return (
     <div className="min-h-screen bg-background">
@@ -143,9 +174,26 @@ export default function ProdukterPage() {
             </div>
           )}
 
-          <p className="text-sm text-muted-foreground">
-            Viser {filtered.length} av {products.length} produkter
-          </p>
+          {/* Sort + count row */}
+          <div className="flex items-center justify-between">
+            <p className="text-sm text-muted-foreground">
+              Viser {filtered.length} av {products.length} produkter
+            </p>
+            <div className="flex items-center gap-2">
+              <ArrowUpDown className="h-3.5 w-3.5 text-muted-foreground" />
+              <select
+                value={sortBy}
+                onChange={(e) => setSortBy(e.target.value as SortOption)}
+                className="text-sm bg-card border rounded-md px-3 py-1.5 text-foreground focus:outline-none focus:ring-2 focus:ring-primary/20"
+              >
+                {sortOptions.map((opt) => (
+                  <option key={opt.value} value={opt.value}>
+                    {opt.label}
+                  </option>
+                ))}
+              </select>
+            </div>
+          </div>
         </div>
 
         {/* Product grid */}
@@ -161,9 +209,15 @@ export default function ProdukterPage() {
                   iconSize="lg"
                 />
                 <div className="p-3">
-                  <Badge variant="secondary" className="mb-1.5 text-xs">
-                    {product.brand}
-                  </Badge>
+                  <div className="flex items-center justify-between mb-1.5">
+                    <Badge variant="secondary" className="text-xs">
+                      {product.brand}
+                    </Badge>
+                    <div className="flex items-center gap-0.5">
+                      <Star className="h-3 w-3 fill-amber-400 text-amber-400" />
+                      <span className="text-xs font-semibold">{product.rating.toFixed(1)}</span>
+                    </div>
+                  </div>
                   <h3 className="font-medium text-sm mb-1 line-clamp-1">
                     {product.name}
                   </h3>
@@ -200,6 +254,7 @@ export default function ProdukterPage() {
                 setCategory("");
                 setBrand("");
                 setMaxPrice(100000);
+                setSortBy("default");
               }}
             >
               Nullstill filter

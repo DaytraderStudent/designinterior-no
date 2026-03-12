@@ -228,7 +228,7 @@ export default async function ProductPage({ params }: Props) {
                     På lager
                   </Badge>
                 ) : (
-                  <Badge variant="secondary" className="bg-red-500/10 text-red-600 border-red-500/20">
+                  <Badge variant="secondary" className="bg-green-600/10 text-green-700 border-green-600/20">
                     Utsolgt
                   </Badge>
                 )}

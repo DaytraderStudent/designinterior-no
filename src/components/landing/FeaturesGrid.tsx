@@ -45,7 +45,7 @@ export default function FeaturesGrid() {
       <div className="max-w-7xl mx-auto">
         <div className="flex items-end justify-between mb-7">
           <div>
-            <div className="inline-flex items-center gap-1.5 bg-red-500/10 text-red-600 text-xs font-bold px-3 py-1.5 rounded-full mb-3">
+            <div className="inline-flex items-center gap-1.5 bg-green-600/10 text-green-700 text-xs font-bold px-3 py-1.5 rounded-full mb-3">
               Spar penger
             </div>
             <h2 className="font-display text-2xl sm:text-3xl font-bold text-foreground">
@@ -89,7 +89,7 @@ export default function FeaturesGrid() {
                     className="aspect-square group-hover:scale-[1.03] transition-transform duration-500"
                     iconSize="lg"
                   />
-                  <div className="absolute top-3 left-3 bg-red-500 text-white text-xs font-bold px-2.5 py-1 rounded-lg shadow-sm">
+                  <div className="absolute top-3 left-3 bg-green-600 text-white text-xs font-bold px-2.5 py-1 rounded-lg shadow-sm">
                     -{product.discount_percent}%
                   </div>
                 </div>
@@ -124,7 +124,7 @@ export default function FeaturesGrid() {
                   )}
 
                   <div className="flex items-baseline gap-2.5">
-                    <span className="font-mono text-lg font-bold text-red-600">
+                    <span className="font-mono text-lg font-bold text-green-700">
                       {formatNOK(Math.round(product.price * (1 - (product.discount_percent || 0) / 100)))}
                     </span>
                     <span className="font-mono text-sm text-muted-foreground line-through">

@@ -235,7 +235,7 @@ export default function ProdukterPage() {
                       iconSize="lg"
                     />
                     {hasDiscount && (
-                      <div className="absolute top-2 left-2 bg-red-500 text-white text-[11px] font-bold px-2 py-0.5 rounded-lg">
+                      <div className="absolute top-2 left-2 bg-green-600 text-white text-[11px] font-bold px-2 py-0.5 rounded-lg">
                         -{product.discount_percent}%
                       </div>
                     )}
@@ -257,7 +257,7 @@ export default function ProdukterPage() {
                     {hasDiscount ? (
                       <div>
                         <div className="flex items-baseline gap-1.5">
-                          <span className="font-mono text-sm font-bold text-red-600">
+                          <span className="font-mono text-sm font-bold text-green-700">
                             {formatNOK(discountedPrice)}
                           </span>
                           <span className="font-mono text-xs text-muted-foreground line-through">

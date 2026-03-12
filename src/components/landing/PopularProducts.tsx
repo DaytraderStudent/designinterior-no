@@ -95,7 +95,7 @@ export default function PopularProducts() {
                     iconSize="lg"
                   />
                   {product.discount_percent && product.discount_percent > 0 && (
-                    <div className="absolute top-3 left-3 bg-red-500 text-white text-[11px] font-bold px-2.5 py-1 rounded-lg">
+                    <div className="absolute top-3 left-3 bg-green-600 text-white text-[11px] font-bold px-2.5 py-1 rounded-lg">
                       -{product.discount_percent}%
                     </div>
                   )}

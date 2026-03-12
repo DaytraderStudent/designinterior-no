@@ -153,14 +153,6 @@ export default function ProductImage({
         </>
       )}
 
-      <div className={cn(
-        "absolute top-2 right-2 flex h-5 w-5 items-center justify-center rounded-full text-[10px] font-bold",
-        hasImage
-          ? "bg-black/40 text-white"
-          : "bg-white/60 dark:bg-black/30 text-foreground/50"
-      )}>
-        {brandInitial}
-      </div>
     </div>
   );
 }

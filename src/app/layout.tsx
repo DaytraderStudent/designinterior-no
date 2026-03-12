@@ -22,9 +22,31 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "designinterior.no – Innred drømmehjemmet ditt",
+  title: {
+    default: "designinteriør.no – Sammenlign møbelpriser og les anmeldelser",
+    template: "%s | designinteriør.no",
+  },
   description:
-    "Norges første AI-drevne interiørdesign-plattform. Last opp et bilde av rommet ditt, innred det interaktivt, og se prisen før du kjøper.",
+    "Norges uavhengige interiørguide. Sammenlign priser fra 30+ butikker, les ærlige anmeldelser, og spar penger med eksklusive rabattkoder.",
+  metadataBase: new URL("https://xn--designinterir-mnb.no"),
+  openGraph: {
+    type: "website",
+    locale: "nb_NO",
+    siteName: "designinteriør.no",
+    title: "designinteriør.no – Sammenlign møbelpriser og les anmeldelser",
+    description:
+      "Sammenlign priser fra 30+ norske møbelbutikker. Les uavhengige anmeldelser og spar penger med eksklusive rabattkoder.",
+    images: [{ url: "/images/hero.jpg", width: 1920, height: 1080, alt: "designinteriør.no" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "designinteriør.no – Sammenlign møbelpriser",
+    description: "Sammenlign priser fra 30+ norske møbelbutikker og spar penger.",
+    images: ["/images/hero.jpg"],
+  },
+  alternates: {
+    canonical: "https://xn--designinterir-mnb.no",
+  },
 };
 
 export default function RootLayout({

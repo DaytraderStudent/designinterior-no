@@ -5,64 +5,68 @@ import { Button } from "@/components/ui/button";
 const steps = [
   {
     icon: Search,
+    num: "01",
     title: "Finn og sammenlign",
     description: "Søk blant 336+ produkter fra 30+ norske butikker. Filtrer på pris, kategori, stil og butikk.",
-    color: "bg-blue-100 dark:bg-blue-950 text-blue-600 dark:text-blue-400",
   },
   {
     icon: Star,
+    num: "02",
     title: "Les anmeldelser",
     description: "Vi tester og anmelder møbler med fokus på kvalitet, komfort og verdi for pengene.",
-    color: "bg-amber-100 dark:bg-amber-950 text-amber-600 dark:text-amber-400",
   },
   {
     icon: Tag,
+    num: "03",
     title: "Spar med rabattkoder",
     description: "Bruk eksklusive rabattkoder og få de beste prisene direkte hos butikkene.",
-    color: "bg-green-100 dark:bg-green-950 text-green-600 dark:text-green-400",
   },
 ];
 
 export default function HowItWorks() {
   return (
-    <section className="py-10 sm:py-14 px-4 sm:px-6 bg-card border-y border-border/40">
-      <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-10">
-          <h2 className="font-display text-2xl sm:text-3xl font-bold text-foreground mb-2">
+    <section className="py-14 sm:py-16 px-5 sm:px-8 bg-[#3d3428] text-white relative overflow-hidden">
+      {/* Subtle texture */}
+      <div className="absolute inset-0 opacity-20 mix-blend-overlay bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij48ZmlsdGVyIGlkPSJuIj48ZmVUdXJidWxlbmNlIHR5cGU9ImZyYWN0YWxOb2lzZSIgYmFzZUZyZXF1ZW5jeT0iLjgiIG51bU9jdGF2ZXM9IjQiIHN0aXRjaFRpbGVzPSJzdGl0Y2giLz48L2ZpbHRlcj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWx0ZXI9InVybCgjbikiIG9wYWNpdHk9Ii4wNSIvPjwvc3ZnPg==')]" />
+
+      <div className="max-w-7xl mx-auto relative z-10">
+        <div className="text-center mb-12">
+          <h2 className="font-display text-2xl sm:text-3xl font-bold mb-2">
             Slik fungerer det
           </h2>
-          <p className="text-sm text-muted-foreground">
-            Tre enkle steg til ditt nye interiør
+          <p className="text-white/50 text-sm">
+            Tre steg til ditt nye interiør
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6 sm:gap-8 mb-10">
-          {steps.map((step, i) => {
+        <div className="grid md:grid-cols-3 gap-8 sm:gap-12 mb-12">
+          {steps.map((step) => {
             const Icon = step.icon;
             return (
-              <div key={step.title} className="flex gap-4 md:flex-col md:text-center md:items-center">
-                <div className={`shrink-0 w-14 h-14 rounded-2xl ${step.color} flex items-center justify-center relative`}>
-                  <Icon className="w-6 h-6" />
-                  <span className="absolute -top-1.5 -right-1.5 w-5 h-5 rounded-full bg-foreground text-background text-xs font-bold flex items-center justify-center">
-                    {i + 1}
+              <div key={step.num} className="text-center">
+                <div className="relative mx-auto w-16 h-16 rounded-2xl bg-white/10 backdrop-blur-sm flex items-center justify-center mb-5 border border-white/10">
+                  <Icon className="w-7 h-7 text-[#c4a87a]" strokeWidth={1.5} />
+                  <span className="absolute -top-2 -right-2 text-xs font-mono font-bold text-[#c4a87a] bg-[#3d3428] border border-white/10 rounded-full w-7 h-7 flex items-center justify-center">
+                    {step.num}
                   </span>
                 </div>
-                <div>
-                  <h3 className="font-semibold text-foreground mb-1">{step.title}</h3>
-                  <p className="text-sm text-muted-foreground leading-relaxed">
-                    {step.description}
-                  </p>
-                </div>
+                <h3 className="font-display text-lg font-semibold mb-2">{step.title}</h3>
+                <p className="text-sm text-white/50 leading-relaxed max-w-xs mx-auto">
+                  {step.description}
+                </p>
               </div>
             );
           })}
         </div>
 
         <div className="text-center">
-          <Button asChild size="lg" className="rounded-lg h-11 px-8">
+          <Button
+            asChild
+            size="lg"
+            className="h-12 px-8 rounded-xl bg-[#c4a87a] text-[#2a2118] hover:bg-[#d4b88a] font-semibold border-0"
+          >
             <Link href="/produkter">
-              Kom i gang
-              <ArrowRight className="w-4 h-4 ml-1.5" />
+              Kom i gang <ArrowRight className="w-4 h-4 ml-2" />
             </Link>
           </Button>
         </div>

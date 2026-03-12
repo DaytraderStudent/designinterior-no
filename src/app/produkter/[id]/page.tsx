@@ -250,9 +250,14 @@ export default async function ProductPage({ params }: Props) {
                 <span className="font-mono text-3xl font-bold text-green-600">{formatNOK(discountedPrice)}</span>
                 <Badge className="bg-green-600 text-white border-0 mb-1">-{product.discount_percent}%</Badge>
               </div>
-              <p className="text-xs text-muted-foreground mb-5">
-                Med kode <span className="font-mono font-bold text-green-600">{product.discount_code}</span> — spar {formatNOK(product.price - discountedPrice)}
-              </p>
+              <div className="rounded-lg bg-green-50 dark:bg-green-950/30 border border-green-200 dark:border-green-900 p-3 mb-5">
+                <p className="text-sm font-semibold text-green-800 dark:text-green-300">
+                  💰 Spar {formatNOK(product.price - discountedPrice)} via designinteriør.no
+                </p>
+                <p className="text-xs text-green-700 dark:text-green-400 mt-1">
+                  Bruk kode <span className="font-mono font-bold">{product.discount_code}</span> ved kjøp hos {product.brand}. Du får denne rabatten kun via vår lenke.
+                </p>
+              </div>
 
               {/* Top buy button + try in room */}
               <div className="flex gap-3 mb-6">

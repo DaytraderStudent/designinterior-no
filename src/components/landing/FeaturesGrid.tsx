@@ -1,97 +1,83 @@
 "use client";
 
-import { Card, CardContent } from "@/components/ui/card";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import {
-  Sparkles,
-  Palette,
-  Store,
-  Calculator,
-  MessageSquare,
-  Image,
-} from "lucide-react";
+import { Star, ArrowRight } from "lucide-react";
+import { products } from "@/data/products";
+import { formatNOK } from "@/lib/utils";
+import ProductImage from "@/components/ProductImage";
 
-const features = [
-  {
-    icon: Sparkles,
-    title: "AI-romanalyse",
-    description:
-      "Last opp et bilde, og AI-en forteller deg romtype, stil og hva som mangler",
-  },
-  {
-    icon: Palette,
-    title: "Farger og stiler",
-    description:
-      "Velg mellom skandinavisk, moderne, industriell og boho \u2013 AI-en tilpasser forslagene",
-  },
-  {
-    icon: Store,
-    title: "Norske butikker",
-    description:
-      "Møbler fra IKEA, Bohus, Bolia, Jysk og Kid \u2013 med ekte priser",
-  },
-  {
-    icon: Calculator,
-    title: "Live kostnadsoversikt",
-    description:
-      "Se totalprisen oppdateres i sanntid mens du innreder",
-  },
-  {
-    icon: MessageSquare,
-    title: "AI-designassistent",
-    description:
-      "Spør om fargevalg, stil eller budsjett \u2013 på norsk",
-  },
-  {
-    icon: Image,
-    title: "Visualiser resultatet",
-    description:
-      "Se en AI-generert visualisering av det ferdige rommet",
-  },
-];
+// Get products with biggest discounts
+function getDeals() {
+  return products
+    .filter((p) => p.discount_percent && p.discount_percent > 0 && p.image_url?.startsWith("http"))
+    .sort((a, b) => (b.discount_percent || 0) - (a.discount_percent || 0))
+    .slice(0, 6);
+}
+
+const deals = getDeals();
 
 export default function FeaturesGrid() {
+  if (deals.length === 0) return null;
+
   return (
-    <section className="py-24 px-6 bg-secondary/30">
-      <div className="max-w-6xl mx-auto">
-        {/* Section heading */}
-        <div className="text-center mb-16">
-          <Badge variant="outline" className="mb-4 text-xs uppercase tracking-wider">
-            Funksjoner
-          </Badge>
-          <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground">
-            Alt du trenger for å innrede
-          </h2>
+    <section className="py-16 px-4 sm:px-6 bg-background">
+      <div className="max-w-7xl mx-auto">
+        <div className="flex items-center justify-between mb-8">
+          <div>
+            <h2 className="font-display text-2xl sm:text-3xl font-bold text-foreground">
+              Tilbud og rabattkoder
+            </h2>
+            <p className="text-sm text-muted-foreground mt-1">
+              Spar penger med våre eksklusive rabattkoder
+            </p>
+          </div>
+          <Button asChild variant="ghost" className="hidden sm:flex gap-1">
+            <Link href="/produkter">
+              Se alle
+              <ArrowRight className="w-4 h-4" />
+            </Link>
+          </Button>
         </div>
 
-        {/* Features grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {features.map((feature) => {
-            const Icon = feature.icon;
-            return (
-              <Card
-                key={feature.title}
-                className="border-border/40 bg-card/80 backdrop-blur-sm hover:scale-[1.02] hover:shadow-xl hover:shadow-primary/5 transition-all duration-300 cursor-default group"
-              >
-                <CardContent className="p-7">
-                  {/* Icon */}
-                  <div className="w-12 h-12 rounded-xl bg-accent/15 flex items-center justify-center mb-5 group-hover:bg-accent/25 transition-colors">
-                    <Icon className="w-6 h-6 text-accent" />
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4">
+          {deals.map((product) => (
+            <Link key={product.id} href={`/produkter/${product.id}`}>
+              <Card className="overflow-hidden group hover:shadow-lg transition-all duration-200 h-full border-border/50">
+                <div className="relative">
+                  <ProductImage
+                    category={product.category}
+                    brand={product.brand}
+                    imageUrl={product.image_url}
+                    className="aspect-square"
+                    iconSize="md"
+                  />
+                  <div className="absolute top-2 left-2 bg-red-500 text-white text-xs font-bold px-2 py-0.5 rounded">
+                    -{product.discount_percent}%
                   </div>
-
-                  {/* Title */}
-                  <h3 className="font-display text-lg font-semibold text-foreground mb-2">
-                    {feature.title}
-                  </h3>
-
-                  {/* Description */}
-                  <p className="text-muted-foreground text-sm leading-relaxed">
-                    {feature.description}
-                  </p>
-                </CardContent>
+                  {product.discount_code && (
+                    <Badge className="absolute bottom-2 left-2 bg-black/70 text-white border-0 text-[10px]">
+                      Kode: {product.discount_code}
+                    </Badge>
+                  )}
+                </div>
+                <div className="p-2.5">
+                  <p className="text-xs text-muted-foreground">{product.brand}</p>
+                  <h3 className="font-medium text-xs sm:text-sm line-clamp-1">{product.name}</h3>
+                  <div className="flex items-center gap-1.5 mt-1">
+                    <span className="font-mono text-sm font-bold text-accent">
+                      {formatNOK(Math.round(product.price * (1 - (product.discount_percent || 0) / 100)))}
+                    </span>
+                    <span className="font-mono text-xs text-muted-foreground line-through">
+                      {formatNOK(product.price)}
+                    </span>
+                  </div>
+                </div>
               </Card>
-            );
-          })}
+            </Link>
+          ))}
         </div>
       </div>
     </section>

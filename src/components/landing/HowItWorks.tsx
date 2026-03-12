@@ -1,81 +1,54 @@
 "use client";
 
-import { Card, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { Camera, Paintbrush, ShoppingBag } from "lucide-react";
+import { Search, Star, Tag } from "lucide-react";
 
 const steps = [
   {
-    icon: Camera,
-    number: "1",
-    title: "Last opp bilde",
-    description:
-      "Ta et bilde av rommet ditt eller last opp en plantegning",
+    icon: Search,
+    title: "Finn og sammenlign",
+    description: "Søk blant 336+ produkter fra 30+ norske butikker. Filtrer på pris, kategori og stil.",
   },
   {
-    icon: Paintbrush,
-    number: "2",
-    title: "Innred rommet",
-    description:
-      "Dra og slipp møbler, velg farger og stil \u2013 som et spill",
+    icon: Star,
+    title: "Les anmeldelser",
+    description: "Vi tester og anmelder møbler med fokus på kvalitet, komfort og verdi for pengene.",
   },
   {
-    icon: ShoppingBag,
-    number: "3",
-    title: "Se prisen og kjøp",
-    description:
-      "Få en komplett handleliste med norske priser og kjøpslenker",
+    icon: Tag,
+    title: "Spar med rabattkoder",
+    description: "Bruk våre eksklusive rabattkoder og få de beste prisene hos butikkene.",
   },
 ];
 
 export default function HowItWorks() {
   return (
-    <section className="py-24 px-6 bg-background">
+    <section className="py-16 px-4 sm:px-6 bg-background">
       <div className="max-w-5xl mx-auto">
-        {/* Section heading */}
-        <div className="text-center mb-16">
-          <Badge variant="outline" className="mb-4 text-xs uppercase tracking-wider">
-            Enkelt som 1-2-3
-          </Badge>
-          <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground">
-            Slik fungerer det
-          </h2>
-        </div>
+        <h2 className="font-display text-2xl sm:text-3xl font-bold text-foreground text-center mb-4">
+          Slik bruker du designinteriør.no
+        </h2>
+        <p className="text-muted-foreground text-center mb-12 max-w-2xl mx-auto">
+          Vi gjør det enkelt å finne de beste møblene til riktig pris
+        </p>
 
-        {/* Steps grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 relative">
-          {/* Connecting line (desktop only) */}
-          <div className="hidden md:block absolute top-16 left-[20%] right-[20%] h-px bg-gradient-to-r from-transparent via-border to-transparent" />
-
-          {steps.map((step) => {
+        <div className="grid md:grid-cols-3 gap-8">
+          {steps.map((step, i) => {
             const Icon = step.icon;
             return (
-              <Card
-                key={step.number}
-                className="relative border-border/50 bg-card hover:shadow-lg hover:shadow-primary/5 transition-all duration-300 group"
-              >
-                <CardContent className="p-8 text-center">
-                  {/* Number badge */}
-                  <Badge className="absolute -top-3 left-1/2 -translate-x-1/2 bg-accent text-accent-foreground border-0 w-7 h-7 rounded-full flex items-center justify-center text-sm font-bold p-0">
-                    {step.number}
-                  </Badge>
-
-                  {/* Icon */}
-                  <div className="w-14 h-14 rounded-2xl bg-primary/10 flex items-center justify-center mx-auto mb-5 group-hover:bg-primary/15 transition-colors">
-                    <Icon className="w-7 h-7 text-primary" />
+              <div key={step.title} className="text-center">
+                <div className="relative mx-auto w-16 h-16 rounded-2xl bg-primary/10 flex items-center justify-center mb-5">
+                  <Icon className="w-7 h-7 text-primary" />
+                  <div className="absolute -top-2 -right-2 w-6 h-6 rounded-full bg-accent text-accent-foreground flex items-center justify-center text-xs font-bold">
+                    {i + 1}
                   </div>
-
-                  {/* Title */}
-                  <h3 className="font-display text-xl font-semibold text-foreground mb-3">
-                    {step.title}
-                  </h3>
-
-                  {/* Description */}
-                  <p className="text-muted-foreground text-sm leading-relaxed">
-                    {step.description}
-                  </p>
-                </CardContent>
-              </Card>
+                </div>
+                <h3 className="font-display text-lg font-semibold text-foreground mb-2">
+                  {step.title}
+                </h3>
+                <p className="text-sm text-muted-foreground leading-relaxed max-w-xs mx-auto">
+                  {step.description}
+                </p>
+              </div>
             );
           })}
         </div>

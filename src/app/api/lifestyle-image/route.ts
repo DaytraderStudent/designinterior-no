@@ -1,59 +1,46 @@
 import { NextRequest, NextResponse } from "next/server";
 
 /**
- * Generates a lifestyle room image for a product using Pollinations.ai (free, no API key).
- * Proxies the image back so it loads from our domain without CORS issues.
+ * Generates a lifestyle room image using Pollinations.ai gen API.
+ * Requires POLLINATIONS_API_KEY env variable.
+ * Proxies the image so the API key stays server-side.
  */
 export async function GET(req: NextRequest) {
+  const apiKey = process.env.POLLINATIONS_API_KEY;
+  if (!apiKey) {
+    return NextResponse.json({ error: "POLLINATIONS_API_KEY not configured" }, { status: 500 });
+  }
+
   const { searchParams } = req.nextUrl;
-  const name = searchParams.get("name") || "furniture";
   const category = searchParams.get("category") || "furniture";
   const style = searchParams.get("style") || "scandinavian";
   const room = searchParams.get("room") || "living room";
-  const colors = searchParams.get("colors") || "neutral";
   const seed = searchParams.get("seed") || "42";
 
   const roomMap: Record<string, string> = {
     stue: "living room", soverom: "bedroom", kontor: "home office",
     kjøkken: "kitchen", bad: "bathroom", gang: "hallway",
-    barnerom: "children's room", entre: "entryway",
-  };
-
-  const styleMap: Record<string, string> = {
-    skandinavisk: "scandinavian", moderne: "modern", minimalistisk: "minimalist",
-    industriell: "industrial", tradisjonell: "traditional", boho: "bohemian",
-    klassisk: "classic", rustikk: "rustic",
+    barnerom: "children room", entre: "entryway",
   };
 
   const categoryMap: Record<string, string> = {
     sofa: "sofa", bord: "table", stol: "chair", lampe: "lamp",
-    teppe: "area rug", pute: "decorative cushions", dekor: "decorative object",
-    hylle: "bookshelf", seng: "bed", kommode: "dresser",
-    gardin: "curtains", speil: "wall mirror",
+    teppe: "rug", pute: "cushions", dekor: "decor",
+    hylle: "shelf", seng: "bed", kommode: "dresser",
+    gardin: "curtains", speil: "mirror",
   };
 
   const engRoom = roomMap[room] || room;
-  const engStyle = styleMap[style] || style;
-  const engCategory = categoryMap[category] || category;
+  const engCat = categoryMap[category] || category;
 
-  const prompt = [
-    `Beautiful interior design photograph of a ${engStyle} ${engRoom}`,
-    `featuring a ${name} ${engCategory} as the centerpiece`,
-    `color palette: ${colors}`,
-    `professional interior photography, natural daylight streaming through large windows`,
-    `warm and inviting atmosphere, styled with plants and books`,
-    `high-end real estate photography style, 8k, photorealistic`,
-    `soft shadows, clean composition, magazine quality`,
-  ].join(", ");
+  // Short prompt for better results
+  const prompt = `${style} ${engRoom} with ${engCat}, interior design photo, natural light, 8k`;
 
-  const width = 768;
-  const height = 768;
-
-  const imageUrl = `https://image.pollinations.ai/prompt/${encodeURIComponent(prompt)}?width=${width}&height=${height}&seed=${encodeURIComponent(seed)}&nologo=true`;
+  const imageUrl = `https://gen.pollinations.ai/image/${encodeURIComponent(prompt)}?model=flux&width=512&height=512&seed=${encodeURIComponent(seed)}&nologo=true&key=${encodeURIComponent(apiKey)}`;
 
   try {
     const response = await fetch(imageUrl, {
-      headers: { "User-Agent": "Mozilla/5.0" },
+      signal: AbortSignal.timeout(50000),
     });
 
     if (!response.ok) {

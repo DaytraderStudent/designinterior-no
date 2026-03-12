@@ -9,19 +9,14 @@ import { cn } from "@/lib/utils";
 
 const navLinks = [
   { href: "/", label: "Hjem" },
-  { href: "/design", label: "Designer" },
-  { href: "/anmeldelser", label: "Anmeldelser" },
+  { href: "/produkter", label: "Produkter" },
   { href: "/blogg", label: "Blogg" },
   { href: "/inspirasjon", label: "Inspirasjon" },
-  { href: "/produkter", label: "Produkter" },
 ];
 
 export default function Navbar() {
   const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
-
-  // Design page has its own full-screen header
-  if (pathname === "/design") return null;
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/60 bg-background/80 backdrop-blur-lg">
@@ -59,7 +54,7 @@ export default function Navbar() {
         {/* Desktop CTA */}
         <div className="hidden md:block">
           <Button asChild size="sm" className="rounded-full bg-accent text-accent-foreground hover:bg-accent/90">
-            <Link href="/design">Start gratis</Link>
+            <Link href="/produkter">Utforsk produkter</Link>
           </Button>
         </div>
 
@@ -95,8 +90,8 @@ export default function Navbar() {
           </div>
           <div className="mt-3 border-t border-border/60 pt-3">
             <Button asChild size="sm" className="w-full rounded-full bg-accent text-accent-foreground hover:bg-accent/90">
-              <Link href="/design" onClick={() => setMobileOpen(false)}>
-                Start gratis
+              <Link href="/produkter" onClick={() => setMobileOpen(false)}>
+                Utforsk produkter
               </Link>
             </Button>
           </div>

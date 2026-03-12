@@ -29,11 +29,16 @@ const categories = [
 ];
 
 const brands = [
-  "Bohus", "Bolia", "Clas Ohlson", "Ekornes", "Elkjøp",
-  "Fagmøbler", "HAY", "Home & Cottage", "HTH", "Hødnebø",
-  "Høie", "IKEA", "Jysk", "Kid", "Kremmerhuset",
-  "Møbelringen", "Plantasjen", "Princess", "Skeidar",
-  "Slettvoll", "Tilbords",
+  "Bohus", "Bolia", "Christiania Glasmagasin", "Clas Ohlson",
+  "Drømmerom", "Ekornes", "Elkjøp", "Fagmøbler",
+  "Frederik Bagger", "HAY", "Home & Cottage", "HTH",
+  "Hulténs", "Hødnebø", "Høie", "IKEA", "Introni",
+  "Jysk", "Kid", "Kitch'n", "Kremmerhuset",
+  "Lampemesteren", "Lunehjem.no", "Lånna Möbler",
+  "Møbelringen", "Newport", "Nordic Nest",
+  "Nordiska Galleriet", "Plantasjen", "Princess",
+  "Skeidar", "Slettvoll", "Stille", "Tilbords",
+  "Trademax", "Trendcarpet", "VidaXL",
 ];
 
 type SortOption = "default" | "price-asc" | "price-desc" | "rating-desc" | "rating-asc" | "name-asc";

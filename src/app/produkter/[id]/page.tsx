@@ -15,6 +15,11 @@ import { products } from "@/data/products";
 import { formatNOK } from "@/lib/utils";
 import type { Metadata } from "next";
 
+/** Capitalize first letter of each word */
+function capitalize(str: string): string {
+  return str.replace(/(^|\s)\S/g, (c) => c.toUpperCase());
+}
+
 interface Props {
   params: Promise<{ id: string }>;
 }
@@ -208,7 +213,7 @@ export default async function ProductPage({ params }: Props) {
             <div className="md:w-1/2">
               <ProductImageGallery
                 productImage={product.image_url}
-                lifestyleImageUrl={`/api/lifestyle-image?name=${encodeURIComponent(product.name)}&category=${encodeURIComponent(product.category)}&style=${encodeURIComponent(product.style_tags[0] || "moderne")}&room=${encodeURIComponent(product.room_tags[0] || "stue")}&colors=${encodeURIComponent(product.color_tags.join(","))}&seed=${encodeURIComponent(product.id)}`}
+                lifestyleImage={product.lifestyle_image_url}
                 alt={`${product.name} fra ${product.brand}`}
               />
             </div>
@@ -217,7 +222,7 @@ export default async function ProductPage({ params }: Props) {
             <div className="md:w-1/2 flex flex-col justify-center">
               <div className="flex items-center gap-2 mb-3">
                 <Badge>{product.brand}</Badge>
-                <Badge variant="outline">{product.category}</Badge>
+                <Badge variant="outline">{capitalize(product.category)}</Badge>
                 {product.in_stock ? (
                   <Badge variant="secondary" className="bg-green-500/10 text-green-600 border-green-500/20">
                     På lager
@@ -276,21 +281,21 @@ export default async function ProductPage({ params }: Props) {
                   <Tag className="h-5 w-5 text-muted-foreground mt-0.5" />
                   <div>
                     <p className="text-xs text-muted-foreground">Stil</p>
-                    <p className="text-sm font-medium">{product.style_tags.join(", ")}</p>
+                    <p className="text-sm font-medium">{product.style_tags.map(capitalize).join(", ")}</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <Palette className="h-5 w-5 text-muted-foreground mt-0.5" />
                   <div>
                     <p className="text-xs text-muted-foreground">Farger</p>
-                    <p className="text-sm font-medium">{product.color_tags.join(", ")}</p>
+                    <p className="text-sm font-medium">{product.color_tags.map(capitalize).join(", ")}</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <Home className="h-5 w-5 text-muted-foreground mt-0.5" />
                   <div>
                     <p className="text-xs text-muted-foreground">Passer i</p>
-                    <p className="text-sm font-medium">{product.room_tags.join(", ")}</p>
+                    <p className="text-sm font-medium">{product.room_tags.map(capitalize).join(", ")}</p>
                   </div>
                 </div>
               </div>

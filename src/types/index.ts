@@ -6,6 +6,7 @@ export interface Product {
   description: string;
   price: number;
   image_url: string;
+  lifestyle_image_url?: string;
   affiliate_url: string;
   style_tags: string[];
   color_tags: string[];

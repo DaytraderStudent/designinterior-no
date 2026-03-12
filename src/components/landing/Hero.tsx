@@ -14,26 +14,22 @@ const services = [
 export default function Hero() {
   return (
     <section className="relative">
-      {/* Main hero */}
-      <div className="hero-scene min-h-[480px] sm:min-h-[540px] lg:min-h-[600px] flex items-center">
-        {/* Furniture silhouettes - decorative */}
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          {/* Sofa shape */}
-          <div className="absolute bottom-[8%] right-[8%] w-[280px] h-[140px] rounded-[40px_40px_12px_12px] bg-white/[0.03] border border-white/[0.06] hidden lg:block" />
-          <div className="absolute bottom-[8%] right-[calc(8%+60px)] w-[160px] h-[200px] rounded-[20px_20px_0_0] bg-white/[0.02] border border-white/[0.04] hidden lg:block" />
-          {/* Lamp */}
-          <div className="absolute top-[15%] right-[20%] hidden lg:flex flex-col items-center">
-            <div className="w-1 h-24 bg-white/[0.06]" />
-            <div className="w-20 h-12 rounded-b-full bg-white/[0.04] border border-white/[0.06] border-t-0" />
-          </div>
-          {/* Plant */}
-          <div className="absolute bottom-[10%] left-[60%] w-10 h-32 hidden lg:block">
-            <div className="w-8 h-10 mx-auto rounded-b-lg bg-white/[0.04] border border-white/[0.05]" />
-          </div>
-          {/* Horizontal light ray */}
-          <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
-          <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-white/5 to-transparent" />
-        </div>
+      {/* Full-width hero with lifestyle image */}
+      <div className="relative min-h-[480px] sm:min-h-[540px] lg:min-h-[600px] flex items-center overflow-hidden">
+        {/* Background image */}
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/images/hero.jpg"
+          alt=""
+          className="absolute inset-0 w-full h-full object-cover"
+          loading="eager"
+        />
+        {/* Dark overlay for text readability */}
+        <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-black/10" />
+        {/* Subtle noise texture */}
+        <div className="absolute inset-0 opacity-[0.03] mix-blend-overlay" style={{
+          backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.7' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.05'/%3E%3C/svg%3E")`
+        }} />
 
         <div className="relative z-10 max-w-7xl mx-auto px-5 sm:px-8 w-full py-20 lg:py-24">
           <div className="max-w-2xl">
@@ -41,7 +37,7 @@ export default function Hero() {
               className="text-white/50 text-xs font-medium tracking-[0.2em] uppercase mb-6 animate-fade-up"
               style={{ animationDelay: "0.1s" }}
             >
-              Norges interiørguide &mdash; siden 2026
+              Norges interiørguide
             </p>
 
             <h1

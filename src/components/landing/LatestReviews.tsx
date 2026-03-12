@@ -32,9 +32,9 @@ export default function LatestReviews() {
   if (reviewed.length === 0) return null;
 
   return (
-    <section className="py-16 px-4 sm:px-6 bg-secondary/30">
+    <section className="py-10 sm:py-14 px-4 sm:px-6 bg-background">
       <div className="max-w-7xl mx-auto">
-        <div className="flex items-center justify-between mb-8">
+        <div className="flex items-center justify-between mb-6">
           <div>
             <h2 className="font-display text-2xl sm:text-3xl font-bold text-foreground">
               Siste anmeldelser
@@ -43,10 +43,10 @@ export default function LatestReviews() {
               Grundige tester av møbler og interiør
             </p>
           </div>
-          <Button asChild variant="ghost" className="hidden sm:flex gap-1">
+          <Button asChild variant="ghost" size="sm" className="hidden sm:flex gap-1">
             <Link href="/produkter">
               Alle anmeldelser
-              <ArrowRight className="w-4 h-4" />
+              <ArrowRight className="w-3.5 h-3.5" />
             </Link>
           </Button>
         </div>
@@ -55,62 +55,57 @@ export default function LatestReviews() {
           {reviewed.map((product) => (
             <Link key={product.id} href={`/produkter/${product.id}`}>
               <Card className="overflow-hidden group hover:shadow-lg transition-all duration-200 h-full border-border/50">
-                <ProductImage
-                  category={product.category}
-                  brand={product.brand}
-                  imageUrl={product.image_url}
-                  className="aspect-[4/3]"
-                  iconSize="lg"
-                />
-                <div className="p-4">
-                  <div className="flex items-center gap-2 mb-2">
-                    <Badge variant="secondary" className="text-xs">{product.brand}</Badge>
-                    <div className="flex items-center gap-0.5 ml-auto">
-                      {[1,2,3,4,5].map(i => (
-                        <Star
-                          key={i}
-                          className={`h-3 w-3 ${i <= Math.round(product.rating) ? "fill-amber-400 text-amber-400" : "text-border"}`}
-                        />
-                      ))}
-                    </div>
+                <div className="relative">
+                  <ProductImage
+                    category={product.category}
+                    brand={product.brand}
+                    imageUrl={product.image_url}
+                    className="aspect-[4/3]"
+                    iconSize="lg"
+                  />
+                  {/* Rating badge overlay */}
+                  <div className="absolute bottom-2 right-2 bg-black/70 backdrop-blur-sm text-white px-2 py-1 rounded-lg flex items-center gap-1">
+                    <Star className="w-3 h-3 fill-amber-400 text-amber-400" />
+                    <span className="text-sm font-bold">{product.rating.toFixed(1)}</span>
                   </div>
-                  <h3 className="font-medium text-sm mb-1">{product.name}</h3>
-                  <p className="font-mono text-sm font-bold text-accent mb-3">
+                </div>
+                <div className="p-4">
+                  <p className="text-xs text-muted-foreground mb-0.5">{product.brand}</p>
+                  <h3 className="font-semibold text-sm mb-1">{product.name}</h3>
+                  <p className="font-mono text-sm font-bold text-foreground mb-3">
                     {formatNOK(product.price)}
                   </p>
 
+                  {/* Review summary */}
+                  {product.review_summary && (
+                    <p className="text-xs text-muted-foreground line-clamp-2 mb-3 leading-relaxed">
+                      {product.review_summary}
+                    </p>
+                  )}
+
                   {/* Pros/Cons preview */}
-                  {product.pros && product.pros.length > 0 && (
-                    <div className="space-y-1 text-xs">
+                  <div className="space-y-1.5 text-xs border-t border-border/50 pt-3">
+                    {product.pros && product.pros[0] && (
                       <div className="flex items-start gap-1.5 text-green-600 dark:text-green-400">
                         <ThumbsUp className="w-3 h-3 mt-0.5 shrink-0" />
                         <span className="line-clamp-1">{product.pros[0]}</span>
                       </div>
-                      {product.cons && product.cons.length > 0 && (
-                        <div className="flex items-start gap-1.5 text-red-500 dark:text-red-400">
-                          <ThumbsDown className="w-3 h-3 mt-0.5 shrink-0" />
-                          <span className="line-clamp-1">{product.cons[0]}</span>
-                        </div>
-                      )}
-                    </div>
-                  )}
+                    )}
+                    {product.cons && product.cons[0] && (
+                      <div className="flex items-start gap-1.5 text-red-500 dark:text-red-400">
+                        <ThumbsDown className="w-3 h-3 mt-0.5 shrink-0" />
+                        <span className="line-clamp-1">{product.cons[0]}</span>
+                      </div>
+                    )}
+                  </div>
 
-                  <p className="text-xs text-primary font-medium mt-3 group-hover:underline">
+                  <p className="text-xs text-primary font-semibold mt-3 group-hover:underline">
                     Les full anmeldelse &rarr;
                   </p>
                 </div>
               </Card>
             </Link>
           ))}
-        </div>
-
-        <div className="text-center mt-6 sm:hidden">
-          <Button asChild variant="outline" className="gap-1">
-            <Link href="/produkter">
-              Se alle anmeldelser
-              <ArrowRight className="w-4 h-4" />
-            </Link>
-          </Button>
         </div>
       </div>
     </section>

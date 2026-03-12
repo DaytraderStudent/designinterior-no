@@ -117,6 +117,9 @@ export default function PopularProducts() {
                   <p className="font-mono text-lg font-bold text-foreground tracking-tight">
                     {formatNOK(product.price)}
                   </p>
+                  <span className="inline-flex items-center gap-1 text-xs font-semibold text-accent opacity-0 group-hover:opacity-100 transition-opacity duration-200 mt-2">
+                    Se pris <ArrowRight className="w-3 h-3" />
+                  </span>
                 </div>
               </div>
             </Link>

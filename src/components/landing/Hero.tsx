@@ -1,5 +1,4 @@
-"use client";
-
+import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Truck, ShieldCheck, Tag, BarChart3 } from "lucide-react";
@@ -17,12 +16,13 @@ export default function Hero() {
       {/* Full-width hero with lifestyle image */}
       <div className="relative min-h-[480px] sm:min-h-[540px] lg:min-h-[600px] flex items-center overflow-hidden">
         {/* Background image */}
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
+        <Image
           src="/images/hero.jpg"
           alt=""
-          className="absolute inset-0 w-full h-full object-cover"
-          loading="eager"
+          fill
+          priority
+          className="object-cover"
+          sizes="100vw"
         />
         {/* Dark overlay for text readability */}
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-black/10" />

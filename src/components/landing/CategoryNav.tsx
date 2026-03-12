@@ -1,5 +1,4 @@
-"use client";
-
+import Image from "next/image";
 import Link from "next/link";
 import { products } from "@/data/products";
 
@@ -50,12 +49,12 @@ export default function CategoryNav() {
               <Link key={cat.value} href={`/produkter?category=${cat.value}`}>
                 <div className="category-tile relative rounded-2xl overflow-hidden aspect-[4/3] group cursor-pointer">
                   {/* Category image */}
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
+                  <Image
                     src={cat.image}
                     alt={cat.label}
-                    className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
-                    loading="lazy"
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+                    sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, 20vw"
                   />
                   {/* Gradient overlay */}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />

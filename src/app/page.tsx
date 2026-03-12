@@ -13,9 +13,9 @@ export default function Home() {
     <main className="min-h-screen">
       <Hero />
       <CategoryNav />
+      <FeaturesGrid />
       <CampaignBanner />
       <PopularProducts />
-      <FeaturesGrid />
       <LatestReviews />
       <HowItWorks />
       <BrandLogos />

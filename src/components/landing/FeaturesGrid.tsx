@@ -3,11 +3,11 @@
 import Link from "next/link";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
+import { ArrowRight, ChevronLeft, ChevronRight, Copy, Check } from "lucide-react";
 import { products } from "@/data/products";
 import { formatNOK } from "@/lib/utils";
 import ProductImage from "@/components/ProductImage";
-import { useRef } from "react";
+import { useRef, useState, useCallback } from "react";
 
 function getDeals() {
   return products
@@ -20,6 +20,15 @@ const deals = getDeals();
 
 export default function FeaturesGrid() {
   const scrollRef = useRef<HTMLDivElement>(null);
+  const [copiedId, setCopiedId] = useState<string | null>(null);
+
+  const copyCode = useCallback((e: React.MouseEvent, productId: string, code: string) => {
+    e.preventDefault();
+    e.stopPropagation();
+    navigator.clipboard.writeText(code);
+    setCopiedId(productId);
+    setTimeout(() => setCopiedId(null), 2000);
+  }, []);
 
   const scroll = (dir: "left" | "right") => {
     if (!scrollRef.current) return;
@@ -94,6 +103,23 @@ export default function FeaturesGrid() {
                         <span className="text-[10px] text-muted-foreground mr-1">KODE</span>
                         <span className="text-xs font-mono font-bold text-accent">{product.discount_code}</span>
                       </span>
+                      <button
+                        onClick={(e) => copyCode(e, product.id, product.discount_code!)}
+                        className="inline-flex items-center gap-1 text-[11px] font-medium px-2 py-1 rounded-md bg-accent/10 text-accent hover:bg-accent/20 transition-colors"
+                        aria-label={`Kopier kode ${product.discount_code}`}
+                      >
+                        {copiedId === product.id ? (
+                          <>
+                            <Check className="w-3 h-3" />
+                            Kopiert!
+                          </>
+                        ) : (
+                          <>
+                            <Copy className="w-3 h-3" />
+                            Kopier
+                          </>
+                        )}
+                      </button>
                     </div>
                   )}
 

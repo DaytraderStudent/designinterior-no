@@ -1,5 +1,4 @@
-"use client";
-
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
@@ -11,12 +10,12 @@ export default function CampaignBanner() {
           {/* Large campaign — sofa */}
           <Link href="/produkter?category=sofa" className="md:col-span-3 group">
             <div className="relative rounded-2xl overflow-hidden min-h-[260px] sm:min-h-[320px] flex items-end">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
+              <Image
                 src="/images/campaign-sofa.jpg"
                 alt="Sofaer"
-                className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
-                loading="lazy"
+                fill
+                className="object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+                sizes="(max-width: 768px) 100vw, 60vw"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent" />
               <div className="relative z-10 p-7 sm:p-9 max-w-sm">
@@ -42,12 +41,12 @@ export default function CampaignBanner() {
             {/* Lamper */}
             <Link href="/produkter?category=lampe" className="group flex-1">
               <div className="relative rounded-2xl overflow-hidden h-full min-h-[150px] flex items-end">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
+                <Image
                   src="/images/campaign-lampe.jpg"
                   alt="Lamper"
-                  className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
-                  loading="lazy"
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+                  sizes="(max-width: 768px) 100vw, 40vw"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
                 <div className="relative z-10 p-6">
@@ -67,12 +66,12 @@ export default function CampaignBanner() {
             {/* Tepper */}
             <Link href="/produkter?category=teppe" className="group flex-1">
               <div className="relative rounded-2xl overflow-hidden h-full min-h-[150px] flex items-end">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
+                <Image
                   src="/images/campaign-teppe.jpg"
                   alt="Tepper"
-                  className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
-                  loading="lazy"
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+                  sizes="(max-width: 768px) 100vw, 40vw"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
                 <div className="relative z-10 p-6">

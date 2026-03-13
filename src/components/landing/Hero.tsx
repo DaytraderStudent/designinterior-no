@@ -1,14 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Truck, ShieldCheck, Tag, BarChart3 } from "lucide-react";
-
-const services = [
-  { icon: BarChart3, label: "Sammenlign priser", sub: "30+ butikker" },
-  { icon: ShieldCheck, label: "Uavhengige tester", sub: "Ærlige anmeldelser" },
-  { icon: Tag, label: "Rabattkoder", sub: "Spar opptil 20%" },
-  { icon: Truck, label: "Direkte til butikk", sub: "Kjøp hos forhandler" },
-];
+import { ArrowRight } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -75,10 +68,10 @@ export default function Hero() {
                 asChild
                 size="lg"
                 variant="outline"
-                className="h-13 px-8 text-base rounded-xl border-white/20 text-white hover:bg-white/10 font-medium"
+                className="h-13 px-8 text-base rounded-xl border-white/30 bg-white/10 backdrop-blur-sm text-white hover:bg-white/20 font-medium"
               >
-                <Link href="/produkter?sort=rating-desc">
-                  Beste anmeldelser
+                <Link href="/design">
+                  Design ditt hjem
                 </Link>
               </Button>
             </div>
@@ -86,34 +79,6 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Service strip */}
-      <div className="bg-card border-b border-border/60">
-        <div className="max-w-7xl mx-auto px-5 sm:px-8">
-          <div className="grid grid-cols-2 lg:grid-cols-4">
-            {services.map((svc, i) => {
-              const Icon = svc.icon;
-              return (
-                <div
-                  key={svc.label}
-                  className={`flex items-center gap-3.5 py-5 px-4 ${
-                    i < 3 ? "lg:border-r border-border/40" : ""
-                  } ${i < 2 ? "border-r border-border/40 lg:border-r" : ""} ${
-                    i >= 2 ? "border-t lg:border-t-0 border-border/40" : ""
-                  }`}
-                >
-                  <div className="shrink-0 w-10 h-10 rounded-xl bg-secondary flex items-center justify-center">
-                    <Icon className="w-[18px] h-[18px] text-accent" strokeWidth={1.8} />
-                  </div>
-                  <div className="min-w-0">
-                    <p className="text-sm font-semibold text-foreground truncate">{svc.label}</p>
-                    <p className="text-xs text-muted-foreground truncate hidden sm:block">{svc.sub}</p>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      </div>
     </section>
   );
 }

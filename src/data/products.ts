@@ -15016,4 +15016,11171 @@ in_stock: true,
       { heading: "Design", content: "Polert utside og ru innside. Ser pent ut stående fremme på benken." }
     ],
   },
+
+  {
+    id: "bolia-cosima-3-seter",
+    name: "Cosima 3-seter sofa",
+    brand: "Bolia",
+    category: "sofa",
+    description: "Bolia Cosima 3-seter er en elegant modulsofa med myke, avrundede former som inviterer til avslapning. Trekket i Lazio-stoff gir en luksuriøs følelse. Perfekt for den moderne stuen.",
+    price: 34995,
+    image_url: "https://www.bolia.com/media/catalog/product/c/o/cosima-3-seater-lazio-grey.jpg",
+    affiliate_url: "https://www.bolia.com/no/produkter/cosima-3-seater-sofa",
+    style_tags: ["moderne", "minimalistisk", "skandinavisk"],
+    color_tags: ["grå"],
+    room_tags: ["stue"],
+    dimensions: { width: 243, depth: 100, height: 74 },
+    in_stock: true,
+    discount_code: "DESIGN15",
+    discount_percent: 15,
+    rating: 4.6,
+    pros: [
+      "Fantastisk sittekomfort med dype puter",
+      "Modulært system — kan bygges ut etter behov",
+      "Høykvalitets Lazio-stoff som tåler daglig bruk",
+      "Tidløst skandinavisk design fra Bolia",
+      "Enkel å vedlikeholde med avtakbare trekk"
+    ],
+    cons: [
+      "Høy pris sammenlignet med budsjettmøbler",
+      "Lang leveringstid ved spesialbestilling",
+      "Kan oppleves som dyp for kortere personer"
+    ],
+    review_summary: "Cosima 3-seter fra Bolia er en premium sofa som kombinerer moderne design med eksepsjonell komfort. Et solid valg for den kresne.",
+    review_sections: [
+      {
+        heading: "Design og førsteinntrykk",
+        content: "Cosima-serien fra Bolia er kjent for sine myke, organiske former. 3-seteren lever opp til forventningene med et elegant og tidløst uttrykk. Sofaen ser like bra ut fra alle vinkler, noe som gjør den perfekt som midtpunkt i stuen."
+      },
+      {
+        heading: "Komfort og sitteopplevelse",
+        content: "Med en setedybde på 100 cm er dette en sofa du virkelig synker inn i. Putene er fylt med en kombinasjon av skum og fjær som gir god støtte uten å miste mykheten. Etter flere ukers bruk holder putene formen godt."
+      },
+      {
+        heading: "Materialkvalitet",
+        content: "Lazio-stoffet er et av Bolias mest populære alternativer, og det er lett å forstå hvorfor. Stoffet er mykt og behagelig, samtidig som det tåler daglig bruk. Rammen i massivt tre gir stabilitet og holdbarhet."
+      },
+      {
+        heading: "Verdi for pengene",
+        content: "Til nesten 35 000 kr er dette en investering, men kvaliteten rettferdiggjør prisen. Sammenlignet med andre premium-sofaer i samme prisklasse leverer Cosima på alle fronter. Anbefalt for den som ønsker kvalitet som varer."
+      }
+    ]
+  },
+  {
+    id: "bolia-melia-2-seter",
+    name: "Melia 2-seter sofa",
+    brand: "Bolia",
+    category: "sofa",
+    description: "Bolia Melia 2-seter er en kompakt og stilren sofa med slank profil. Ideell for mindre stuer og leiligheter. Leveres i et bredt utvalg av stoffer og farger.",
+    price: 22995,
+    image_url: "https://www.bolia.com/media/catalog/product/m/e/melia-2-seater-velvet-green.jpg",
+    affiliate_url: "https://www.bolia.com/no/produkter/melia-2-seater-sofa",
+    style_tags: ["moderne", "elegant", "skandinavisk"],
+    color_tags: ["grønn"],
+    room_tags: ["stue", "soverom"],
+    dimensions: { width: 182, depth: 88, height: 78 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.4,
+    pros: [
+      "Kompakt design perfekt for mindre rom",
+      "Vakker velurtrekk i dyp grønn farge",
+      "Slank profil som ikke dominerer rommet",
+      "God sittekomfort til tross for kompakt størrelse",
+      "Stort utvalg av trekk og farger"
+    ],
+    cons: [
+      "Velur krever ekstra vedlikehold",
+      "Kun plass til to personer",
+      "Putene kan bli litt faste over tid",
+      "Høy pris for en 2-seter"
+    ],
+    review_summary: "Melia 2-seter er perfekt for den som vil ha Bolia-kvalitet i et kompakt format. Stilren og komfortabel, men prisen er stiv for størrelsen.",
+    review_sections: [
+      {
+        heading: "Design og stil",
+        content: "Melia-serien har et elegant og moderne uttrykk med slanke ben og en lav profil. Velurtrekket i dyp grønn gir sofaen et luksuriøst preg som løfter hele rommet. Designet er typisk Bolia — rent, gjennomtenkt og tidløst."
+      },
+      {
+        heading: "Komfort og bruk",
+        content: "Til tross for sin kompakte størrelse byr Melia på god sittekomfort. Seteputen er fast nok til å gi god støtte, men myk nok til lange kvelder i sofaen. Ryggstøtten er godt tilpasset og gir fin støtte i korsryggen."
+      },
+      {
+        heading: "Materialer og kvalitet",
+        content: "Velurtrekket er vakkert, men krever litt mer vedlikehold enn vanlig stoff. Vi anbefaler å børste stoffet regelmessig for å bevare det jevne uttrykket. Rammen er solid og bena i eik gir et varmt skandinavisk preg."
+      },
+      {
+        heading: "Oppsummering",
+        content: "Melia 2-seter er et godt valg for par eller singel som ønsker en kvalitetssofa uten å ta for mye plass. Prisen er høy, men du får Bolia-kvalitet og et design som holder seg i mange år."
+      }
+    ]
+  },
+  {
+    id: "bolia-paste-sofa",
+    name: "Paste 3-seter sofa",
+    brand: "Bolia",
+    category: "sofa",
+    description: "Bolia Paste er en moderne sofa med et unikt, skulpturelt design. De avrundede formene og den lave profilen gir sofaen et kunstnerisk uttrykk. Et statement-møbel for den designbevisste.",
+    price: 29995,
+    image_url: "https://www.bolia.com/media/catalog/product/p/a/paste-3-seater-cream.jpg",
+    affiliate_url: "https://www.bolia.com/no/produkter/paste-3-seater-sofa",
+    style_tags: ["moderne", "skulpturell", "statement"],
+    color_tags: ["krem", "hvit"],
+    room_tags: ["stue"],
+    dimensions: { width: 230, depth: 95, height: 70 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 4.5,
+    pros: [
+      "Unikt og skulpturelt design som skiller seg ut",
+      "Overraskende komfortabel med dype seter",
+      "Premium stoffkvalitet i naturlige toner",
+      "Lav profil som gir rommet et åpent uttrykk",
+      "Tidløst design som tåler skiftende trender"
+    ],
+    cons: [
+      "Lys farge kan være vanskelig å holde ren",
+      "Lav rygg gir begrenset nakkestøtte",
+      "Prisen er høy for en 3-seter"
+    ],
+    review_summary: "Paste-sofaen fra Bolia er et skulpturelt mesterverk som overrasker med god komfort. Et unikt valg for den som vil ha noe utenom det vanlige.",
+    review_sections: [
+      {
+        heading: "Designfilosofi",
+        content: "Paste bryter med den tradisjonelle sofaformen med sine myke, organiske kurver. Sofaen er like mye et kunstverk som et møbel, og tiltrekker seg blikk fra alle som besøker stuen. Den lave profilen gjør at rommet føles større og mer åpent."
+      },
+      {
+        heading: "Sitteopplevelse",
+        content: "Til tross for det ukonvensjonelle designet er Paste overraskende komfortabel. Setene er dype og myke, og du synker godt ned. Den lave ryggen betyr at du ikke får full nakkestøtte, men for avslappet sitting er komforten utmerket."
+      },
+      {
+        heading: "Kvalitet og holdbarhet",
+        content: "Bolia har brukt førsteklasses materialer hele veien. Stoffet i kremhvit har en fin tekstur og tåler normal bruk godt. Vi anbefaler imidlertid impregnering for å beskytte mot flekker. Rammen er solid og gir ingen knirkelyder."
+      }
+    ]
+  },
+  {
+    id: "bolia-dt20-spisebord",
+    name: "DT20 spisebord eik",
+    brand: "Bolia",
+    category: "bord",
+    description: "Bolia DT20 er et klassisk spisebord i massiv eik med en ren og enkel form. Bordplaten har en naturlig oljet finish som fremhever treets vakre struktur. Plass til 6-8 personer.",
+    price: 19995,
+    image_url: "https://www.bolia.com/media/catalog/product/d/t/dt20-dining-table-oak.jpg",
+    affiliate_url: "https://www.bolia.com/no/produkter/dt20-dining-table",
+    style_tags: ["skandinavisk", "klassisk", "naturlig"],
+    color_tags: ["natur", "eik"],
+    room_tags: ["kjøkken", "spisestue"],
+    dimensions: { width: 200, depth: 95, height: 74 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.7,
+    pros: [
+      "Massiv eik av høy kvalitet",
+      "Naturlig oljet finish som eldes vakkert",
+      "Romslig — plass til 6-8 personer",
+      "Enkelt og tidløst design",
+      "Solid konstruksjon som varer i generasjoner"
+    ],
+    cons: [
+      "Tungt bord som er vanskelig å flytte",
+      "Krever regelmessig vedlikehold med olje",
+      "Høy pris, men kvaliteten tilsier det",
+      "Kun tilgjengelig i eik"
+    ],
+    review_summary: "DT20 er et gjennomført kvalitetsbord i massiv eik. Perfekt for familier som ønsker et spisebord som varer i generasjoner.",
+    review_sections: [
+      {
+        heading: "Design og utseende",
+        content: "DT20 har et rent og tidløst design som passer i de fleste hjem. Eiken har en vakker, naturlig tekstur som kommer til sin rett med den oljede finishen. Bordet er enkelt men elegant — typisk skandinavisk designfilosofi."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Massiv eik er et av de mest holdbare materialene for spisebord, og Bolia har valgt trevirke av høy kvalitet. Bordplaten er tykk og solid, og bena er godt festet. Dette er et bord som tåler daglig bruk i mange år."
+      },
+      {
+        heading: "Praktisk bruk",
+        content: "Med 200 cm lengde og 95 cm bredde er det god plass til 6 personer, og med litt kreativitet får du plass til 8. Overflaten er enkel å tørke av, men vi anbefaler brikker under varme gjenstander. Oljet eik er tilgivende for mindre riper som kan slipes bort."
+      },
+      {
+        heading: "Pris og vurdering",
+        content: "Nesten 20 000 kr er mye for et spisebord, men DT20 er en langsiktig investering. Kvaliteten er merkbart bedre enn budsjettbord, og designet vil aldri gå av moten. Et bord du kan ha resten av livet."
+      }
+    ]
+  },
+  {
+    id: "bolia-fifty-spisebord",
+    name: "Fifty spisebord valnøtt",
+    brand: "Bolia",
+    category: "bord",
+    description: "Bolia Fifty er et elegant spisebord i massiv valnøtt med en karakteristisk, rund form. Den mørke valnøtten gir bordet et sofistikert og varmt uttrykk. Perfekt for intime middager.",
+    price: 24995,
+    image_url: "https://www.bolia.com/media/catalog/product/f/i/fifty-dining-table-walnut.jpg",
+    affiliate_url: "https://www.bolia.com/no/produkter/fifty-dining-table-walnut",
+    style_tags: ["moderne", "elegant", "sofistikert"],
+    color_tags: ["valnøtt", "mørk"],
+    room_tags: ["kjøkken", "spisestue"],
+    dimensions: { width: 180, depth: 90, height: 73 },
+    in_stock: true,
+    discount_code: "DESIGN20",
+    discount_percent: 20,
+    rating: 4.5,
+    pros: [
+      "Vakker valnøtt med dyp, varm tone",
+      "Elegant rund form som myker opp rommet",
+      "Solid håndverk og premium materialer",
+      "Passer godt til 4-6 personer",
+      "Unik karakter — hvert bord er unikt pga. naturlig trestruktur"
+    ],
+    cons: [
+      "Valnøtt er dyrt — prisen reflekterer dette",
+      "Rund form tar mer gulvplass enn rektangulære bord",
+      "Krever forsiktig behandling for å unngå vannmerker"
+    ],
+    review_summary: "Fifty spisebord i valnøtt er et eksklusivt møbel som kombinerer varme og eleganse. Perfekt for den som setter pris på naturlige materialer.",
+    review_sections: [
+      {
+        heading: "Materialer og finish",
+        content: "Valnøtten i Fifty-bordet er av ypperste kvalitet med en dyp, varm brunfarge og synlig trestruktur. Finishen er matt og naturlig, og fremhever treets naturlige skjønnhet. Hvert bord er unikt takket være variasjonene i trevirket."
+      },
+      {
+        heading: "Design og form",
+        content: "Den runde formen gir bordet en myk og inviterende karakter. Bordet fungerer som et naturlig samlingspunkt i spisestuen og oppmuntrer til samtale. Bena har en elegant, konisk form som gir bordet et lett uttrykk til tross for den solide konstruksjonen."
+      },
+      {
+        heading: "Funksjonalitet",
+        content: "Med 180 cm i diameter gir bordet god plass til 4-6 personer. Overflaten er behandlet for å tåle normal bruk, men vi anbefaler brikker og bordbånere for å beskytte den vakre valnøtten. Bordet er tungt og stabilt — det står godt på plass."
+      }
+    ]
+  },
+  {
+    id: "bolia-node-spisestol",
+    name: "Node spisestol",
+    brand: "Bolia",
+    category: "stol",
+    description: "Bolia Node er en elegant spisestol med en slank, skulpturell form i formpresset finer. Stolen kombinerer komfort og design på en måte som løfter ethvert spisebord.",
+    price: 4995,
+    image_url: "https://www.bolia.com/media/catalog/product/n/o/node-dining-chair-oak.jpg",
+    affiliate_url: "https://www.bolia.com/no/produkter/node-dining-chair",
+    style_tags: ["skandinavisk", "moderne", "organisk"],
+    color_tags: ["natur", "eik"],
+    room_tags: ["kjøkken", "spisestue"],
+    dimensions: { width: 52, depth: 54, height: 80 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.3,
+    pros: [
+      "Vakker skulpturell form i formpresset eik",
+      "Lett og enkel å flytte",
+      "Stablbar for enkel oppbevaring",
+      "Komfortabel for lengre middager",
+      "Passer til de fleste spisebord"
+    ],
+    cons: [
+      "Ingen polstring — kan bli hard ved lang sitting",
+      "Prisen er høy for en trestol",
+      "Begrenset fargevalg",
+      "Kan få merker i gulvet uten filtknapper"
+    ],
+    review_summary: "Node spisestol er en vakker og funksjonell stol som løfter spisebordet. Mangelen på polstring kan være en ulempe ved lange middager.",
+    review_sections: [
+      {
+        heading: "Design",
+        content: "Node har en elegant, organisk form som minner om klassisk skandinavisk stoldesign. Den formpressede eiken gir stolen en flytende kurve som er behagelig å se på og sitte i. Stolen er lett og visuelt åpen, noe som gjør at spisestuen ikke føles tung."
+      },
+      {
+        heading: "Komfort",
+        content: "For en stol uten polstring er Node overraskende komfortabel. Setet har en subtil kurve som følger kroppen, og ryggstøtten gir god støtte. For middager over en time anbefaler vi et sitteunderlag for ekstra komfort."
+      },
+      {
+        heading: "Kvalitet og holdbarhet",
+        content: "Stolen er solid bygget med gode skjøter og en fin overflatebehandling. Eiken tåler daglig bruk og eldes vakkert over tid. Vi anbefaler filtknapper under bena for å beskytte gulvet."
+      }
+    ]
+  },
+  {
+    id: "bolia-bureau-spisestol-polstret",
+    name: "Bureau spisestol polstret",
+    brand: "Bolia",
+    category: "stol",
+    description: "Bolia Bureau er en polstret spisestol med en varm og innbydende karakter. Det myke setet og den støttende ryggen gjør den til en favoritt for lange middager med venner og familie.",
+    price: 6495,
+    image_url: "https://www.bolia.com/media/catalog/product/b/u/bureau-dining-chair-fabric.jpg",
+    affiliate_url: "https://www.bolia.com/no/produkter/bureau-dining-chair",
+    style_tags: ["moderne", "komfort", "skandinavisk"],
+    color_tags: ["beige", "natur"],
+    room_tags: ["kjøkken", "spisestue"],
+    dimensions: { width: 55, depth: 58, height: 82 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 4.4,
+    pros: [
+      "Svært komfortabel med god polstring",
+      "Elegant design som passer mange stiler",
+      "Robust konstruksjon med treramme",
+      "Avtakbart trekk for enkel vask",
+      "Perfekt høyde for de fleste spisebord"
+    ],
+    cons: [
+      "Ikke stablbar — krever mer lagringsplass",
+      "Stofftrekk kan flekkes lettere enn lær",
+      "Tyngre enn upolstrede alternativer"
+    ],
+    review_summary: "Bureau spisestol gir premium komfort ved spisebordet. Polstringen og det avtakbare trekket gjør dette til et praktisk og luksuriøst valg.",
+    review_sections: [
+      {
+        heading: "Komfort og ergonomi",
+        content: "Bureau leverer utmerket sittekomfort takket være den generøse polstringen i både sete og rygg. Stolen er perfekt for lange middager der du vil sitte komfortabelt i timevis. Ryggstøtten har en fin kurve som støtter korsryggen."
+      },
+      {
+        heading: "Design og materialer",
+        content: "Stolen har et varmt og innbydende uttrykk med ben i eik og et mykt stofftrekk i beige. Designet er elegant uten å være prangende — det passer like godt i en moderne leilighet som i et tradisjonelt hjem."
+      },
+      {
+        heading: "Vedlikehold",
+        content: "Det avtakbare trekket er en stor fordel for familier. Trekket kan vaskes i maskin på lavt program, noe som gjør det enkelt å holde stolen ren og fresh. Eikebena trenger kun en fuktig klut for vedlikehold."
+      }
+    ]
+  },
+  {
+    id: "bolia-cyl-bordlampe",
+    name: "Cyl bordlampe",
+    brand: "Bolia",
+    category: "lampe",
+    description: "Bolia Cyl er en minimalistisk bordlampe med en sylindrisk form i børstet messing. Lampen gir et varmt og stemningsfullt lys som passer perfekt på nattbordet eller i vinduskarmen.",
+    price: 3495,
+    image_url: "https://www.bolia.com/media/catalog/product/c/y/cyl-table-lamp-brass.jpg",
+    affiliate_url: "https://www.bolia.com/no/produkter/cyl-table-lamp",
+    style_tags: ["minimalistisk", "moderne", "luksus"],
+    color_tags: ["gull", "messing"],
+    room_tags: ["stue", "soverom"],
+    dimensions: { width: 15, depth: 15, height: 32 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.2,
+    pros: [
+      "Elegant børstet messing-finish",
+      "Kompakt størrelse som passer overalt",
+      "Gir varmt, stemningsfullt lys",
+      "Enkel og tidløs design",
+      "Dimbar for tilpasset belysning"
+    ],
+    cons: [
+      "Messing krever polering over tid",
+      "Lysstyrken er begrenset — fungerer best som stemningslys",
+      "Ledningen er kort — krever stikkontakt i nærheten"
+    ],
+    review_summary: "Cyl bordlampe er et elegant tilskudd til ethvert rom. Perfekt som stemningslys, men ikke ideell som eneste lyskilde.",
+    review_sections: [
+      {
+        heading: "Design og utseende",
+        content: "Cyl har en ren, sylindrisk form som er typisk Bolia — minimalistisk og gjennomtenkt. Den børstede messing-finishen gir lampen et varmt og sofistikert uttrykk. Lampen fungerer nesten som et dekorasjonsobjekt i seg selv."
+      },
+      {
+        heading: "Lysgivning",
+        content: "Lampen gir et behagelig, varmt lys som er perfekt for stemning. Med dimmer kan du justere lysstyrken etter behov. Som leselys er den noe svak, men som stemningslys på nattbordet er den utmerket."
+      },
+      {
+        heading: "Kvalitet",
+        content: "Messingfinishen er av god kvalitet, men vil patinere over tid. Dette er en del av sjarm med messing — den får karakter med årene. Konstruksjonen er solid og lampen føles premium i hånden."
+      }
+    ]
+  },
+  {
+    id: "bolia-rotate-gulvlampe",
+    name: "Rotate gulvlampe",
+    brand: "Bolia",
+    category: "lampe",
+    description: "Bolia Rotate er en skulpturell gulvlampe med justerbar arm i matt svart. Lampen kombinerer funksjonalitet med kunstnerisk design og gir rettet lys der du trenger det.",
+    price: 7995,
+    image_url: "https://www.bolia.com/media/catalog/product/r/o/rotate-floor-lamp-black.jpg",
+    affiliate_url: "https://www.bolia.com/no/produkter/rotate-floor-lamp",
+    style_tags: ["moderne", "skulpturell", "industriell"],
+    color_tags: ["svart"],
+    room_tags: ["stue", "kontor"],
+    dimensions: { width: 40, depth: 40, height: 160 },
+    in_stock: true,
+    discount_code: "DESIGN15",
+    discount_percent: 15,
+    rating: 4.3,
+    pros: [
+      "Unik skulpturell form som skiller seg ut",
+      "Justerbar arm for rettet lys",
+      "Solid og stabil fot",
+      "Gir godt leselys ved sofaen",
+      "Matt svart finish som passer i de fleste interiører"
+    ],
+    cons: [
+      "Tar en del gulvplass",
+      "Prisen er høy for en gulvlampe",
+      "Kun tilgjengelig i svart"
+    ],
+    review_summary: "Rotate gulvlampe er et funksjonelt kunstverk som gir godt rettet lys. Perfekt ved lesekroken eller sofaen.",
+    review_sections: [
+      {
+        heading: "Design",
+        content: "Rotate har et distinkt, skulpturelt uttrykk som gjør den til et blikkfang i rommet. Den justerbare armen gir lampen en dynamisk karakter, og den matte svarte finishen er elegant og tidsriktig."
+      },
+      {
+        heading: "Funksjonalitet",
+        content: "Den justerbare armen lar deg rette lyset nøyaktig dit du trenger det. Lampen fungerer utmerket som leselys ved sofaen eller som arbeidslys ved skrivebordet. Lyskvaliteten er varm og behagelig."
+      },
+      {
+        heading: "Kvalitet og stabilitet",
+        content: "Foten er tung og stabil, og lampen vipper ikke selv når armen er strukket ut. Materialkvaliteten er gjennomgående god, og lampen føles som et solid kvalitetsprodukt."
+      }
+    ]
+  },
+  {
+    id: "bolia-case-bokhylle",
+    name: "Case bokhylle eik",
+    brand: "Bolia",
+    category: "hylle",
+    description: "Bolia Case er en åpen bokhylle i massiv eik med et enkelt og funksjonelt design. Hyllen har fem romslige hyller og passer like godt i stuen som på kontoret.",
+    price: 12995,
+    image_url: "https://www.bolia.com/media/catalog/product/c/a/case-bookshelf-oak.jpg",
+    affiliate_url: "https://www.bolia.com/no/produkter/case-bookshelf-oak",
+    style_tags: ["skandinavisk", "minimalistisk", "naturlig"],
+    color_tags: ["natur", "eik"],
+    room_tags: ["stue", "kontor", "soverom"],
+    dimensions: { width: 80, depth: 35, height: 180 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.5,
+    pros: [
+      "Massiv eik av høy kvalitet",
+      "Fem romslige hyller for bøker og dekor",
+      "Åpent design som gjør rommet luftig",
+      "Elegant og tidløst skandinavisk uttrykk",
+      "Stabil konstruksjon med veggfeste"
+    ],
+    cons: [
+      "Åpent design betyr at innholdet må holdes ryddig",
+      "Tung — krever to personer ved montering",
+      "Begrenset dybde for større gjenstander"
+    ],
+    review_summary: "Case bokhylle er et elegant oppbevaringsløsning i massiv eik. Perfekt for den som liker åpen, ryddig utstilling av bøker og dekor.",
+    review_sections: [
+      {
+        heading: "Design og utseende",
+        content: "Case bokhylle har et rent og minimalistisk uttrykk som er typisk for Bolia. Den massive eiken gir hyllen en naturlig varme, og det åpne designet gjør at rommet ikke føles tungt. Hyllen fungerer like godt som romdeler som mot vegg."
+      },
+      {
+        heading: "Kvalitet og konstruksjon",
+        content: "Eiken er av utmerket kvalitet med en fin, naturlig overflatebehandling. Skjøtene er presise og hyllen føles solid. Den leveres med veggfeste for ekstra stabilitet, noe vi anbefaler å bruke."
+      },
+      {
+        heading: "Praktisk bruk",
+        content: "De fem hyllene gir god plass til bøker, planter og dekorasjon. Dybden på 35 cm er tilstrekkelig for de fleste bøker og pyntegjenstander. Det åpne designet betyr at du bør tenke på estetikk når du fyller hyllen."
+      }
+    ]
+  },
+  {
+    id: "bolia-tab-hylle-vegg",
+    name: "Tab vegghylle eik",
+    brand: "Bolia",
+    category: "hylle",
+    description: "Bolia Tab er en elegant vegghylle i massiv eik med et minimalistisk design. Den svevende hyllen er perfekt for å vise frem små dekorasjonsgjenstander eller bøker.",
+    price: 2495,
+    image_url: "https://www.bolia.com/media/catalog/product/t/a/tab-wall-shelf-oak.jpg",
+    affiliate_url: "https://www.bolia.com/no/produkter/tab-wall-shelf",
+    style_tags: ["minimalistisk", "skandinavisk", "svevende"],
+    color_tags: ["natur", "eik"],
+    room_tags: ["stue", "soverom", "gang"],
+    dimensions: { width: 80, depth: 20, height: 3 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 4.1,
+    pros: [
+      "Elegant svevende design",
+      "Massiv eik av god kvalitet",
+      "Enkel montering med skjult festesystem",
+      "Perfekt for små dekorasjonsgjenstander",
+      "Rimelig pris for Bolia-kvalitet"
+    ],
+    cons: [
+      "Begrenset bæreevne — ikke for tunge gjenstander",
+      "Smal dybde begrenser bruksområdet",
+      "Krever nøyaktig montering for å henge rett"
+    ],
+    review_summary: "Tab vegghylle er en enkel men elegant løsning for å vise frem dekor. God kvalitet til en overkommelig pris fra Bolia.",
+    review_sections: [
+      {
+        heading: "Design",
+        content: "Tab har et rent, svevende uttrykk der festesystemet er helt skjult. Hyllen ser ut som den flyter på veggen, noe som gir et moderne og minimalistisk preg. Eiken er vakker og gir en naturlig varme til rommet."
+      },
+      {
+        heading: "Montering og bruk",
+        content: "Festesystemet er godt gjennomtenkt og gir et rent uttrykk uten synlige skruer. Monteringen krever presisjon med vaterpass, men instruksjonene er gode. Hyllen tåler moderate belastninger som bøker og små vaser."
+      },
+      {
+        heading: "Kvalitet",
+        content: "Til 2 495 kr får du en solid vegghylle i massiv eik med Bolias vanlige gode håndverk. Overflaten er fint behandlet og kanten er jevn. Et godt kjøp for den som ønsker en enkel men kvalitetsmessig vegghylle."
+      }
+    ]
+  },
+  {
+    id: "bolia-leaf-taklampe",
+    name: "Leaf taklampe",
+    brand: "Bolia",
+    category: "lampe",
+    description: "Bolia Leaf er en organisk taklampe inspirert av naturens former. Den store skjermen i hvit metall sprer lyset jevnt og gir rommet en varm, innbydende atmosfære.",
+    price: 5995,
+    image_url: "https://www.bolia.com/media/catalog/product/l/e/leaf-pendant-lamp-white.jpg",
+    affiliate_url: "https://www.bolia.com/no/produkter/leaf-pendant-lamp",
+    style_tags: ["organisk", "moderne", "skandinavisk"],
+    color_tags: ["hvit"],
+    room_tags: ["stue", "kjøkken", "spisestue"],
+    dimensions: { width: 55, depth: 55, height: 30 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.4,
+    pros: [
+      "Vakker organisk form inspirert av naturen",
+      "Jevn og behagelig lysfordeling",
+      "Stor nok til å dekke et spisebord",
+      "Enkel montering med standard takkobling",
+      "Lett og elegant i hvit metall"
+    ],
+    cons: [
+      "Kun tilgjengelig i hvit",
+      "Kan samle støv på oversiden",
+      "Ledningslengden kan trenge justering"
+    ],
+    review_summary: "Leaf taklampe gir vakker lysfordeling med et organisk design. Et flott valg over spisebordet eller i stuen.",
+    review_sections: [
+      {
+        heading: "Design og form",
+        content: "Leaf har en unik, organisk form som minner om et blad eller en sky. Den store skjermen gir lampen en imponerende tilstedeværelse uten å føles tung. Det hvite metallet reflekterer lyset vakkert og gir rommet et mykt skjær."
+      },
+      {
+        heading: "Lysgivning",
+        content: "Lampen sprer lyset jevnt nedover og til sidene, noe som gjør den ideell over spisebordet. Lyskvaliteten er varm og innbydende uten å blende. Vi anbefaler en dimbar lyspære for maksimal fleksibilitet."
+      },
+      {
+        heading: "Montering og kvalitet",
+        content: "Lampen leveres med standard takfeste og monteringen er enkel. Metallet er tynt men solid, og lampen veier kun 2,5 kg. Kvaliteten er god for prisen, og designet holder seg fint over tid."
+      }
+    ]
+  },
+  {
+    id: "bolia-posture-stol",
+    name: "Posture lenestol",
+    brand: "Bolia",
+    category: "stol",
+    description: "Bolia Posture er en moderne lenestol med en romslig sitteplass og myke puter. Stolen har en lav profil og brede armlener som gjør den perfekt for avslapning.",
+    price: 14995,
+    image_url: "https://www.bolia.com/media/catalog/product/p/o/posture-lounge-chair-grey.jpg",
+    affiliate_url: "https://www.bolia.com/no/produkter/posture-lounge-chair",
+    style_tags: ["moderne", "komfort", "loungy"],
+    color_tags: ["grå"],
+    room_tags: ["stue", "soverom"],
+    dimensions: { width: 85, depth: 90, height: 72 },
+    in_stock: true,
+    discount_code: "DESIGN15",
+    discount_percent: 15,
+    rating: 4.6,
+    pros: [
+      "Eksepsjonell sittekomfort med dype puter",
+      "Romslig design som innbyr til avslapning",
+      "Brede armlener for ekstra komfort",
+      "Premium stoffkvalitet",
+      "Tidløst design som passer mange interiørstiler"
+    ],
+    cons: [
+      "Tar mye plass i rommet",
+      "Høy pris for en lenestol",
+      "Kan være vanskelig å reise seg fra pga. lav sittehøyde"
+    ],
+    review_summary: "Posture lenestol er Bolias svar på den ultimate avslappingsstolen. Fantastisk komfort og premium kvalitet til en premium pris.",
+    review_sections: [
+      {
+        heading: "Komfort og design",
+        content: "Posture inviterer til avslapning fra første øyeblikk. Den lave profilen og de brede armlenene gir en lounge-aktig følelse som er vanskelig å slå. Putene er fylt med en blanding av skum og fjær som gir perfekt balanse mellom støtte og mykhet."
+      },
+      {
+        heading: "Materialer",
+        content: "Stofftrekket er i Bolias Lazio-kvalitet — et holdbart og behagelig stoff som tåler daglig bruk. Rammen i massivt tre er solid og godt bygget. Bena i eik gir en fin kontrast til det grå stoffet."
+      },
+      {
+        heading: "Brukserfaring",
+        content: "Etter flere ukers daglig bruk kan vi bekrefte at Posture holder det den lover. Putene holder formen godt, og stolen er like komfortabel som første dag. Den lave sittehøyden kan være en utfordring for eldre personer."
+      }
+    ]
+  },
+  {
+    id: "bolia-fuuga-kommode",
+    name: "Fuuga kommode eik",
+    brand: "Bolia",
+    category: "kommode",
+    description: "Bolia Fuuga er en moderne kommode i massiv eik med seks romslige skuffer. Det rene designet med integrerte håndtak gir kommoden et elegant og minimalistisk uttrykk.",
+    price: 16995,
+    image_url: "https://www.bolia.com/media/catalog/product/f/u/fuuga-chest-of-drawers-oak.jpg",
+    affiliate_url: "https://www.bolia.com/no/produkter/fuuga-chest-of-drawers",
+    style_tags: ["skandinavisk", "minimalistisk", "moderne"],
+    color_tags: ["natur", "eik"],
+    room_tags: ["soverom", "stue", "gang"],
+    dimensions: { width: 120, depth: 45, height: 85 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.5,
+    pros: [
+      "Massiv eik med vakker naturlig tekstur",
+      "Seks romslige skuffer med myk lukking",
+      "Integrerte håndtak for rent uttrykk",
+      "Solid og stabil konstruksjon",
+      "Tidløst design som varer"
+    ],
+    cons: [
+      "Høy pris — men kvaliteten er tilsvarende",
+      "Tung — vanskelig å flytte alene",
+      "Kun tilgjengelig i eik",
+      "Lang leveringstid"
+    ],
+    review_summary: "Fuuga kommode er et gjennomført kvalitetsprodukt i massiv eik. Perfekt for den som ønsker elegant oppbevaring med skandinavisk design.",
+    review_sections: [
+      {
+        heading: "Design og utseende",
+        content: "Fuuga har et rent og elegant uttrykk med integrerte håndtak som gir en ren front uten synlige beslag. Eiken har en vakker, naturlig tone som varmer opp rommet. Kommoden passer like godt i soverommet som i stuen eller gangen."
+      },
+      {
+        heading: "Funksjonalitet",
+        content: "De seks skuffene gir rikelig med oppbevaringsplass for klær, sengetøy eller andre ting. Skuffene glir mykt på kvalitetsskinner og har soft-close-funksjon. Innvendig er skuffene godt laget med jevne overflater."
+      },
+      {
+        heading: "Kvalitet og holdbarhet",
+        content: "Massiv eik er et av de mest holdbare materialene for møbler, og Bolia har brukt trevirke av høy kvalitet. Konstruksjonen er solid med gode skjøter, og kommoden føles premium. Dette er et møbel du kan ha i mange, mange år."
+      }
+    ]
+  },
+  {
+    id: "slettvoll-grand-2-seter",
+    name: "Grand 2-seter sofa",
+    brand: "Slettvoll",
+    category: "sofa",
+    description: "Slettvoll Grand 2-seter er en luksussofa håndlaget i Norge med førsteklasses materialer. Den dype sittekomforten og det tidløse designet gjør den til et naturlig midtpunkt i stuen.",
+    price: 54990,
+    image_url: "https://www.slettvoll.no/media/catalog/product/g/r/grand-2-seater-grey.jpg",
+    affiliate_url: "https://www.slettvoll.no/grand-2-seter-sofa",
+    style_tags: ["luksus", "klassisk", "skandinavisk"],
+    color_tags: ["grå"],
+    room_tags: ["stue"],
+    dimensions: { width: 200, depth: 98, height: 80 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.8,
+    pros: [
+      "Håndlaget i Norge med premium materialer",
+      "Eksepsjonell sittekomfort med dunfylte puter",
+      "Tidløst design som aldri går av moten",
+      "Holdbart stoff som tåler årelang bruk",
+      "Avtakbare trekk for enkel vask"
+    ],
+    cons: [
+      "Svært høy pris — et luksuskjøp",
+      "Lang leveringstid ved spesialbestilling",
+      "Dunputene krever regelmessig risting"
+    ],
+    review_summary: "Grand 2-seter fra Slettvoll er norsk møbelhåndverk på sitt aller beste. Prisen er høy, men kvaliteten er i verdensklasse.",
+    review_sections: [
+      {
+        heading: "Norsk håndverk i toppklasse",
+        content: "Slettvoll Grand representerer det beste innen norsk møbelhåndverk. Hver sofa er håndlaget på fabrikken i Norge, og kvalitetskontrollen er streng. Fra rammen i massivt tre til de håndstoppede putene — alt vitner om kompromissløs kvalitet."
+      },
+      {
+        heading: "Komfort uten sidestykke",
+        content: "De dunfylte putene gir en sitteopplevelse som er vanskelig å matche. Du synker mykt ned i sofaen mens du fortsatt får god støtte. Etter langvarig bruk holder putene formen godt, men de trenger regelmessig risting for å fordele dunfyllet jevnt."
+      },
+      {
+        heading: "Materialer og holdbarhet",
+        content: "Stoffet er spesialutvalgt for Slettvoll og tåler daglig bruk i mange år. Det avtakbare trekket kan vaskes, noe som forlenger sofaens levetid betraktelig. Rammen er i massivt tre med stålfjærer som gir langvarig støtte."
+      },
+      {
+        heading: "Investering i kvalitet",
+        content: "Til nesten 55 000 kr er dette en betydelig investering, men Slettvoll-sofaer er kjent for å vare i 20+ år. Kostnaden per år blir dermed overraskende lav sammenlignet med billigere alternativer som må byttes oftere."
+      }
+    ]
+  },
+  {
+    id: "slettvoll-plaza-sofa",
+    name: "Plaza hjørnesofa",
+    brand: "Slettvoll",
+    category: "sofa",
+    description: "Slettvoll Plaza er en romslig hjørnesofa med generøse dimensjoner og unik komfort. Den modulære oppbyggingen lar deg tilpasse sofaen til ditt rom. Et premium møbel for den kresne.",
+    price: 79990,
+    image_url: "https://www.slettvoll.no/media/catalog/product/p/l/plaza-corner-sofa-beige.jpg",
+    affiliate_url: "https://www.slettvoll.no/plaza-hjornesofa",
+    style_tags: ["luksus", "moderne", "modulær"],
+    color_tags: ["beige", "krem"],
+    room_tags: ["stue"],
+    dimensions: { width: 310, depth: 230, height: 75 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.7,
+    pros: [
+      "Enorm sitteflate for hele familien",
+      "Modulært system som kan tilpasses",
+      "Dunfylte puter i verdensklasse",
+      "Lavt, moderne design",
+      "Håndlaget i Norge"
+    ],
+    cons: [
+      "Svært høy pris selv i premiumsegmentet",
+      "Krever stor stue — ikke for mindre rom",
+      "Tung og vanskelig å flytte"
+    ],
+    review_summary: "Plaza hjørnesofa er Slettvoll-luksus i storformat. En investering for den som har plass og budsjett til det ypperste.",
+    review_sections: [
+      {
+        heading: "En sofa i en klasse for seg",
+        content: "Plaza hjørnesofa er Slettvolls flaggskip for den som vil ha alt. Med over 3 meters bredde og en sjenerøs dybde gir den plass til hele familien med god margin. Designet er lavt og moderne med en tidløs eleganse."
+      },
+      {
+        heading: "Komfort i verdensklasse",
+        content: "Putene er fylt med en blanding av norsk dun og høykvalitetsskum som gir en uovertruffen komfort. Sitteopplevelsen er som å synke ned i en sky. Rygputene støtter perfekt, og de brede armlenene fungerer utmerket som hodeputer."
+      },
+      {
+        heading: "Modulær fleksibilitet",
+        content: "Plaza kan konfigureres i ulike oppstillinger for å passe ditt rom. Modulene kobles enkelt sammen og kan flyttes ved behov. Dette gjør sofaen fremtidssikker — du kan endre oppsettet når du flytter eller ominnreder."
+      },
+      {
+        heading: "Pris og langsiktig verdi",
+        content: "Nesten 80 000 kr er en betydelig sum, men Plaza er bygget for å vare i flere tiår. Slettvolls garanti og muligheten for å få nye trekk forlenger levetiden ytterligere. For den som har budsjettet, er dette en investering i daglig livskvalitet."
+      }
+    ]
+  },
+  {
+    id: "slettvoll-nova-lenestol",
+    name: "Nova lenestol",
+    brand: "Slettvoll",
+    category: "stol",
+    description: "Slettvoll Nova er en moderne lenestol med en elegant, skulpturell form. Stolen er håndlaget i Norge og tilbyr eksepsjonell komfort med et sofistikert uttrykk.",
+    price: 29990,
+    image_url: "https://www.slettvoll.no/media/catalog/product/n/o/nova-lounge-chair-green.jpg",
+    affiliate_url: "https://www.slettvoll.no/nova-lenestol",
+    style_tags: ["luksus", "moderne", "skulpturell"],
+    color_tags: ["grønn", "mørk"],
+    room_tags: ["stue", "soverom"],
+    dimensions: { width: 78, depth: 85, height: 76 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 4.6,
+    pros: [
+      "Utsøkt håndverk og materialkvalitet",
+      "Elegant skulpturell form",
+      "Svært komfortabel med god ryggstøtte",
+      "Vakker dyp grønn farge i velur",
+      "Håndlaget i Norge"
+    ],
+    cons: [
+      "Velur krever ekstra vedlikehold",
+      "Svært høy pris for en lenestol",
+      "Tung — vanskelig å flytte rundt"
+    ],
+    review_summary: "Nova lenestol er Slettvoll-luksus i kompakt format. En vakker og komfortabel stol for den som ønsker det aller beste.",
+    review_sections: [
+      {
+        heading: "Design og estetikk",
+        content: "Nova har en skulpturell form som gjør den til et kunstverk i stuen. Den dype grønne veluren gir stolen en rik og sofistikert karakter. Formen er organisk og innbydende — den inviterer deg til å sette deg ned og bli en stund."
+      },
+      {
+        heading: "Komfort",
+        content: "Til tross for det skulpturelle designet er Nova overraskende komfortabel. Setet er dypt og godt polstret, og ryggen gir utmerket støtte. Armlenene er brede nok til å hvile armene komfortabelt."
+      },
+      {
+        heading: "Materialer og kvalitet",
+        content: "Veluren er av ypperste kvalitet med en dyp, rik farge som holder seg over tid. Rammen er i massivt tre med håndlagde skjøter. Bena i messing gir en elegant kontrast til den mørke veluren."
+      }
+    ]
+  },
+  {
+    id: "slettvoll-classic-lenestol",
+    name: "Classic ørelappstol",
+    brand: "Slettvoll",
+    category: "stol",
+    description: "Slettvoll Classic er en moderne tolkning av den klassiske ørelappstolen. Håndlaget i Norge med premium stoffer og dunfylte puter for maksimal komfort.",
+    price: 34990,
+    image_url: "https://www.slettvoll.no/media/catalog/product/c/l/classic-wingback-chair-blue.jpg",
+    affiliate_url: "https://www.slettvoll.no/classic-orelappstol",
+    style_tags: ["klassisk", "luksus", "tidløs"],
+    color_tags: ["blå", "mørk"],
+    room_tags: ["stue", "bibliotek"],
+    dimensions: { width: 82, depth: 90, height: 105 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.7,
+    pros: [
+      "Klassisk design med moderne komfort",
+      "Dunfylte puter for uovertruffen mykhet",
+      "Høy rygg med ørelapper gir privat sfære",
+      "Premium stoff i vakker dyp blåfarge",
+      "Håndlaget i Norge med livslang holdbarhet"
+    ],
+    cons: [
+      "Svært høy pris",
+      "Tar mye plass i rommet",
+      "Kan oppleves som varm på sommeren"
+    ],
+    review_summary: "Classic ørelappstol fra Slettvoll er en tidløs klassiker med uovertruffen komfort. Et arvemøbel du kan gi videre til neste generasjon.",
+    review_sections: [
+      {
+        heading: "Tidløs eleganse",
+        content: "Slettvoll har tatt den klassiske ørelappstolen og gitt den et moderne preg uten å miste sjelen. Den høye ryggen med ørelapper skaper en privat sfære som er perfekt for lesing. Den dype blåfargen gir stolen en sofistikert karakter."
+      },
+      {
+        heading: "Uovertruffen komfort",
+        content: "De dunfylte putene gir en sitteopplevelse i særklasse. Du synker mykt ned i stolen og føler deg omsluttet av komfort. Etter timer med lesing er det vanskelig å reise seg. Slettvoll har perfeksjonert balansen mellom støtte og mykhet."
+      },
+      {
+        heading: "Kvalitet som varer generasjoner",
+        content: "Med Slettvolls håndverk og materialer er dette en stol som varer i generasjoner. Rammen er i massivt tre, fjæringssystemet er i stål, og stoffet tåler daglig bruk i tiår. Trekket kan byttes når du ønsker en ny stil."
+      }
+    ]
+  },
+  {
+    id: "slettvoll-line-spisebord",
+    name: "Line spisebord eik",
+    brand: "Slettvoll",
+    category: "bord",
+    description: "Slettvoll Line er et elegant spisebord i massiv eik med slanke, koniske ben. Det enkle designet lar treets naturlige skjønnhet stå i sentrum. Håndlaget i Norge.",
+    price: 39990,
+    image_url: "https://www.slettvoll.no/media/catalog/product/l/i/line-dining-table-oak.jpg",
+    affiliate_url: "https://www.slettvoll.no/line-spisebord-eik",
+    style_tags: ["skandinavisk", "klassisk", "naturlig"],
+    color_tags: ["natur", "eik"],
+    room_tags: ["kjøkken", "spisestue"],
+    dimensions: { width: 220, depth: 100, height: 74 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.8,
+    pros: [
+      "Massiv norsk eik av ypperste kvalitet",
+      "Håndlaget i Norge med presise detaljer",
+      "Romslig — plass til 8-10 personer",
+      "Slanke ben som gir et lett uttrykk",
+      "Eldes vakkert over tid"
+    ],
+    cons: [
+      "Svært høy pris",
+      "Tungt bord som krever flere ved montering",
+      "Oljet overflate krever vedlikehold"
+    ],
+    review_summary: "Line spisebord er norsk møbelhåndverk i sin reneste form. Et generøst bord som samler familien i generasjoner.",
+    review_sections: [
+      {
+        heading: "Design og materialvalg",
+        content: "Line spisebord er et studie i skandinavisk enkelhet. Det rene designet med slanke, koniske ben lar den massive eiken stå i sentrum. Trevirket er håndplukket for sin vakre struktur, og ingen to bord er helt like."
+      },
+      {
+        heading: "Håndverk og kvalitet",
+        content: "Slettvoll-kvaliteten er tydelig i hver detalj. Skjøtene er perfekte, overflaten er jevn og silkemyk, og bena er presist tilpasset. Bordet er tungt og solid — det svaier ikke og knirker ikke. Dette er et møbel bygget for generasjoner."
+      },
+      {
+        heading: "Bruk og vedlikehold",
+        content: "Med 220 cm lengde er det god plass til store middagsselskaper. Den oljede overflaten gir en naturlig, matt finish som er behagelig å ta på. Vi anbefaler å olje bordet 1-2 ganger i året for å bevare den vakre tonen."
+      },
+      {
+        heading: "En investering i hverdagen",
+        content: "Til 39 990 kr er dette en investering, men et spisebord er hjertet i hjemmet. Line spisebord samler familien til daglige måltider og store anledninger, og det vil gjøre det i generasjoner fremover."
+      }
+    ]
+  },
+  {
+    id: "slettvoll-edge-spisebord",
+    name: "Edge spisebord mørk eik",
+    brand: "Slettvoll",
+    category: "bord",
+    description: "Slettvoll Edge er et moderne spisebord i mørk, røkt eik med en markant bordkant som gir bordet karakter. Det robuste designet kombineres med elegant skandinavisk formgivning.",
+    price: 44990,
+    image_url: "https://www.slettvoll.no/media/catalog/product/e/d/edge-dining-table-dark-oak.jpg",
+    affiliate_url: "https://www.slettvoll.no/edge-spisebord-mork-eik",
+    style_tags: ["moderne", "robust", "maskulin"],
+    color_tags: ["mørk", "brun"],
+    room_tags: ["kjøkken", "spisestue"],
+    dimensions: { width: 240, depth: 100, height: 75 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 4.6,
+    pros: [
+      "Vakker røkt eik med dyp, mørk tone",
+      "Markant bordkant gir unik karakter",
+      "Ekstra romslig med 240 cm lengde",
+      "Solid og robust konstruksjon",
+      "Håndlaget i Norge"
+    ],
+    cons: [
+      "Svært høy pris",
+      "Mørk farge kan dominere mindre rom",
+      "Tungt — krever profesjonell levering"
+    ],
+    review_summary: "Edge spisebord i røkt eik er et statement-møbel med unik karakter. Perfekt for den som ønsker et spisebord som skiller seg ut.",
+    review_sections: [
+      {
+        heading: "Et bord med karakter",
+        content: "Edge skiller seg ut med sin markante bordkant som gir bordet en rå, naturlig karakter. Den røkte eiken har en dyp, mørk tone som gir bordet et sofistikert og maskulint uttrykk. Det er et bord som gjør inntrykk."
+      },
+      {
+        heading: "Materialer og finish",
+        content: "Den røkte eiken gjennomgår en spesiell varmebehandling som gir den dype, mørke tonen uten bruk av kjemikalier. Resultatet er et naturlig, holdbart og vakkert materiale. Overflaten er matt og silkemyk å ta på."
+      },
+      {
+        heading: "Dimensjoner og bruk",
+        content: "Med 240 cm lengde er dette et generøst bord som gir plass til 8-10 personer komfortabelt. Den robuste konstruksjonen gjør at bordet tåler daglig bruk uten bekymringer. Perfekt for store familier og de som liker å underholde."
+      }
+    ]
+  },
+  {
+    id: "slettvoll-harbour-kommode",
+    name: "Harbour kommode",
+    brand: "Slettvoll",
+    category: "kommode",
+    description: "Slettvoll Harbour er en elegant kommode med fire romslige skuffer i lakkert eik. Det rene designet med integrerte håndtak gir et moderne og sofistikert uttrykk.",
+    price: 32990,
+    image_url: "https://www.slettvoll.no/media/catalog/product/h/a/harbour-chest-of-drawers-white.jpg",
+    affiliate_url: "https://www.slettvoll.no/harbour-kommode",
+    style_tags: ["moderne", "elegant", "luksus"],
+    color_tags: ["hvit"],
+    room_tags: ["soverom", "gang"],
+    dimensions: { width: 110, depth: 48, height: 90 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.5,
+    pros: [
+      "Premium kvalitet med soft-close skuffer",
+      "Elegant hvit lakkert finish",
+      "Integrerte håndtak for rent uttrykk",
+      "God oppbevaringsplass i fire skuffer",
+      "Håndlaget i Norge"
+    ],
+    cons: [
+      "Svært høy pris for en kommode",
+      "Hvit lakk kan vise fingermerker",
+      "Begrenset til fire skuffer"
+    ],
+    review_summary: "Harbour kommode er Slettvoll-kvalitet i en elegant og funksjonell pakke. Prisen er høy, men håndverket er upåklagelig.",
+    review_sections: [
+      {
+        heading: "Design og finish",
+        content: "Harbour har et rent, moderne uttrykk med en hvit lakkert finish som gir rommet et lyst og luftig preg. De integrerte håndtakene skaper en sømløs front som er typisk for Slettvolls designfilosofi. Kvaliteten på lakkeringen er upåklagelig."
+      },
+      {
+        heading: "Funksjonalitet",
+        content: "De fire skuffene er romslige og godt organisert. Soft-close-funksjonen gjør at skuffene glir mykt igjen, noe som gir en luksusopplevelse i hverdagen. Skinnene er av høy kvalitet og tåler daglig bruk uten problemer."
+      },
+      {
+        heading: "Kvalitet og holdbarhet",
+        content: "Som alle Slettvoll-møbler er Harbour bygget for å vare. Konstruksjonen er solid, skuffene er godt tilpasset, og lakkeringen tåler normal bruk. Den hvite overflaten kan vise fingermerker, men er enkel å tørke av."
+      }
+    ]
+  },
+  {
+    id: "slettvoll-arch-gulvlampe",
+    name: "Arch gulvlampe messing",
+    brand: "Slettvoll",
+    category: "lampe",
+    description: "Slettvoll Arch er en skulpturell gulvlampe i massiv messing med en elegant bue som strekker seg over sofaen. Lampen gir et varmt, rettet lys og fungerer som et kunstverk i rommet.",
+    price: 24990,
+    image_url: "https://www.slettvoll.no/media/catalog/product/a/r/arch-floor-lamp-brass.jpg",
+    affiliate_url: "https://www.slettvoll.no/arch-gulvlampe-messing",
+    style_tags: ["luksus", "skulpturell", "art deco"],
+    color_tags: ["gull", "messing"],
+    room_tags: ["stue"],
+    dimensions: { width: 45, depth: 100, height: 190 },
+    in_stock: true,
+    discount_code: "DESIGN15",
+    discount_percent: 15,
+    rating: 4.5,
+    pros: [
+      "Spektakulær skulpturell form i massiv messing",
+      "Gir perfekt leselys over sofaen",
+      "Tidløst art deco-inspirert design",
+      "Premium materialkvalitet",
+      "Dimbar for tilpasset belysning"
+    ],
+    cons: [
+      "Svært høy pris for en gulvlampe",
+      "Tung fot som er vanskelig å flytte",
+      "Messing patinerer over tid"
+    ],
+    review_summary: "Arch gulvlampe er et funksjonelt kunstverk i massiv messing. En spektakulær lampe som forvandler enhver stue.",
+    review_sections: [
+      {
+        heading: "Skulpturell skjønnhet",
+        content: "Arch er mer enn en lampe — den er et kunstverk. Den elegante buen i massiv messing strekker seg grasiøst over sofaen og skaper et naturlig fokuspunkt i rommet. Designet er inspirert av art deco med en moderne vri."
+      },
+      {
+        heading: "Lysgivning",
+        content: "Lampen gir et varmt, rettet lys som er perfekt for lesing. Den dimmbare funksjonen lar deg tilpasse lysstyrken etter behov — fra fullt leselys til stemningsbelysning. Lyskvaliteten er varm og behagelig."
+      },
+      {
+        heading: "Materialer",
+        content: "Den massive messingkonstruksjonen gir lampen en tyngde og kvalitetsfølelse som er i en klasse for seg. Messinget vil patinere naturlig over tid, noe som gir lampen enda mer karakter. Foten er tung og stabil."
+      }
+    ]
+  },
+  {
+    id: "slettvoll-signal-bordlampe",
+    name: "Signal bordlampe",
+    brand: "Slettvoll",
+    category: "lampe",
+    description: "Slettvoll Signal er en moderne bordlampe med en slank profil i børstet stål og glass. Den gir et mykt, diffust lys som skaper atmosfære i ethvert rom.",
+    price: 12990,
+    image_url: "https://www.slettvoll.no/media/catalog/product/s/i/signal-table-lamp-steel.jpg",
+    affiliate_url: "https://www.slettvoll.no/signal-bordlampe",
+    style_tags: ["moderne", "minimalistisk", "industriell"],
+    color_tags: ["stål", "grå"],
+    room_tags: ["stue", "soverom", "kontor"],
+    dimensions: { width: 20, depth: 20, height: 45 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.3,
+    pros: [
+      "Elegant design i børstet stål og glass",
+      "Mykt, diffust lys uten blending",
+      "Kompakt størrelse passer overalt",
+      "Premium materialkvalitet",
+      "Tidløst uttrykk"
+    ],
+    cons: [
+      "Høy pris for en bordlampe",
+      "Glasskjermen er sårbar for slag",
+      "Begrenset lysstyrke"
+    ],
+    review_summary: "Signal bordlampe er en sofistikert lyskilde med premium materialer. Perfekt som stemningslys på nattbordet eller i stuen.",
+    review_sections: [
+      {
+        heading: "Design",
+        content: "Signal har et rent og moderne uttrykk med en slank profil i børstet stål. Glasskjermen diffuserer lyset vakkert og gir rommet en myk atmosfære. Lampen er diskret men elegant — den tilfører kvalitet uten å dominere."
+      },
+      {
+        heading: "Lysgivning",
+        content: "Glasskjermen sørger for et jevnt, diffust lys uten blending. Lampen er best som stemningslys eller nattbordslampe — den gir ikke nok lys for lesing. Med en varmhvit pære gir den en behagelig atmosfære."
+      },
+      {
+        heading: "Kvalitet",
+        content: "Materialkvaliteten er typisk Slettvoll — upåklagelig. Det børstede stålet er solid og glasskjermen er av god kvalitet. Lampen føles som et premium-produkt i hånden og på bordet."
+      }
+    ]
+  },
+  {
+    id: "slettvoll-nest-lenestol",
+    name: "Nest lenestol med fotskammel",
+    brand: "Slettvoll",
+    category: "stol",
+    description: "Slettvoll Nest er en omsluttende lenestol med matchende fotskammel. Den kokongliknende formen gir en følelse av privat sfære og total avslapning. Håndlaget i Norge.",
+    price: 42990,
+    image_url: "https://www.slettvoll.no/media/catalog/product/n/e/nest-chair-ottoman-sand.jpg",
+    affiliate_url: "https://www.slettvoll.no/nest-lenestol-fotskammel",
+    style_tags: ["luksus", "organisk", "komfort"],
+    color_tags: ["sand", "beige"],
+    room_tags: ["stue", "soverom", "bibliotek"],
+    dimensions: { width: 90, depth: 95, height: 100 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.8,
+    pros: [
+      "Kokongliknende form gir total avslapning",
+      "Matchende fotskammel inkludert",
+      "Dunfylte puter for uovertruffen komfort",
+      "Vakker sandfarget tekstil",
+      "Håndlaget i Norge med livslang kvalitet"
+    ],
+    cons: [
+      "Svært høy pris",
+      "Stor — tar mye plass",
+      "Vanskelig å reise seg fra pga. dyp sittestilling"
+    ],
+    review_summary: "Nest med fotskammel er den ultimate avslapningsstolen. Slettvoll-kvalitet og komfort i en omsluttende, kokongliknende form.",
+    review_sections: [
+      {
+        heading: "Total avslapning",
+        content: "Nest er designet for én ting: total avslapning. Den omsluttende formen skaper en kokong-liknende følelse som stenger ute omverdenen. Med fotskammelen får du en liggestol-lignende posisjon som er perfekt for lesing eller bare å slappe av."
+      },
+      {
+        heading: "Komfort i verdensklasse",
+        content: "De dunfylte putene er ekstremt myke og komfortable. Du synker inn i stolen og føler deg omsluttet av en sky. Ryggstøtten er høy og gir god støtte for nakke og skuldre. Fotskammelen forlenger sitteflaten perfekt."
+      },
+      {
+        heading: "Materialer og håndverk",
+        content: "Tekstilen i sandfarget ull er myk og behagelig mot huden. Rammen er i massivt tre med håndlagde skjøter, og fjæringssystemet gir langvarig støtte. Kvaliteten er gjennomgående eksepsjonell."
+      }
+    ]
+  },
+  {
+    id: "slettvoll-pure-kommode-eik",
+    name: "Pure kommode eik",
+    brand: "Slettvoll",
+    category: "kommode",
+    description: "Slettvoll Pure er en bred kommode i massiv eik med seks skuffer og et rent, minimalistisk design. Kommoden har integrerte håndtak og soft-close på alle skuffer.",
+    price: 38990,
+    image_url: "https://www.slettvoll.no/media/catalog/product/p/u/pure-chest-drawers-oak.jpg",
+    affiliate_url: "https://www.slettvoll.no/pure-kommode-eik",
+    style_tags: ["skandinavisk", "minimalistisk", "luksus"],
+    color_tags: ["natur", "eik"],
+    room_tags: ["soverom"],
+    dimensions: { width: 140, depth: 48, height: 85 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 4.6,
+    pros: [
+      "Massiv norsk eik av ypperste kvalitet",
+      "Seks romslige skuffer med soft-close",
+      "Rent minimalistisk design",
+      "Bred modell med god oppbevaringsplass",
+      "Håndlaget i Norge"
+    ],
+    cons: [
+      "Svært høy pris",
+      "Tung — krever profesjonell levering",
+      "Begrenset fargevalg"
+    ],
+    review_summary: "Pure kommode i eik er skandinavisk minimalisme på sitt fineste. Slettvoll-kvalitet som varer i generasjoner.",
+    review_sections: [
+      {
+        heading: "Rent og tidløst design",
+        content: "Pure lever opp til sitt navn med et rent, minimalistisk uttrykk. De integrerte håndtakene gir en sømløs front, og den massive eiken har en vakker, naturlig tone. Kommoden er elegant uten å være prangende."
+      },
+      {
+        heading: "Oppbevaring og funksjon",
+        content: "Med seks romslige skuffer byr Pure på generøs oppbevaringsplass. Skuffene glir mykt på kvalitetsskinner og soft-close-funksjonen sørger for lydløs lukking. Innvendig er skuffene pent laget med glatte overflater."
+      },
+      {
+        heading: "Kvalitet som varer",
+        content: "Massiv norsk eik er et av de mest holdbare materialene for møbler, og Slettvolls håndverk sikrer at kommoden vil vare i generasjoner. Den oljede overflaten eldes vakkert og kan vedlikeholdes med jevnlig olje."
+      }
+    ]
+  },
+  {
+    id: "slettvoll-frame-lampe",
+    name: "Frame vegglampe",
+    brand: "Slettvoll",
+    category: "lampe",
+    description: "Slettvoll Frame er en minimalistisk vegglampe i børstet messing med en geometrisk ramme. Lampen gir et varmt, indirekte lys som skaper stemning på veggen.",
+    price: 8990,
+    image_url: "https://www.slettvoll.no/media/catalog/product/f/r/frame-wall-lamp-brass.jpg",
+    affiliate_url: "https://www.slettvoll.no/frame-vegglampe-messing",
+    style_tags: ["minimalistisk", "geometrisk", "luksus"],
+    color_tags: ["gull", "messing"],
+    room_tags: ["stue", "soverom", "gang"],
+    dimensions: { width: 25, depth: 12, height: 35 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.4,
+    pros: [
+      "Elegant geometrisk design i messing",
+      "Gir vakkert indirekte lys",
+      "Kompakt størrelse passer i alle rom",
+      "Premium materialkvalitet",
+      "Enkel montering"
+    ],
+    cons: [
+      "Høy pris for en vegglampe",
+      "Begrenset lysstyrke — kun stemningslys",
+      "Messing patinerer over tid"
+    ],
+    review_summary: "Frame vegglampe er et elegant belysningselement i børstet messing. Perfekt for å skape stemning og tilføre luksus til veggen.",
+    review_sections: [
+      {
+        heading: "Geometrisk eleganse",
+        content: "Frame har et rent, geometrisk uttrykk med en enkel ramme i børstet messing. Designet er minimalistisk men sofistikert, og lampen tilfører en touch av luksus til enhver vegg. Perfekt som par på hver side av sengen."
+      },
+      {
+        heading: "Lysgivning",
+        content: "Lampen kaster et varmt, indirekte lys oppover og nedover veggen som skaper en behagelig atmosfære. Som stemningslys er den utmerket, men den erstatter ikke takbelysning for oppgaver som krever godt lys."
+      },
+      {
+        heading: "Kvalitet",
+        content: "Den børstede messingfinishen er av høy kvalitet og gir lampen et sofistikert uttrykk. Monteringssystemet er gjennomtenkt og gjør installasjonen enkel. Et premium-produkt fra Slettvoll."
+      }
+    ]
+  },
+  {
+    id: "slettvoll-heaven-sofa-3",
+    name: "Heaven 3-seter sofa",
+    brand: "Slettvoll",
+    category: "sofa",
+    description: "Slettvoll Heaven lever opp til sitt navn med en himmelsk sitteopplevelse. Denne 3-seteren er fylt med nordisk dun og har avtakbare trekk i premium lin. Håndlaget i Norge.",
+    price: 64990,
+    image_url: "https://www.slettvoll.no/media/catalog/product/h/e/heaven-3-seater-linen-white.jpg",
+    affiliate_url: "https://www.slettvoll.no/heaven-3-seter-sofa",
+    style_tags: ["luksus", "klassisk", "tidløs"],
+    color_tags: ["hvit", "lin"],
+    room_tags: ["stue"],
+    dimensions: { width: 240, depth: 100, height: 82 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.8,
+    pros: [
+      "Nordisk dunfyll for himmelsk komfort",
+      "Premium lintrekk med naturlig uttrykk",
+      "Avtakbare trekk for enkel vask",
+      "Romslig 3-seter for hele familien",
+      "Håndlaget i Norge — livslang kvalitet"
+    ],
+    cons: [
+      "Svært høy pris",
+      "Hvitt lin kan flekkes lett",
+      "Dunputene krever daglig risting"
+    ],
+    review_summary: "Heaven sofa er Slettvolls ultimate komfortsofa. Prisen er premium, men opplevelsen er himmelsk — derav navnet.",
+    review_sections: [
+      {
+        heading: "Himmelsk komfort",
+        content: "Heaven lever opp til sitt navn. Det nordiske dunfyllet gir en sitteopplevelse som er vanskelig å beskrive med ord. Du synker mykt ned i sofaen og føler deg omsluttet av en sky av komfort. Det er rett og slett den mest komfortable sofaen vi har testet."
+      },
+      {
+        heading: "Premium lin",
+        content: "Lintrekket gir sofaen et naturlig, avslappet uttrykk som passer perfekt i et skandinavisk hjem. Lin blir mykere og vakrere med bruk og vask. Det avtakbare trekket gjør vedlikehold enkelt — en stor fordel for familier."
+      },
+      {
+        heading: "Håndverk og kvalitet",
+        content: "Som alle Slettvoll-sofaer er Heaven håndlaget i Norge med kompromissløs kvalitet. Rammen er i massivt tre, fjæringssystemet er i stål, og hver søm er perfekt. Dette er en sofa bygget for å vare i 20+ år."
+      },
+      {
+        heading: "Verdi og investering",
+        content: "Til nesten 65 000 kr er Heaven en stor investering. Men med Slettvolls kvalitet og muligheten for å bytte trekk, er dette en sofa som varer i flere tiår. Regn på kostnaden per år — den er overraskende overkommelig."
+      }
+    ]
+  },
+  {
+    id: "slettvoll-slim-nattbord",
+    name: "Slim nattbord eik",
+    brand: "Slettvoll",
+    category: "kommode",
+    description: "Slettvoll Slim er et elegant nattbord i massiv eik med én skuff og en åpen hylle. Det slanke designet tar minimalt med plass og passer perfekt ved sengen.",
+    price: 9990,
+    image_url: "https://www.slettvoll.no/media/catalog/product/s/l/slim-nightstand-oak.jpg",
+    affiliate_url: "https://www.slettvoll.no/slim-nattbord-eik",
+    style_tags: ["skandinavisk", "minimalistisk", "naturlig"],
+    color_tags: ["natur", "eik"],
+    room_tags: ["soverom"],
+    dimensions: { width: 45, depth: 38, height: 55 },
+    in_stock: true,
+    discount_code: "DESIGN15",
+    discount_percent: 15,
+    rating: 4.4,
+    pros: [
+      "Slankt design som tar minimal plass",
+      "Massiv eik av premium kvalitet",
+      "Én skuff med soft-close for oppbevaring",
+      "Åpen hylle for bøker eller dekor",
+      "Håndlaget i Norge"
+    ],
+    cons: [
+      "Begrenset oppbevaringsplass",
+      "Høy pris for et nattbord",
+      "Kun tilgjengelig i eik"
+    ],
+    review_summary: "Slim nattbord er Slettvoll-kvalitet i et kompakt og elegant format. Perfekt for den som verdsetter minimalistisk design.",
+    review_sections: [
+      {
+        heading: "Minimalistisk eleganse",
+        content: "Slim nattbord har et rent og minimalistisk uttrykk som passer perfekt i et moderne soverom. Den slanke profilen tar minimal plass ved sengen, men gir likevel funksjonalitet med en skuff og en åpen hylle."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Den massive eiken er av ypperste kvalitet med en naturlig, oljet finish. Skuffen glir mykt med soft-close-funksjon, og konstruksjonen er solid og stabil. Slettvolls håndverk er tydelig i alle detaljer."
+      },
+      {
+        heading: "Praktisk bruk",
+        content: "Skuffen er romslig nok for de viktigste tingene — telefon, lesebriller og håndkrem. Den åpne hyllen passer for en bok eller et par magasiner. Topplaten er perfekt for en bordlampe og et glass vann."
+      }
+    ]
+  },
+  {
+    id: "hay-aac23-stol",
+    name: "About A Chair AAC23 polstret",
+    brand: "HAY",
+    category: "stol",
+    description: "HAY About A Chair AAC23 er den polstrede versjonen av den ikoniske AAC-serien. Stolen kombinerer Hee Wellings elegante design med mykt polstret sete og rygg for ekstra komfort.",
+    price: 5990,
+    image_url: "https://www.hay.dk/media/catalog/product/a/a/aac23-upholstered-grey.jpg",
+    affiliate_url: "https://hay.dk/no/hay/furniture/chairs/about-a-chair-aac23",
+    style_tags: ["skandinavisk", "moderne", "ikonisk"],
+    color_tags: ["grå"],
+    room_tags: ["kjøkken", "spisestue", "kontor"],
+    dimensions: { width: 58, depth: 52, height: 79 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 4.5,
+    pros: [
+      "Ikonisk dansk design fra Hee Welling",
+      "Polstret sete og rygg for ekstra komfort",
+      "Lett og enkel å flytte",
+      "Allsidig — passer ved spisebord, skrivebord og kontor",
+      "Mange farger og stoffer tilgjengelig"
+    ],
+    cons: [
+      "Stoffpolstring kan flekkes",
+      "Prisen er høy for en spisestol",
+      "Ikke stablbar i polstret versjon",
+      "Plastramme kan oppfattes som enkel"
+    ],
+    review_summary: "AAC23 er den komfortable versjonen av HAYs ikoniske stol. Perfekt for den som vil ha dansk design med ekstra sittekomfort.",
+    review_sections: [
+      {
+        heading: "Ikonisk design med komfort",
+        content: "About A Chair-serien er en av HAYs mest vellykkede designserier, og AAC23 tar konseptet et steg videre med polstring. Hee Wellings design er rent og tidløst, og polstringen legger til en komfortdimensjon som gjør stolen perfekt for lengre sittinger."
+      },
+      {
+        heading: "Sittekomfort",
+        content: "Polstringen i sete og rygg gjør en merkbar forskjell sammenlignet med den upolstrede versjonen. Stolen er komfortabel for middager, hjemmekontor og alt derimellom. Ryggstøtten er godt tilpasset og gir fin støtte."
+      },
+      {
+        heading: "Materialer og kvalitet",
+        content: "Skallet er i resirkulert polypropylen, bena i eik, og polstringen er i et holdbart stoff fra Kvadrat. Kvaliteten er gjennomgående god, og stolen tåler daglig bruk uten problemer. HAY leverer som forventet."
+      }
+    ]
+  },
+  {
+    id: "hay-palissade-stol",
+    name: "Palissade armchair",
+    brand: "HAY",
+    category: "stol",
+    description: "HAY Palissade armchair er en elegant utestol i galvanisert stål designet av Ronan & Erwan Bouroullec. Den geometriske formen og de slanke linjene gjør den til et designikon for uteplassen.",
+    price: 4290,
+    image_url: "https://www.hay.dk/media/catalog/product/p/a/palissade-armchair-olive.jpg",
+    affiliate_url: "https://hay.dk/no/hay/furniture/outdoor/palissade-armchair",
+    style_tags: ["moderne", "geometrisk", "utendørs"],
+    color_tags: ["grønn", "oliven"],
+    room_tags: ["terrasse", "hage", "balkong"],
+    dimensions: { width: 63, depth: 66, height: 80 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.3,
+    pros: [
+      "Ikonisk design fra Bouroullec-brødrene",
+      "Galvanisert stål tåler all slags vær",
+      "Stablbar for enkel oppbevaring",
+      "Elegant på terrasse, balkong og i hagen",
+      "Tilgjengelig i flere vakre farger"
+    ],
+    cons: [
+      "Stål kan bli kaldt å sitte på",
+      "Ikke den mest komfortable uten pute",
+      "Prisen er høy for en utestol",
+      "Tung sammenlignet med aluminium"
+    ],
+    review_summary: "Palissade armchair er en designklassiker for uteplassen. Vakker og holdbar, men en pute anbefales for lengre sitting.",
+    review_sections: [
+      {
+        heading: "Design for uteplassen",
+        content: "Palissade-serien fra Bouroullec-brødrene er en av de mest vellykkede utemøbelkolleksjonene i nyere tid. Armstolen har en geometrisk, nesten arkitektonisk form med slanke stållameller som gir et lett og luftig uttrykk."
+      },
+      {
+        heading: "Holdbarhet og vær",
+        content: "Det galvaniserte stålet tåler norsk vær uten problemer. Stolen kan stå ute hele året uten å ruste eller miste farge. Overflaten er pulverlakkert for ekstra beskyttelse og gir en matt, behagelig finish."
+      },
+      {
+        heading: "Komfort og bruk",
+        content: "Formen er ergonomisk, men stålet er hardt. Vi anbefaler HAYs matchende sittepute for lengre bruk. Stolen stabler fint for vinteroppbevaring, og den tunge vekten betyr at den ikke blåser vekk i vind."
+      }
+    ]
+  },
+  {
+    id: "hay-palissade-bord",
+    name: "Palissade spisebord 170",
+    brand: "HAY",
+    category: "bord",
+    description: "HAY Palissade spisebord er et elegant utebord i galvanisert stål fra Bouroullec-brødrene. Med plass til 6 personer er det perfekt for utendørs middager på terrassen.",
+    price: 9990,
+    image_url: "https://www.hay.dk/media/catalog/product/p/a/palissade-table-170-anthracite.jpg",
+    affiliate_url: "https://hay.dk/no/hay/furniture/outdoor/palissade-table-170",
+    style_tags: ["moderne", "geometrisk", "utendørs"],
+    color_tags: ["antrasitt", "mørk"],
+    room_tags: ["terrasse", "hage"],
+    dimensions: { width: 170, depth: 90, height: 75 },
+    in_stock: true,
+    discount_code: "DESIGN15",
+    discount_percent: 15,
+    rating: 4.4,
+    pros: [
+      "Matchende design til Palissade-serien",
+      "Galvanisert stål tåler all slags vær",
+      "Plass til 6 personer",
+      "Stabil og solid konstruksjon",
+      "Elegant design som løfter uteplassen"
+    ],
+    cons: [
+      "Høy pris for et utebord",
+      "Tungt å flytte",
+      "Ståloverflaten kan bli varm i direkte sol"
+    ],
+    review_summary: "Palissade spisebord er det perfekte bordet for designbevisste utendørs middager. Holdbart og vakkert, men tungt å flytte.",
+    review_sections: [
+      {
+        heading: "Design i verdensklasse",
+        content: "Palissade-bordet matcher stolene perfekt med den samme geometriske formen og slanke stållamellene. Bordet har en elegant tilstedeværelse på terrassen og gjør utendørs spising til en luksuriøs opplevelse."
+      },
+      {
+        heading: "Holdbarhet",
+        content: "Det galvaniserte, pulverlakkerte stålet tåler norsk vær uten å miste farge eller ruste. Bordet kan stå ute hele året, noe som gjør det vedlikeholdsfritt. Overflaten er enkel å tørke av etter regn."
+      },
+      {
+        heading: "Praktisk bruk",
+        content: "Med 170 cm lengde og 90 cm bredde gir bordet god plass til 6 personer. Konstruksjonen er svært stabil og bordet vipper ikke. Den glatte overflaten er enkel å rengjøre etter måltider."
+      }
+    ]
+  },
+  {
+    id: "hay-cph30-spisebord",
+    name: "CPH30 spisebord eik",
+    brand: "HAY",
+    category: "bord",
+    description: "HAY Copenhague CPH30 er et klassisk spisebord designet av Ronan & Erwan Bouroullec. Bordplaten i massiv eik hviler på elegante, kryssede ben for et skulpturelt uttrykk.",
+    price: 14990,
+    image_url: "https://www.hay.dk/media/catalog/product/c/p/cph30-table-200-oak.jpg",
+    affiliate_url: "https://hay.dk/no/hay/furniture/tables/copenhague-cph30-200",
+    style_tags: ["skandinavisk", "moderne", "skulpturell"],
+    color_tags: ["natur", "eik"],
+    room_tags: ["kjøkken", "spisestue"],
+    dimensions: { width: 200, depth: 90, height: 74 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.6,
+    pros: [
+      "Skulpturelt bendesign fra Bouroullec",
+      "Massiv eikbordplate av god kvalitet",
+      "Romslig — plass til 6-8 personer",
+      "Tidløst skandinavisk design",
+      "Stabil konstruksjon"
+    ],
+    cons: [
+      "Kryssede ben kan begrense beinplassen",
+      "Høy pris for et spisebord",
+      "Tungt å flytte"
+    ],
+    review_summary: "CPH30 er et elegant spisebord som kombinerer skulpturell design med praktisk funksjonalitet. Et sikkert valg for den designbevisste.",
+    review_sections: [
+      {
+        heading: "Ikonisk design",
+        content: "Copenhague-serien er Bouroullec-brødrenes tolkning av det skandinaviske spisebordet. De kryssede bena gir bordet et skulpturelt uttrykk som skiller det fra vanlige rektangulære bord. Designet er moderne og tidløst på samme tid."
+      },
+      {
+        heading: "Materialer",
+        content: "Bordplaten er i massiv eik med en naturlig, matt finish. Trevirket er av god kvalitet med fin tekstur og farge. Bena er i lakkert eik som matcher bordplaten. Overflatebehandlingen er holdbar og tåler daglig bruk."
+      },
+      {
+        heading: "Funksjonalitet",
+        content: "Med 200 cm lengde er bordet romslig nok for de fleste familier. De kryssede bena kan begrense beinplassen noe i hjørnene, men det er sjelden et problem i praksis. Bordet er stabilt og svaier ikke."
+      }
+    ]
+  },
+  {
+    id: "hay-pc-bordlampe",
+    name: "PC Portable bordlampe",
+    brand: "HAY",
+    category: "lampe",
+    description: "HAY PC Portable er en oppladbar bordlampe designet av Pierre Charpin. Den kompakte, trådløse lampen gir stemningsfullt lys og kan brukes overalt — inne som ute.",
+    price: 1490,
+    image_url: "https://www.hay.dk/media/catalog/product/p/c/pc-portable-lamp-olive.jpg",
+    affiliate_url: "https://hay.dk/no/hay/accessories/lighting/pc-portable-lamp",
+    style_tags: ["moderne", "portabel", "minimalistisk"],
+    color_tags: ["oliven", "grønn"],
+    room_tags: ["stue", "soverom", "terrasse"],
+    dimensions: { width: 14, depth: 14, height: 22 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.2,
+    pros: [
+      "Oppladbar — ingen ledning nødvendig",
+      "Kompakt og portabel design",
+      "Perfekt til både innendørs og utendørs bruk",
+      "USB-C lading",
+      "Tilgjengelig i mange flotte farger"
+    ],
+    cons: [
+      "Begrenset batteritid på full lysstyrke",
+      "Lysstyrken er moderat — kun stemningslys",
+      "Plastmaterialer gir ikke premium-følelse",
+      "Liten — gir begrenset lysspredning"
+    ],
+    review_summary: "PC Portable er en praktisk og sjarmerende liten lampe som passer overalt. Perfekt som stemningslys på bordet eller terrassen.",
+    review_sections: [
+      {
+        heading: "Portabel design",
+        content: "PC Portable er HAYs svar på den trådløse lampen, og den er svært praktisk. Lampen er liten nok til å ta med seg overalt — fra spisebordet til terrassen til nattbordet. USB-C ladingen er rask og batteriet varer en hel kveld."
+      },
+      {
+        heading: "Lysgivning",
+        content: "Lampen gir et varmt, dempet lys som er perfekt for stemning. Den har tre lystrinn som lar deg justere intensiteten. Ikke forvent leselys — dette er en ren stemningslampe som gjør jobben sin godt."
+      },
+      {
+        heading: "Design og farger",
+        content: "Pierre Charpins design er sjarmerende med den klassiske lampeprofilen i miniformat. Den olivengrønne fargen er en av mange tilgjengelige, og den ser fin ut på bordet. Plastmaterialet er greit men gir ikke premium-følelse."
+      }
+    ]
+  },
+  {
+    id: "hay-matin-taklampe",
+    name: "Matin taklampe 380",
+    brand: "HAY",
+    category: "lampe",
+    description: "HAY Matin er en klassisk taklampe med en vakker stoffskjerm designet av Inga Sempé. Lampen gir et mykt, diffust lys og er tilgjengelig i flere størrelser og farger.",
+    price: 3290,
+    image_url: "https://www.hay.dk/media/catalog/product/m/a/matin-pendant-380-white.jpg",
+    affiliate_url: "https://hay.dk/no/hay/accessories/lighting/matin-pendant-380",
+    style_tags: ["klassisk", "elegant", "feminin"],
+    color_tags: ["hvit"],
+    room_tags: ["stue", "soverom", "spisestue"],
+    dimensions: { width: 38, depth: 38, height: 22 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 4.3,
+    pros: [
+      "Vakker stoffskjerm med mykt lys",
+      "Elegant og tidløs form",
+      "Tilgjengelig i mange farger og størrelser",
+      "Gir behagelig, diffust lys uten blending",
+      "Designet av Inga Sempé"
+    ],
+    cons: [
+      "Stoffskjermen kan samle støv",
+      "Ikke ideell for rom som krever sterkt lys",
+      "Begrenset justering av lysstyrke"
+    ],
+    review_summary: "Matin taklampe er en klassiker med en tidløs stoffskjerm. Perfekt for den som ønsker mykt og elegant belysning.",
+    review_sections: [
+      {
+        heading: "Klassisk eleganse",
+        content: "Matin er en moderne klassiker med en stoffskjerm som gir lampen et varmt og innbydende uttrykk. Inga Sempés design er feminint og elegant uten å være overlesset. Lampen passer like godt over spisebordet som i soverommet."
+      },
+      {
+        heading: "Lysgivning",
+        content: "Stoffskjermen diffuserer lyset vakkert og gir et jevnt, mykt lys uten blending. Lysfargen påvirkes av skjermens farge — den hvite gir det mest nøytrale lyset. Perfekt for rom der du ønsker en behagelig atmosfære."
+      },
+      {
+        heading: "Kvalitet og vedlikehold",
+        content: "Lampen er godt bygget med en solid ramme i lakkert stål. Stoffskjermen er pen og holder formen godt, men den samler noe støv over tid. Vi anbefaler forsiktig støvtørking med en myk klut annenhver uke."
+      }
+    ]
+  },
+  {
+    id: "hay-colour-crate-m",
+    name: "Colour Crate M",
+    brand: "HAY",
+    category: "dekor",
+    description: "HAY Colour Crate er en fargerik oppbevaringskasse i resirkulert plast. Den kan foldes flat når den ikke er i bruk og er perfekt for oppbevaring av alt fra frukt til leker.",
+    price: 199,
+    image_url: "https://www.hay.dk/media/catalog/product/c/o/colour-crate-m-dusty-yellow.jpg",
+    affiliate_url: "https://hay.dk/no/hay/accessories/storage/colour-crate-m",
+    style_tags: ["fargerik", "praktisk", "lekent"],
+    color_tags: ["gul"],
+    room_tags: ["kjøkken", "kontor", "barnerom"],
+    dimensions: { width: 30, depth: 22, height: 15 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.0,
+    pros: [
+      "Laget av resirkulert plast",
+      "Foldbar — tar minimal plass ved oppbevaring",
+      "Tilgjengelig i mange vakre farger",
+      "Praktisk og allsidig bruk",
+      "Svært rimelig pris"
+    ],
+    cons: [
+      "Begrenset bæreevne for tunge gjenstander",
+      "Plast kan oppleves som billig",
+      "Stablbarheten er begrenset"
+    ],
+    review_summary: "Colour Crate er en fargerik og praktisk oppbevaringskasse til en latterlig lav pris. Perfekt for å organisere hjemmet med stil.",
+    review_sections: [
+      {
+        heading: "Praktisk og fargerikt",
+        content: "Colour Crate er et av HAYs mest populære tilbehørsprodukter, og det er lett å forstå hvorfor. Kassen er praktisk, fargerik og billig. Den kan brukes til alt fra frukt på kjøkkenbenken til kontorrekvisita på skrivebordet."
+      },
+      {
+        heading: "Bærekraft",
+        content: "Kassen er laget av 100% resirkulert plast, noe som gjør den til et mer bærekraftig alternativ. Materialfølelsen er grei — ikke luksuriøs, men solid og holdbar for daglig bruk."
+      },
+      {
+        heading: "Foldbar design",
+        content: "En stor fordel er at kassen kan foldes helt flat når den ikke er i bruk. Dette gjør den perfekt for de som har begrenset lagringsplass. Den tar opp minimal plass i skapet og er klar til bruk på sekunder."
+      }
+    ]
+  },
+  {
+    id: "hay-paper-porcelain-vase",
+    name: "Paper Porcelain vase",
+    brand: "HAY",
+    category: "dekor",
+    description: "HAY Paper Porcelain er en unik vase laget av en blanding av papirmasse og porselen. Den teksturerte overflaten gir vasen en organisk og skulpturell karakter.",
+    price: 599,
+    image_url: "https://www.hay.dk/media/catalog/product/p/a/paper-porcelain-vase-l-grey.jpg",
+    affiliate_url: "https://hay.dk/no/hay/accessories/vases/paper-porcelain-vase-l",
+    style_tags: ["skulpturell", "organisk", "unik"],
+    color_tags: ["grå"],
+    room_tags: ["stue", "spisestue", "soverom"],
+    dimensions: { width: 14, depth: 14, height: 19 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.9,
+    pros: [
+      "Unik tekstur i papir og porselen",
+      "Skulpturelt design som fungerer alene",
+      "Perfekt størrelse for små buketter",
+      "Interessant samtaleemne",
+      "Rimelig pris for et designobjekt"
+    ],
+    cons: [
+      "Sårbar for slag — kan knuses",
+      "Overflaten kan være vanskelig å rengjøre",
+      "Ikke vanntett uten innvendig glasering",
+      "Begrenset fargevalg"
+    ],
+    review_summary: "Paper Porcelain vase er et unikt dekorasjonsobjekt med skulpturell karakter. Vakker å se på, men krever forsiktig behandling.",
+    review_sections: [
+      {
+        heading: "Unik materialblanding",
+        content: "Paper Porcelain er resultatet av HAYs eksperimentering med materialer. Blandingen av papirmasse og porselen gir en unik, organisk tekstur som skiller seg fra alt annet. Vasen føles lett og har en rå, naturlig karakter."
+      },
+      {
+        heading: "Design og bruk",
+        content: "Vasen er vakker med og uten blomster. Den skulpturelle formen gjør den til et kunstverk i seg selv, og den fungerer utmerket som et dekorasjonselement på hyllen eller bordet. For blomster anbefaler vi et innvendig glassinnsats."
+      },
+      {
+        heading: "Kvalitet og holdbarhet",
+        content: "Materialet er sårbart og bør behandles med forsiktighet. Vasen tåler ikke slag eller fall, og overflaten kan flekkes av vann. Til tross for dette er den et fascinerende designobjekt som fortjener en plass i hjemmet."
+      }
+    ]
+  },
+  {
+    id: "hay-new-order-hylle",
+    name: "New Order hyllesystem",
+    brand: "HAY",
+    category: "hylle",
+    description: "HAY New Order er et modulært hyllesystem designet av Stefan Diez. Systemet kan konfigureres i uendelige kombinasjoner med hyller, skap og skuffer for tilpasset oppbevaring.",
+    price: 11990,
+    image_url: "https://www.hay.dk/media/catalog/product/n/e/new-order-shelf-charcoal.jpg",
+    affiliate_url: "https://hay.dk/no/hay/furniture/storage/new-order-shelf",
+    style_tags: ["modulært", "moderne", "industriell"],
+    color_tags: ["grå", "antrasitt"],
+    room_tags: ["stue", "kontor", "soverom"],
+    dimensions: { width: 150, depth: 34, height: 180 },
+    in_stock: true,
+    discount_code: "DESIGN20",
+    discount_percent: 20,
+    rating: 4.4,
+    pros: [
+      "Fullt modulært — uendelige konfigurasjoner",
+      "Stålramme i industriell estetikk",
+      "Kan utvides med skap og skuffer",
+      "Fungerer som romdeler",
+      "Designet av Stefan Diez"
+    ],
+    cons: [
+      "Høy pris for et hyllesystem",
+      "Krever nøye planlegging av konfigurasjon",
+      "Monteringen er tidkrevende",
+      "Stålrammen kan ripe gulvet"
+    ],
+    review_summary: "New Order hyllesystem er HAYs allsidige svar på oppbevaring. Modulært, stilfullt og nesten uendelig tilpasningsdyktig.",
+    review_sections: [
+      {
+        heading: "Modulær fleksibilitet",
+        content: "New Order er et gjennomtenkt hyllesystem som kan tilpasses nesten alle behov. Med hyller, skap, skuffer og ulike størelser kan du bygge akkurat den konfigurasjonen du trenger. Systemet kan utvides over tid etter behov."
+      },
+      {
+        heading: "Industriell estetikk",
+        content: "Stålrammen gir systemet en industriell, moderne karakter som passer godt i både stue og kontor. Den antrasittgrå fargen er nøytral og diskret, og lar innholdet på hyllene stå i fokus."
+      },
+      {
+        heading: "Montering og kvalitet",
+        content: "Monteringen krever tid og tålmodighet, men instruksjonene er gode. Når systemet er oppe, er det svært stabilt og robust. Stålrammens kvalitet er god, og hylleplater i MDF har en fin finish."
+      }
+    ]
+  },
+  {
+    id: "hay-tray-table-bord",
+    name: "Tray Table salongbord",
+    brand: "HAY",
+    category: "bord",
+    description: "HAY Tray Table er et minimalistisk salongbord med avtakbar tallerkenplate. Bordet kan brukes som salongbord eller som serveringsbrett. Designet er enkelt og funksjonelt.",
+    price: 2190,
+    image_url: "https://www.hay.dk/media/catalog/product/t/r/tray-table-coffee-black.jpg",
+    affiliate_url: "https://hay.dk/no/hay/furniture/tables/tray-table-coffee",
+    style_tags: ["minimalistisk", "funksjonell", "moderne"],
+    color_tags: ["svart"],
+    room_tags: ["stue"],
+    dimensions: { width: 60, depth: 60, height: 39 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.1,
+    pros: [
+      "Avtakbar plate som fungerer som brett",
+      "Minimalistisk og allsidig design",
+      "Lett å flytte rundt i rommet",
+      "Tilgjengelig i mange farger",
+      "God pris for HAY-kvalitet"
+    ],
+    cons: [
+      "Liten flate for et salongbord",
+      "Opphøyd kant kan begrense bruksområdet",
+      "Metallplate kan få riper over tid"
+    ],
+    review_summary: "Tray Table er et smart og funksjonelt salongbord fra HAY. Det avtakbare brettet er praktisk, men bordet er noe lite for større stuer.",
+    review_sections: [
+      {
+        heading: "Smart design",
+        content: "Tray Table er et av HAYs mest gjennomtenkte produkter. Den avtakbare platen fungerer som et serveringsbrett når du trenger det, og som bordplate resten av tiden. Konseptet er enkelt men genialt."
+      },
+      {
+        heading: "Størrelse og bruk",
+        content: "Med 60 cm i diameter er bordet kompakt og passer best i mindre stuer eller som sidebord. For større stuer kan det fungere som et supplement til et større salongbord. Den opphøyde kanten holder ting på plass."
+      },
+      {
+        heading: "Kvalitet",
+        content: "Metallplaten er pulverlakkert og tåler normal bruk godt. Bena er stabile og foldes enkelt sammen. For prisen er kvaliteten god, og designet holder seg fint over tid."
+      }
+    ]
+  },
+  {
+    id: "hay-aac-barstol",
+    name: "About A Stool AAS32 barstol",
+    brand: "HAY",
+    category: "stol",
+    description: "HAY About A Stool AAS32 er en elegant barstol med sittehøyde på 65 cm. Skallet i polypropylen og bena i eik gir en klassisk skandinavisk følelse. Perfekt ved kjøkkenøya.",
+    price: 3490,
+    image_url: "https://www.hay.dk/media/catalog/product/a/a/aas32-barstool-65-cream-white.jpg",
+    affiliate_url: "https://hay.dk/no/hay/furniture/chairs/about-a-stool-aas32-65",
+    style_tags: ["skandinavisk", "moderne", "minimalistisk"],
+    color_tags: ["hvit", "krem"],
+    room_tags: ["kjøkken"],
+    dimensions: { width: 50, depth: 46, height: 85 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.2,
+    pros: [
+      "Ikonisk AAC-design i barstolformat",
+      "Perfekt sittehøyde for kjøkkenøyer",
+      "Lett å rengjøre polypropylen-skall",
+      "Stabile eikeben med fotrest",
+      "Tidløst skandinavisk design"
+    ],
+    cons: [
+      "Ingen polstring — kan bli hard ved lang sitting",
+      "Polypropylen kan oppleves som enkel",
+      "Begrenset fargevalg i eik-versjonen"
+    ],
+    review_summary: "AAS32 barstol er den perfekte følgesvennen til kjøkkenøya. Ikonisk HAY-design i et praktisk barstolformat.",
+    review_sections: [
+      {
+        heading: "Design og stil",
+        content: "AAS32 overfører det populære AAC-designet til en barstol med hell. Formen er ren og tidløs, og kombinasjonen av polypropylen-skall og eikeben gir den et varmt skandinavisk uttrykk. Stolen ser like bra ut ved kjøkkenøya som ved en bar."
+      },
+      {
+        heading: "Komfort og ergonomi",
+        content: "Skallet har en subtil kurve som gir god sittestøtte. Fotreisten er plassert på perfekt høyde for komfortabel sitting. For lengre perioder kan en pute være nyttig, men for vanlig bruk ved kjøkkenøya er komforten god nok."
+      },
+      {
+        heading: "Kvalitet",
+        content: "HAYs kvalitet er gjennomgående god. Eikebena er solide og vel tilpasset, og polypropylen-skallet er holdbart og enkelt å rengjøre. Stolen tåler daglig bruk uten problemer."
+      }
+    ]
+  },
+  {
+    id: "hay-kaleido-brett",
+    name: "Kaleido brett XL",
+    brand: "HAY",
+    category: "dekor",
+    description: "HAY Kaleido er et geometrisk brett i lakkert stål som kan brukes til servering eller som dekorasjon. De asymmetriske formene kan settes sammen i uendelige mønstre.",
+    price: 599,
+    image_url: "https://www.hay.dk/media/catalog/product/k/a/kaleido-xl-dark-green.jpg",
+    affiliate_url: "https://hay.dk/no/hay/accessories/trays/kaleido-xl",
+    style_tags: ["geometrisk", "lekent", "moderne"],
+    color_tags: ["grønn", "mørk"],
+    room_tags: ["stue", "kjøkken", "gang"],
+    dimensions: { width: 39, depth: 33, height: 2 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 4.0,
+    pros: [
+      "Unikt geometrisk design",
+      "Kan kombineres med andre Kaleido-brett",
+      "Praktisk for nøkler, frukt eller dekor",
+      "Tilgjengelig i mange farger",
+      "Rimelig pris"
+    ],
+    cons: [
+      "Lakkert stål kan ripes",
+      "Asymmetrisk form er ikke for alle",
+      "Ikke spisesikkert — kun til servering"
+    ],
+    review_summary: "Kaleido brett er et lekent og dekorativt tilbehør fra HAY. Perfekt for den som liker geometriske former og fargespill.",
+    review_sections: [
+      {
+        heading: "Geometrisk lek",
+        content: "Kaleido-serien er et av HAYs mest ikoniske tilbehørsprodukter. Den geometriske formen er unik og gir brettet et skulpturelt uttrykk. Flere brett kan settes sammen for å skape uendelige mønstre og fargekombiasjoner."
+      },
+      {
+        heading: "Praktisk bruk",
+        content: "Brettet er like praktisk som det er dekorativt. Bruk det til nøkler og småting i gangen, frukt på kjøkkenbenken, eller som dekorasjon på salongbordet. Den opphøyde kanten holder ting på plass."
+      },
+      {
+        heading: "Kvalitet",
+        content: "Det lakkerte stålet er solid og holdbart for vanlig bruk. Overflaten kan ripes ved hard behandling, så vi anbefaler forsiktig bruk. For prisen er kvaliteten god."
+      }
+    ]
+  },
+  {
+    id: "hay-result-stol",
+    name: "Result stol",
+    brand: "HAY",
+    category: "stol",
+    description: "HAY Result er en gjenoppliving av Friso Kramers ikoniske stol fra 1958. Den lette stålrammen og formpressede treplaten gir stolen en industriell eleganse som har tålt tidens tann.",
+    price: 4490,
+    image_url: "https://www.hay.dk/media/catalog/product/r/e/result-chair-oak-black.jpg",
+    affiliate_url: "https://hay.dk/no/hay/furniture/chairs/result-chair",
+    style_tags: ["industriell", "retro", "ikonisk"],
+    color_tags: ["svart", "natur"],
+    room_tags: ["kjøkken", "spisestue", "kontor"],
+    dimensions: { width: 46, depth: 49, height: 82 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.3,
+    pros: [
+      "Ikonisk 1958-design gjenopplivet av HAY",
+      "Svært lett — kun 3,5 kg",
+      "Stablbar for enkel oppbevaring",
+      "Industriell eleganse i stål og tre",
+      "Holdbart og tidstestet design"
+    ],
+    cons: [
+      "Ingen polstring — hardt sete",
+      "Smalt sete passer ikke alle",
+      "Stålrammen kan virke kald"
+    ],
+    review_summary: "Result stol er en gjenopplivet designklassiker som er like relevant i dag som i 1958. Lett, stablbar og industrielt elegant.",
+    review_sections: [
+      {
+        heading: "Designhistorie",
+        content: "Result ble opprinnelig designet av Friso Kramer i 1958 og har siden blitt en designklassiker. HAY har gjenopplivet stolen med Kramers velsignelse, og resultatet er tro mot originalen med moderne produksjonsteknikker. Stolen er et stykke designhistorie."
+      },
+      {
+        heading: "Funksjon og form",
+        content: "Med kun 3,5 kg er Result en av de letteste stolene på markedet. Den stabler enkelt og tar minimal plass. Stålrammen gir en industriell karakter, mens den formpressede eikeplaten tilfører varme. En perfekt balanse."
+      },
+      {
+        heading: "Komfort og bruk",
+        content: "Som en upolstret stol er Result best for kortere sittinger. Setet har en subtil kurve, men for middager over en time anbefaler vi en pute. Stolen passer utmerket ved spisebordet, skrivebordet eller som ekstra stol."
+      }
+    ]
+  },
+  {
+    id: "hay-rebar-sidebord",
+    name: "Rebar sidebord",
+    brand: "HAY",
+    category: "bord",
+    description: "HAY Rebar er et skulpturelt sidebord inspirert av armeringsjern i betong. Den røffe stålrammen og den slanke formen gir bordet en industriell karakter som passer i moderne hjem.",
+    price: 2490,
+    image_url: "https://www.hay.dk/media/catalog/product/r/e/rebar-side-table-soft-black.jpg",
+    affiliate_url: "https://hay.dk/no/hay/furniture/tables/rebar-side-table",
+    style_tags: ["industriell", "skulpturell", "moderne"],
+    color_tags: ["svart"],
+    room_tags: ["stue", "soverom"],
+    dimensions: { width: 45, depth: 40, height: 40 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.1,
+    pros: [
+      "Unikt skulpturelt design",
+      "Solid stålkonstruksjon",
+      "Kompakt og lett å plassere",
+      "Industriell karakter som skiller seg ut",
+      "Rimelig pris for et designbord"
+    ],
+    cons: [
+      "Begrenset bordflate",
+      "Stål kan ripe gulvet",
+      "Kun tilgjengelig i mørke farger"
+    ],
+    review_summary: "Rebar sidebord er et skulpturelt designobjekt med industriell karakter. Perfekt som sofabord eller nattbord for den designbevisste.",
+    review_sections: [
+      {
+        heading: "Industriell skulptur",
+        content: "Rebar er inspirert av de rustikke armeringsjernene man finner i betongkonstruksjoner. Designet oversetter denne rå estetikken til et elegant sidebord som fungerer like godt i stuen som ved sengen. Det er et møbel med karakter."
+      },
+      {
+        heading: "Funksjon og størrelse",
+        content: "Bordet er kompakt og passer fint ved sofaen eller sengen. Bordflaten er stor nok for en kopp kaffe, en bok og en lampe. Formen er stabil og bordet vipper ikke."
+      },
+      {
+        heading: "Kvalitet",
+        content: "Stålkonstruksjonen er solid og godt sveiset. Den pulverlakkerte overflaten tåler normal bruk, men vi anbefaler filtknapper under for å beskytte gulvet. For prisen er kvaliteten god."
+      }
+    ]
+  },
+  {
+    id: "nordicnest-muuto-outline-sofa",
+    name: "Muuto Outline 3-seter sofa",
+    brand: "Nordic Nest",
+    category: "sofa",
+    description: "Muuto Outline er en elegant sofa designet av Anderssen & Voll med slanke aluminiumsben og romslige puter. Tilgjengelig via Nordic Nest med et bredt utvalg av stoffer.",
+    price: 34990,
+    image_url: "https://www.nordicnest.no/media/catalog/product/muuto-outline-3-seater-cognac.jpg",
+    affiliate_url: "https://www.nordicnest.no/produkter/muuto-outline-3-seter-sofa",
+    style_tags: ["skandinavisk", "moderne", "premium"],
+    color_tags: ["cognac", "brun"],
+    room_tags: ["stue"],
+    dimensions: { width: 220, depth: 84, height: 71 },
+    in_stock: true,
+    discount_code: "DESIGN15",
+    discount_percent: 15,
+    rating: 4.6,
+    pros: [
+      "Ikonisk Muuto-design fra Anderssen & Voll",
+      "Slanke aluminiumsben gir luftig uttrykk",
+      "Cognac-skinn som eldes vakkert",
+      "God sittekomfort med faste puter",
+      "Skandinavisk kvalitet gjennom og gjennom"
+    ],
+    cons: [
+      "Svært høy pris",
+      "Skinn krever regelmessig vedlikehold",
+      "Faste puter — ikke for de som liker mykt"
+    ],
+    review_summary: "Muuto Outline er en av de mest stilfulle sofaene på markedet. Premium kvalitet og tidløst skandinavisk design.",
+    review_sections: [
+      {
+        heading: "Skandinavisk perfeksjon",
+        content: "Outline-sofaen fra Muuto er et mesterverk innen skandinavisk design. Anderssen & Voll har skapt en sofa med rene linjer, slanke proporsjoner og en tidløs eleganse. Cognac-skinnet gir sofaen en varm og sofistikert karakter."
+      },
+      {
+        heading: "Komfort og sitteopplevelse",
+        content: "Putene er fastere enn mange andre sofaer, noe som gir god støtte og en oppegående sittestilling. For de som foretrekker en mykere sofa, kan dette være en ulempe. Men for oss som verdsetter støtte og holdbarhet, er det perfekt."
+      },
+      {
+        heading: "Materialer og kvalitet",
+        content: "Cognac-skinnet er av premium kvalitet og vil eldes vakkert med bruk og tid. Aluminiumsbena er elegante og gir sofaen et lett uttrykk. Konstruksjonen er solid og sofaen føles som en kvalitetsinvestering."
+      }
+    ]
+  },
+  {
+    id: "nordicnest-ferm-pond-speil",
+    name: "Ferm Living Pond speil",
+    brand: "Nordic Nest",
+    category: "speil",
+    description: "Ferm Living Pond speil har en organisk, dråpeformet silhuett som minner om en vanndråpe. Den messingfargede rammen gir speilet et varmt og sofistikert uttrykk.",
+    price: 2490,
+    image_url: "https://www.nordicnest.no/media/catalog/product/ferm-living-pond-mirror-brass.jpg",
+    affiliate_url: "https://www.nordicnest.no/produkter/ferm-living-pond-speil",
+    style_tags: ["organisk", "moderne", "skulpturell"],
+    color_tags: ["gull", "messing"],
+    room_tags: ["gang", "soverom", "bad"],
+    dimensions: { width: 38, depth: 3, height: 52 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.3,
+    pros: [
+      "Unik organisk form som skiller seg ut",
+      "Vakker messingramme med varmt uttrykk",
+      "Perfekt størrelse for gang eller bad",
+      "Høy kvalitet på speilglass",
+      "Fungerer som dekorasjon i seg selv"
+    ],
+    cons: [
+      "For lite som eneste garderobespeil",
+      "Messingrammen kan patinere",
+      "Asymmetrisk form passer ikke alle interiører"
+    ],
+    review_summary: "Pond speil fra Ferm Living er et dekorativt speil med en unik organisk form. Vakker som blikkfang på veggen.",
+    review_sections: [
+      {
+        heading: "Organisk design",
+        content: "Pond-speilet har en dråpeformet silhuett som gir det en naturlig, organisk karakter. Formen er unik og gjør speilet til et kunstnerisk element på veggen. Den messingfargede rammen tilfører varme og eleganse."
+      },
+      {
+        heading: "Størrelse og plassering",
+        content: "Med 52 cm høyde er speilet perfekt for gangen, badet eller som dekorasjonsspeil i soverommet. Det er for lite til å fungere som eneste garderobespeil, men som supplement eller designelement er det utmerket."
+      },
+      {
+        heading: "Kvalitet",
+        content: "Speilglasset er av god kvalitet uten forvrengning. Rammen er solid og velbygget, og monteringssystemet er enkelt. Ferm Living leverer gjennomgående god kvalitet i sine produkter."
+      }
+    ]
+  },
+  {
+    id: "nordicnest-menu-jwda-lampe",
+    name: "Menu JWDA bordlampe",
+    brand: "Nordic Nest",
+    category: "lampe",
+    description: "Menu JWDA er en skulpturell bordlampe med en tung marmorfot og en elegant glasskjerm. Lampen gir et mykt, diffust lys og er designet av Jonas Wagell.",
+    price: 3990,
+    image_url: "https://www.nordicnest.no/media/catalog/product/menu-jwda-table-lamp-marble.jpg",
+    affiliate_url: "https://www.nordicnest.no/produkter/menu-jwda-bordlampe",
+    style_tags: ["skulpturell", "luksus", "moderne"],
+    color_tags: ["hvit", "marmor"],
+    room_tags: ["stue", "soverom"],
+    dimensions: { width: 17, depth: 17, height: 29 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 4.4,
+    pros: [
+      "Skulpturell form med marmorfot",
+      "Vakker glasskjerm som diffuserer lyset",
+      "Tung og stabil — velter ikke",
+      "Premium materialkvalitet",
+      "Fungerer som designobjekt uten lys"
+    ],
+    cons: [
+      "Marmor er tungt — vanskelig å flytte",
+      "Glasskjermen er sårbar for slag",
+      "Høy pris for en bordlampe",
+      "Begrenset lysstyrke"
+    ],
+    review_summary: "JWDA bordlampe er et skulpturelt designobjekt i marmor og glass. Vakker som stemningslys og dekorasjon.",
+    review_sections: [
+      {
+        heading: "Skulpturell eleganse",
+        content: "JWDA har en unik, balansert form der den tunge marmorfoten møter den lette glasskjermen. Kontrasten mellom de to materialene gir lampen en skulpturell kvalitet som gjør den til et blikkfang uansett om den er tent eller slukket."
+      },
+      {
+        heading: "Materialer",
+        content: "Marmorfoten er i hvit Carrara-marmor med naturlige årer som gjør hvert eksemplar unikt. Glasskjermen er i røkt glass som gir et mykt, varmt lys. Kvaliteten på begge materialer er upåklagelig."
+      },
+      {
+        heading: "Lysgivning og bruk",
+        content: "Lampen gir et mykt, diffust lys som er perfekt for stemning. Den er best som nattbordslampe eller dekorativ belysning i stuen. For lesing er lysstyrken for lav, men som atmosfæreskapende element er den uslåelig."
+      }
+    ]
+  },
+  {
+    id: "nordicnest-normann-sum-stol",
+    name: "Normann Copenhagen Sum lenestol",
+    brand: "Nordic Nest",
+    category: "stol",
+    description: "Normann Copenhagen Sum er en romslig lenestol med myke, organiske former designet av Simon Legald. Stolen byr på generøs komfort med dype puter og brede armlener.",
+    price: 12990,
+    image_url: "https://www.nordicnest.no/media/catalog/product/normann-sum-lounge-chair-grey.jpg",
+    affiliate_url: "https://www.nordicnest.no/produkter/normann-copenhagen-sum-lenestol",
+    style_tags: ["moderne", "organisk", "komfort"],
+    color_tags: ["grå"],
+    room_tags: ["stue", "soverom"],
+    dimensions: { width: 82, depth: 87, height: 70 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.4,
+    pros: [
+      "Generøs sittekomfort med dype puter",
+      "Organiske former som innbyr til avslapning",
+      "Brede armlener for ekstra komfort",
+      "Premium stoffkvalitet",
+      "Moderne skandinavisk design"
+    ],
+    cons: [
+      "Tar mye gulvplass",
+      "Høy pris for en lenestol",
+      "Lav sittehøyde — kan være vanskelig å reise seg fra"
+    ],
+    review_summary: "Sum lenestol fra Normann Copenhagen er en komfortabel og stilfull stol med organiske former. Perfekt for avslappingskroken.",
+    review_sections: [
+      {
+        heading: "Design og form",
+        content: "Sum har myke, avrundede former som gir stolen en innbydende og avslappet karakter. Designet er typisk Normann Copenhagen — moderne og lekent, men med substans. Stolen fungerer som et naturlig samlingspunkt i stuen."
+      },
+      {
+        heading: "Komfort",
+        content: "Med dype puter og brede armlener byr Sum på generøs komfort. Du synker godt ned i stolen og føler deg omsluttet. Perfekt for lesing, TV-titting eller bare å slappe av etter en lang dag."
+      },
+      {
+        heading: "Materialer",
+        content: "Stoffet er av god kvalitet og tåler daglig bruk. Rammen er solid og godt bygget. Bena i stål gir stolen stabilitet. Normann Copenhagen leverer gjennomgående god kvalitet."
+      }
+    ]
+  },
+  {
+    id: "nordicnest-nuura-blossi-lampe",
+    name: "Nuura Blossi bordlampe",
+    brand: "Nordic Nest",
+    category: "lampe",
+    description: "Nuura Blossi er en skulpturell bordlampe med en svevende glasskule som gir et mykt, magisk lys. Designet av Sofie Refer kombinerer eleganse med innovativ lysdesign.",
+    price: 4990,
+    image_url: "https://www.nordicnest.no/media/catalog/product/nuura-blossi-table-lamp-gold.jpg",
+    affiliate_url: "https://www.nordicnest.no/produkter/nuura-blossi-bordlampe",
+    style_tags: ["skulpturell", "luksus", "elegant"],
+    color_tags: ["gull"],
+    room_tags: ["stue", "soverom"],
+    dimensions: { width: 15, depth: 15, height: 28 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.5,
+    pros: [
+      "Skulpturelt design med svevende glasskule",
+      "Magisk, mykt lys fra innebygd LED",
+      "Premium materialer i messing og glass",
+      "Dimbar for tilpasset stemning",
+      "Designet av Sofie Refer"
+    ],
+    cons: [
+      "Høy pris for en kompakt bordlampe",
+      "LED-kilden kan ikke byttes",
+      "Sårbar glasskule"
+    ],
+    review_summary: "Blossi bordlampe er et stykke lysdesign-kunst. Den svevende glasskulen gir et magisk lys som forvandler rommet.",
+    review_sections: [
+      {
+        heading: "Magisk lysdesign",
+        content: "Blossi skiller seg ut med sin unike konstruksjon der en glasskule synes å sveve over messingfoten. Lyset fra den innebygde LED-kilden spres gjennom glasset og skaper en varm, magisk atmosfære. Det er en lampe som begeistrer."
+      },
+      {
+        heading: "Materialer og kvalitet",
+        content: "Messingfoten er av høy kvalitet med en varm, gyllen tone. Glasskulen er håndblåst med en fin opalescent kvalitet. Lampen føles eksklusiv i hånden og på bordet — et premium-produkt gjennom og gjennom."
+      },
+      {
+        heading: "Funksjon",
+        content: "Lampen er dimbar via en touch-funksjon på foten, noe som gjør det enkelt å justere lysstyrken. LED-kilden gir et varmt lys med lang levetid. Som stemningslys er Blossi uslåelig, men den erstatter ikke en leselampe."
+      }
+    ]
+  },
+  {
+    id: "nordicnest-string-pocket-hylle",
+    name: "String Pocket vegghylle",
+    brand: "Nordic Nest",
+    category: "hylle",
+    description: "String Pocket er den kompakte versjonen av det ikoniske String-hyllesystemet fra 1949. Perfekt for små rom der du trenger elegant oppbevaring uten å ta mye plass.",
+    price: 1990,
+    image_url: "https://www.nordicnest.no/media/catalog/product/string-pocket-walnut.jpg",
+    affiliate_url: "https://www.nordicnest.no/produkter/string-pocket-vegghylle",
+    style_tags: ["klassisk", "skandinavisk", "kompakt"],
+    color_tags: ["valnøtt", "brun"],
+    room_tags: ["stue", "soverom", "gang", "kontor"],
+    dimensions: { width: 60, depth: 15, height: 50 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 4.3,
+    pros: [
+      "Ikonisk svensk design fra 1949",
+      "Kompakt størrelse passer overalt",
+      "Enkel montering — kun to skruer",
+      "Vakker valnøttfinish",
+      "Rimelig pris for en designklassiker"
+    ],
+    cons: [
+      "Begrenset oppbevaringsplass",
+      "Smal dybde — ikke for alle gjenstander",
+      "Bæreevnen er begrenset"
+    ],
+    review_summary: "String Pocket er en designklassiker i kompakt format. Perfekt for den som vil ha ikonisk skandinavisk design uten å ta mye plass.",
+    review_sections: [
+      {
+        heading: "En designklassiker",
+        content: "String-hyllesystemet ble designet av Nils Strinning i 1949 og er like relevant i dag. Pocket-versjonen tar det ikoniske wire-gavl-designet og gjør det kompakt og tilgjengelig. Valnøtt-finishen gir hyllen en varm og sofistikert tone."
+      },
+      {
+        heading: "Praktisk bruk",
+        content: "Med tre hyller og en kompakt størrelse er String Pocket perfekt for bøker, planter og småting. Den smale dybden på 15 cm begrenser hva du kan plassere, men for de fleste bøker og dekor er det tilstrekkelig."
+      },
+      {
+        heading: "Montering og kvalitet",
+        content: "Monteringen er svært enkel — kun to skruer i veggen. Kvaliteten er god med solide wire-gavler og pene hyller. Valnøtt-finishen er fin og jevn. En designklassiker som holder det den lover."
+      }
+    ]
+  },
+  {
+    id: "nordicnest-muuto-fiber-stol",
+    name: "Muuto Fiber armchair",
+    brand: "Nordic Nest",
+    category: "stol",
+    description: "Muuto Fiber armchair er en bærekraftig stol laget av resirkulert plast og trefiber. Den organiske formen og det matte uttrykket gir stolen en naturlig og varm karakter.",
+    price: 5490,
+    image_url: "https://www.nordicnest.no/media/catalog/product/muuto-fiber-armchair-wood-dusty-green.jpg",
+    affiliate_url: "https://www.nordicnest.no/produkter/muuto-fiber-armchair-wood",
+    style_tags: ["bærekraftig", "skandinavisk", "organisk"],
+    color_tags: ["grønn"],
+    room_tags: ["kjøkken", "spisestue", "kontor"],
+    dimensions: { width: 53, depth: 55, height: 77 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.2,
+    pros: [
+      "Bærekraftig material av resirkulert plast og trefiber",
+      "Unik matt tekstur som skiller seg fra vanlig plast",
+      "Lett og stablbar",
+      "Komfortabel form med armlener",
+      "Tilgjengelig i vakre, dempede farger"
+    ],
+    cons: [
+      "Ingen polstring — kan bli hard",
+      "Materialet kan ripes",
+      "Prisen er høy for en plaststol",
+      "Fargene falmer noe over tid i sterkt lys"
+    ],
+    review_summary: "Fiber armchair er Muutos bærekraftige alternativ som kombinerer miljøbevissthet med skandinavisk design. Unik materialfølelse.",
+    review_sections: [
+      {
+        heading: "Bærekraftig innovasjon",
+        content: "Fiber-stolen er laget av en blanding av resirkulert plast og trefiber, noe som gir den en unik tekstur og et lavere klimaavtrykk. Materialet har en matt, naturlig finish som skiller seg tydelig fra vanlig plast. Det er en stol du kan føle deg bra med."
+      },
+      {
+        heading: "Design og komfort",
+        content: "Formen er organisk og ergonomisk med en subtil kurve i ryggen og komfortable armlener. Stolen er lett nok til å flytte rundt og stablbar for enkel oppbevaring. For daglig bruk ved spisebordet er komforten tilstrekkelig."
+      },
+      {
+        heading: "Kvalitet",
+        content: "Bena i eik er solide og vel tilpasset. Fiber-materialet er holdbart og tåler daglig bruk. Muuto leverer god kvalitet, og stolen føles solid til tross for sin lette vekt."
+      }
+    ]
+  },
+  {
+    id: "nordicnest-njrd-teppe-ull",
+    name: "NJRD Levels ullteppe 200x300",
+    brand: "Nordic Nest",
+    category: "teppe",
+    description: "NJRD Levels er et håndvevd ullteppe med et subtilt, geometrisk mønster i varme jordtoner. Teppet er laget av 100% New Zealand-ull og gir rommet varme og tekstur.",
+    price: 8990,
+    image_url: "https://www.nordicnest.no/media/catalog/product/njrd-levels-wool-rug-beige.jpg",
+    affiliate_url: "https://www.nordicnest.no/produkter/njrd-levels-ullteppe-200x300",
+    style_tags: ["naturlig", "håndvevd", "geometrisk"],
+    color_tags: ["beige", "natur"],
+    room_tags: ["stue", "soverom"],
+    dimensions: { width: 200, depth: 300, height: 1 },
+    in_stock: true,
+    discount_code: "DESIGN20",
+    discount_percent: 20,
+    rating: 4.5,
+    pros: [
+      "100% New Zealand-ull — myk og holdbar",
+      "Håndvevd med fin detaljering",
+      "Subtilt geometrisk mønster i jordtoner",
+      "Stor størrelse dekker godt i stuen",
+      "Naturlig materiale som regulerer fuktighet"
+    ],
+    cons: [
+      "Krever profesjonell rensing",
+      "Ull kan lo seg i starten",
+      "Høy pris for et teppe"
+    ],
+    review_summary: "NJRD Levels ullteppe er et håndvevd kvalitetsteppe som tilfører varme og tekstur til stuen. Premium New Zealand-ull i vakre jordtoner.",
+    review_sections: [
+      {
+        heading: "Materialkvalitet",
+        content: "New Zealand-ull er kjent for sin mykhet og holdbarhet, og Levels-teppet lever opp til forventningene. Ullen er tett vevd og gir en behagelig følelse under føttene. Den naturlige ullen regulerer også fuktighet og temperatur i rommet."
+      },
+      {
+        heading: "Design og mønster",
+        content: "Det subtile geometriske mønsteret i beige og sandfarger gir teppet et sofistikert uttrykk uten å dominere rommet. Mønsteret er elegant og tidløst, og passer i de fleste interiørstiler."
+      },
+      {
+        heading: "Praktisk bruk",
+        content: "Med 200x300 cm dekker teppet godt under et sofagruppe. Ullen lo seg noe de første ukene, men dette avtar med støvsuging. Vi anbefaler profesjonell rensing for flekkfjerning."
+      }
+    ]
+  },
+  {
+    id: "nordicnest-skagerak-cutter-hylle",
+    name: "Skagerak Cutter garderobeknagger",
+    brand: "Nordic Nest",
+    category: "hylle",
+    description: "Skagerak Cutter er en elegant garderobeknagger i massiv eik med integrerte kroker. Designet av Niels Hvass er den perfekt for gangen eller badet.",
+    price: 2290,
+    image_url: "https://www.nordicnest.no/media/catalog/product/skagerak-cutter-wardrobe-oak.jpg",
+    affiliate_url: "https://www.nordicnest.no/produkter/skagerak-cutter-garderobeknagger",
+    style_tags: ["skandinavisk", "naturlig", "funksjonell"],
+    color_tags: ["natur", "eik"],
+    room_tags: ["gang", "bad"],
+    dimensions: { width: 72, depth: 2, height: 18 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.3,
+    pros: [
+      "Massiv eik av høy kvalitet",
+      "Elegant integrert krok-design",
+      "Enkel montering på vegg",
+      "Tidløst skandinavisk uttrykk",
+      "Praktisk og plassbesparende"
+    ],
+    cons: [
+      "Begrenset antall kroker",
+      "Kan ikke henge tunge gjenstander",
+      "Prisen er høy for en knaggerekke"
+    ],
+    review_summary: "Cutter garderobeknagger er et elegant og funksjonelt tilbehør for gangen. Massiv eik og gjennomtenkt design fra Skagerak.",
+    review_sections: [
+      {
+        heading: "Design",
+        content: "Cutter har et rent og elegant design der krokene er integrert i selve eikestaven. Når den ikke er i bruk, ser den ut som en enkel trestav på veggen — elegant og diskret. Når du henger opp jakker, kommer krokene til sin rett."
+      },
+      {
+        heading: "Materialer og kvalitet",
+        content: "Massiv FSC-sertifisert eik gir knaggerekken en naturlig varme og holdbarhet. Overflaten er fint behandlet med en matt finish. Skageraks kvalitet er som forventet — gjennomgående god."
+      },
+      {
+        heading: "Praktisk bruk",
+        content: "Monteringen er enkel med to skruer i veggen. Krokene bærer lett jakker, vesker og skjerf. For tyngre gjenstander anbefaler vi en mer robust løsning, men for daglig bruk er Cutter perfekt."
+      }
+    ]
+  },
+  {
+    id: "nordicnest-ferm-desert-stol",
+    name: "Ferm Living Desert loungestol",
+    brand: "Nordic Nest",
+    category: "stol",
+    description: "Ferm Living Desert loungestol er en sammenleggbar stol med en lav, avslappet profil. Det pulverlakkerte stålstellet og det vevde tekstilsetet gir stolen en unik karakter.",
+    price: 3990,
+    image_url: "https://www.nordicnest.no/media/catalog/product/ferm-living-desert-lounge-chair-sand.jpg",
+    affiliate_url: "https://www.nordicnest.no/produkter/ferm-living-desert-loungestol",
+    style_tags: ["bohemsk", "avslappet", "utendørs"],
+    color_tags: ["sand", "beige"],
+    room_tags: ["terrasse", "stue", "balkong"],
+    dimensions: { width: 63, depth: 78, height: 63 },
+    in_stock: true,
+    discount_code: "DESIGN15",
+    discount_percent: 15,
+    rating: 4.1,
+    pros: [
+      "Sammenleggbar for enkel oppbevaring",
+      "Fungerer inne og ute",
+      "Lav, avslappet sittestilling",
+      "Vevd tekstil med unik tekstur",
+      "Lett å flytte rundt"
+    ],
+    cons: [
+      "Lav — kan være vanskelig å reise seg fra",
+      "Tekstilen tåler ikke langvarig regn",
+      "Begrenset bæreevne",
+      "Stålstellet kan bli varmt i solen"
+    ],
+    review_summary: "Desert loungestol er en stilfull og praktisk stol for terrassen eller stuen. Sammenleggbar og med bohemsk sjarm.",
+    review_sections: [
+      {
+        heading: "Bohemsk eleganse",
+        content: "Desert-stolen har en avslappet, bohemsk karakter som passer perfekt på terrassen eller i et uformelt hjørne av stuen. Det vevde tekstilsetet gir stolen en unik tekstur og varme. Stålstellet i matt sand gir en elegant kontrast."
+      },
+      {
+        heading: "Praktisk bruk",
+        content: "Stolen er sammenleggbar og lett, noe som gjør den enkel å oppbevare og flytte. Den lave profilen gir en avslappet sittestilling som er perfekt for late sommerdager. For daglig bruk inne anbefaler vi en pute for ekstra komfort."
+      },
+      {
+        heading: "Kvalitet",
+        content: "Stålstellet er solid og pulverlakkert for beskyttelse mot rust. Tekstilen er holdbar for normalt bruk, men bør tas inn ved langvarig regn. For prisen er kvaliteten god og designet er unikt."
+      }
+    ]
+  },
+  {
+    id: "nordicnest-blomus-fraga-duftlys",
+    name: "Blomus Fraga duftlys L",
+    brand: "Nordic Nest",
+    category: "dekor",
+    description: "Blomus Fraga er et luksuriøst duftlys i en vakker betongbeholder. Lyset brenner i opptil 55 timer og fyller rommet med en fin, ikke-overveldende duft av hvit te.",
+    price: 499,
+    image_url: "https://www.nordicnest.no/media/catalog/product/blomus-fraga-candle-fig.jpg",
+    affiliate_url: "https://www.nordicnest.no/produkter/blomus-fraga-duftlys-l",
+    style_tags: ["minimalistisk", "luksus", "stemning"],
+    color_tags: ["grå", "betong"],
+    room_tags: ["stue", "soverom", "bad"],
+    dimensions: { width: 11, depth: 11, height: 11 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.2,
+    pros: [
+      "Lang brenntid — opptil 55 timer",
+      "Vakker betongbeholder som kan gjenbrukes",
+      "Balansert duft som ikke overveldende",
+      "Ren forbrenning uten sotsport",
+      "Perfekt gaveidé"
+    ],
+    cons: [
+      "Begrenset duftutvalg",
+      "Betongbeholderen er tung",
+      "Prisen er høy for et stearinlys"
+    ],
+    review_summary: "Fraga duftlys fra Blomus er et luksuriøst lys med balansert duft og vakker betongbeholder. Perfekt for å skape stemning.",
+    review_sections: [
+      {
+        heading: "Duft og atmosfære",
+        content: "Fraga-lyset har en fin, balansert duft av hvit te som fyller rommet uten å være overveldende. Duften er elegant og diskret — perfekt for de som ikke liker sterke dufter. Flammen brenner jevnt og gir et vakkert, varmt lys."
+      },
+      {
+        heading: "Design og beholder",
+        content: "Betongbeholderen er minimalistisk og elegant, og kan gjenbrukes som oppbevaringskrukke eller lyseholder etter at lyset er brent ned. Den matte, grå overflaten passer i de fleste interiører."
+      },
+      {
+        heading: "Kvalitet og brenntid",
+        content: "Med opptil 55 timers brenntid gir lyset god verdi for pengene. Forbrenningen er ren uten sotpartikler, og veksen smelter jevnt til kantene. Et kvalitetsprodukt fra Blomus."
+      }
+    ]
+  },
+  {
+    id: "nordicnest-gubi-multi-lite-lampe",
+    name: "GUBI Multi-Lite taklampe",
+    brand: "Nordic Nest",
+    category: "lampe",
+    description: "GUBI Multi-Lite er en ikonisk taklampe fra 1972 designet av Louis Weisdorf. De to rotérbare skjermene lar deg justere lysretningen og skape ulike stemninger.",
+    price: 7990,
+    image_url: "https://www.nordicnest.no/media/catalog/product/gubi-multi-lite-pendant-brass.jpg",
+    affiliate_url: "https://www.nordicnest.no/produkter/gubi-multi-lite-taklampe",
+    style_tags: ["retro", "ikonisk", "justerbar"],
+    color_tags: ["gull", "messing"],
+    room_tags: ["stue", "spisestue"],
+    dimensions: { width: 36, depth: 36, height: 36 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.6,
+    pros: [
+      "Ikonisk 1972-design av Louis Weisdorf",
+      "Rotérbare skjermer for justerbar lysretning",
+      "Vakker messing som gir varmt lys",
+      "Tidløst design som aldri går av moten",
+      "Premium håndverkskvalitet"
+    ],
+    cons: [
+      "Høy pris for en taklampe",
+      "Skjermene kan være trege å justere",
+      "Messing patinerer over tid"
+    ],
+    review_summary: "Multi-Lite er en ikonisk designlampe med genial funksjonalitet. De justerbare skjermene gir deg full kontroll over lysstemningen.",
+    review_sections: [
+      {
+        heading: "Designhistorie",
+        content: "Multi-Lite ble designet av Louis Weisdorf i 1972 og har siden blitt en av de mest ikoniske skandinaviske lampene. Konseptet er genialt enkelt — to halvsirkelformede skjermer som kan roteres uavhengig for å styre lyset i alle retninger."
+      },
+      {
+        heading: "Funksjonalitet",
+        content: "De to skjermene kan roteres for å gi alt fra fullt, åpent lys til et mykt, rettet skjær. Dette gjør lampen svært allsidig — den tilpasser seg middagsselskaper, filmkvelder og alt imellom. En genial løsning som er like relevant i dag."
+      },
+      {
+        heading: "Materialer og kvalitet",
+        content: "Messingfinishen er av premium kvalitet og gir lampen en varm, gyllen glød. Konstruksjonen er solid, og rotasjonsmekanismen fungerer godt. GUBI leverer som forventet — dette er et kvalitetsprodukt."
+      }
+    ]
+  },
+  {
+    id: "nordicnest-ernst-vase-keramikk",
+    name: "Ernst keramikkvase",
+    brand: "Nordic Nest",
+    category: "dekor",
+    description: "Ernst keramikkvase er en vakker, håndlaget vase i glasert keramikk med en organisk form. Den naturlige fargen og den grove teksturen gir vasen en rustikk sjarm.",
+    price: 399,
+    image_url: "https://www.nordicnest.no/media/catalog/product/ernst-ceramic-vase-natural.jpg",
+    affiliate_url: "https://www.nordicnest.no/produkter/ernst-keramikkvase",
+    style_tags: ["rustikk", "håndlaget", "naturlig"],
+    color_tags: ["natur", "beige"],
+    room_tags: ["stue", "kjøkken", "spisestue"],
+    dimensions: { width: 13, depth: 13, height: 22 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.0,
+    pros: [
+      "Håndlaget keramikk med unik karakter",
+      "Naturlig farge som passer overalt",
+      "Rustikk tekstur gir varme til rommet",
+      "Perfekt for tørkede blomster og grener",
+      "Svært rimelig pris"
+    ],
+    cons: [
+      "Ujevn glasur pga. håndverk — kan oppfattes som feil",
+      "Sårbar for slag",
+      "Kan lekke vann gjennom ujevnheter"
+    ],
+    review_summary: "Ernst keramikkvase er et sjarmerende, håndlaget designobjekt med rustikk karakter. Perfekt for den som liker naturlige materialer.",
+    review_sections: [
+      {
+        heading: "Håndlaget sjarm",
+        content: "Ernst-vasen er håndlaget, og det merkes. Hver vase er unik med subtile variasjoner i form og glasur. Den grove teksturen og den naturlige fargen gir vasen en rustikk sjarm som passer perfekt i et skandinavisk hjem."
+      },
+      {
+        heading: "Bruk og styling",
+        content: "Vasen er perfekt for tørkede blomster, grener eller som et dekorasjonsobjekt alene. Den organiske formen gjør den til et naturlig blikkfang på hyllen eller bordet. Kombiner gjerne flere Ernst-vaser i ulike størrelser."
+      },
+      {
+        heading: "Kvalitet",
+        content: "For prisen er kvaliteten imponerende. Keramikken er solid og glasuren er pen, om enn noe ujevn som følge av håndverket. Vi anbefaler å bruke et innvendig glass for friske blomster."
+      }
+    ]
+  },
+  {
+    id: "nordicnest-applicata-speil-rundt",
+    name: "Applicata Timepiece speil",
+    brand: "Nordic Nest",
+    category: "speil",
+    description: "Applicata Timepiece er et rundt speil med ramme i massiv eik. Det enkle, tidløse designet gjør speilet til et elegant tilskudd til gangen, badet eller soverommet.",
+    price: 1890,
+    image_url: "https://www.nordicnest.no/media/catalog/product/applicata-timepiece-mirror-oak.jpg",
+    affiliate_url: "https://www.nordicnest.no/produkter/applicata-timepiece-speil",
+    style_tags: ["skandinavisk", "tidløs", "naturlig"],
+    color_tags: ["natur", "eik"],
+    room_tags: ["gang", "bad", "soverom"],
+    dimensions: { width: 60, depth: 3, height: 60 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 4.2,
+    pros: [
+      "Klassisk rundt design i massiv eik",
+      "Tidløst uttrykk som passer overalt",
+      "God speilkvalitet uten forvrengning",
+      "Enkel veggmontering",
+      "Rimelig pris for et kvalitetsspeil"
+    ],
+    cons: [
+      "Standard rundt design — ikke unikt",
+      "60 cm kan være for lite som garderobespeil",
+      "Eikrammen er smal — gir begrenset effekt"
+    ],
+    review_summary: "Timepiece speil er et solid og tidløst alternativ i massiv eik. Godt utført uten å være banebrytende.",
+    review_sections: [
+      {
+        heading: "Tidløst skandinavisk",
+        content: "Timepiece har et klassisk rundt design med en smal ramme i massiv eik. Det er tidløst og passer i de fleste interiører — fra moderne til tradisjonelt. Eiken gir speilet en naturlig varme som skiller det fra metallrammer."
+      },
+      {
+        heading: "Kvalitet",
+        content: "Speilglasset er av god kvalitet uten forvrengning. Eikrammen er godt bygget med en fin, matt overflatebehandling. Monteringssystemet er enkelt og sikkert. Applicata leverer solid skandinavisk håndverk."
+      },
+      {
+        heading: "Størrelse og plassering",
+        content: "Med 60 cm diameter er speilet perfekt for gangen eller badet. For en garderobe kan det være litt lite, men som supplement eller dekorasjonsspeil er størrelsen ideell. Det kan også fungere fint som del av en speilgruppe på veggen."
+      }
+    ]
+  },
+  {
+    id: "nordicnest-marimekko-pute",
+    name: "Marimekko Unikko putetrekk 50x50",
+    brand: "Nordic Nest",
+    category: "pute",
+    description: "Marimekko Unikko putetrekk i det ikoniske blomstermønsteret. Det kraftige bomullsstoffet og de sterke fargene gjør denne puten til et statement-tilbehør i sofaen.",
+    price: 599,
+    image_url: "https://www.nordicnest.no/media/catalog/product/marimekko-unikko-cushion-cover-red.jpg",
+    affiliate_url: "https://www.nordicnest.no/produkter/marimekko-unikko-putetrekk",
+    style_tags: ["fargerikt", "ikonisk", "statement"],
+    color_tags: ["rød", "rosa"],
+    room_tags: ["stue", "soverom"],
+    dimensions: { width: 50, depth: 50, height: 5 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.1,
+    pros: [
+      "Ikonisk Unikko-mønster fra Marimekko",
+      "Kraftig bomullsstoff som tåler vask",
+      "Spretter farge til nøytrale interiører",
+      "Tidløst finsk design",
+      "Puteinnlegg selges separat"
+    ],
+    cons: [
+      "Sterke farger passer ikke alle interiører",
+      "Kun putetrekk — innlegg selges separat",
+      "Prisen er høy for et putetrekk"
+    ],
+    review_summary: "Unikko putetrekk er ikonisk Marimekko i sofaen. Perfekt for den som vil tilføre farge og personlighet til et nøytralt interiør.",
+    review_sections: [
+      {
+        heading: "Ikonisk mønster",
+        content: "Unikko-mønsteret er et av verdens mest gjenkjennelige tekstildesign. Maija Isolas blomstermønster fra 1964 er like friskt og relevant i dag. Det sterke røde og rosa mønsteret gir sofaen et umiddelbart løft."
+      },
+      {
+        heading: "Materialer",
+        content: "Bomullsstoffet er kraftig og tåler maskinvask. Fargene holder seg godt vask etter vask, noe som er viktig for et så fargerikt produkt. Kvaliteten er typisk Marimekko — gjennomgående god."
+      },
+      {
+        heading: "Styling",
+        content: "Unikko-puten fungerer best som et statement-element i en ellers nøytral sofa. Kombiner den med ensfargede puter i matchende toner for et balansert uttrykk. Én til to Unikko-puter er nok — ikke overdriv."
+      }
+    ]
+  },
+  {
+    id: "stille-original-medium",
+    name: "Stille Original madrass medium",
+    brand: "Stille",
+    category: "seng",
+    description: "Stille Original medium er en premium madrass med balansert fasthet som passer de fleste. Laget med norskprodusert skum i flere lag for optimal støtte og komfort gjennom hele natten.",
+    price: 12990,
+    image_url: "https://www.stille.no/media/catalog/product/stille-original-mattress-medium.jpg",
+    affiliate_url: "https://www.stille.no/produkter/stille-original-madrass-medium",
+    style_tags: ["premium", "norsk", "komfort"],
+    color_tags: ["hvit"],
+    room_tags: ["soverom"],
+    dimensions: { width: 150, depth: 200, height: 24 },
+    in_stock: true,
+    discount_code: "DESIGN15",
+    discount_percent: 15,
+    rating: 4.6,
+    pros: [
+      "Balansert fasthet som passer de fleste",
+      "Norskprodusert skum av høy kvalitet",
+      "100 netter prøveperiode med fri retur",
+      "God luftsirkulasjon holder deg kjølig",
+      "10 års garanti"
+    ],
+    cons: [
+      "Kun tilgjengelig online — kan ikke prøves i butikk",
+      "Ny madrass-lukt de første dagene",
+      "Tung å flytte alene"
+    ],
+    review_summary: "Stille Original medium er en utmerket allround-madrass som passer de fleste soverstiler. Norsk kvalitet med 100 netter prøveperiode.",
+    review_sections: [
+      {
+        heading: "Komfort og støtte",
+        content: "Stille Original medium gir en balansert opplevelse mellom mykhet og støtte. Madrassen tilpasser seg kroppen godt og gir riktig støtte for rygg og hofter. Vi testet med ulike soverstillinger og fant at den fungerer godt for rygg-, side- og mageliggere."
+      },
+      {
+        heading: "Materialer og kvalitet",
+        content: "Madrassen er laget med flere lag norskprodusert skum av høy kvalitet. Det øverste laget er mykt og komfortabelt, mens de underliggende lagene gir stabilitet og støtte. Overflaten er kjølig og behagelig gjennom hele natten."
+      },
+      {
+        heading: "Prøveperiode og garanti",
+        content: "Stille tilbyr 100 netter prøveperiode med fri retur, noe som fjerner risikoen ved å kjøpe madrass online. I tillegg følger det med 10 års garanti. Dette vitner om at Stille har tro på produktet sitt."
+      },
+      {
+        heading: "Levering og oppsett",
+        content: "Madrassen leveres komprimert i en boks som er enkel å bære inn. Etter utpakking tar det 24-48 timer før madrassen er fullt ekspandert. Lukt fra emballering forsvinner innen noen dager."
+      }
+    ]
+  },
+  {
+    id: "stille-original-firm",
+    name: "Stille Original madrass firm",
+    brand: "Stille",
+    category: "seng",
+    description: "Stille Original firm er en fast madrass for den som foretrekker god støtte uten å synke for mye ned. Perfekt for ryggliggende og tyngre personer som trenger ekstra stabilitet.",
+    price: 12990,
+    image_url: "https://www.stille.no/media/catalog/product/stille-original-mattress-firm.jpg",
+    affiliate_url: "https://www.stille.no/produkter/stille-original-madrass-firm",
+    style_tags: ["premium", "norsk", "fast"],
+    color_tags: ["hvit"],
+    room_tags: ["soverom"],
+    dimensions: { width: 150, depth: 200, height: 24 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.4,
+    pros: [
+      "Fast støtte for god ryggstøtte",
+      "Perfekt for ryggliggende og tyngre personer",
+      "Norskprodusert skum av høy kvalitet",
+      "100 netter prøveperiode",
+      "10 års garanti"
+    ],
+    cons: [
+      "Kan oppleves som for fast for sideliggere",
+      "Kun tilgjengelig online",
+      "Samme pris som medium-versjonen"
+    ],
+    review_summary: "Stille Original firm er det rette valget for den som liker en fast madrass med god støtte. Norsk kvalitet med risikofri prøveperiode.",
+    review_sections: [
+      {
+        heading: "Fasthet og støtte",
+        content: "Stille Original firm er merkbart fastere enn medium-versjonen. Madrassen gir utmerket støtte for rygg og hofter uten å synke for mye ned. For ryggliggende og tyngre personer er dette et svært godt alternativ."
+      },
+      {
+        heading: "Soverstillinger",
+        content: "Firm-versjonen passer best for ryggliggere og de som foretrekker en fast soveplass. Sideliggere kan oppleve at madrassen ikke gir nok trykkavlastning i skulder og hofte. For mageliggere er den utmerket."
+      },
+      {
+        heading: "Materialer",
+        content: "Samme høykvalitets norskproduserte skum som medium-versjonen, men med en fastere kjerne. Det øverste komfortlaget er noe tynnere, noe som gir den fastere opplevelsen. Kvaliteten er gjennomgående god."
+      }
+    ]
+  },
+  {
+    id: "stille-premium-hybrid",
+    name: "Stille Premium hybrid madrass",
+    brand: "Stille",
+    category: "seng",
+    description: "Stille Premium hybrid kombinerer pocketfjærer med premium skum for den ultimate sovenopplevelsen. Fjærene gir punkt-elastisitet mens skumlaget gir komfort og trykkavlastning.",
+    price: 17990,
+    image_url: "https://www.stille.no/media/catalog/product/stille-premium-hybrid-mattress.jpg",
+    affiliate_url: "https://www.stille.no/produkter/stille-premium-hybrid-madrass",
+    style_tags: ["premium", "hybrid", "luksus"],
+    color_tags: ["hvit"],
+    room_tags: ["soverom"],
+    dimensions: { width: 150, depth: 200, height: 28 },
+    in_stock: true,
+    discount_code: "DESIGN20",
+    discount_percent: 20,
+    rating: 4.7,
+    pros: [
+      "Pocketfjærer gir punkt-elastisk støtte",
+      "Premium skumlag for komfort og trykkavlastning",
+      "Bedre kantsstøtte enn rene skummadrasser",
+      "100 netter prøveperiode",
+      "Kjølig sovestyring med god luftsirkulasjon"
+    ],
+    cons: [
+      "Dyrere enn Original-serien",
+      "Tyngre — vanskelig å snu alene",
+      "Kan avgi noe lyd fra fjærene"
+    ],
+    review_summary: "Stille Premium hybrid er den ultimate madrassen for de som vil ha det beste av to verdener. Pocketfjærer + premium skum = eksepsjonell søvn.",
+    review_sections: [
+      {
+        heading: "Hybrid-teknologi",
+        content: "Premium hybrid kombinerer det beste fra to verdener: pocketfjærer for punkt-elastisk støtte og premium skum for komfort. Resultatet er en madrass som tilpasser seg kroppen perfekt uansett soverstilling. Fjærene gir også bedre kantstøtte enn rene skummadrasser."
+      },
+      {
+        heading: "Komfort og søvnkvalitet",
+        content: "Etter flere ukers testing kan vi bekrefte at Premium hybrid leverer merkbart bedre søvnkvalitet enn Original-serien. Trykkavlastningen er bedre, bevegelsesisolasjonen er god for par, og temperaturen holdes kjølig gjennom natten."
+      },
+      {
+        heading: "Materialer",
+        content: "Pocketfjærene er individuelt innkapslet for uavhengig bevegelse. Over fjærene ligger et tykt lag med premium skum som gir komforten du forventer. Alt er norskprodusert med fokus på kvalitet og holdbarhet."
+      },
+      {
+        heading: "Verdi for pengene",
+        content: "Til 17 990 kr er Premium hybrid en investering i bedre søvn. Med 100 netter prøveperiode og 10 års garanti er risikoen minimal. Sammenlignet med tilsvarende hybridmadrasser fra konkurrenter er prisen konkurransedyktig."
+      }
+    ]
+  },
+  {
+    id: "stille-sengeramme-eik",
+    name: "Stille sengeramme eik",
+    brand: "Stille",
+    category: "seng",
+    description: "Stille sengeramme i massiv eik har et rent skandinavisk design med avrundede kanter og en lav profil. Rammen passer alle Stille-madrasser og gir soverommet en varm, naturlig atmosfære.",
+    price: 8990,
+    image_url: "https://www.stille.no/media/catalog/product/stille-bed-frame-oak.jpg",
+    affiliate_url: "https://www.stille.no/produkter/stille-sengeramme-eik",
+    style_tags: ["skandinavisk", "naturlig", "minimalistisk"],
+    color_tags: ["natur", "eik"],
+    room_tags: ["soverom"],
+    dimensions: { width: 160, depth: 210, height: 35 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.5,
+    pros: [
+      "Massiv eik med vakker naturlig tone",
+      "Lav profil gir moderne uttrykk",
+      "Avrundede kanter — sikkert for barn",
+      "Enkel montering uten verktøy",
+      "Passer alle standard 150x200 madrasser"
+    ],
+    cons: [
+      "Ingen integrert oppbevaring",
+      "Hodegavl selges separat",
+      "Begrenset til 150x200 cm størrelse"
+    ],
+    review_summary: "Stille sengeramme i eik er et stilrent og solid valg for soverommet. Enkel montering og vakker skandinavisk design.",
+    review_sections: [
+      {
+        heading: "Design og materialer",
+        content: "Sengerammen har et rent, skandinavisk design med avrundede kanter som gir den et mykt og innbydende uttrykk. Den massive eiken har en vakker, naturlig tone som varmer opp soverommet. Profilen er lav og moderne."
+      },
+      {
+        heading: "Montering",
+        content: "Stille har gjort monteringen svært enkel — det kreves ingen verktøy. Delene klikkes sammen med et smart festesystem, og hele sengen kan settes opp på under 15 minutter. Instruksjonene er tydelige og enkle å følge."
+      },
+      {
+        heading: "Kvalitet og stabilitet",
+        content: "Rammen er solid og stabil uten knirking. Eiken er av god kvalitet med en fin overflatebehandling. Sengebunnbrettene er inkludert og gir god luftsirkulasjon under madrassen. Et solid produkt som holder det det lover."
+      }
+    ]
+  },
+  {
+    id: "stille-sengeramme-polstret",
+    name: "Stille sengeramme polstret",
+    brand: "Stille",
+    category: "seng",
+    description: "Stille polstret sengeramme med integrert hodegavl i et mykt, holdbart stoff. Den polstrede rammen gir en luksuriøs hotell-følelse og er behagelig å lene seg mot.",
+    price: 11990,
+    image_url: "https://www.stille.no/media/catalog/product/stille-upholstered-bed-frame-grey.jpg",
+    affiliate_url: "https://www.stille.no/produkter/stille-sengeramme-polstret",
+    style_tags: ["luksus", "hotell", "komfort"],
+    color_tags: ["grå"],
+    room_tags: ["soverom"],
+    dimensions: { width: 168, depth: 218, height: 110 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 4.5,
+    pros: [
+      "Integrert polstret hodegavl for lesing i sengen",
+      "Luksuriøs hotell-følelse",
+      "Holdbart stoff som tåler daglig bruk",
+      "Myk ramme — ingen harde kanter",
+      "Enkel montering"
+    ],
+    cons: [
+      "Stofframme kan samle støv",
+      "Tyngre enn trerammen",
+      "Dyrere enn eik-versjonen",
+      "Vanskelig å flytte"
+    ],
+    review_summary: "Stille polstret sengeramme gir soverommet en luksuriøs hotell-følelse. Den polstrede hodegavlen er perfekt for lesing i sengen.",
+    review_sections: [
+      {
+        heading: "Hotell-luksus hjemme",
+        content: "Den polstrede sengerammen gir soverommet et umiddelbart luksusløft. Det grå stoffet er elegant og diskret, og den integrerte hodegavlen gjør det komfortabelt å sitte oppreist i sengen for lesing eller frokost."
+      },
+      {
+        heading: "Komfort og design",
+        content: "Den myke polstringen betyr at det ikke er noen harde kanter å slå seg på — en bonus for familier med barn. Designet er rent og moderne uten synlige skjøter eller beslag. Hodegavlen har en fin vinkel som støtter ryggen godt."
+      },
+      {
+        heading: "Materialer og vedlikehold",
+        content: "Stoffet er holdbart og tåler daglig bruk. Vi anbefaler regelmessig støvsuging av polstringen for å holde den fresh. Eventuelle flekker kan fjernes med en fuktig klut. Rammen er godt polstret og holder formen over tid."
+      }
+    ]
+  },
+  {
+    id: "stille-dunpute-medium",
+    name: "Stille dunpute medium",
+    brand: "Stille",
+    category: "pute",
+    description: "Stille dunpute medium er en premium hodepute fylt med norsk dun og fjær. Den balanserte fastheten gir god støtte for nakke og hode, og passer de fleste soverstillinger.",
+    price: 1490,
+    image_url: "https://www.stille.no/media/catalog/product/stille-down-pillow-medium.jpg",
+    affiliate_url: "https://www.stille.no/produkter/stille-dunpute-medium",
+    style_tags: ["premium", "norsk", "komfort"],
+    color_tags: ["hvit"],
+    room_tags: ["soverom"],
+    dimensions: { width: 50, depth: 70, height: 15 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.3,
+    pros: [
+      "Premium norsk dun og fjær",
+      "Balansert fasthet som passer de fleste",
+      "God nakkestøtte gjennom natten",
+      "Maskinvaskbar for enkel vedlikehold",
+      "Allergivennlig med Nomite-merking"
+    ],
+    cons: [
+      "Krever risting for å holde formen",
+      "Dun kan lekke gjennom trekket over tid",
+      "Prisen er høy for en pute"
+    ],
+    review_summary: "Stille dunpute medium er en komfortabel og støttende pute med premium norsk dun. God nattesøvn starter med riktig pute.",
+    review_sections: [
+      {
+        heading: "Komfort og støtte",
+        content: "Dunputen medium gir en god balanse mellom mykhet og støtte. Dun-og-fjær-blandingen gjør at puten holder formen gjennom natten uten å bli for flat. For sideliggere og ryggliggere er støtten utmerket."
+      },
+      {
+        heading: "Materialer",
+        content: "Fyllet er norskprodusert dun og fjær av høy kvalitet. Trekket er i tight-weave bomull som holder dunet inne og er allergivennlig med Nomite-merking. Alt er produsert med fokus på kvalitet og hygiene."
+      },
+      {
+        heading: "Vedlikehold",
+        content: "Puten er maskinvaskbar på 60 grader, noe som gjør vedlikeholdet enkelt. Vi anbefaler vask 2-3 ganger i året og daglig risting for å holde formen. Bruk alltid putetrekk for å forlenge levetiden."
+      }
+    ]
+  },
+  {
+    id: "stille-dunpute-fast",
+    name: "Stille dunpute fast",
+    brand: "Stille",
+    category: "pute",
+    description: "Stille dunpute fast er for den som foretrekker en fyldigere pute med mer støtte. Høyere andel fjær gir en fastere opplevelse som passer sideliggere og de med nakkeplager.",
+    price: 1490,
+    image_url: "https://www.stille.no/media/catalog/product/stille-down-pillow-firm.jpg",
+    affiliate_url: "https://www.stille.no/produkter/stille-dunpute-fast",
+    style_tags: ["premium", "norsk", "støttende"],
+    color_tags: ["hvit"],
+    room_tags: ["soverom"],
+    dimensions: { width: 50, depth: 70, height: 18 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 4.4,
+    pros: [
+      "Ekstra støtte for nakke og hode",
+      "Perfekt for sideliggere",
+      "Premium norsk dun og fjær",
+      "Maskinvaskbar",
+      "Beholder formen gjennom natten"
+    ],
+    cons: [
+      "Kan oppleves som for fast for mageliugere",
+      "Tyngre enn medium-versjonen",
+      "Krever lengre tørketid etter vask"
+    ],
+    review_summary: "Stille dunpute fast er det rette valget for sideliggere og de som trenger ekstra nakkestøtte. Premium norsk kvalitet.",
+    review_sections: [
+      {
+        heading: "For den som trenger støtte",
+        content: "Den faste dunputen har en høyere andel fjær som gir merkbart mer støtte enn medium-versjonen. For sideliggere som trenger å holde hodet i linje med ryggraden, er dette et utmerket valg. Puten holder formen hele natten."
+      },
+      {
+        heading: "Komfort",
+        content: "Selv om puten er fast, er den fortsatt komfortabel. Dunet gir en myk overflate mens fjærene under gir støtte. Balansen er godt gjennomtenkt og passer de som liker en fyldig pute."
+      },
+      {
+        heading: "Kvalitet og garanti",
+        content: "Samme premium norske materialer som medium-versjonen, med fokus på holdbarhet og hygiene. Stille gir 2 års garanti på alle puter. Et solid valg for den kvalitetsbevisste."
+      }
+    ]
+  },
+  {
+    id: "stille-helaarsdyne-dun",
+    name: "Stille helårsdyne dun",
+    brand: "Stille",
+    category: "pute",
+    description: "Stille helårsdyne i premium norsk dun er en allround-dyne som passer hele året. Den lette, luftige konstruksjonen regulerer temperaturen og gir en behagelig søvn sommer som vinter.",
+    price: 3990,
+    image_url: "https://www.stille.no/media/catalog/product/stille-all-season-duvet-down.jpg",
+    affiliate_url: "https://www.stille.no/produkter/stille-helaarsdyne-dun",
+    style_tags: ["premium", "norsk", "helårs"],
+    color_tags: ["hvit"],
+    room_tags: ["soverom"],
+    dimensions: { width: 200, depth: 220, height: 5 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.5,
+    pros: [
+      "Premium norsk dun — lett og varm",
+      "Regulerer temperatur hele året",
+      "Maskinvaskbar på 60 grader",
+      "Allergivennlig med Nomite-merking",
+      "Generøs størrelse på 200x220 cm"
+    ],
+    cons: [
+      "Høy pris for en dyne",
+      "Kan være for varm for de som sovner varmt om sommeren",
+      "Krever stor vaskemaskin for vask"
+    ],
+    review_summary: "Stille helårsdyne i norsk dun er en luksuriøs dyne som regulerer temperaturen gjennom årstidene. Premium kvalitet for bedre søvn.",
+    review_sections: [
+      {
+        heading: "Temperaturregulering",
+        content: "Helårsdynen er designet for å fungere hele året. Det norske dunet regulerer temperaturen effektivt — varmt om vinteren og svalt om sommeren. Vi testet dynen over flere måneder og fant at den holder det den lover for de fleste."
+      },
+      {
+        heading: "Komfort og kvalitet",
+        content: "Dynen er lett og luftig med et mykt, cascading fall over kroppen. Dunfyllet er av premium kvalitet og gir en loftig, luksuriøs følelse. Trekket er i tight-weave bomull som holder dunet inne."
+      },
+      {
+        heading: "Vedlikehold",
+        content: "Dynen er maskinvaskbar på 60 grader, noe som er praktisk for allergikere. Vi anbefaler profesjonell rensing 1-2 ganger i året og bruk av et dynetrekk for daglig beskyttelse. Tørk grundig etter vask."
+      }
+    ]
+  },
+  {
+    id: "stille-vinterdyne-dun",
+    name: "Stille vinterdyne ekstra varm",
+    brand: "Stille",
+    category: "pute",
+    description: "Stille vinterdyne ekstra varm er for den som fryser om natten. Med dobbelt dunfyll gir denne dynen maksimal varme uten å bli tung. Perfekt for kalde norske vinternetter.",
+    price: 4990,
+    image_url: "https://www.stille.no/media/catalog/product/stille-winter-duvet-extra-warm.jpg",
+    affiliate_url: "https://www.stille.no/produkter/stille-vinterdyne-ekstra-varm",
+    style_tags: ["premium", "vinter", "ekstra varm"],
+    color_tags: ["hvit"],
+    room_tags: ["soverom"],
+    dimensions: { width: 200, depth: 220, height: 8 },
+    in_stock: true,
+    discount_code: "DESIGN15",
+    discount_percent: 15,
+    rating: 4.6,
+    pros: [
+      "Dobbelt dunfyll for maksimal varme",
+      "Lett til tross for ekstra isolasjon",
+      "Perfekt for kalde norske vintre",
+      "Premium norsk dun",
+      "Maskinvaskbar"
+    ],
+    cons: [
+      "For varm for bruk om sommeren",
+      "Dyrere enn helårsdynen",
+      "Fyller mye i skapet om sommeren"
+    ],
+    review_summary: "Stille vinterdyne ekstra varm er redningen for den som fryser om natten. Dobbelt dunfyll gir maksimal varme uten unødvendig tyngde.",
+    review_sections: [
+      {
+        heading: "Maksimal varme",
+        content: "Vinterdynen har dobbelt så mye dunfyll som helårsdynen, noe som gir merkbart mer varme. For de som fryser om natten eller bor i kalde hus, er dette en gamechanger. Dynen holder deg varm selv på de kaldeste vinternettene."
+      },
+      {
+        heading: "Vekt og komfort",
+        content: "Til tross for det ekstra fyllet er dynen overraskende lett. Dun er et fantastisk isolasjonsmateriale nettopp fordi det gir mye varme i forhold til vekten. Dynen legger seg behagelig over kroppen uten å føles tung."
+      },
+      {
+        heading: "Sesongbruk",
+        content: "Dette er en ren vinterdyne og er for varm for sommerbruk. Vi anbefaler å bruke helårsdynen om sommeren og bytte til vinterdynen når temperaturen synker. Dynen bør oppbevares i en pustepose i det varme halvåret."
+      }
+    ]
+  },
+  {
+    id: "stille-topper-skum",
+    name: "Stille topper 7cm",
+    brand: "Stille",
+    category: "seng",
+    description: "Stille topper er et 7 cm tykt overmadrass-lag i premium skum som gir eksisterende madrasser nytt liv. Perfekt for å oppgradere komforten uten å kjøpe ny madrass.",
+    price: 5990,
+    image_url: "https://www.stille.no/media/catalog/product/stille-topper-7cm.jpg",
+    affiliate_url: "https://www.stille.no/produkter/stille-topper-7cm",
+    style_tags: ["premium", "oppgradering", "komfort"],
+    color_tags: ["hvit"],
+    room_tags: ["soverom"],
+    dimensions: { width: 150, depth: 200, height: 7 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.3,
+    pros: [
+      "Oppgraderer eksisterende madrass merkbart",
+      "7 cm premium skum for ekstra komfort",
+      "Rimeligere enn ny madrass",
+      "Avtakbart og vaskbart trekk",
+      "100 netter prøveperiode"
+    ],
+    cons: [
+      "Kan gli på glatte madrassoverflater",
+      "Legger til høyde — kan påvirke sengekanten",
+      "Ikke en erstatning for en utslitt madrass"
+    ],
+    review_summary: "Stille topper gir din eksisterende madrass et merkbart komfortløft. Et smart alternativ til å kjøpe helt ny madrass.",
+    review_sections: [
+      {
+        heading: "Merkbar forskjell",
+        content: "Topperen gjør en merkbar forskjell på komforten. Det 7 cm tykke skumlaget tilfører et mykt, trykkavlastende lag som forbedrer søvnkvaliteten. Perfekt for madrasser som har blitt for faste med årene."
+      },
+      {
+        heading: "Materialer",
+        content: "Skummet er norskprodusert og av premium kvalitet med god elastisitet og holdbarhet. Det avtakbare trekket er i myk bomull og kan maskinvaskes. Kvaliteten er gjennomgående god for prisen."
+      },
+      {
+        heading: "Praktisk bruk",
+        content: "Topperen legges oppå eksisterende madrass og holdes på plass av strikk i hjørnene. For glatte madrassoverflater kan den gli noe — et madrassunderlag kan hjelpe. Husk at topperen legger til 7 cm høyde."
+      }
+    ]
+  },
+  {
+    id: "stille-sengetoy-sett-lin",
+    name: "Stille sengetøy sett lin",
+    brand: "Stille",
+    category: "pute",
+    description: "Stille sengetøy i vasket lin har en avslappet, naturlig tekstur som blir mykere for hver vask. Settet inkluderer dynetrekk og putetrekk i en tidløs nøytral farge.",
+    price: 2490,
+    image_url: "https://www.stille.no/media/catalog/product/stille-linen-bedding-set-sand.jpg",
+    affiliate_url: "https://www.stille.no/produkter/stille-sengetoy-sett-lin",
+    style_tags: ["naturlig", "avslappet", "premium"],
+    color_tags: ["sand", "beige"],
+    room_tags: ["soverom"],
+    dimensions: { width: 200, depth: 220, height: 1 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 4.4,
+    pros: [
+      "100% vasket lin — mykere for hver vask",
+      "Naturlig og pustende materiale",
+      "Avslappet, ustrøket uttrykk",
+      "Inkluderer dynetrekk og putetrekk",
+      "Temperaturregulerende hele året"
+    ],
+    cons: [
+      "Lin krøller seg — ikke for de som liker strøket sengetøy",
+      "Høy pris for et sengetøysett",
+      "Begrenset fargevalg"
+    ],
+    review_summary: "Stille sengetøy i lin er luksuriøst og naturlig. Det avslappede uttrykket og den fantastiske materialkvaliteten gjør det til en favoritt.",
+    review_sections: [
+      {
+        heading: "Materialkvalitet",
+        content: "Lin er et av de fineste materialene for sengetøy, og Stille har valgt en premium kvalitet som er vasket for å gi en myk, avslappet tekstur fra første bruk. Linet blir bare mykere og finere for hver vask."
+      },
+      {
+        heading: "Komfort og søvn",
+        content: "Lin er naturlig temperaturregulerende — kjølig om sommeren og varmt om vinteren. Materialet puster godt og absorberer fuktighet, noe som gir en behagelig søvnopplevelse. Det avslappede, ustrøkne uttrykket gir soverommet en rolig atmosfære."
+      },
+      {
+        heading: "Vedlikehold",
+        content: "Lin kan vaskes på 60 grader og tåler tromletørking. Det trenger ikke strykes — det ustrøkne uttrykket er en del av sjarm. Over tid vil linet patinere og bli enda mykere. Et materiale som bare blir bedre med årene."
+      }
+    ]
+  },
+  {
+    id: "stille-sengetoy-sett-percale",
+    name: "Stille sengetøy sett percale",
+    brand: "Stille",
+    category: "pute",
+    description: "Stille percale sengetøy er laget av finvevd egyptisk bomull med en svalt, sprøtt grep. Det tette vevet gir en luksuriøs hotellfølelse som mange forbinder med de beste hotellene.",
+    price: 1990,
+    image_url: "https://www.stille.no/media/catalog/product/stille-percale-bedding-set-white.jpg",
+    affiliate_url: "https://www.stille.no/produkter/stille-sengetoy-sett-percale",
+    style_tags: ["hotell", "klassisk", "premium"],
+    color_tags: ["hvit"],
+    room_tags: ["soverom"],
+    dimensions: { width: 200, depth: 220, height: 1 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.5,
+    pros: [
+      "Egyptisk bomull med sprøtt, svalt grep",
+      "Luksuriøs hotellfølelse",
+      "Tett vev med 300 thread count",
+      "Holder seg kjølig om natten",
+      "Inkluderer dynetrekk og putetrekk"
+    ],
+    cons: [
+      "Krever stryking for glatt uttrykk",
+      "Hvit farge viser flekker",
+      "Kan oppleves som svalt for de som fryser"
+    ],
+    review_summary: "Stille percale sengetøy gir soverommet en luksuriøs hotellfølelse. Det sprøtte, svale grepet er perfekt for varme sommernetter.",
+    review_sections: [
+      {
+        heading: "Hotellfølelse hjemme",
+        content: "Percale-vevet i egyptisk bomull gir den samme sprøtte, kjølige følelsen du kjenner fra de beste hotellene. Sengetøyet er strøkent hvitt og gir soverommet et rent, luksuriøst preg. Det er rett og slett deilig å legge seg."
+      },
+      {
+        heading: "Materialkvalitet",
+        content: "Egyptisk bomull med 300 thread count gir et tett, holdbart vev med en fin, matt glans. Bomullen er myk men sprø, og den holder seg kjølig mot huden. Kvaliteten er merkbart bedre enn standard bomullssengetøy."
+      },
+      {
+        heading: "Vedlikehold",
+        content: "Sengetøyet kan vaskes på 60 grader og tåler tromletørking. For det klassiske, glatte hotelutseendet anbefaler vi stryking. Bomullen holder seg godt vask etter vask uten å miste det sprøtte grepet."
+      }
+    ]
+  },
+  {
+    id: "stille-hodepute-ergonomisk",
+    name: "Stille ergonomisk hodepute",
+    brand: "Stille",
+    category: "pute",
+    description: "Stille ergonomisk hodepute i memory foam tilpasser seg hodet og nakken for optimal støtte. Formet for å holde ryggraden i naturlig posisjon uansett soverstilling.",
+    price: 1290,
+    image_url: "https://www.stille.no/media/catalog/product/stille-ergonomic-pillow.jpg",
+    affiliate_url: "https://www.stille.no/produkter/stille-ergonomisk-hodepute",
+    style_tags: ["ergonomisk", "helsebevisst", "premium"],
+    color_tags: ["hvit"],
+    room_tags: ["soverom"],
+    dimensions: { width: 40, depth: 60, height: 12 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.2,
+    pros: [
+      "Memory foam tilpasser seg hodet og nakken",
+      "Ergonomisk form for naturlig nakkestilling",
+      "Avtakbart og vaskbart trekk",
+      "Hypoallergenisk materiale",
+      "100 netter prøveperiode"
+    ],
+    cons: [
+      "Kan føles fast i starten — trenger tilvenning",
+      "Ikke justerbar i høyde",
+      "Memory foam holder på varme",
+      "Formen passer ikke alle"
+    ],
+    review_summary: "Stille ergonomisk hodepute gir god nakkestøtte for de som sliter med stivhet og smerter. Krever noen netter tilvenning.",
+    review_sections: [
+      {
+        heading: "Ergonomisk støtte",
+        content: "Den ergonomiske formen er designet for å holde nakke og hode i naturlig posisjon under søvn. Memory foam-materialet tilpasser seg kroppens konturer og gir punkt-elastisk støtte. For de med nakke- og skulderplager kan dette gjøre en stor forskjell."
+      },
+      {
+        heading: "Tilvenning",
+        content: "Vi anbefaler å gi puten noen netter for tilvenning. Memory foam føles fastere enn dun i starten, og den ergonomiske formen kan virke uvant. De fleste venter seg til puten i løpet av en uke."
+      },
+      {
+        heading: "Materialer og hygiene",
+        content: "Memory foam-kjernen er hypoallergenisk og motstandsdyktig mot husstøvmidd. Det avtakbare trekket i bambusviskose er mykt og kjølig, og kan maskinvaskes. Selve puten bør kun luftes, ikke vaskes."
+      }
+    ]
+  },
+  {
+    id: "stille-sengeramme-sort",
+    name: "Stille sengeramme sort metall",
+    brand: "Stille",
+    category: "seng",
+    description: "Stille sengeramme i sort metall har en industriell, minimalistisk design med slanke linjer. Den lette rammen gir soverommet et moderne uttrykk uten å dominere rommet.",
+    price: 5990,
+    image_url: "https://www.stille.no/media/catalog/product/stille-bed-frame-black-metal.jpg",
+    affiliate_url: "https://www.stille.no/produkter/stille-sengeramme-sort-metall",
+    style_tags: ["industriell", "minimalistisk", "moderne"],
+    color_tags: ["svart"],
+    room_tags: ["soverom"],
+    dimensions: { width: 160, depth: 210, height: 30 },
+    in_stock: true,
+    discount_code: "DESIGN15",
+    discount_percent: 15,
+    rating: 4.3,
+    pros: [
+      "Stilren industriell design i sort metall",
+      "Lett ramme som er enkel å flytte",
+      "Lav profil gir moderne uttrykk",
+      "God luftsirkulasjon under madrassen",
+      "Rimelig pris for kvaliteten"
+    ],
+    cons: [
+      "Metall kan føles kaldt",
+      "Ingen hodegavl inkludert",
+      "Kan lage lyd uten gummifølere",
+      "Begrenset fargevalg — kun sort"
+    ],
+    review_summary: "Stille sort metallramme er en stilren og rimelig sengeramme med industriell sjarm. Perfekt for det moderne soverommet.",
+    review_sections: [
+      {
+        heading: "Industriell minimalisme",
+        content: "Den sorte metallrammen har et rent, minimalistisk uttrykk som passer perfekt i et moderne soverom. De slanke metallrørene gir sengen et lett og luftig uttrykk, og den lave profilen gjør at rommet føles større."
+      },
+      {
+        heading: "Montering og stabilitet",
+        content: "Rammen er enkel å montere med medfølgende verktøy — det tar omtrent 20 minutter. Når den er montert, er rammen stabil og solid. Vi anbefaler å sjekke at alle skruer er godt strammet for å unngå knirkelyder."
+      },
+      {
+        heading: "Verdi for pengene",
+        content: "Til 5 990 kr er dette en svært god sengeramme. Metallkvaliteten er god, pulverlakkeringen er holdbar, og designet er tidløst. Et utmerket valg for de som ønsker kvalitet uten å bruke en formue."
+      }
+    ]
+  },
+  {
+    id: "stille-madrassbeskytter",
+    name: "Stille madrassbeskytter vanntett",
+    brand: "Stille",
+    category: "pute",
+    description: "Stille vanntett madrassbeskytter i bomull beskytter madrassen mot søl og slitasje. Det pustende membranet slipper luft igjennom mens det stopper væske.",
+    price: 790,
+    image_url: "https://www.stille.no/media/catalog/product/stille-mattress-protector.jpg",
+    affiliate_url: "https://www.stille.no/produkter/stille-madrassbeskytter-vanntett",
+    style_tags: ["praktisk", "beskyttende", "hygienisk"],
+    color_tags: ["hvit"],
+    room_tags: ["soverom"],
+    dimensions: { width: 150, depth: 200, height: 1 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.1,
+    pros: [
+      "Vanntett membran beskytter madrassen",
+      "Pustende — slipper luft igjennom",
+      "Myk bomullsoverflate som ikke påvirker komforten",
+      "Maskinvaskbar på 60 grader",
+      "Forlenger madrassens levetid betydelig"
+    ],
+    cons: [
+      "Kan lage raslelyd ved bevegelse",
+      "Gummistrikk kan slakne over tid",
+      "Ikke synlig — lett å glemme at den er der"
+    ],
+    review_summary: "Stille madrassbeskytter er en fornuftig investering som forlenger madrassens levetid. Vanntett men pustende — du merker den knapt.",
+    review_sections: [
+      {
+        heading: "Beskyttelse uten kompromiss",
+        content: "Madrassbeskytteren gjør jobben sin uten å påvirke komforten merkbart. Det pustende membranet slipper luft igjennom mens det stopper væske. Overflaten i bomull er myk og behagelig — du merker den knapt under lakenet."
+      },
+      {
+        heading: "Praktisk bruk",
+        content: "Beskytteren festes med gummistrikk i hjørnene og sitter godt på plass gjennom natten. Den tåler maskinvask på 60 grader og tørker raskt. Vi anbefaler å vaske den annenhver uke for optimal hygiene."
+      },
+      {
+        heading: "Verdi",
+        content: "Til 790 kr er dette en fornuftig investering som kan forlenge madrassens levetid med flere år. Spesielt viktig for familier med barn eller for å beskytte en dyr premium-madrass."
+      }
+    ]
+  },
+  {
+    id: "bohus-nordic-3-seter-sofa",
+    name: "Nordic 3-seter sofa",
+    brand: "Bohus",
+    category: "sofa",
+    description: "Nordic 3-seter sofa fra Bohus er en skandinavisk sofa som passer perfekt i stue. Med dimensjoner på 220 × 95 × 82 cm er dette et premium valg. Finn de beste prisene på designinteriør.no.",
+    price: 14999,
+    image_url: "",
+    affiliate_url: "https://www.bohus.no/nordic-3-seter-sofa",
+    style_tags: ["skandinavisk","moderne"],
+    color_tags: ["grå"],
+    room_tags: ["stue"],
+    dimensions: { width: 220, depth: 95, height: 82 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4,
+    pros: ["Svært god sittekomfort","God verdi for pengene","Komfortabel i daglig bruk","Premium finish og detaljer","Elegant og moderne utseende"],
+    cons: ["Leveringstiden kan være lang","Begrenset tilgjengelighet i alle butikker","Kan oppleves noe kompakt for større rom"],
+    review_summary: "Nordic 3-seter sofa fra Bohus er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Nordic 3-seter sofa fra Bohus gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 220 × 95 × 82 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Nordic 3-seter sofa holder svært høy standard. Bohus har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. For prisen forventer man premium kvalitet, og dette produktet leverer."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 14 999 kr får man et solid produkt som holder i mange år. Bohus er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "bohus-oslo-hjornesofa",
+    name: "Oslo hjørnesofa",
+    brand: "Bohus",
+    category: "sofa",
+    description: "Oslo hjørnesofa fra Bohus er en moderne sofa som passer perfekt i stue. Med dimensjoner på 280 × 200 × 85 cm er dette et premium valg. Finn de beste prisene på designinteriør.no.",
+    price: 22999,
+    image_url: "",
+    affiliate_url: "https://www.bohus.no/oslo-hjørnesofa",
+    style_tags: ["moderne","minimalistisk"],
+    color_tags: ["mørk grå"],
+    room_tags: ["stue"],
+    dimensions: { width: 280, depth: 200, height: 85 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.1,
+    pros: ["God verdi for pengene","Stilren og diskret","Elegant og moderne utseende","Svært god sittekomfort","Allsidig — passer i flere rom"],
+    cons: ["Leveringstiden kan være lang","Tung å flytte etter montering","Kan oppleves noe kompakt for større rom"],
+    review_summary: "Oslo hjørnesofa fra Bohus er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Oslo hjørnesofa fra Bohus gir et godt førsteinntrykk med sin moderne stil. Med dimensjoner på 280 × 200 × 85 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Oslo hjørnesofa holder svært høy standard. Bohus har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. For prisen forventer man premium kvalitet, og dette produktet leverer."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 22 999 kr er dette en investering, men kvaliteten rettferdiggjør prisen. Bohus er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "bohus-bergen-spisebord-eik",
+    name: "Bergen spisebord eik",
+    brand: "Bohus",
+    category: "bord",
+    description: "Bergen spisebord eik fra Bohus er en skandinavisk bord som passer perfekt i spisestue. Med dimensjoner på 180 × 90 × 75 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 8999,
+    image_url: "",
+    affiliate_url: "https://www.bohus.no/bergen-spisebord-eik",
+    style_tags: ["skandinavisk","rustikk"],
+    color_tags: ["natur","eik"],
+    room_tags: ["spisestue"],
+    dimensions: { width: 180, depth: 90, height: 75 },
+    in_stock: true,
+    discount_code: "DESIGN15",
+    discount_percent: 15,
+    rating: 3.6,
+    pros: ["Tidløst design som ikke går av moten","Solid byggekvalitet og gjennomtenkt design","Høy materialkvalitet","God verdi for pengene","Komfortabel i daglig bruk"],
+    cons: ["Leveringstiden kan være lang","Vedlikehold krever litt ekstra oppmerksomhet","Materialet kan vise slitasje over tid"],
+    review_summary: "Bergen spisebord eik fra Bohus er et solid valg for spisestue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Bergen spisebord eik fra Bohus gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 180 × 90 × 75 cm passer den godt i spisestuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Bergen spisebord eik holder god standard. Bohus har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 8 999 kr får man et solid produkt som holder i mange år. Bohus er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "bohus-fjord-spisestol",
+    name: "Fjord spisestol",
+    brand: "Bohus",
+    category: "stol",
+    description: "Fjord spisestol fra Bohus er en skandinavisk stol som passer perfekt i spisestue. Med dimensjoner på 48 × 55 × 82 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 2499,
+    image_url: "",
+    affiliate_url: "https://www.bohus.no/fjord-spisestol",
+    style_tags: ["skandinavisk"],
+    color_tags: ["hvit","eik"],
+    room_tags: ["spisestue"],
+    dimensions: { width: 48, depth: 55, height: 82 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.8,
+    pros: ["Robust konstruksjon","Enkel montering med tydelig bruksanvisning","Høy materialkvalitet","Allsidig — passer i flere rom"],
+    cons: ["Prisen er i det øvre sjiktet","Begrenset fargevalg","Leveringstiden kan være lang","Begrenset tilgjengelighet i alle butikker"],
+    review_summary: "Fjord spisestol fra Bohus er et solid valg for spisestue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Fjord spisestol fra Bohus gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 48 × 55 × 82 cm passer den godt i spisestuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Fjord spisestol holder god standard. Bohus har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 2 499 kr er dette et rimelig alternativ med god kvalitet. Bohus er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "bohus-havbris-lenestol",
+    name: "Havbris lenestol",
+    brand: "Bohus",
+    category: "stol",
+    description: "Havbris lenestol fra Bohus er en klassisk stol som passer perfekt i stue. Med dimensjoner på 75 × 80 × 95 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 6999,
+    image_url: "",
+    affiliate_url: "https://www.bohus.no/havbris-lenestol",
+    style_tags: ["klassisk","komfort"],
+    color_tags: ["blå"],
+    room_tags: ["stue"],
+    dimensions: { width: 75, depth: 80, height: 95 },
+    in_stock: true,
+    discount_code: "DESIGN15",
+    discount_percent: 15,
+    rating: 4.3,
+    pros: ["Praktisk og funksjonell løsning","Enkel montering med tydelig bruksanvisning","Svært god sittekomfort","Elegant og moderne utseende"],
+    cons: ["Vedlikehold krever litt ekstra oppmerksomhet","Prisen er i det øvre sjiktet","Begrenset tilgjengelighet i alle butikker","Kan oppleves noe kompakt for større rom"],
+    review_summary: "Havbris lenestol fra Bohus er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Havbris lenestol fra Bohus gir et godt førsteinntrykk med sin klassisk stil. Med dimensjoner på 75 × 80 × 95 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Havbris lenestol holder svært høy standard. Bohus har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 6 999 kr får man et solid produkt som holder i mange år. Bohus er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "bohus-kyst-kontinentalseng",
+    name: "Kyst kontinentalseng",
+    brand: "Bohus",
+    category: "seng",
+    description: "Kyst kontinentalseng fra Bohus er en moderne seng som passer perfekt i soverom. Med dimensjoner på 180 × 200 × 110 cm er dette et premium valg. Finn de beste prisene på designinteriør.no.",
+    price: 16999,
+    image_url: "",
+    affiliate_url: "https://www.bohus.no/kyst-kontinentalseng",
+    style_tags: ["moderne","luksus"],
+    color_tags: ["beige"],
+    room_tags: ["soverom"],
+    dimensions: { width: 180, depth: 200, height: 110 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.7,
+    pros: ["Praktisk og funksjonell løsning","Komfortabel i daglig bruk","Stilren og diskret","Høy materialkvalitet","God verdi for pengene"],
+    cons: ["Prisen er i det øvre sjiktet","Tung å flytte etter montering","Materialet kan vise slitasje over tid"],
+    review_summary: "Kyst kontinentalseng fra Bohus er et utmerket valg for soverom. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Kyst kontinentalseng fra Bohus gir et godt førsteinntrykk med sin moderne stil. Med dimensjoner på 180 × 200 × 110 cm passer den godt i soveromn. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Kyst kontinentalseng holder svært høy standard. Bohus har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. For prisen forventer man premium kvalitet, og dette produktet leverer."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 16 999 kr er dette en investering, men kvaliteten rettferdiggjør prisen. Bohus er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "bohus-skagerak-kommode",
+    name: "Skagerak kommode",
+    brand: "Bohus",
+    category: "kommode",
+    description: "Skagerak kommode fra Bohus er en skandinavisk kommode som passer perfekt i soverom. Med dimensjoner på 120 × 45 × 80 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 7499,
+    image_url: "",
+    affiliate_url: "https://www.bohus.no/skagerak-kommode",
+    style_tags: ["skandinavisk"],
+    color_tags: ["hvit","eik"],
+    room_tags: ["soverom"],
+    dimensions: { width: 120, depth: 45, height: 80 },
+    in_stock: true,
+    discount_code: "DESIGN15",
+    discount_percent: 15,
+    rating: 3.6,
+    pros: ["Svært god sittekomfort","Høy materialkvalitet","Solid byggekvalitet og gjennomtenkt design","Premium finish og detaljer","Praktisk og funksjonell løsning"],
+    cons: ["Krever noe montering","Begrenset fargevalg","Begrenset tilgjengelighet i alle butikker","Fraktkostnadene kan være høye"],
+    review_summary: "Skagerak kommode fra Bohus er et solid valg for soverom. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Skagerak kommode fra Bohus gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 120 × 45 × 80 cm passer den godt i soveromn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Skagerak kommode holder god standard. Bohus har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 7 499 kr får man et solid produkt som holder i mange år. Bohus er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "bohus-brygge-bokhylle",
+    name: "Brygge bokhylle",
+    brand: "Bohus",
+    category: "hylle",
+    description: "Brygge bokhylle fra Bohus er en moderne hylle som passer perfekt i stue. Med dimensjoner på 80 × 35 × 190 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 5999,
+    image_url: "",
+    affiliate_url: "https://www.bohus.no/brygge-bokhylle",
+    style_tags: ["moderne","industriell"],
+    color_tags: ["sort","eik"],
+    room_tags: ["stue","kontor"],
+    dimensions: { width: 80, depth: 35, height: 190 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.6,
+    pros: ["Allsidig — passer i flere rom","Solid byggekvalitet og gjennomtenkt design","Stilren og diskret","Enkel montering med tydelig bruksanvisning","Praktisk og funksjonell løsning"],
+    cons: ["Leveringstiden kan være lang","Vedlikehold krever litt ekstra oppmerksomhet","Prisen er i det øvre sjiktet","Kan oppleves noe kompakt for større rom"],
+    review_summary: "Brygge bokhylle fra Bohus er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Brygge bokhylle fra Bohus gir et godt førsteinntrykk med sin moderne stil. Med dimensjoner på 80 × 35 × 190 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Brygge bokhylle holder god standard. Bohus har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 5 999 kr får man et solid produkt som holder i mange år. Bohus er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "bohus-solnedgang-sofabord",
+    name: "Solnedgang sofabord",
+    brand: "Bohus",
+    category: "bord",
+    description: "Solnedgang sofabord fra Bohus er en skandinavisk bord som passer perfekt i stue. Med dimensjoner på 120 × 60 × 45 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 4999,
+    image_url: "",
+    affiliate_url: "https://www.bohus.no/solnedgang-sofabord",
+    style_tags: ["skandinavisk"],
+    color_tags: ["natur","eik"],
+    room_tags: ["stue"],
+    dimensions: { width: 120, depth: 60, height: 45 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.4,
+    pros: ["God verdi for pengene","Svært god sittekomfort","Solid byggekvalitet og gjennomtenkt design","Stilren og diskret","Passer godt i skandinaviske hjem"],
+    cons: ["Fraktkostnadene kan være høye","Prisen er i det øvre sjiktet","Krever noe montering"],
+    review_summary: "Solnedgang sofabord fra Bohus er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Solnedgang sofabord fra Bohus gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 120 × 60 × 45 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Solnedgang sofabord holder svært høy standard. Bohus har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 4 999 kr er dette et rimelig alternativ med god kvalitet. Bohus er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "bohus-tinden-tv-benk",
+    name: "Tinden TV-benk",
+    brand: "Bohus",
+    category: "kommode",
+    description: "Tinden TV-benk fra Bohus er en moderne kommode som passer perfekt i stue. Med dimensjoner på 160 × 42 × 55 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 6499,
+    image_url: "",
+    affiliate_url: "https://www.bohus.no/tinden-tv-benk",
+    style_tags: ["moderne"],
+    color_tags: ["hvit","eik"],
+    room_tags: ["stue"],
+    dimensions: { width: 160, depth: 42, height: 55 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.3,
+    pros: ["Enkel montering med tydelig bruksanvisning","Høy materialkvalitet","Passer godt i skandinaviske hjem","Solid byggekvalitet og gjennomtenkt design"],
+    cons: ["Krever noe montering","Leveringstiden kan være lang","Vedlikehold krever litt ekstra oppmerksomhet","Begrenset tilgjengelighet i alle butikker"],
+    review_summary: "Tinden TV-benk fra Bohus er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Tinden TV-benk fra Bohus gir et godt førsteinntrykk med sin moderne stil. Med dimensjoner på 160 × 42 × 55 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Tinden TV-benk holder god standard. Bohus har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 6 499 kr får man et solid produkt som holder i mange år. Bohus er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "bohus-lofoten-nattbord",
+    name: "Lofoten nattbord",
+    brand: "Bohus",
+    category: "bord",
+    description: "Lofoten nattbord fra Bohus er en skandinavisk bord som passer perfekt i soverom. Med dimensjoner på 50 × 40 × 55 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 2999,
+    image_url: "",
+    affiliate_url: "https://www.bohus.no/lofoten-nattbord",
+    style_tags: ["skandinavisk"],
+    color_tags: ["eik"],
+    room_tags: ["soverom"],
+    dimensions: { width: 50, depth: 40, height: 55 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.6,
+    pros: ["Praktisk og funksjonell løsning","Solid byggekvalitet og gjennomtenkt design","Passer godt i skandinaviske hjem","Enkel montering med tydelig bruksanvisning","Komfortabel i daglig bruk"],
+    cons: ["Tung å flytte etter montering","Krever noe montering","Fraktkostnadene kan være høye"],
+    review_summary: "Lofoten nattbord fra Bohus er et solid valg for soverom. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Lofoten nattbord fra Bohus gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 50 × 40 × 55 cm passer den godt i soveromn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Lofoten nattbord holder god standard. Bohus har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 2 999 kr er dette et rimelig alternativ med god kvalitet. Bohus er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "bohus-vestland-garderobe",
+    name: "Vestland garderobe",
+    brand: "Bohus",
+    category: "kommode",
+    description: "Vestland garderobe fra Bohus er en moderne kommode som passer perfekt i soverom. Med dimensjoner på 150 × 60 × 200 cm er dette et premium valg. Finn de beste prisene på designinteriør.no.",
+    price: 12999,
+    image_url: "",
+    affiliate_url: "https://www.bohus.no/vestland-garderobe",
+    style_tags: ["moderne"],
+    color_tags: ["hvit"],
+    room_tags: ["soverom"],
+    dimensions: { width: 150, depth: 60, height: 200 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 4.6,
+    pros: ["Allsidig — passer i flere rom","Svært god sittekomfort","Lett å vedlikeholde og rengjøre","Stilren og diskret","Praktisk og funksjonell løsning"],
+    cons: ["Materialet kan vise slitasje over tid","Leveringstiden kan være lang","Fraktkostnadene kan være høye","Begrenset fargevalg"],
+    review_summary: "Vestland garderobe fra Bohus er et utmerket valg for soverom. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Vestland garderobe fra Bohus gir et godt førsteinntrykk med sin moderne stil. Med dimensjoner på 150 × 60 × 200 cm passer den godt i soveromn. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Vestland garderobe holder svært høy standard. Bohus har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. For prisen forventer man premium kvalitet, og dette produktet leverer."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 12 999 kr får man et solid produkt som holder i mange år. Bohus er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "bohus-aurora-gulvlampe",
+    name: "Aurora gulvlampe",
+    brand: "Bohus",
+    category: "lampe",
+    description: "Aurora gulvlampe fra Bohus er en skandinavisk lampe som passer perfekt i stue. Med dimensjoner på 35 × 35 × 165 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 3499,
+    image_url: "",
+    affiliate_url: "https://www.bohus.no/aurora-gulvlampe",
+    style_tags: ["skandinavisk","minimalistisk"],
+    color_tags: ["sort","messing"],
+    room_tags: ["stue"],
+    dimensions: { width: 35, depth: 35, height: 165 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 3.9,
+    pros: ["God verdi for pengene","Tidløst design som ikke går av moten","Enkel montering med tydelig bruksanvisning","Elegant og moderne utseende"],
+    cons: ["Materialet kan vise slitasje over tid","Fraktkostnadene kan være høye","Kan oppleves noe kompakt for større rom"],
+    review_summary: "Aurora gulvlampe fra Bohus er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Aurora gulvlampe fra Bohus gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 35 × 35 × 165 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Aurora gulvlampe holder god standard. Bohus har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 3 499 kr er dette et rimelig alternativ med god kvalitet. Bohus er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "bohus-midnatt-spisebord-valnott",
+    name: "Midnatt spisebord valnøtt",
+    brand: "Bohus",
+    category: "bord",
+    description: "Midnatt spisebord valnøtt fra Bohus er en luksus bord som passer perfekt i spisestue. Med dimensjoner på 200 × 100 × 75 cm er dette et premium valg. Finn de beste prisene på designinteriør.no.",
+    price: 12999,
+    image_url: "",
+    affiliate_url: "https://www.bohus.no/midnatt-spisebord-valnøtt",
+    style_tags: ["luksus","moderne"],
+    color_tags: ["valnøtt"],
+    room_tags: ["spisestue"],
+    dimensions: { width: 200, depth: 100, height: 75 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.9,
+    pros: ["Høy materialkvalitet","Solid byggekvalitet og gjennomtenkt design","Passer godt i skandinaviske hjem","Premium finish og detaljer"],
+    cons: ["Fraktkostnadene kan være høye","Tung å flytte etter montering","Kan oppleves noe kompakt for større rom"],
+    review_summary: "Midnatt spisebord valnøtt fra Bohus er et solid valg for spisestue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Midnatt spisebord valnøtt fra Bohus gir et godt førsteinntrykk med sin luksus stil. Med dimensjoner på 200 × 100 × 75 cm passer den godt i spisestuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Midnatt spisebord valnøtt holder god standard. Bohus har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. For prisen forventer man premium kvalitet, og dette produktet leverer."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 12 999 kr får man et solid produkt som holder i mange år. Bohus er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "bohus-harmony-2-seter-sofa",
+    name: "Harmony 2-seter sofa",
+    brand: "Bohus",
+    category: "sofa",
+    description: "Harmony 2-seter sofa fra Bohus er en skandinavisk sofa som passer perfekt i stue. Med dimensjoner på 170 × 90 × 80 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 9999,
+    image_url: "",
+    affiliate_url: "https://www.bohus.no/harmony-2-seter-sofa",
+    style_tags: ["skandinavisk","kompakt"],
+    color_tags: ["grønn"],
+    room_tags: ["stue"],
+    dimensions: { width: 170, depth: 90, height: 80 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.2,
+    pros: ["Solid byggekvalitet og gjennomtenkt design","Passer godt i skandinaviske hjem","Premium finish og detaljer","Enkel montering med tydelig bruksanvisning"],
+    cons: ["Leveringstiden kan være lang","Materialet kan vise slitasje over tid","Begrenset tilgjengelighet i alle butikker"],
+    review_summary: "Harmony 2-seter sofa fra Bohus er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Harmony 2-seter sofa fra Bohus gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 170 × 90 × 80 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Harmony 2-seter sofa holder god standard. Bohus har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 9 999 kr får man et solid produkt som holder i mange år. Bohus er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "hc-seaside-3-seter-sofa",
+    name: "Seaside 3-seter sofa",
+    brand: "Home & Cottage",
+    category: "sofa",
+    description: "Seaside 3-seter sofa fra Home & Cottage er en kystinspirert sofa som passer perfekt i stue. Med dimensjoner på 210 × 90 × 80 cm er dette et premium valg. Finn de beste prisene på designinteriør.no.",
+    price: 11999,
+    image_url: "",
+    affiliate_url: "https://www.homeandcottage.no/seaside-3-seter-sofa",
+    style_tags: ["kystinspirert","skandinavisk"],
+    color_tags: ["hvit","beige"],
+    room_tags: ["stue"],
+    dimensions: { width: 210, depth: 90, height: 80 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.4,
+    pros: ["God verdi for pengene","Høy materialkvalitet","Praktisk og funksjonell løsning","Tidløst design som ikke går av moten"],
+    cons: ["Leveringstiden kan være lang","Tung å flytte etter montering","Begrenset fargevalg"],
+    review_summary: "Seaside 3-seter sofa fra Home & Cottage er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Seaside 3-seter sofa fra Home & Cottage gir et godt førsteinntrykk med sin kystinspirert stil. Med dimensjoner på 210 × 90 × 80 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Seaside 3-seter sofa holder god standard. Home & Cottage har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. For prisen forventer man premium kvalitet, og dette produktet leverer."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 11 999 kr får man et solid produkt som holder i mange år. Home & Cottage er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "hc-coastal-pyntepute-50x50",
+    name: "Coastal pyntepute 50x50",
+    brand: "Home & Cottage",
+    category: "pute",
+    description: "Coastal pyntepute 50x50 fra Home & Cottage er en kystinspirert pute som passer perfekt i stue. Med dimensjoner på 50 × 50 × 15 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 399,
+    image_url: "",
+    affiliate_url: "https://www.homeandcottage.no/coastal-pyntepute-50x50",
+    style_tags: ["kystinspirert"],
+    color_tags: ["blå","hvit"],
+    room_tags: ["stue","soverom"],
+    dimensions: { width: 50, depth: 50, height: 15 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 4.2,
+    pros: ["Solid byggekvalitet og gjennomtenkt design","Stilren og diskret","Tidløst design som ikke går av moten","Svært god sittekomfort","Passer godt i skandinaviske hjem"],
+    cons: ["Begrenset fargevalg","Leveringstiden kan være lang","Fraktkostnadene kan være høye","Kan oppleves noe kompakt for større rom"],
+    review_summary: "Coastal pyntepute 50x50 fra Home & Cottage er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Coastal pyntepute 50x50 fra Home & Cottage gir et godt førsteinntrykk med sin kystinspirert stil. Med dimensjoner på 50 × 50 × 15 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Coastal pyntepute 50x50 holder svært høy standard. Home & Cottage har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 399 kr er dette et rimelig alternativ med god kvalitet. Home & Cottage er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "hc-maritime-pyntepute",
+    name: "Maritime pyntepute",
+    brand: "Home & Cottage",
+    category: "pute",
+    description: "Maritime pyntepute fra Home & Cottage er en kystinspirert pute som passer perfekt i stue. Med dimensjoner på 45 × 45 × 12 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 349,
+    image_url: "",
+    affiliate_url: "https://www.homeandcottage.no/maritime-pyntepute",
+    style_tags: ["kystinspirert"],
+    color_tags: ["marine","rød"],
+    room_tags: ["stue"],
+    dimensions: { width: 45, depth: 45, height: 12 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.1,
+    pros: ["Tidløst design som ikke går av moten","Robust konstruksjon","Enkel montering med tydelig bruksanvisning","God verdi for pengene"],
+    cons: ["Leveringstiden kan være lang","Prisen er i det øvre sjiktet","Vedlikehold krever litt ekstra oppmerksomhet","Begrenset tilgjengelighet i alle butikker"],
+    review_summary: "Maritime pyntepute fra Home & Cottage er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Maritime pyntepute fra Home & Cottage gir et godt førsteinntrykk med sin kystinspirert stil. Med dimensjoner på 45 × 45 × 12 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Maritime pyntepute holder svært høy standard. Home & Cottage har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 349 kr er dette et rimelig alternativ med god kvalitet. Home & Cottage er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "hc-harbour-ullpledd",
+    name: "Harbour ullpledd",
+    brand: "Home & Cottage",
+    category: "pute",
+    description: "Harbour ullpledd fra Home & Cottage er en kystinspirert pute som passer perfekt i stue. Med dimensjoner på 150 × 200 × 1 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 899,
+    image_url: "",
+    affiliate_url: "https://www.homeandcottage.no/harbour-ullpledd",
+    style_tags: ["kystinspirert","koselig"],
+    color_tags: ["grå","hvit"],
+    room_tags: ["stue","soverom"],
+    dimensions: { width: 150, depth: 200, height: 1 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.4,
+    pros: ["God verdi for pengene","Allsidig — passer i flere rom","Elegant og moderne utseende","Komfortabel i daglig bruk"],
+    cons: ["Leveringstiden kan være lang","Vedlikehold krever litt ekstra oppmerksomhet","Kan oppleves noe kompakt for større rom"],
+    review_summary: "Harbour ullpledd fra Home & Cottage er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Harbour ullpledd fra Home & Cottage gir et godt førsteinntrykk med sin kystinspirert stil. Med dimensjoner på 150 × 200 × 1 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Harbour ullpledd holder god standard. Home & Cottage har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 899 kr er dette et rimelig alternativ med god kvalitet. Home & Cottage er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "hc-driftwood-teppe",
+    name: "Driftwood teppe",
+    brand: "Home & Cottage",
+    category: "teppe",
+    description: "Driftwood teppe fra Home & Cottage er en naturlig teppe som passer perfekt i stue. Med dimensjoner på 200 × 300 × 1 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 2999,
+    image_url: "",
+    affiliate_url: "https://www.homeandcottage.no/driftwood-teppe",
+    style_tags: ["naturlig","rustikk"],
+    color_tags: ["beige","brun"],
+    room_tags: ["stue"],
+    dimensions: { width: 200, depth: 300, height: 1 },
+    in_stock: true,
+    discount_code: "DESIGN15",
+    discount_percent: 15,
+    rating: 3.9,
+    pros: ["Svært god sittekomfort","Komfortabel i daglig bruk","Solid byggekvalitet og gjennomtenkt design","Lett å vedlikeholde og rengjøre"],
+    cons: ["Krever noe montering","Prisen er i det øvre sjiktet","Vedlikehold krever litt ekstra oppmerksomhet"],
+    review_summary: "Driftwood teppe fra Home & Cottage er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Driftwood teppe fra Home & Cottage gir et godt førsteinntrykk med sin naturlig stil. Med dimensjoner på 200 × 300 × 1 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Driftwood teppe holder god standard. Home & Cottage har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 2 999 kr er dette et rimelig alternativ med god kvalitet. Home & Cottage er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "hc-ocean-vase-stor",
+    name: "Ocean vase stor",
+    brand: "Home & Cottage",
+    category: "dekor",
+    description: "Ocean vase stor fra Home & Cottage er en kystinspirert dekorasjon som passer perfekt i stue. Med dimensjoner på 18 × 18 × 35 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 599,
+    image_url: "",
+    affiliate_url: "https://www.homeandcottage.no/ocean-vase-stor",
+    style_tags: ["kystinspirert"],
+    color_tags: ["blå"],
+    room_tags: ["stue","gang"],
+    dimensions: { width: 18, depth: 18, height: 35 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.6,
+    pros: ["Passer godt i skandinaviske hjem","Robust konstruksjon","Elegant og moderne utseende","Lett å vedlikeholde og rengjøre"],
+    cons: ["Leveringstiden kan være lang","Begrenset fargevalg","Materialet kan vise slitasje over tid"],
+    review_summary: "Ocean vase stor fra Home & Cottage er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Ocean vase stor fra Home & Cottage gir et godt førsteinntrykk med sin kystinspirert stil. Med dimensjoner på 18 × 18 × 35 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Ocean vase stor holder god standard. Home & Cottage har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 599 kr er dette et rimelig alternativ med god kvalitet. Home & Cottage er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "hc-lighthouse-duftlys",
+    name: "Lighthouse duftlys",
+    brand: "Home & Cottage",
+    category: "dekor",
+    description: "Lighthouse duftlys fra Home & Cottage er en kystinspirert dekorasjon som passer perfekt i stue. Med dimensjoner på 10 × 10 × 12 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 249,
+    image_url: "",
+    affiliate_url: "https://www.homeandcottage.no/lighthouse-duftlys",
+    style_tags: ["kystinspirert"],
+    color_tags: ["hvit"],
+    room_tags: ["stue","soverom"],
+    dimensions: { width: 10, depth: 10, height: 12 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.6,
+    pros: ["Elegant og moderne utseende","Praktisk og funksjonell løsning","Høy materialkvalitet","Premium finish og detaljer"],
+    cons: ["Leveringstiden kan være lang","Fraktkostnadene kan være høye","Begrenset fargevalg"],
+    review_summary: "Lighthouse duftlys fra Home & Cottage er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Lighthouse duftlys fra Home & Cottage gir et godt førsteinntrykk med sin kystinspirert stil. Med dimensjoner på 10 × 10 × 12 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Lighthouse duftlys holder god standard. Home & Cottage har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 249 kr er dette et rimelig alternativ med god kvalitet. Home & Cottage er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "hc-sunset-bordlampe",
+    name: "Sunset bordlampe",
+    brand: "Home & Cottage",
+    category: "lampe",
+    description: "Sunset bordlampe fra Home & Cottage er en kystinspirert lampe som passer perfekt i stue. Med dimensjoner på 30 × 30 × 50 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 1299,
+    image_url: "",
+    affiliate_url: "https://www.homeandcottage.no/sunset-bordlampe",
+    style_tags: ["kystinspirert","moderne"],
+    color_tags: ["hvit","natur"],
+    room_tags: ["stue","soverom"],
+    dimensions: { width: 30, depth: 30, height: 50 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.5,
+    pros: ["Premium finish og detaljer","Enkel montering med tydelig bruksanvisning","Tidløst design som ikke går av moten","Elegant og moderne utseende"],
+    cons: ["Fraktkostnadene kan være høye","Begrenset fargevalg","Vedlikehold krever litt ekstra oppmerksomhet"],
+    review_summary: "Sunset bordlampe fra Home & Cottage er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Sunset bordlampe fra Home & Cottage gir et godt førsteinntrykk med sin kystinspirert stil. Med dimensjoner på 30 × 30 × 50 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Sunset bordlampe holder svært høy standard. Home & Cottage har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 1 299 kr er dette et rimelig alternativ med god kvalitet. Home & Cottage er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "hc-breeze-gulvlampe",
+    name: "Breeze gulvlampe",
+    brand: "Home & Cottage",
+    category: "lampe",
+    description: "Breeze gulvlampe fra Home & Cottage er en skandinavisk lampe som passer perfekt i stue. Med dimensjoner på 40 × 40 × 160 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 2499,
+    image_url: "",
+    affiliate_url: "https://www.homeandcottage.no/breeze-gulvlampe",
+    style_tags: ["skandinavisk"],
+    color_tags: ["hvit","tre"],
+    room_tags: ["stue"],
+    dimensions: { width: 40, depth: 40, height: 160 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.8,
+    pros: ["Enkel montering med tydelig bruksanvisning","Elegant og moderne utseende","Lett å vedlikeholde og rengjøre","Tidløst design som ikke går av moten","Svært god sittekomfort"],
+    cons: ["Begrenset fargevalg","Fraktkostnadene kan være høye","Prisen er i det øvre sjiktet","Tung å flytte etter montering"],
+    review_summary: "Breeze gulvlampe fra Home & Cottage er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Breeze gulvlampe fra Home & Cottage gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 40 × 40 × 160 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Breeze gulvlampe holder god standard. Home & Cottage har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 2 499 kr er dette et rimelig alternativ med god kvalitet. Home & Cottage er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "hc-skjell-dekorskal",
+    name: "Skjell dekorskål",
+    brand: "Home & Cottage",
+    category: "dekor",
+    description: "Skjell dekorskål fra Home & Cottage er en kystinspirert dekorasjon som passer perfekt i stue. Med dimensjoner på 30 × 25 × 8 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 349,
+    image_url: "",
+    affiliate_url: "https://www.homeandcottage.no/skjell-dekorskål",
+    style_tags: ["kystinspirert"],
+    color_tags: ["hvit","perlemor"],
+    room_tags: ["stue","bad"],
+    dimensions: { width: 30, depth: 25, height: 8 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 3.6,
+    pros: ["Premium finish og detaljer","Solid byggekvalitet og gjennomtenkt design","Høy materialkvalitet","Passer godt i skandinaviske hjem","God verdi for pengene"],
+    cons: ["Vedlikehold krever litt ekstra oppmerksomhet","Krever noe montering","Kan oppleves noe kompakt for større rom","Materialet kan vise slitasje over tid"],
+    review_summary: "Skjell dekorskål fra Home & Cottage er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Skjell dekorskål fra Home & Cottage gir et godt førsteinntrykk med sin kystinspirert stil. Med dimensjoner på 30 × 25 × 8 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Skjell dekorskål holder god standard. Home & Cottage har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 349 kr er dette et rimelig alternativ med god kvalitet. Home & Cottage er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "hc-tide-gardin-linblend",
+    name: "Tide gardin linblend",
+    brand: "Home & Cottage",
+    category: "gardin",
+    description: "Tide gardin linblend fra Home & Cottage er en kystinspirert gardin som passer perfekt i stue. Med dimensjoner på 140 × 1 × 250 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 799,
+    image_url: "",
+    affiliate_url: "https://www.homeandcottage.no/tide-gardin-linblend",
+    style_tags: ["kystinspirert"],
+    color_tags: ["hvit","lin"],
+    room_tags: ["stue","soverom"],
+    dimensions: { width: 140, depth: 1, height: 250 },
+    in_stock: true,
+    discount_code: "DESIGN20",
+    discount_percent: 20,
+    rating: 4.4,
+    pros: ["Allsidig — passer i flere rom","Elegant og moderne utseende","Lett å vedlikeholde og rengjøre","God verdi for pengene"],
+    cons: ["Leveringstiden kan være lang","Begrenset fargevalg","Kan oppleves noe kompakt for større rom","Fraktkostnadene kan være høye"],
+    review_summary: "Tide gardin linblend fra Home & Cottage er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Tide gardin linblend fra Home & Cottage gir et godt førsteinntrykk med sin kystinspirert stil. Med dimensjoner på 140 × 1 × 250 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Tide gardin linblend holder svært høy standard. Home & Cottage har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 799 kr er dette et rimelig alternativ med god kvalitet. Home & Cottage er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "hc-anchor-pyntepute",
+    name: "Anchor pyntepute",
+    brand: "Home & Cottage",
+    category: "pute",
+    description: "Anchor pyntepute fra Home & Cottage er en kystinspirert pute som passer perfekt i stue. Med dimensjoner på 50 × 50 × 15 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 449,
+    image_url: "",
+    affiliate_url: "https://www.homeandcottage.no/anchor-pyntepute",
+    style_tags: ["kystinspirert"],
+    color_tags: ["marine","hvit"],
+    room_tags: ["stue"],
+    dimensions: { width: 50, depth: 50, height: 15 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 4.3,
+    pros: ["Elegant og moderne utseende","Premium finish og detaljer","Komfortabel i daglig bruk","Enkel montering med tydelig bruksanvisning","Lett å vedlikeholde og rengjøre"],
+    cons: ["Leveringstiden kan være lang","Begrenset fargevalg","Krever noe montering"],
+    review_summary: "Anchor pyntepute fra Home & Cottage er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Anchor pyntepute fra Home & Cottage gir et godt førsteinntrykk med sin kystinspirert stil. Med dimensjoner på 50 × 50 × 15 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Anchor pyntepute holder svært høy standard. Home & Cottage har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 449 kr er dette et rimelig alternativ med god kvalitet. Home & Cottage er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "hc-sand-teppe-jute",
+    name: "Sand teppe jute",
+    brand: "Home & Cottage",
+    category: "teppe",
+    description: "Sand teppe jute fra Home & Cottage er en naturlig teppe som passer perfekt i stue. Med dimensjoner på 160 × 230 × 1 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 1999,
+    image_url: "",
+    affiliate_url: "https://www.homeandcottage.no/sand-teppe-jute",
+    style_tags: ["naturlig","bohem"],
+    color_tags: ["natur","beige"],
+    room_tags: ["stue","soverom"],
+    dimensions: { width: 160, depth: 230, height: 1 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 3.4,
+    pros: ["Høy materialkvalitet","Komfortabel i daglig bruk","Lett å vedlikeholde og rengjøre","Premium finish og detaljer"],
+    cons: ["Begrenset fargevalg","Materialet kan vise slitasje over tid","Tung å flytte etter montering","Leveringstiden kan være lang"],
+    review_summary: "Sand teppe jute fra Home & Cottage er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Sand teppe jute fra Home & Cottage gir et godt førsteinntrykk med sin naturlig stil. Med dimensjoner på 160 × 230 × 1 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Sand teppe jute holder god standard. Home & Cottage har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 1 999 kr er dette et rimelig alternativ med god kvalitet. Home & Cottage er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "hc-wave-speil-rundt",
+    name: "Wave speil rundt",
+    brand: "Home & Cottage",
+    category: "speil",
+    description: "Wave speil rundt fra Home & Cottage er en kystinspirert speil som passer perfekt i gang. Med dimensjoner på 80 × 3 × 80 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 1499,
+    image_url: "",
+    affiliate_url: "https://www.homeandcottage.no/wave-speil-rundt",
+    style_tags: ["kystinspirert","moderne"],
+    color_tags: ["natur","tre"],
+    room_tags: ["gang","bad"],
+    dimensions: { width: 80, depth: 3, height: 80 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.4,
+    pros: ["Tidløst design som ikke går av moten","Elegant og moderne utseende","Svært god sittekomfort","Lett å vedlikeholde og rengjøre","God verdi for pengene"],
+    cons: ["Materialet kan vise slitasje over tid","Vedlikehold krever litt ekstra oppmerksomhet","Begrenset fargevalg","Fraktkostnadene kan være høye"],
+    review_summary: "Wave speil rundt fra Home & Cottage er et utmerket valg for gang. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Wave speil rundt fra Home & Cottage gir et godt førsteinntrykk med sin kystinspirert stil. Med dimensjoner på 80 × 3 × 80 cm passer den godt i gangn. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Wave speil rundt holder svært høy standard. Home & Cottage har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 1 499 kr er dette et rimelig alternativ med god kvalitet. Home & Cottage er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "hc-pearl-lysestake",
+    name: "Pearl lysestake",
+    brand: "Home & Cottage",
+    category: "dekor",
+    description: "Pearl lysestake fra Home & Cottage er en kystinspirert dekorasjon som passer perfekt i stue. Med dimensjoner på 12 × 12 × 25 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 299,
+    image_url: "",
+    affiliate_url: "https://www.homeandcottage.no/pearl-lysestake",
+    style_tags: ["kystinspirert","elegant"],
+    color_tags: ["gull"],
+    room_tags: ["stue","spisestue"],
+    dimensions: { width: 12, depth: 12, height: 25 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.4,
+    pros: ["Enkel montering med tydelig bruksanvisning","Høy materialkvalitet","Allsidig — passer i flere rom","Premium finish og detaljer"],
+    cons: ["Leveringstiden kan være lang","Prisen er i det øvre sjiktet","Materialet kan vise slitasje over tid"],
+    review_summary: "Pearl lysestake fra Home & Cottage er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Pearl lysestake fra Home & Cottage gir et godt førsteinntrykk med sin kystinspirert stil. Med dimensjoner på 12 × 12 × 25 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Pearl lysestake holder god standard. Home & Cottage har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 299 kr er dette et rimelig alternativ med god kvalitet. Home & Cottage er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "co-smart-led-skrivebordslampe",
+    name: "Smart LED skrivebordslampe",
+    brand: "Clas Ohlson",
+    category: "lampe",
+    description: "Smart LED skrivebordslampe fra Clas Ohlson er en moderne lampe som passer perfekt i kontor. Med dimensjoner på 15 × 20 × 45 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 499,
+    image_url: "",
+    affiliate_url: "https://www.clasohlson.com/no/smart-led-skrivebordslampe",
+    style_tags: ["moderne","funksjonell"],
+    color_tags: ["hvit"],
+    room_tags: ["kontor","soverom"],
+    dimensions: { width: 15, depth: 20, height: 45 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.2,
+    pros: ["Premium finish og detaljer","Lett å vedlikeholde og rengjøre","Allsidig — passer i flere rom","Solid byggekvalitet og gjennomtenkt design"],
+    cons: ["Begrenset tilgjengelighet i alle butikker","Vedlikehold krever litt ekstra oppmerksomhet","Materialet kan vise slitasje over tid"],
+    review_summary: "Smart LED skrivebordslampe fra Clas Ohlson er et solid valg for kontor. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Smart LED skrivebordslampe fra Clas Ohlson gir et godt førsteinntrykk med sin moderne stil. Med dimensjoner på 15 × 20 × 45 cm passer den godt i kontorn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Smart LED skrivebordslampe holder god standard. Clas Ohlson har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 499 kr er dette et rimelig alternativ med god kvalitet. Clas Ohlson er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "co-nordic-vegglampe-sort",
+    name: "Nordic vegglampe sort",
+    brand: "Clas Ohlson",
+    category: "lampe",
+    description: "Nordic vegglampe sort fra Clas Ohlson er en skandinavisk lampe som passer perfekt i gang. Med dimensjoner på 12 × 15 × 20 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 349,
+    image_url: "",
+    affiliate_url: "https://www.clasohlson.com/no/nordic-vegglampe-sort",
+    style_tags: ["skandinavisk"],
+    color_tags: ["sort"],
+    room_tags: ["gang","soverom"],
+    dimensions: { width: 12, depth: 15, height: 20 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.3,
+    pros: ["Solid byggekvalitet og gjennomtenkt design","God verdi for pengene","Robust konstruksjon","Passer godt i skandinaviske hjem"],
+    cons: ["Krever noe montering","Begrenset fargevalg","Prisen er i det øvre sjiktet"],
+    review_summary: "Nordic vegglampe sort fra Clas Ohlson er et solid valg for gang. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Nordic vegglampe sort fra Clas Ohlson gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 12 × 15 × 20 cm passer den godt i gangn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Nordic vegglampe sort holder god standard. Clas Ohlson har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 349 kr er dette et rimelig alternativ med god kvalitet. Clas Ohlson er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "co-home-vegghylle-3-pk",
+    name: "Home vegghylle 3-pk",
+    brand: "Clas Ohlson",
+    category: "hylle",
+    description: "Home vegghylle 3-pk fra Clas Ohlson er en minimalistisk hylle som passer perfekt i stue. Med dimensjoner på 60 × 20 × 3 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 299,
+    image_url: "",
+    affiliate_url: "https://www.clasohlson.com/no/home-vegghylle-3-pk",
+    style_tags: ["minimalistisk"],
+    color_tags: ["hvit"],
+    room_tags: ["stue","soverom"],
+    dimensions: { width: 60, depth: 20, height: 3 },
+    in_stock: true,
+    discount_code: "DESIGN15",
+    discount_percent: 15,
+    rating: 3.9,
+    pros: ["Svært god sittekomfort","Solid byggekvalitet og gjennomtenkt design","God verdi for pengene","Premium finish og detaljer"],
+    cons: ["Begrenset tilgjengelighet i alle butikker","Materialet kan vise slitasje over tid","Prisen er i det øvre sjiktet","Begrenset fargevalg"],
+    review_summary: "Home vegghylle 3-pk fra Clas Ohlson er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Home vegghylle 3-pk fra Clas Ohlson gir et godt førsteinntrykk med sin minimalistisk stil. Med dimensjoner på 60 × 20 × 3 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Home vegghylle 3-pk holder god standard. Clas Ohlson har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 299 kr er dette et rimelig alternativ med god kvalitet. Clas Ohlson er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "co-industri-bokhylle",
+    name: "Industri bokhylle",
+    brand: "Clas Ohlson",
+    category: "hylle",
+    description: "Industri bokhylle fra Clas Ohlson er en industriell hylle som passer perfekt i stue. Med dimensjoner på 70 × 30 × 150 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 1299,
+    image_url: "",
+    affiliate_url: "https://www.clasohlson.com/no/industri-bokhylle",
+    style_tags: ["industriell"],
+    color_tags: ["sort","tre"],
+    room_tags: ["stue","kontor"],
+    dimensions: { width: 70, depth: 30, height: 150 },
+    in_stock: true,
+    discount_code: "DESIGN20",
+    discount_percent: 20,
+    rating: 4.5,
+    pros: ["Praktisk og funksjonell løsning","Tidløst design som ikke går av moten","God verdi for pengene","Svært god sittekomfort","Solid byggekvalitet og gjennomtenkt design"],
+    cons: ["Materialet kan vise slitasje over tid","Kan oppleves noe kompakt for større rom","Prisen er i det øvre sjiktet"],
+    review_summary: "Industri bokhylle fra Clas Ohlson er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Industri bokhylle fra Clas Ohlson gir et godt førsteinntrykk med sin industriell stil. Med dimensjoner på 70 × 30 × 150 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Industri bokhylle holder svært høy standard. Clas Ohlson har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 1 299 kr er dette et rimelig alternativ med god kvalitet. Clas Ohlson er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "co-bamboo-dekorasjonsboks",
+    name: "Bamboo dekorasjonsboks",
+    brand: "Clas Ohlson",
+    category: "dekor",
+    description: "Bamboo dekorasjonsboks fra Clas Ohlson er en naturlig dekorasjon som passer perfekt i bad. Med dimensjoner på 25 × 20 × 15 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 199,
+    image_url: "",
+    affiliate_url: "https://www.clasohlson.com/no/bamboo-dekorasjonsboks",
+    style_tags: ["naturlig"],
+    color_tags: ["natur","bambus"],
+    room_tags: ["bad","soverom"],
+    dimensions: { width: 25, depth: 20, height: 15 },
+    in_stock: true,
+    discount_code: "DESIGN15",
+    discount_percent: 15,
+    rating: 3.7,
+    pros: ["Komfortabel i daglig bruk","Lett å vedlikeholde og rengjøre","Passer godt i skandinaviske hjem","Praktisk og funksjonell løsning"],
+    cons: ["Krever noe montering","Leveringstiden kan være lang","Vedlikehold krever litt ekstra oppmerksomhet"],
+    review_summary: "Bamboo dekorasjonsboks fra Clas Ohlson er et solid valg for bad. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Bamboo dekorasjonsboks fra Clas Ohlson gir et godt førsteinntrykk med sin naturlig stil. Med dimensjoner på 25 × 20 × 15 cm passer den godt i badn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Bamboo dekorasjonsboks holder god standard. Clas Ohlson har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 199 kr er dette et rimelig alternativ med god kvalitet. Clas Ohlson er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "co-rund-speil-med-ramme",
+    name: "Rund speil med ramme",
+    brand: "Clas Ohlson",
+    category: "speil",
+    description: "Rund speil med ramme fra Clas Ohlson er en moderne speil som passer perfekt i gang. Med dimensjoner på 60 × 3 × 60 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 599,
+    image_url: "",
+    affiliate_url: "https://www.clasohlson.com/no/rund-speil-med-ramme",
+    style_tags: ["moderne"],
+    color_tags: ["sort"],
+    room_tags: ["gang","bad"],
+    dimensions: { width: 60, depth: 3, height: 60 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.7,
+    pros: ["Solid byggekvalitet og gjennomtenkt design","Stilren og diskret","Passer godt i skandinaviske hjem","Enkel montering med tydelig bruksanvisning","Praktisk og funksjonell løsning"],
+    cons: ["Prisen er i det øvre sjiktet","Begrenset tilgjengelighet i alle butikker","Fraktkostnadene kan være høye","Krever noe montering"],
+    review_summary: "Rund speil med ramme fra Clas Ohlson er et solid valg for gang. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Rund speil med ramme fra Clas Ohlson gir et godt førsteinntrykk med sin moderne stil. Med dimensjoner på 60 × 3 × 60 cm passer den godt i gangn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Rund speil med ramme holder god standard. Clas Ohlson har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 599 kr er dette et rimelig alternativ med god kvalitet. Clas Ohlson er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "co-oppbevaringsboks-sett",
+    name: "Oppbevaringsboks sett",
+    brand: "Clas Ohlson",
+    category: "dekor",
+    description: "Oppbevaringsboks sett fra Clas Ohlson er en funksjonell dekorasjon som passer perfekt i soverom. Med dimensjoner på 30 × 30 × 20 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 249,
+    image_url: "",
+    affiliate_url: "https://www.clasohlson.com/no/oppbevaringsboks-sett",
+    style_tags: ["funksjonell"],
+    color_tags: ["grå"],
+    room_tags: ["soverom","bad"],
+    dimensions: { width: 30, depth: 30, height: 20 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.6,
+    pros: ["Høy materialkvalitet","Svært god sittekomfort","Tidløst design som ikke går av moten","Komfortabel i daglig bruk"],
+    cons: ["Prisen er i det øvre sjiktet","Leveringstiden kan være lang","Kan oppleves noe kompakt for større rom"],
+    review_summary: "Oppbevaringsboks sett fra Clas Ohlson er et solid valg for soverom. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Oppbevaringsboks sett fra Clas Ohlson gir et godt førsteinntrykk med sin funksjonell stil. Med dimensjoner på 30 × 30 × 20 cm passer den godt i soveromn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Oppbevaringsboks sett holder god standard. Clas Ohlson har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 249 kr er dette et rimelig alternativ med god kvalitet. Clas Ohlson er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "co-koffertbord-vintage",
+    name: "Koffertbord vintage",
+    brand: "Clas Ohlson",
+    category: "bord",
+    description: "Koffertbord vintage fra Clas Ohlson er en vintage bord som passer perfekt i stue. Med dimensjoner på 60 × 40 × 45 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 899,
+    image_url: "",
+    affiliate_url: "https://www.clasohlson.com/no/koffertbord-vintage",
+    style_tags: ["vintage","industriell"],
+    color_tags: ["brun"],
+    room_tags: ["stue"],
+    dimensions: { width: 60, depth: 40, height: 45 },
+    in_stock: true,
+    discount_code: "DESIGN15",
+    discount_percent: 15,
+    rating: 3.9,
+    pros: ["Passer godt i skandinaviske hjem","Solid byggekvalitet og gjennomtenkt design","Høy materialkvalitet","Praktisk og funksjonell løsning","Komfortabel i daglig bruk"],
+    cons: ["Tung å flytte etter montering","Prisen er i det øvre sjiktet","Leveringstiden kan være lang"],
+    review_summary: "Koffertbord vintage fra Clas Ohlson er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Koffertbord vintage fra Clas Ohlson gir et godt førsteinntrykk med sin vintage stil. Med dimensjoner på 60 × 40 × 45 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Koffertbord vintage holder god standard. Clas Ohlson har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 899 kr er dette et rimelig alternativ med god kvalitet. Clas Ohlson er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "co-sammenleggbar-reol",
+    name: "Sammenleggbar reol",
+    brand: "Clas Ohlson",
+    category: "hylle",
+    description: "Sammenleggbar reol fra Clas Ohlson er en funksjonell hylle som passer perfekt i kontor. Med dimensjoner på 65 × 30 × 130 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 799,
+    image_url: "",
+    affiliate_url: "https://www.clasohlson.com/no/sammenleggbar-reol",
+    style_tags: ["funksjonell","kompakt"],
+    color_tags: ["hvit"],
+    room_tags: ["kontor","soverom"],
+    dimensions: { width: 65, depth: 30, height: 130 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.9,
+    pros: ["Robust konstruksjon","Solid byggekvalitet og gjennomtenkt design","Stilren og diskret","Svært god sittekomfort","Praktisk og funksjonell løsning"],
+    cons: ["Vedlikehold krever litt ekstra oppmerksomhet","Leveringstiden kan være lang","Begrenset fargevalg","Tung å flytte etter montering"],
+    review_summary: "Sammenleggbar reol fra Clas Ohlson er et solid valg for kontor. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Sammenleggbar reol fra Clas Ohlson gir et godt førsteinntrykk med sin funksjonell stil. Med dimensjoner på 65 × 30 × 130 cm passer den godt i kontorn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Sammenleggbar reol holder god standard. Clas Ohlson har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 799 kr er dette et rimelig alternativ med god kvalitet. Clas Ohlson er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "co-led-lysslynge-10m",
+    name: "LED lysslynge 10m",
+    brand: "Clas Ohlson",
+    category: "dekor",
+    description: "LED lysslynge 10m fra Clas Ohlson er en koselig dekorasjon som passer perfekt i stue. Med dimensjoner på 1000 × 1 × 1 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 149,
+    image_url: "",
+    affiliate_url: "https://www.clasohlson.com/no/led-lysslynge-10m",
+    style_tags: ["koselig"],
+    color_tags: ["varm hvit"],
+    room_tags: ["stue","soverom"],
+    dimensions: { width: 1000, depth: 1, height: 1 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.1,
+    pros: ["Praktisk og funksjonell løsning","Høy materialkvalitet","Solid byggekvalitet og gjennomtenkt design","Passer godt i skandinaviske hjem","Svært god sittekomfort"],
+    cons: ["Materialet kan vise slitasje over tid","Krever noe montering","Begrenset fargevalg"],
+    review_summary: "LED lysslynge 10m fra Clas Ohlson er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "LED lysslynge 10m fra Clas Ohlson gir et godt førsteinntrykk med sin koselig stil. Med dimensjoner på 1000 × 1 × 1 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på LED lysslynge 10m holder svært høy standard. Clas Ohlson har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 149 kr er dette et rimelig alternativ med god kvalitet. Clas Ohlson er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "co-kleshenger-stativ",
+    name: "Kleshenger stativ",
+    brand: "Clas Ohlson",
+    category: "dekor",
+    description: "Kleshenger stativ fra Clas Ohlson er en minimalistisk dekorasjon som passer perfekt i gang. Med dimensjoner på 80 × 45 × 160 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 449,
+    image_url: "",
+    affiliate_url: "https://www.clasohlson.com/no/kleshenger-stativ",
+    style_tags: ["minimalistisk","funksjonell"],
+    color_tags: ["sort"],
+    room_tags: ["gang","soverom"],
+    dimensions: { width: 80, depth: 45, height: 160 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 4.7,
+    pros: ["Praktisk og funksjonell løsning","Tidløst design som ikke går av moten","Enkel montering med tydelig bruksanvisning","Allsidig — passer i flere rom"],
+    cons: ["Prisen er i det øvre sjiktet","Krever noe montering","Tung å flytte etter montering"],
+    review_summary: "Kleshenger stativ fra Clas Ohlson er et utmerket valg for gang. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Kleshenger stativ fra Clas Ohlson gir et godt førsteinntrykk med sin minimalistisk stil. Med dimensjoner på 80 × 45 × 160 cm passer den godt i gangn. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Kleshenger stativ holder svært høy standard. Clas Ohlson har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 449 kr er dette et rimelig alternativ med god kvalitet. Clas Ohlson er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "co-skrivebordsorganiserer",
+    name: "Skrivebordsorganiserer",
+    brand: "Clas Ohlson",
+    category: "dekor",
+    description: "Skrivebordsorganiserer fra Clas Ohlson er en funksjonell dekorasjon som passer perfekt i kontor. Med dimensjoner på 25 × 15 × 12 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 179,
+    image_url: "",
+    affiliate_url: "https://www.clasohlson.com/no/skrivebordsorganiserer",
+    style_tags: ["funksjonell"],
+    color_tags: ["bambus"],
+    room_tags: ["kontor"],
+    dimensions: { width: 25, depth: 15, height: 12 },
+    in_stock: true,
+    discount_code: "DESIGN20",
+    discount_percent: 20,
+    rating: 3.2,
+    pros: ["Tidløst design som ikke går av moten","Komfortabel i daglig bruk","Stilren og diskret","Elegant og moderne utseende"],
+    cons: ["Tung å flytte etter montering","Krever noe montering","Fraktkostnadene kan være høye","Prisen er i det øvre sjiktet"],
+    review_summary: "Skrivebordsorganiserer fra Clas Ohlson er et solid valg for kontor. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Skrivebordsorganiserer fra Clas Ohlson gir et godt førsteinntrykk med sin funksjonell stil. Med dimensjoner på 25 × 15 × 12 cm passer den godt i kontorn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Skrivebordsorganiserer holder god standard. Clas Ohlson har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 179 kr er dette et rimelig alternativ med god kvalitet. Clas Ohlson er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "co-nokkelskap-med-speil",
+    name: "Nøkkelskap med speil",
+    brand: "Clas Ohlson",
+    category: "kommode",
+    description: "Nøkkelskap med speil fra Clas Ohlson er en funksjonell kommode som passer perfekt i gang. Med dimensjoner på 30 × 8 × 50 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 399,
+    image_url: "",
+    affiliate_url: "https://www.clasohlson.com/no/nøkkelskap-med-speil",
+    style_tags: ["funksjonell","moderne"],
+    color_tags: ["hvit"],
+    room_tags: ["gang"],
+    dimensions: { width: 30, depth: 8, height: 50 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.6,
+    pros: ["Praktisk og funksjonell løsning","Svært god sittekomfort","Tidløst design som ikke går av moten","Solid byggekvalitet og gjennomtenkt design"],
+    cons: ["Fraktkostnadene kan være høye","Begrenset fargevalg","Prisen er i det øvre sjiktet"],
+    review_summary: "Nøkkelskap med speil fra Clas Ohlson er et solid valg for gang. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Nøkkelskap med speil fra Clas Ohlson gir et godt førsteinntrykk med sin funksjonell stil. Med dimensjoner på 30 × 8 × 50 cm passer den godt i gangn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Nøkkelskap med speil holder god standard. Clas Ohlson har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 399 kr er dette et rimelig alternativ med god kvalitet. Clas Ohlson er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "co-plantestativ-3-etasjer",
+    name: "Plantestativ 3-etasjer",
+    brand: "Clas Ohlson",
+    category: "dekor",
+    description: "Plantestativ 3-etasjer fra Clas Ohlson er en moderne dekorasjon som passer perfekt i stue. Med dimensjoner på 45 × 25 × 80 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 349,
+    image_url: "",
+    affiliate_url: "https://www.clasohlson.com/no/plantestativ-3-etasjer",
+    style_tags: ["moderne","naturlig"],
+    color_tags: ["sort"],
+    room_tags: ["stue","balkong"],
+    dimensions: { width: 45, depth: 25, height: 80 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.5,
+    pros: ["Praktisk og funksjonell løsning","Tidløst design som ikke går av moten","Premium finish og detaljer","Komfortabel i daglig bruk","Enkel montering med tydelig bruksanvisning"],
+    cons: ["Prisen er i det øvre sjiktet","Krever noe montering","Kan oppleves noe kompakt for større rom","Vedlikehold krever litt ekstra oppmerksomhet"],
+    review_summary: "Plantestativ 3-etasjer fra Clas Ohlson er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Plantestativ 3-etasjer fra Clas Ohlson gir et godt førsteinntrykk med sin moderne stil. Med dimensjoner på 45 × 25 × 80 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Plantestativ 3-etasjer holder god standard. Clas Ohlson har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 349 kr er dette et rimelig alternativ med god kvalitet. Clas Ohlson er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "co-skoskap-med-3-rom",
+    name: "Skoskap med 3 rom",
+    brand: "Clas Ohlson",
+    category: "kommode",
+    description: "Skoskap med 3 rom fra Clas Ohlson er en funksjonell kommode som passer perfekt i gang. Med dimensjoner på 60 × 25 × 120 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 699,
+    image_url: "",
+    affiliate_url: "https://www.clasohlson.com/no/skoskap-med-3-rom",
+    style_tags: ["funksjonell"],
+    color_tags: ["hvit","eik"],
+    room_tags: ["gang"],
+    dimensions: { width: 60, depth: 25, height: 120 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.4,
+    pros: ["Høy materialkvalitet","Robust konstruksjon","Tidløst design som ikke går av moten","God verdi for pengene"],
+    cons: ["Krever noe montering","Fraktkostnadene kan være høye","Begrenset fargevalg"],
+    review_summary: "Skoskap med 3 rom fra Clas Ohlson er et solid valg for gang. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Skoskap med 3 rom fra Clas Ohlson gir et godt førsteinntrykk med sin funksjonell stil. Med dimensjoner på 60 × 25 × 120 cm passer den godt i gangn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Skoskap med 3 rom holder god standard. Clas Ohlson har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 699 kr er dette et rimelig alternativ med god kvalitet. Clas Ohlson er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "tilbords-nordic-tallerken-27cm-4-pk",
+    name: "Nordic tallerken 27cm 4-pk",
+    brand: "Tilbords",
+    category: "dekor",
+    description: "Nordic tallerken 27cm 4-pk fra Tilbords er en skandinavisk dekorasjon som passer perfekt i kjøkken. Med dimensjoner på 27 × 27 × 3 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 599,
+    image_url: "",
+    affiliate_url: "https://www.tilbords.no/nordic-tallerken-27cm-4-pk",
+    style_tags: ["skandinavisk"],
+    color_tags: ["hvit"],
+    room_tags: ["kjøkken","spisestue"],
+    dimensions: { width: 27, depth: 27, height: 3 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.2,
+    pros: ["Tidløst design som ikke går av moten","Solid byggekvalitet og gjennomtenkt design","Stilren og diskret","Allsidig — passer i flere rom"],
+    cons: ["Krever noe montering","Fraktkostnadene kan være høye","Materialet kan vise slitasje over tid"],
+    review_summary: "Nordic tallerken 27cm 4-pk fra Tilbords er et utmerket valg for kjøkken. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Nordic tallerken 27cm 4-pk fra Tilbords gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 27 × 27 × 3 cm passer den godt i kjøkkenn. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Nordic tallerken 27cm 4-pk holder svært høy standard. Tilbords har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 599 kr er dette et rimelig alternativ med god kvalitet. Tilbords er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "tilbords-fjord-vinglass-4-pk",
+    name: "Fjord vinglass 4-pk",
+    brand: "Tilbords",
+    category: "dekor",
+    description: "Fjord vinglass 4-pk fra Tilbords er en elegant dekorasjon som passer perfekt i spisestue. Med dimensjoner på 8 × 8 × 22 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 449,
+    image_url: "",
+    affiliate_url: "https://www.tilbords.no/fjord-vinglass-4-pk",
+    style_tags: ["elegant"],
+    color_tags: ["klar"],
+    room_tags: ["spisestue"],
+    dimensions: { width: 8, depth: 8, height: 22 },
+    in_stock: true,
+    discount_code: "DESIGN20",
+    discount_percent: 20,
+    rating: 4.4,
+    pros: ["Robust konstruksjon","Passer godt i skandinaviske hjem","Stilren og diskret","Elegant og moderne utseende","Tidløst design som ikke går av moten"],
+    cons: ["Krever noe montering","Tung å flytte etter montering","Materialet kan vise slitasje over tid"],
+    review_summary: "Fjord vinglass 4-pk fra Tilbords er et utmerket valg for spisestue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Fjord vinglass 4-pk fra Tilbords gir et godt førsteinntrykk med sin elegant stil. Med dimensjoner på 8 × 8 × 22 cm passer den godt i spisestuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Fjord vinglass 4-pk holder svært høy standard. Tilbords har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 449 kr er dette et rimelig alternativ med god kvalitet. Tilbords er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "tilbords-oslo-bestikksett-24-deler",
+    name: "Oslo bestikksett 24 deler",
+    brand: "Tilbords",
+    category: "dekor",
+    description: "Oslo bestikksett 24 deler fra Tilbords er en skandinavisk dekorasjon som passer perfekt i kjøkken. Med dimensjoner på 25 × 35 × 5 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 1299,
+    image_url: "",
+    affiliate_url: "https://www.tilbords.no/oslo-bestikksett-24-deler",
+    style_tags: ["skandinavisk","moderne"],
+    color_tags: ["stål"],
+    room_tags: ["kjøkken","spisestue"],
+    dimensions: { width: 25, depth: 35, height: 5 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 3.4,
+    pros: ["Robust konstruksjon","Tidløst design som ikke går av moten","Komfortabel i daglig bruk","Solid byggekvalitet og gjennomtenkt design"],
+    cons: ["Tung å flytte etter montering","Prisen er i det øvre sjiktet","Leveringstiden kan være lang","Materialet kan vise slitasje over tid"],
+    review_summary: "Oslo bestikksett 24 deler fra Tilbords er et solid valg for kjøkken. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Oslo bestikksett 24 deler fra Tilbords gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 25 × 35 × 5 cm passer den godt i kjøkkenn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Oslo bestikksett 24 deler holder god standard. Tilbords har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 1 299 kr er dette et rimelig alternativ med god kvalitet. Tilbords er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "tilbords-bergen-suppebolle-4-pk",
+    name: "Bergen suppebolle 4-pk",
+    brand: "Tilbords",
+    category: "dekor",
+    description: "Bergen suppebolle 4-pk fra Tilbords er en skandinavisk dekorasjon som passer perfekt i kjøkken. Med dimensjoner på 16 × 16 × 8 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 399,
+    image_url: "",
+    affiliate_url: "https://www.tilbords.no/bergen-suppebolle-4-pk",
+    style_tags: ["skandinavisk"],
+    color_tags: ["hvit","blå"],
+    room_tags: ["kjøkken"],
+    dimensions: { width: 16, depth: 16, height: 8 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.8,
+    pros: ["Stilren og diskret","Passer godt i skandinaviske hjem","Tidløst design som ikke går av moten","Høy materialkvalitet","Elegant og moderne utseende"],
+    cons: ["Leveringstiden kan være lang","Materialet kan vise slitasje over tid","Tung å flytte etter montering","Kan oppleves noe kompakt for større rom"],
+    review_summary: "Bergen suppebolle 4-pk fra Tilbords er et solid valg for kjøkken. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Bergen suppebolle 4-pk fra Tilbords gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 16 × 16 × 8 cm passer den godt i kjøkkenn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Bergen suppebolle 4-pk holder god standard. Tilbords har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 399 kr er dette et rimelig alternativ med god kvalitet. Tilbords er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "tilbords-krystall-karaffel",
+    name: "Krystall karaffel",
+    brand: "Tilbords",
+    category: "dekor",
+    description: "Krystall karaffel fra Tilbords er en elegant dekorasjon som passer perfekt i spisestue. Med dimensjoner på 12 × 12 × 28 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 899,
+    image_url: "",
+    affiliate_url: "https://www.tilbords.no/krystall-karaffel",
+    style_tags: ["elegant","klassisk"],
+    color_tags: ["klar"],
+    room_tags: ["spisestue"],
+    dimensions: { width: 12, depth: 12, height: 28 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.6,
+    pros: ["Lett å vedlikeholde og rengjøre","Komfortabel i daglig bruk","Tidløst design som ikke går av moten","Svært god sittekomfort"],
+    cons: ["Vedlikehold krever litt ekstra oppmerksomhet","Fraktkostnadene kan være høye","Prisen er i det øvre sjiktet","Krever noe montering"],
+    review_summary: "Krystall karaffel fra Tilbords er et solid valg for spisestue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Krystall karaffel fra Tilbords gir et godt førsteinntrykk med sin elegant stil. Med dimensjoner på 12 × 12 × 28 cm passer den godt i spisestuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Krystall karaffel holder god standard. Tilbords har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 899 kr er dette et rimelig alternativ med god kvalitet. Tilbords er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "tilbords-japansk-tekanne",
+    name: "Japansk tekanne",
+    brand: "Tilbords",
+    category: "dekor",
+    description: "Japansk tekanne fra Tilbords er en japansk dekorasjon som passer perfekt i kjøkken. Med dimensjoner på 18 × 14 × 12 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 699,
+    image_url: "",
+    affiliate_url: "https://www.tilbords.no/japansk-tekanne",
+    style_tags: ["japansk","minimalistisk"],
+    color_tags: ["sort"],
+    room_tags: ["kjøkken"],
+    dimensions: { width: 18, depth: 14, height: 12 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.2,
+    pros: ["Svært god sittekomfort","Elegant og moderne utseende","Solid byggekvalitet og gjennomtenkt design","Passer godt i skandinaviske hjem","Høy materialkvalitet"],
+    cons: ["Tung å flytte etter montering","Leveringstiden kan være lang","Begrenset fargevalg"],
+    review_summary: "Japansk tekanne fra Tilbords er et utmerket valg for kjøkken. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Japansk tekanne fra Tilbords gir et godt førsteinntrykk med sin japansk stil. Med dimensjoner på 18 × 14 × 12 cm passer den godt i kjøkkenn. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Japansk tekanne holder svært høy standard. Tilbords har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 699 kr er dette et rimelig alternativ med god kvalitet. Tilbords er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "tilbords-serveringsbrett-marmor",
+    name: "Serveringsbrett marmor",
+    brand: "Tilbords",
+    category: "dekor",
+    description: "Serveringsbrett marmor fra Tilbords er en luksus dekorasjon som passer perfekt i kjøkken. Med dimensjoner på 40 × 25 × 2 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 549,
+    image_url: "",
+    affiliate_url: "https://www.tilbords.no/serveringsbrett-marmor",
+    style_tags: ["luksus","moderne"],
+    color_tags: ["hvit","marmor"],
+    room_tags: ["kjøkken","spisestue"],
+    dimensions: { width: 40, depth: 25, height: 2 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.4,
+    pros: ["Solid byggekvalitet og gjennomtenkt design","God verdi for pengene","Robust konstruksjon","Premium finish og detaljer","Enkel montering med tydelig bruksanvisning"],
+    cons: ["Begrenset fargevalg","Materialet kan vise slitasje over tid","Kan oppleves noe kompakt for større rom"],
+    review_summary: "Serveringsbrett marmor fra Tilbords er et utmerket valg for kjøkken. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Serveringsbrett marmor fra Tilbords gir et godt førsteinntrykk med sin luksus stil. Med dimensjoner på 40 × 25 × 2 cm passer den godt i kjøkkenn. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Serveringsbrett marmor holder svært høy standard. Tilbords har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 549 kr er dette et rimelig alternativ med god kvalitet. Tilbords er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "tilbords-espressokopp-6-pk",
+    name: "Espressokopp 6-pk",
+    brand: "Tilbords",
+    category: "dekor",
+    description: "Espressokopp 6-pk fra Tilbords er en klassisk dekorasjon som passer perfekt i kjøkken. Med dimensjoner på 6 × 6 × 7 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 349,
+    image_url: "",
+    affiliate_url: "https://www.tilbords.no/espressokopp-6-pk",
+    style_tags: ["klassisk"],
+    color_tags: ["hvit"],
+    room_tags: ["kjøkken"],
+    dimensions: { width: 6, depth: 6, height: 7 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 3.6,
+    pros: ["Tidløst design som ikke går av moten","Solid byggekvalitet og gjennomtenkt design","Passer godt i skandinaviske hjem","Komfortabel i daglig bruk","Enkel montering med tydelig bruksanvisning"],
+    cons: ["Begrenset fargevalg","Fraktkostnadene kan være høye","Kan oppleves noe kompakt for større rom"],
+    review_summary: "Espressokopp 6-pk fra Tilbords er et solid valg for kjøkken. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Espressokopp 6-pk fra Tilbords gir et godt førsteinntrykk med sin klassisk stil. Med dimensjoner på 6 × 6 × 7 cm passer den godt i kjøkkenn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Espressokopp 6-pk holder god standard. Tilbords har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 349 kr er dette et rimelig alternativ med god kvalitet. Tilbords er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "tilbords-champagneglass-4-pk",
+    name: "Champagneglass 4-pk",
+    brand: "Tilbords",
+    category: "dekor",
+    description: "Champagneglass 4-pk fra Tilbords er en elegant dekorasjon som passer perfekt i spisestue. Med dimensjoner på 5 × 5 × 25 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 599,
+    image_url: "",
+    affiliate_url: "https://www.tilbords.no/champagneglass-4-pk",
+    style_tags: ["elegant"],
+    color_tags: ["klar"],
+    room_tags: ["spisestue"],
+    dimensions: { width: 5, depth: 5, height: 25 },
+    in_stock: true,
+    discount_code: "DESIGN20",
+    discount_percent: 20,
+    rating: 3.3,
+    pros: ["Passer godt i skandinaviske hjem","Svært god sittekomfort","Enkel montering med tydelig bruksanvisning","Allsidig — passer i flere rom","God verdi for pengene"],
+    cons: ["Leveringstiden kan være lang","Prisen er i det øvre sjiktet","Begrenset fargevalg"],
+    review_summary: "Champagneglass 4-pk fra Tilbords er et solid valg for spisestue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Champagneglass 4-pk fra Tilbords gir et godt førsteinntrykk med sin elegant stil. Med dimensjoner på 5 × 5 × 25 cm passer den godt i spisestuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Champagneglass 4-pk holder god standard. Tilbords har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 599 kr er dette et rimelig alternativ med god kvalitet. Tilbords er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "tilbords-salatbolle-oliventre",
+    name: "Salatbolle oliventre",
+    brand: "Tilbords",
+    category: "dekor",
+    description: "Salatbolle oliventre fra Tilbords er en rustikk dekorasjon som passer perfekt i kjøkken. Med dimensjoner på 30 × 30 × 12 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 799,
+    image_url: "",
+    affiliate_url: "https://www.tilbords.no/salatbolle-oliventre",
+    style_tags: ["rustikk","naturlig"],
+    color_tags: ["natur","tre"],
+    room_tags: ["kjøkken","spisestue"],
+    dimensions: { width: 30, depth: 30, height: 12 },
+    in_stock: true,
+    discount_code: "DESIGN15",
+    discount_percent: 15,
+    rating: 3.3,
+    pros: ["Solid byggekvalitet og gjennomtenkt design","Enkel montering med tydelig bruksanvisning","Elegant og moderne utseende","Robust konstruksjon","Tidløst design som ikke går av moten"],
+    cons: ["Begrenset tilgjengelighet i alle butikker","Kan oppleves noe kompakt for større rom","Leveringstiden kan være lang","Begrenset fargevalg"],
+    review_summary: "Salatbolle oliventre fra Tilbords er et solid valg for kjøkken. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Salatbolle oliventre fra Tilbords gir et godt førsteinntrykk med sin rustikk stil. Med dimensjoner på 30 × 30 × 12 cm passer den godt i kjøkkenn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Salatbolle oliventre holder god standard. Tilbords har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 799 kr er dette et rimelig alternativ med god kvalitet. Tilbords er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "tilbords-lysestake-trio-messing",
+    name: "Lysestake trio messing",
+    brand: "Tilbords",
+    category: "dekor",
+    description: "Lysestake trio messing fra Tilbords er en skandinavisk dekorasjon som passer perfekt i spisestue. Med dimensjoner på 35 × 10 × 20 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 449,
+    image_url: "",
+    affiliate_url: "https://www.tilbords.no/lysestake-trio-messing",
+    style_tags: ["skandinavisk","elegant"],
+    color_tags: ["messing"],
+    room_tags: ["spisestue","stue"],
+    dimensions: { width: 35, depth: 10, height: 20 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.5,
+    pros: ["Premium finish og detaljer","Allsidig — passer i flere rom","Lett å vedlikeholde og rengjøre","Solid byggekvalitet og gjennomtenkt design","Passer godt i skandinaviske hjem"],
+    cons: ["Prisen er i det øvre sjiktet","Vedlikehold krever litt ekstra oppmerksomhet","Begrenset tilgjengelighet i alle butikker","Leveringstiden kan være lang"],
+    review_summary: "Lysestake trio messing fra Tilbords er et solid valg for spisestue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Lysestake trio messing fra Tilbords gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 35 × 10 × 20 cm passer den godt i spisestuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Lysestake trio messing holder god standard. Tilbords har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 449 kr er dette et rimelig alternativ med god kvalitet. Tilbords er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "tilbords-cocktailglass-4-pk",
+    name: "Cocktailglass 4-pk",
+    brand: "Tilbords",
+    category: "dekor",
+    description: "Cocktailglass 4-pk fra Tilbords er en art deco dekorasjon som passer perfekt i stue. Med dimensjoner på 9 × 9 × 15 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 499,
+    image_url: "",
+    affiliate_url: "https://www.tilbords.no/cocktailglass-4-pk",
+    style_tags: ["art deco","elegant"],
+    color_tags: ["klar"],
+    room_tags: ["stue"],
+    dimensions: { width: 9, depth: 9, height: 15 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.5,
+    pros: ["Solid byggekvalitet og gjennomtenkt design","Elegant og moderne utseende","Stilren og diskret","Lett å vedlikeholde og rengjøre"],
+    cons: ["Leveringstiden kan være lang","Vedlikehold krever litt ekstra oppmerksomhet","Fraktkostnadene kan være høye","Tung å flytte etter montering"],
+    review_summary: "Cocktailglass 4-pk fra Tilbords er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Cocktailglass 4-pk fra Tilbords gir et godt førsteinntrykk med sin art deco stil. Med dimensjoner på 9 × 9 × 15 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Cocktailglass 4-pk holder god standard. Tilbords har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 499 kr er dette et rimelig alternativ med god kvalitet. Tilbords er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "tilbords-stekepanne-stopejern",
+    name: "Stekepanne støpejern",
+    brand: "Tilbords",
+    category: "dekor",
+    description: "Stekepanne støpejern fra Tilbords er en rustikk dekorasjon som passer perfekt i kjøkken. Med dimensjoner på 28 × 28 × 5 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 899,
+    image_url: "",
+    affiliate_url: "https://www.tilbords.no/stekepanne-støpejern",
+    style_tags: ["rustikk","klassisk"],
+    color_tags: ["sort"],
+    room_tags: ["kjøkken"],
+    dimensions: { width: 28, depth: 28, height: 5 },
+    in_stock: true,
+    discount_code: "DESIGN20",
+    discount_percent: 20,
+    rating: 4.1,
+    pros: ["Solid byggekvalitet og gjennomtenkt design","Komfortabel i daglig bruk","Tidløst design som ikke går av moten","Praktisk og funksjonell løsning"],
+    cons: ["Leveringstiden kan være lang","Begrenset fargevalg","Tung å flytte etter montering","Prisen er i det øvre sjiktet"],
+    review_summary: "Stekepanne støpejern fra Tilbords er et utmerket valg for kjøkken. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Stekepanne støpejern fra Tilbords gir et godt førsteinntrykk med sin rustikk stil. Med dimensjoner på 28 × 28 × 5 cm passer den godt i kjøkkenn. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Stekepanne støpejern holder svært høy standard. Tilbords har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 899 kr er dette et rimelig alternativ med god kvalitet. Tilbords er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "tilbords-brodboks-bambus",
+    name: "Brødboks bambus",
+    brand: "Tilbords",
+    category: "dekor",
+    description: "Brødboks bambus fra Tilbords er en naturlig dekorasjon som passer perfekt i kjøkken. Med dimensjoner på 35 × 22 × 18 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 399,
+    image_url: "",
+    affiliate_url: "https://www.tilbords.no/brødboks-bambus",
+    style_tags: ["naturlig","skandinavisk"],
+    color_tags: ["hvit","bambus"],
+    room_tags: ["kjøkken"],
+    dimensions: { width: 35, depth: 22, height: 18 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.9,
+    pros: ["Robust konstruksjon","Enkel montering med tydelig bruksanvisning","Allsidig — passer i flere rom","Komfortabel i daglig bruk","Passer godt i skandinaviske hjem"],
+    cons: ["Leveringstiden kan være lang","Begrenset fargevalg","Krever noe montering","Materialet kan vise slitasje over tid"],
+    review_summary: "Brødboks bambus fra Tilbords er et solid valg for kjøkken. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Brødboks bambus fra Tilbords gir et godt førsteinntrykk med sin naturlig stil. Med dimensjoner på 35 × 22 × 18 cm passer den godt i kjøkkenn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Brødboks bambus holder god standard. Tilbords har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 399 kr er dette et rimelig alternativ med god kvalitet. Tilbords er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "tilbords-pizzastein-sett",
+    name: "Pizzastein sett",
+    brand: "Tilbords",
+    category: "dekor",
+    description: "Pizzastein sett fra Tilbords er en funksjonell dekorasjon som passer perfekt i kjøkken. Med dimensjoner på 38 × 38 × 2 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 549,
+    image_url: "",
+    affiliate_url: "https://www.tilbords.no/pizzastein-sett",
+    style_tags: ["funksjonell"],
+    color_tags: ["natur"],
+    room_tags: ["kjøkken"],
+    dimensions: { width: 38, depth: 38, height: 2 },
+    in_stock: true,
+    discount_code: "DESIGN20",
+    discount_percent: 20,
+    rating: 4.8,
+    pros: ["Svært god sittekomfort","Tidløst design som ikke går av moten","Elegant og moderne utseende","Premium finish og detaljer"],
+    cons: ["Leveringstiden kan være lang","Prisen er i det øvre sjiktet","Begrenset fargevalg","Vedlikehold krever litt ekstra oppmerksomhet"],
+    review_summary: "Pizzastein sett fra Tilbords er et utmerket valg for kjøkken. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Pizzastein sett fra Tilbords gir et godt førsteinntrykk med sin funksjonell stil. Med dimensjoner på 38 × 38 × 2 cm passer den godt i kjøkkenn. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Pizzastein sett holder svært høy standard. Tilbords har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 549 kr er dette et rimelig alternativ med god kvalitet. Tilbords er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "plantasjen-toscana-spisebord-ute",
+    name: "Toscana spisebord ute",
+    brand: "Plantasjen",
+    category: "bord",
+    description: "Toscana spisebord ute fra Plantasjen er en rustikk bord som passer perfekt i utendørs. Med dimensjoner på 180 × 90 × 75 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 5999,
+    image_url: "",
+    affiliate_url: "https://www.plantasjen.no/toscana-spisebord-ute",
+    style_tags: ["rustikk"],
+    color_tags: ["tre","natur"],
+    room_tags: ["utendørs","terrasse"],
+    dimensions: { width: 180, depth: 90, height: 75 },
+    in_stock: true,
+    discount_code: "DESIGN20",
+    discount_percent: 20,
+    rating: 4.4,
+    pros: ["Stilren og diskret","Svært god sittekomfort","Lett å vedlikeholde og rengjøre","Praktisk og funksjonell løsning"],
+    cons: ["Krever noe montering","Begrenset fargevalg","Kan oppleves noe kompakt for større rom"],
+    review_summary: "Toscana spisebord ute fra Plantasjen er et utmerket valg for utendørs. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Toscana spisebord ute fra Plantasjen gir et godt førsteinntrykk med sin rustikk stil. Med dimensjoner på 180 × 90 × 75 cm passer den godt i uterommet. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Toscana spisebord ute holder svært høy standard. Plantasjen har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 5 999 kr får man et solid produkt som holder i mange år. Plantasjen er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "plantasjen-riviera-hagestol",
+    name: "Riviera hagestol",
+    brand: "Plantasjen",
+    category: "stol",
+    description: "Riviera hagestol fra Plantasjen er en moderne stol som passer perfekt i utendørs. Med dimensjoner på 55 × 60 × 85 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 1499,
+    image_url: "",
+    affiliate_url: "https://www.plantasjen.no/riviera-hagestol",
+    style_tags: ["moderne"],
+    color_tags: ["sort"],
+    room_tags: ["utendørs","terrasse"],
+    dimensions: { width: 55, depth: 60, height: 85 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 3.4,
+    pros: ["God verdi for pengene","Elegant og moderne utseende","Enkel montering med tydelig bruksanvisning","Passer godt i skandinaviske hjem"],
+    cons: ["Leveringstiden kan være lang","Fraktkostnadene kan være høye","Begrenset fargevalg"],
+    review_summary: "Riviera hagestol fra Plantasjen er et solid valg for utendørs. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Riviera hagestol fra Plantasjen gir et godt førsteinntrykk med sin moderne stil. Med dimensjoner på 55 × 60 × 85 cm passer den godt i uterommet. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Riviera hagestol holder god standard. Plantasjen har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 1 499 kr er dette et rimelig alternativ med god kvalitet. Plantasjen er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "plantasjen-provence-krukke-stor",
+    name: "Provence krukke stor",
+    brand: "Plantasjen",
+    category: "dekor",
+    description: "Provence krukke stor fra Plantasjen er en middelhavet dekorasjon som passer perfekt i utendørs. Med dimensjoner på 50 × 50 × 60 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 899,
+    image_url: "",
+    affiliate_url: "https://www.plantasjen.no/provence-krukke-stor",
+    style_tags: ["middelhavet","rustikk"],
+    color_tags: ["terrakotta"],
+    room_tags: ["utendørs","terrasse"],
+    dimensions: { width: 50, depth: 50, height: 60 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.7,
+    pros: ["Praktisk og funksjonell løsning","Høy materialkvalitet","Solid byggekvalitet og gjennomtenkt design","Svært god sittekomfort"],
+    cons: ["Prisen er i det øvre sjiktet","Materialet kan vise slitasje over tid","Leveringstiden kan være lang"],
+    review_summary: "Provence krukke stor fra Plantasjen er et solid valg for utendørs. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Provence krukke stor fra Plantasjen gir et godt førsteinntrykk med sin middelhavet stil. Med dimensjoner på 50 × 50 × 60 cm passer den godt i uterommet. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Provence krukke stor holder god standard. Plantasjen har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 899 kr er dette et rimelig alternativ med god kvalitet. Plantasjen er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "plantasjen-veranda-parasoll-3m",
+    name: "Veranda parasoll 3m",
+    brand: "Plantasjen",
+    category: "dekor",
+    description: "Veranda parasoll 3m fra Plantasjen er en funksjonell dekorasjon som passer perfekt i utendørs. Med dimensjoner på 300 × 300 × 260 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 2499,
+    image_url: "",
+    affiliate_url: "https://www.plantasjen.no/veranda-parasoll-3m",
+    style_tags: ["funksjonell"],
+    color_tags: ["beige"],
+    room_tags: ["utendørs","terrasse"],
+    dimensions: { width: 300, depth: 300, height: 260 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.4,
+    pros: ["Lett å vedlikeholde og rengjøre","Robust konstruksjon","Elegant og moderne utseende","Solid byggekvalitet og gjennomtenkt design","Komfortabel i daglig bruk"],
+    cons: ["Tung å flytte etter montering","Begrenset tilgjengelighet i alle butikker","Begrenset fargevalg","Materialet kan vise slitasje over tid"],
+    review_summary: "Veranda parasoll 3m fra Plantasjen er et utmerket valg for utendørs. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Veranda parasoll 3m fra Plantasjen gir et godt førsteinntrykk med sin funksjonell stil. Med dimensjoner på 300 × 300 × 260 cm passer den godt i uterommet. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Veranda parasoll 3m holder svært høy standard. Plantasjen har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 2 499 kr er dette et rimelig alternativ med god kvalitet. Plantasjen er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "plantasjen-bistro-sett-3-deler",
+    name: "Bistro sett 3 deler",
+    brand: "Plantasjen",
+    category: "bord",
+    description: "Bistro sett 3 deler fra Plantasjen er en fransk bord som passer perfekt i utendørs. Med dimensjoner på 70 × 70 × 75 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 3499,
+    image_url: "",
+    affiliate_url: "https://www.plantasjen.no/bistro-sett-3-deler",
+    style_tags: ["fransk","klassisk"],
+    color_tags: ["sort"],
+    room_tags: ["utendørs","balkong"],
+    dimensions: { width: 70, depth: 70, height: 75 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.2,
+    pros: ["Praktisk og funksjonell løsning","Elegant og moderne utseende","Svært god sittekomfort","Komfortabel i daglig bruk","Høy materialkvalitet"],
+    cons: ["Prisen er i det øvre sjiktet","Krever noe montering","Begrenset fargevalg"],
+    review_summary: "Bistro sett 3 deler fra Plantasjen er et solid valg for utendørs. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Bistro sett 3 deler fra Plantasjen gir et godt førsteinntrykk med sin fransk stil. Med dimensjoner på 70 × 70 × 75 cm passer den godt i uterommet. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Bistro sett 3 deler holder god standard. Plantasjen har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 3 499 kr er dette et rimelig alternativ med god kvalitet. Plantasjen er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "plantasjen-solcellelampe-sti-4-pk",
+    name: "Solcellelampe sti 4-pk",
+    brand: "Plantasjen",
+    category: "lampe",
+    description: "Solcellelampe sti 4-pk fra Plantasjen er en funksjonell lampe som passer perfekt i utendørs. Med dimensjoner på 10 × 10 × 40 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 399,
+    image_url: "",
+    affiliate_url: "https://www.plantasjen.no/solcellelampe-sti-4-pk",
+    style_tags: ["funksjonell"],
+    color_tags: ["sort"],
+    room_tags: ["utendørs"],
+    dimensions: { width: 10, depth: 10, height: 40 },
+    in_stock: true,
+    discount_code: "DESIGN20",
+    discount_percent: 20,
+    rating: 4.3,
+    pros: ["God verdi for pengene","Tidløst design som ikke går av moten","Svært god sittekomfort","Allsidig — passer i flere rom"],
+    cons: ["Tung å flytte etter montering","Krever noe montering","Prisen er i det øvre sjiktet","Leveringstiden kan være lang"],
+    review_summary: "Solcellelampe sti 4-pk fra Plantasjen er et utmerket valg for utendørs. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Solcellelampe sti 4-pk fra Plantasjen gir et godt førsteinntrykk med sin funksjonell stil. Med dimensjoner på 10 × 10 × 40 cm passer den godt i uterommet. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Solcellelampe sti 4-pk holder svært høy standard. Plantasjen har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 399 kr er dette et rimelig alternativ med god kvalitet. Plantasjen er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "plantasjen-lounge-hagestol",
+    name: "Lounge hagestol",
+    brand: "Plantasjen",
+    category: "stol",
+    description: "Lounge hagestol fra Plantasjen er en moderne stol som passer perfekt i utendørs. Med dimensjoner på 70 × 80 × 75 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 2999,
+    image_url: "",
+    affiliate_url: "https://www.plantasjen.no/lounge-hagestol",
+    style_tags: ["moderne","komfort"],
+    color_tags: ["grå"],
+    room_tags: ["utendørs","terrasse"],
+    dimensions: { width: 70, depth: 80, height: 75 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.2,
+    pros: ["Tidløst design som ikke går av moten","Solid byggekvalitet og gjennomtenkt design","Robust konstruksjon","Allsidig — passer i flere rom","Premium finish og detaljer"],
+    cons: ["Leveringstiden kan være lang","Fraktkostnadene kan være høye","Vedlikehold krever litt ekstra oppmerksomhet","Tung å flytte etter montering"],
+    review_summary: "Lounge hagestol fra Plantasjen er et utmerket valg for utendørs. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Lounge hagestol fra Plantasjen gir et godt førsteinntrykk med sin moderne stil. Med dimensjoner på 70 × 80 × 75 cm passer den godt i uterommet. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Lounge hagestol holder svært høy standard. Plantasjen har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 2 999 kr er dette et rimelig alternativ med god kvalitet. Plantasjen er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "plantasjen-hengende-blomsterpotte",
+    name: "Hengende blomsterpotte",
+    brand: "Plantasjen",
+    category: "dekor",
+    description: "Hengende blomsterpotte fra Plantasjen er en bohem dekorasjon som passer perfekt i utendørs. Med dimensjoner på 20 × 20 × 18 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 199,
+    image_url: "",
+    affiliate_url: "https://www.plantasjen.no/hengende-blomsterpotte",
+    style_tags: ["bohem","naturlig"],
+    color_tags: ["terrakotta"],
+    room_tags: ["utendørs","stue"],
+    dimensions: { width: 20, depth: 20, height: 18 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.2,
+    pros: ["Solid byggekvalitet og gjennomtenkt design","Elegant og moderne utseende","Passer godt i skandinaviske hjem","Komfortabel i daglig bruk","Enkel montering med tydelig bruksanvisning"],
+    cons: ["Prisen er i det øvre sjiktet","Fraktkostnadene kan være høye","Begrenset fargevalg","Kan oppleves noe kompakt for større rom"],
+    review_summary: "Hengende blomsterpotte fra Plantasjen er et solid valg for utendørs. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Hengende blomsterpotte fra Plantasjen gir et godt førsteinntrykk med sin bohem stil. Med dimensjoner på 20 × 20 × 18 cm passer den godt i uterommet. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Hengende blomsterpotte holder god standard. Plantasjen har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 199 kr er dette et rimelig alternativ med god kvalitet. Plantasjen er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "plantasjen-plantestativ-bambus",
+    name: "Plantestativ bambus",
+    brand: "Plantasjen",
+    category: "dekor",
+    description: "Plantestativ bambus fra Plantasjen er en naturlig dekorasjon som passer perfekt i stue. Med dimensjoner på 40 × 30 × 100 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 599,
+    image_url: "",
+    affiliate_url: "https://www.plantasjen.no/plantestativ-bambus",
+    style_tags: ["naturlig"],
+    color_tags: ["natur","bambus"],
+    room_tags: ["stue","utendørs"],
+    dimensions: { width: 40, depth: 30, height: 100 },
+    in_stock: true,
+    discount_code: "DESIGN20",
+    discount_percent: 20,
+    rating: 4.2,
+    pros: ["Solid byggekvalitet og gjennomtenkt design","Lett å vedlikeholde og rengjøre","Allsidig — passer i flere rom","Robust konstruksjon"],
+    cons: ["Begrenset fargevalg","Leveringstiden kan være lang","Fraktkostnadene kan være høye","Prisen er i det øvre sjiktet"],
+    review_summary: "Plantestativ bambus fra Plantasjen er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Plantestativ bambus fra Plantasjen gir et godt førsteinntrykk med sin naturlig stil. Med dimensjoner på 40 × 30 × 100 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Plantestativ bambus holder svært høy standard. Plantasjen har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 599 kr er dette et rimelig alternativ med god kvalitet. Plantasjen er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "plantasjen-utendors-sofagruppe",
+    name: "Utendørs sofagruppe",
+    brand: "Plantasjen",
+    category: "sofa",
+    description: "Utendørs sofagruppe fra Plantasjen er en moderne sofa som passer perfekt i utendørs. Med dimensjoner på 240 × 200 × 70 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 7999,
+    image_url: "",
+    affiliate_url: "https://www.plantasjen.no/utendørs-sofagruppe",
+    style_tags: ["moderne"],
+    color_tags: ["grå","sort"],
+    room_tags: ["utendørs","terrasse"],
+    dimensions: { width: 240, depth: 200, height: 70 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 3.8,
+    pros: ["Solid byggekvalitet og gjennomtenkt design","Passer godt i skandinaviske hjem","Enkel montering med tydelig bruksanvisning","Stilren og diskret","Komfortabel i daglig bruk"],
+    cons: ["Prisen er i det øvre sjiktet","Begrenset tilgjengelighet i alle butikker","Materialet kan vise slitasje over tid"],
+    review_summary: "Utendørs sofagruppe fra Plantasjen er et solid valg for utendørs. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Utendørs sofagruppe fra Plantasjen gir et godt førsteinntrykk med sin moderne stil. Med dimensjoner på 240 × 200 × 70 cm passer den godt i uterommet. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Utendørs sofagruppe holder god standard. Plantasjen har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 7 999 kr får man et solid produkt som holder i mange år. Plantasjen er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "plantasjen-balkong-caf-bord",
+    name: "Balkong cafébord",
+    brand: "Plantasjen",
+    category: "bord",
+    description: "Balkong cafébord fra Plantasjen er en kompakt bord som passer perfekt i balkong. Med dimensjoner på 60 × 60 × 72 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 1299,
+    image_url: "",
+    affiliate_url: "https://www.plantasjen.no/balkong-caf-bord",
+    style_tags: ["kompakt","moderne"],
+    color_tags: ["hvit"],
+    room_tags: ["balkong"],
+    dimensions: { width: 60, depth: 60, height: 72 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.6,
+    pros: ["Enkel montering med tydelig bruksanvisning","Solid byggekvalitet og gjennomtenkt design","Lett å vedlikeholde og rengjøre","Praktisk og funksjonell løsning"],
+    cons: ["Prisen er i det øvre sjiktet","Krever noe montering","Tung å flytte etter montering","Fraktkostnadene kan være høye"],
+    review_summary: "Balkong cafébord fra Plantasjen er et utmerket valg for balkong. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Balkong cafébord fra Plantasjen gir et godt førsteinntrykk med sin kompakt stil. Med dimensjoner på 60 × 60 × 72 cm passer den godt i balkongn. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Balkong cafébord holder svært høy standard. Plantasjen har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 1 299 kr er dette et rimelig alternativ med god kvalitet. Plantasjen er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "plantasjen-hengekoye-dobbel",
+    name: "Hengekøye dobbel",
+    brand: "Plantasjen",
+    category: "dekor",
+    description: "Hengekøye dobbel fra Plantasjen er en bohem dekorasjon som passer perfekt i utendørs. Med dimensjoner på 200 × 150 × 120 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 1499,
+    image_url: "",
+    affiliate_url: "https://www.plantasjen.no/hengekøye-dobbel",
+    style_tags: ["bohem","avslappet"],
+    color_tags: ["natur","striper"],
+    room_tags: ["utendørs","terrasse"],
+    dimensions: { width: 200, depth: 150, height: 120 },
+    in_stock: true,
+    discount_code: "DESIGN20",
+    discount_percent: 20,
+    rating: 3.8,
+    pros: ["Elegant og moderne utseende","God verdi for pengene","Premium finish og detaljer","Høy materialkvalitet","Allsidig — passer i flere rom"],
+    cons: ["Krever noe montering","Leveringstiden kan være lang","Materialet kan vise slitasje over tid","Prisen er i det øvre sjiktet"],
+    review_summary: "Hengekøye dobbel fra Plantasjen er et solid valg for utendørs. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Hengekøye dobbel fra Plantasjen gir et godt førsteinntrykk med sin bohem stil. Med dimensjoner på 200 × 150 × 120 cm passer den godt i uterommet. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Hengekøye dobbel holder god standard. Plantasjen har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 1 499 kr er dette et rimelig alternativ med god kvalitet. Plantasjen er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "plantasjen-krukke-betong-gra",
+    name: "Krukke betong grå",
+    brand: "Plantasjen",
+    category: "dekor",
+    description: "Krukke betong grå fra Plantasjen er en industriell dekorasjon som passer perfekt i utendørs. Med dimensjoner på 35 × 35 × 40 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 499,
+    image_url: "",
+    affiliate_url: "https://www.plantasjen.no/krukke-betong-grå",
+    style_tags: ["industriell","moderne"],
+    color_tags: ["grå"],
+    room_tags: ["utendørs","stue"],
+    dimensions: { width: 35, depth: 35, height: 40 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 3.4,
+    pros: ["God verdi for pengene","Robust konstruksjon","Enkel montering med tydelig bruksanvisning","Passer godt i skandinaviske hjem","Komfortabel i daglig bruk"],
+    cons: ["Prisen er i det øvre sjiktet","Fraktkostnadene kan være høye","Kan oppleves noe kompakt for større rom"],
+    review_summary: "Krukke betong grå fra Plantasjen er et solid valg for utendørs. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Krukke betong grå fra Plantasjen gir et godt førsteinntrykk med sin industriell stil. Med dimensjoner på 35 × 35 × 40 cm passer den godt i uterommet. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Krukke betong grå holder god standard. Plantasjen har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 499 kr er dette et rimelig alternativ med god kvalitet. Plantasjen er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "plantasjen-solcellelyskjede-5m",
+    name: "Solcellelyskjede 5m",
+    brand: "Plantasjen",
+    category: "lampe",
+    description: "Solcellelyskjede 5m fra Plantasjen er en koselig lampe som passer perfekt i utendørs. Med dimensjoner på 500 × 1 × 1 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 299,
+    image_url: "",
+    affiliate_url: "https://www.plantasjen.no/solcellelyskjede-5m",
+    style_tags: ["koselig"],
+    color_tags: ["varm hvit"],
+    room_tags: ["utendørs","terrasse"],
+    dimensions: { width: 500, depth: 1, height: 1 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4,
+    pros: ["Enkel montering med tydelig bruksanvisning","Passer godt i skandinaviske hjem","Lett å vedlikeholde og rengjøre","Svært god sittekomfort"],
+    cons: ["Begrenset fargevalg","Fraktkostnadene kan være høye","Materialet kan vise slitasje over tid","Tung å flytte etter montering"],
+    review_summary: "Solcellelyskjede 5m fra Plantasjen er et utmerket valg for utendørs. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Solcellelyskjede 5m fra Plantasjen gir et godt førsteinntrykk med sin koselig stil. Med dimensjoner på 500 × 1 × 1 cm passer den godt i uterommet. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Solcellelyskjede 5m holder svært høy standard. Plantasjen har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 299 kr er dette et rimelig alternativ med god kvalitet. Plantasjen er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "plantasjen-urtebed-opphoyd",
+    name: "Urtebed opphøyd",
+    brand: "Plantasjen",
+    category: "dekor",
+    description: "Urtebed opphøyd fra Plantasjen er en funksjonell dekorasjon som passer perfekt i utendørs. Med dimensjoner på 120 × 60 × 80 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 1299,
+    image_url: "",
+    affiliate_url: "https://www.plantasjen.no/urtebed-opphøyd",
+    style_tags: ["funksjonell","naturlig"],
+    color_tags: ["tre"],
+    room_tags: ["utendørs","balkong"],
+    dimensions: { width: 120, depth: 60, height: 80 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.4,
+    pros: ["Tidløst design som ikke går av moten","Premium finish og detaljer","Solid byggekvalitet og gjennomtenkt design","Allsidig — passer i flere rom"],
+    cons: ["Begrenset fargevalg","Leveringstiden kan være lang","Tung å flytte etter montering"],
+    review_summary: "Urtebed opphøyd fra Plantasjen er et solid valg for utendørs. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Urtebed opphøyd fra Plantasjen gir et godt førsteinntrykk med sin funksjonell stil. Med dimensjoner på 120 × 60 × 80 cm passer den godt i uterommet. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Urtebed opphøyd holder god standard. Plantasjen har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 1 299 kr er dette et rimelig alternativ med god kvalitet. Plantasjen er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "hth-moderne-kjokkenoy",
+    name: "Moderne kjøkkenøy",
+    brand: "HTH",
+    category: "bord",
+    description: "Moderne kjøkkenøy fra HTH er en moderne bord som passer perfekt i kjøkken. Med dimensjoner på 180 × 90 × 92 cm er dette et premium valg. Finn de beste prisene på designinteriør.no.",
+    price: 24990,
+    image_url: "",
+    affiliate_url: "https://www.hth.no/moderne-kjøkkenøy",
+    style_tags: ["moderne","minimalistisk"],
+    color_tags: ["hvit","eik"],
+    room_tags: ["kjøkken"],
+    dimensions: { width: 180, depth: 90, height: 92 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.6,
+    pros: ["Premium finish og detaljer","Komfortabel i daglig bruk","Allsidig — passer i flere rom","Tidløst design som ikke går av moten","Robust konstruksjon"],
+    cons: ["Prisen er i det øvre sjiktet","Tung å flytte etter montering","Vedlikehold krever litt ekstra oppmerksomhet"],
+    review_summary: "Moderne kjøkkenøy fra HTH er et solid valg for kjøkken. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Moderne kjøkkenøy fra HTH gir et godt førsteinntrykk med sin moderne stil. Med dimensjoner på 180 × 90 × 92 cm passer den godt i kjøkkenn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Moderne kjøkkenøy holder god standard. HTH har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. For prisen forventer man premium kvalitet, og dette produktet leverer."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 24 990 kr er dette en investering, men kvaliteten rettferdiggjør prisen. HTH er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "hth-classico-hoyskap",
+    name: "Classico høyskap",
+    brand: "HTH",
+    category: "hylle",
+    description: "Classico høyskap fra HTH er en klassisk hylle som passer perfekt i kjøkken. Med dimensjoner på 60 × 58 × 220 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 8990,
+    image_url: "",
+    affiliate_url: "https://www.hth.no/classico-høyskap",
+    style_tags: ["klassisk"],
+    color_tags: ["hvit"],
+    room_tags: ["kjøkken"],
+    dimensions: { width: 60, depth: 58, height: 220 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 4,
+    pros: ["Elegant og moderne utseende","Svært god sittekomfort","Høy materialkvalitet","Komfortabel i daglig bruk"],
+    cons: ["Materialet kan vise slitasje over tid","Leveringstiden kan være lang","Begrenset fargevalg","Kan oppleves noe kompakt for større rom"],
+    review_summary: "Classico høyskap fra HTH er et utmerket valg for kjøkken. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Classico høyskap fra HTH gir et godt førsteinntrykk med sin klassisk stil. Med dimensjoner på 60 × 58 × 220 cm passer den godt i kjøkkenn. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Classico høyskap holder svært høy standard. HTH har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 8 990 kr får man et solid produkt som holder i mange år. HTH er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "hth-solo-underbenkeskap",
+    name: "Solo underbenkeskap",
+    brand: "HTH",
+    category: "kommode",
+    description: "Solo underbenkeskap fra HTH er en moderne kommode som passer perfekt i kjøkken. Med dimensjoner på 80 × 58 × 72 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 5490,
+    image_url: "",
+    affiliate_url: "https://www.hth.no/solo-underbenkeskap",
+    style_tags: ["moderne"],
+    color_tags: ["grå","eik"],
+    room_tags: ["kjøkken"],
+    dimensions: { width: 80, depth: 58, height: 72 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.3,
+    pros: ["Komfortabel i daglig bruk","God verdi for pengene","Svært god sittekomfort","Premium finish og detaljer"],
+    cons: ["Tung å flytte etter montering","Vedlikehold krever litt ekstra oppmerksomhet","Materialet kan vise slitasje over tid","Leveringstiden kan være lang"],
+    review_summary: "Solo underbenkeskap fra HTH er et solid valg for kjøkken. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Solo underbenkeskap fra HTH gir et godt førsteinntrykk med sin moderne stil. Med dimensjoner på 80 × 58 × 72 cm passer den godt i kjøkkenn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Solo underbenkeskap holder god standard. HTH har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 5 490 kr får man et solid produkt som holder i mange år. HTH er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "hth-integra-veggskap",
+    name: "Integra veggskap",
+    brand: "HTH",
+    category: "hylle",
+    description: "Integra veggskap fra HTH er en moderne hylle som passer perfekt i kjøkken. Med dimensjoner på 80 × 35 × 72 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 4990,
+    image_url: "",
+    affiliate_url: "https://www.hth.no/integra-veggskap",
+    style_tags: ["moderne","minimalistisk"],
+    color_tags: ["hvit"],
+    room_tags: ["kjøkken"],
+    dimensions: { width: 80, depth: 35, height: 72 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 3.7,
+    pros: ["Solid byggekvalitet og gjennomtenkt design","Premium finish og detaljer","Komfortabel i daglig bruk","Lett å vedlikeholde og rengjøre","Passer godt i skandinaviske hjem"],
+    cons: ["Begrenset tilgjengelighet i alle butikker","Kan oppleves noe kompakt for større rom","Tung å flytte etter montering","Materialet kan vise slitasje over tid"],
+    review_summary: "Integra veggskap fra HTH er et solid valg for kjøkken. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Integra veggskap fra HTH gir et godt førsteinntrykk med sin moderne stil. Med dimensjoner på 80 × 35 × 72 cm passer den godt i kjøkkenn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Integra veggskap holder god standard. HTH har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 4 990 kr er dette et rimelig alternativ med god kvalitet. HTH er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "hth-next125-kjokkenbord",
+    name: "Next125 kjøkkenbord",
+    brand: "HTH",
+    category: "bord",
+    description: "Next125 kjøkkenbord fra HTH er en luksus bord som passer perfekt i kjøkken. Med dimensjoner på 140 × 80 × 75 cm er dette et premium valg. Finn de beste prisene på designinteriør.no.",
+    price: 15990,
+    image_url: "",
+    affiliate_url: "https://www.hth.no/next125-kjøkkenbord",
+    style_tags: ["luksus","minimalistisk"],
+    color_tags: ["sort","stein"],
+    room_tags: ["kjøkken"],
+    dimensions: { width: 140, depth: 80, height: 75 },
+    in_stock: true,
+    discount_code: "DESIGN20",
+    discount_percent: 20,
+    rating: 4,
+    pros: ["Høy materialkvalitet","Komfortabel i daglig bruk","Solid byggekvalitet og gjennomtenkt design","Premium finish og detaljer"],
+    cons: ["Vedlikehold krever litt ekstra oppmerksomhet","Begrenset fargevalg","Tung å flytte etter montering","Leveringstiden kan være lang"],
+    review_summary: "Next125 kjøkkenbord fra HTH er et utmerket valg for kjøkken. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Next125 kjøkkenbord fra HTH gir et godt førsteinntrykk med sin luksus stil. Med dimensjoner på 140 × 80 × 75 cm passer den godt i kjøkkenn. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Next125 kjøkkenbord holder svært høy standard. HTH har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. For prisen forventer man premium kvalitet, og dette produktet leverer."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 15 990 kr er dette en investering, men kvaliteten rettferdiggjør prisen. HTH er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "hth-forme-barstol",
+    name: "Forme barstol",
+    brand: "HTH",
+    category: "stol",
+    description: "Forme barstol fra HTH er en moderne stol som passer perfekt i kjøkken. Med dimensjoner på 45 × 50 × 100 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 3490,
+    image_url: "",
+    affiliate_url: "https://www.hth.no/forme-barstol",
+    style_tags: ["moderne"],
+    color_tags: ["sort","krom"],
+    room_tags: ["kjøkken"],
+    dimensions: { width: 45, depth: 50, height: 100 },
+    in_stock: true,
+    discount_code: "DESIGN15",
+    discount_percent: 15,
+    rating: 3.7,
+    pros: ["Allsidig — passer i flere rom","Praktisk og funksjonell løsning","Svært god sittekomfort","Tidløst design som ikke går av moten"],
+    cons: ["Materialet kan vise slitasje over tid","Prisen er i det øvre sjiktet","Leveringstiden kan være lang"],
+    review_summary: "Forme barstol fra HTH er et solid valg for kjøkken. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Forme barstol fra HTH gir et godt førsteinntrykk med sin moderne stil. Med dimensjoner på 45 × 50 × 100 cm passer den godt i kjøkkenn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Forme barstol holder god standard. HTH har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 3 490 kr er dette et rimelig alternativ med god kvalitet. HTH er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "hth-linea-benkeplate-eik",
+    name: "Linea benkeplate eik",
+    brand: "HTH",
+    category: "bord",
+    description: "Linea benkeplate eik fra HTH er en skandinavisk bord som passer perfekt i kjøkken. Med dimensjoner på 200 × 63 × 4 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 7990,
+    image_url: "",
+    affiliate_url: "https://www.hth.no/linea-benkeplate-eik",
+    style_tags: ["skandinavisk","naturlig"],
+    color_tags: ["eik"],
+    room_tags: ["kjøkken"],
+    dimensions: { width: 200, depth: 63, height: 4 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.4,
+    pros: ["Solid byggekvalitet og gjennomtenkt design","Lett å vedlikeholde og rengjøre","Svært god sittekomfort","Passer godt i skandinaviske hjem"],
+    cons: ["Prisen er i det øvre sjiktet","Begrenset tilgjengelighet i alle butikker","Fraktkostnadene kan være høye"],
+    review_summary: "Linea benkeplate eik fra HTH er et solid valg for kjøkken. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Linea benkeplate eik fra HTH gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 200 × 63 × 4 cm passer den godt i kjøkkenn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Linea benkeplate eik holder god standard. HTH har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 7 990 kr får man et solid produkt som holder i mange år. HTH er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "hth-classico-vitrinskap",
+    name: "Classico vitrinskap",
+    brand: "HTH",
+    category: "hylle",
+    description: "Classico vitrinskap fra HTH er en klassisk hylle som passer perfekt i kjøkken. Med dimensjoner på 60 × 35 × 90 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 6990,
+    image_url: "",
+    affiliate_url: "https://www.hth.no/classico-vitrinskap",
+    style_tags: ["klassisk","elegant"],
+    color_tags: ["hvit","glass"],
+    room_tags: ["kjøkken"],
+    dimensions: { width: 60, depth: 35, height: 90 },
+    in_stock: true,
+    discount_code: "DESIGN15",
+    discount_percent: 15,
+    rating: 3.7,
+    pros: ["Tidløst design som ikke går av moten","Praktisk og funksjonell løsning","Lett å vedlikeholde og rengjøre","Komfortabel i daglig bruk","Stilren og diskret"],
+    cons: ["Prisen er i det øvre sjiktet","Begrenset fargevalg","Materialet kan vise slitasje over tid","Fraktkostnadene kan være høye"],
+    review_summary: "Classico vitrinskap fra HTH er et solid valg for kjøkken. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Classico vitrinskap fra HTH gir et godt førsteinntrykk med sin klassisk stil. Med dimensjoner på 60 × 35 × 90 cm passer den godt i kjøkkenn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Classico vitrinskap holder god standard. HTH har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 6 990 kr får man et solid produkt som holder i mange år. HTH er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "hth-studio-belysningsskinne",
+    name: "Studio belysningsskinne",
+    brand: "HTH",
+    category: "lampe",
+    description: "Studio belysningsskinne fra HTH er en moderne lampe som passer perfekt i kjøkken. Med dimensjoner på 90 × 5 × 3 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 2490,
+    image_url: "",
+    affiliate_url: "https://www.hth.no/studio-belysningsskinne",
+    style_tags: ["moderne","funksjonell"],
+    color_tags: ["sort"],
+    room_tags: ["kjøkken"],
+    dimensions: { width: 90, depth: 5, height: 3 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.5,
+    pros: ["Allsidig — passer i flere rom","Komfortabel i daglig bruk","Elegant og moderne utseende","Premium finish og detaljer","Praktisk og funksjonell løsning"],
+    cons: ["Fraktkostnadene kan være høye","Krever noe montering","Tung å flytte etter montering","Begrenset fargevalg"],
+    review_summary: "Studio belysningsskinne fra HTH er et solid valg for kjøkken. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Studio belysningsskinne fra HTH gir et godt førsteinntrykk med sin moderne stil. Med dimensjoner på 90 × 5 × 3 cm passer den godt i kjøkkenn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Studio belysningsskinne holder god standard. HTH har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 2 490 kr er dette et rimelig alternativ med god kvalitet. HTH er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "hth-next125-skuffeseksjon",
+    name: "Next125 skuffeseksjon",
+    brand: "HTH",
+    category: "kommode",
+    description: "Next125 skuffeseksjon fra HTH er en luksus kommode som passer perfekt i kjøkken. Med dimensjoner på 100 × 58 × 72 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 9990,
+    image_url: "",
+    affiliate_url: "https://www.hth.no/next125-skuffeseksjon",
+    style_tags: ["luksus","minimalistisk"],
+    color_tags: ["grå"],
+    room_tags: ["kjøkken"],
+    dimensions: { width: 100, depth: 58, height: 72 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.8,
+    pros: ["Høy materialkvalitet","Svært god sittekomfort","Solid byggekvalitet og gjennomtenkt design","Elegant og moderne utseende","Tidløst design som ikke går av moten"],
+    cons: ["Begrenset tilgjengelighet i alle butikker","Begrenset fargevalg","Leveringstiden kan være lang","Materialet kan vise slitasje over tid"],
+    review_summary: "Next125 skuffeseksjon fra HTH er et solid valg for kjøkken. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Next125 skuffeseksjon fra HTH gir et godt førsteinntrykk med sin luksus stil. Med dimensjoner på 100 × 58 × 72 cm passer den godt i kjøkkenn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Next125 skuffeseksjon holder god standard. HTH har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 9 990 kr får man et solid produkt som holder i mange år. HTH er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "hth-forma-hjorneskap",
+    name: "Forma hjørneskap",
+    brand: "HTH",
+    category: "kommode",
+    description: "Forma hjørneskap fra HTH er en funksjonell kommode som passer perfekt i kjøkken. Med dimensjoner på 90 × 90 × 72 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 7490,
+    image_url: "",
+    affiliate_url: "https://www.hth.no/forma-hjørneskap",
+    style_tags: ["funksjonell"],
+    color_tags: ["hvit"],
+    room_tags: ["kjøkken"],
+    dimensions: { width: 90, depth: 90, height: 72 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.1,
+    pros: ["Solid byggekvalitet og gjennomtenkt design","Allsidig — passer i flere rom","Tidløst design som ikke går av moten","Lett å vedlikeholde og rengjøre","Passer godt i skandinaviske hjem"],
+    cons: ["Materialet kan vise slitasje over tid","Prisen er i det øvre sjiktet","Leveringstiden kan være lang"],
+    review_summary: "Forma hjørneskap fra HTH er et utmerket valg for kjøkken. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Forma hjørneskap fra HTH gir et godt førsteinntrykk med sin funksjonell stil. Med dimensjoner på 90 × 90 × 72 cm passer den godt i kjøkkenn. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Forma hjørneskap holder svært høy standard. HTH har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 7 490 kr får man et solid produkt som holder i mange år. HTH er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "hth-solo-spisestol-polstret",
+    name: "Solo spisestol polstret",
+    brand: "HTH",
+    category: "stol",
+    description: "Solo spisestol polstret fra HTH er en moderne stol som passer perfekt i kjøkken. Med dimensjoner på 48 × 54 × 85 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 2990,
+    image_url: "",
+    affiliate_url: "https://www.hth.no/solo-spisestol-polstret",
+    style_tags: ["moderne"],
+    color_tags: ["grå","eik"],
+    room_tags: ["kjøkken","spisestue"],
+    dimensions: { width: 48, depth: 54, height: 85 },
+    in_stock: true,
+    discount_code: "DESIGN15",
+    discount_percent: 15,
+    rating: 4.6,
+    pros: ["Solid byggekvalitet og gjennomtenkt design","Elegant og moderne utseende","Passer godt i skandinaviske hjem","Praktisk og funksjonell løsning","Enkel montering med tydelig bruksanvisning"],
+    cons: ["Leveringstiden kan være lang","Krever noe montering","Prisen er i det øvre sjiktet","Materialet kan vise slitasje over tid"],
+    review_summary: "Solo spisestol polstret fra HTH er et utmerket valg for kjøkken. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Solo spisestol polstret fra HTH gir et godt førsteinntrykk med sin moderne stil. Med dimensjoner på 48 × 54 × 85 cm passer den godt i kjøkkenn. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Solo spisestol polstret holder svært høy standard. HTH har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 2 990 kr er dette et rimelig alternativ med god kvalitet. HTH er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "hth-integra-tallerkenhylle",
+    name: "Integra tallerkenhylle",
+    brand: "HTH",
+    category: "hylle",
+    description: "Integra tallerkenhylle fra HTH er en moderne hylle som passer perfekt i kjøkken. Med dimensjoner på 80 × 25 × 40 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 3490,
+    image_url: "",
+    affiliate_url: "https://www.hth.no/integra-tallerkenhylle",
+    style_tags: ["moderne"],
+    color_tags: ["sort"],
+    room_tags: ["kjøkken"],
+    dimensions: { width: 80, depth: 25, height: 40 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.7,
+    pros: ["Elegant og moderne utseende","Tidløst design som ikke går av moten","Komfortabel i daglig bruk","Solid byggekvalitet og gjennomtenkt design"],
+    cons: ["Prisen er i det øvre sjiktet","Krever noe montering","Begrenset fargevalg","Fraktkostnadene kan være høye"],
+    review_summary: "Integra tallerkenhylle fra HTH er et utmerket valg for kjøkken. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Integra tallerkenhylle fra HTH gir et godt førsteinntrykk med sin moderne stil. Med dimensjoner på 80 × 25 × 40 cm passer den godt i kjøkkenn. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Integra tallerkenhylle holder svært høy standard. HTH har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 3 490 kr er dette et rimelig alternativ med god kvalitet. HTH er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "hth-studio-led-underskap",
+    name: "Studio LED underskap",
+    brand: "HTH",
+    category: "lampe",
+    description: "Studio LED underskap fra HTH er en funksjonell lampe som passer perfekt i kjøkken. Med dimensjoner på 60 × 3 × 2 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 1990,
+    image_url: "",
+    affiliate_url: "https://www.hth.no/studio-led-underskap",
+    style_tags: ["funksjonell"],
+    color_tags: ["hvit"],
+    room_tags: ["kjøkken"],
+    dimensions: { width: 60, depth: 3, height: 2 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.3,
+    pros: ["Passer godt i skandinaviske hjem","God verdi for pengene","Svært god sittekomfort","Solid byggekvalitet og gjennomtenkt design"],
+    cons: ["Prisen er i det øvre sjiktet","Tung å flytte etter montering","Leveringstiden kan være lang","Begrenset tilgjengelighet i alle butikker"],
+    review_summary: "Studio LED underskap fra HTH er et solid valg for kjøkken. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Studio LED underskap fra HTH gir et godt førsteinntrykk med sin funksjonell stil. Med dimensjoner på 60 × 3 × 2 cm passer den godt i kjøkkenn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Studio LED underskap holder god standard. HTH har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 1 990 kr er dette et rimelig alternativ med god kvalitet. HTH er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "hth-forme-krydderhylle",
+    name: "Forme krydderhylle",
+    brand: "HTH",
+    category: "hylle",
+    description: "Forme krydderhylle fra HTH er en funksjonell hylle som passer perfekt i kjøkken. Med dimensjoner på 40 × 10 × 60 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 1490,
+    image_url: "",
+    affiliate_url: "https://www.hth.no/forme-krydderhylle",
+    style_tags: ["funksjonell","moderne"],
+    color_tags: ["sort","tre"],
+    room_tags: ["kjøkken"],
+    dimensions: { width: 40, depth: 10, height: 60 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.8,
+    pros: ["Komfortabel i daglig bruk","Svært god sittekomfort","Solid byggekvalitet og gjennomtenkt design","Tidløst design som ikke går av moten"],
+    cons: ["Vedlikehold krever litt ekstra oppmerksomhet","Prisen er i det øvre sjiktet","Kan oppleves noe kompakt for større rom","Materialet kan vise slitasje over tid"],
+    review_summary: "Forme krydderhylle fra HTH er et utmerket valg for kjøkken. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Forme krydderhylle fra HTH gir et godt førsteinntrykk med sin funksjonell stil. Med dimensjoner på 40 × 10 × 60 cm passer den godt i kjøkkenn. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Forme krydderhylle holder svært høy standard. HTH har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 1 490 kr er dette et rimelig alternativ med god kvalitet. HTH er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "hoie-classic-dundyne-varm",
+    name: "Classic dundyne varm",
+    brand: "Høie",
+    category: "pute",
+    description: "Classic dundyne varm fra Høie er en klassisk pute som passer perfekt i soverom. Med dimensjoner på 200 × 220 × 5 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 2990,
+    image_url: "",
+    affiliate_url: "https://www.hoie.no/classic-dundyne-varm",
+    style_tags: ["klassisk","luksus"],
+    color_tags: ["hvit"],
+    room_tags: ["soverom"],
+    dimensions: { width: 200, depth: 220, height: 5 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.5,
+    pros: ["Solid byggekvalitet og gjennomtenkt design","Tidløst design som ikke går av moten","Passer godt i skandinaviske hjem","Komfortabel i daglig bruk"],
+    cons: ["Begrenset fargevalg","Kan oppleves noe kompakt for større rom","Leveringstiden kan være lang"],
+    review_summary: "Classic dundyne varm fra Høie er et utmerket valg for soverom. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Classic dundyne varm fra Høie gir et godt førsteinntrykk med sin klassisk stil. Med dimensjoner på 200 × 220 × 5 cm passer den godt i soveromn. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Classic dundyne varm holder svært høy standard. Høie har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 2 990 kr er dette et rimelig alternativ med god kvalitet. Høie er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "hoie-premium-dunpute-fast",
+    name: "Premium dunpute fast",
+    brand: "Høie",
+    category: "pute",
+    description: "Premium dunpute fast fra Høie er en luksus pute som passer perfekt i soverom. Med dimensjoner på 50 × 70 × 15 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 1290,
+    image_url: "",
+    affiliate_url: "https://www.hoie.no/premium-dunpute-fast",
+    style_tags: ["luksus"],
+    color_tags: ["hvit"],
+    room_tags: ["soverom"],
+    dimensions: { width: 50, depth: 70, height: 15 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.7,
+    pros: ["Robust konstruksjon","Stilren og diskret","God verdi for pengene","Svært god sittekomfort"],
+    cons: ["Leveringstiden kan være lang","Begrenset fargevalg","Vedlikehold krever litt ekstra oppmerksomhet","Fraktkostnadene kan være høye"],
+    review_summary: "Premium dunpute fast fra Høie er et solid valg for soverom. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Premium dunpute fast fra Høie gir et godt førsteinntrykk med sin luksus stil. Med dimensjoner på 50 × 70 × 15 cm passer den godt i soveromn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Premium dunpute fast holder god standard. Høie har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 1 290 kr er dette et rimelig alternativ med god kvalitet. Høie er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "hoie-allergivennlig-fiberdyne",
+    name: "Allergivennlig fiberdyne",
+    brand: "Høie",
+    category: "pute",
+    description: "Allergivennlig fiberdyne fra Høie er en funksjonell pute som passer perfekt i soverom. Med dimensjoner på 200 × 220 × 4 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 1490,
+    image_url: "",
+    affiliate_url: "https://www.hoie.no/allergivennlig-fiberdyne",
+    style_tags: ["funksjonell"],
+    color_tags: ["hvit"],
+    room_tags: ["soverom"],
+    dimensions: { width: 200, depth: 220, height: 4 },
+    in_stock: true,
+    discount_code: "DESIGN20",
+    discount_percent: 20,
+    rating: 4.2,
+    pros: ["Lett å vedlikeholde og rengjøre","Høy materialkvalitet","Solid byggekvalitet og gjennomtenkt design","Komfortabel i daglig bruk"],
+    cons: ["Prisen er i det øvre sjiktet","Leveringstiden kan være lang","Krever noe montering","Begrenset fargevalg"],
+    review_summary: "Allergivennlig fiberdyne fra Høie er et utmerket valg for soverom. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Allergivennlig fiberdyne fra Høie gir et godt førsteinntrykk med sin funksjonell stil. Med dimensjoner på 200 × 220 × 4 cm passer den godt i soveromn. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Allergivennlig fiberdyne holder svært høy standard. Høie har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 1 490 kr er dette et rimelig alternativ med god kvalitet. Høie er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "hoie-sommerdyne-lett",
+    name: "Sommerdyne lett",
+    brand: "Høie",
+    category: "pute",
+    description: "Sommerdyne lett fra Høie er en klassisk pute som passer perfekt i soverom. Med dimensjoner på 200 × 220 × 2 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 1790,
+    image_url: "",
+    affiliate_url: "https://www.hoie.no/sommerdyne-lett",
+    style_tags: ["klassisk"],
+    color_tags: ["hvit"],
+    room_tags: ["soverom"],
+    dimensions: { width: 200, depth: 220, height: 2 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.2,
+    pros: ["Praktisk og funksjonell løsning","Premium finish og detaljer","Elegant og moderne utseende","Allsidig — passer i flere rom"],
+    cons: ["Leveringstiden kan være lang","Begrenset fargevalg","Materialet kan vise slitasje over tid"],
+    review_summary: "Sommerdyne lett fra Høie er et utmerket valg for soverom. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Sommerdyne lett fra Høie gir et godt førsteinntrykk med sin klassisk stil. Med dimensjoner på 200 × 220 × 2 cm passer den godt i soveromn. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Sommerdyne lett holder svært høy standard. Høie har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 1 790 kr er dette et rimelig alternativ med god kvalitet. Høie er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "hoie-hotellpute-medium",
+    name: "Hotellpute medium",
+    brand: "Høie",
+    category: "pute",
+    description: "Hotellpute medium fra Høie er en hotell pute som passer perfekt i soverom. Med dimensjoner på 50 × 70 × 12 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 890,
+    image_url: "",
+    affiliate_url: "https://www.hoie.no/hotellpute-medium",
+    style_tags: ["hotell","komfort"],
+    color_tags: ["hvit"],
+    room_tags: ["soverom"],
+    dimensions: { width: 50, depth: 70, height: 12 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 4.5,
+    pros: ["Solid byggekvalitet og gjennomtenkt design","Tidløst design som ikke går av moten","Robust konstruksjon","Premium finish og detaljer","Elegant og moderne utseende"],
+    cons: ["Kan oppleves noe kompakt for større rom","Prisen er i det øvre sjiktet","Krever noe montering"],
+    review_summary: "Hotellpute medium fra Høie er et utmerket valg for soverom. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Hotellpute medium fra Høie gir et godt førsteinntrykk med sin hotell stil. Med dimensjoner på 50 × 70 × 12 cm passer den godt i soveromn. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Hotellpute medium holder svært høy standard. Høie har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 890 kr er dette et rimelig alternativ med god kvalitet. Høie er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "hoie-merinoull-pledd",
+    name: "Merinoull pledd",
+    brand: "Høie",
+    category: "pute",
+    description: "Merinoull pledd fra Høie er en skandinavisk pute som passer perfekt i stue. Med dimensjoner på 140 × 200 × 1 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 1599,
+    image_url: "",
+    affiliate_url: "https://www.hoie.no/merinoull-pledd",
+    style_tags: ["skandinavisk","luksus"],
+    color_tags: ["grå"],
+    room_tags: ["stue","soverom"],
+    dimensions: { width: 140, depth: 200, height: 1 },
+    in_stock: true,
+    discount_code: "DESIGN15",
+    discount_percent: 15,
+    rating: 3.6,
+    pros: ["Premium finish og detaljer","Solid byggekvalitet og gjennomtenkt design","Komfortabel i daglig bruk","Passer godt i skandinaviske hjem"],
+    cons: ["Leveringstiden kan være lang","Begrenset fargevalg","Kan oppleves noe kompakt for større rom","Krever noe montering"],
+    review_summary: "Merinoull pledd fra Høie er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Merinoull pledd fra Høie gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 140 × 200 × 1 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Merinoull pledd holder god standard. Høie har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 1 599 kr er dette et rimelig alternativ med god kvalitet. Høie er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "hoie-sengeteppe-quiltet",
+    name: "Sengeteppe quiltet",
+    brand: "Høie",
+    category: "pute",
+    description: "Sengeteppe quiltet fra Høie er en elegant pute som passer perfekt i soverom. Med dimensjoner på 260 × 260 × 1 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 1999,
+    image_url: "",
+    affiliate_url: "https://www.hoie.no/sengeteppe-quiltet",
+    style_tags: ["elegant"],
+    color_tags: ["beige"],
+    room_tags: ["soverom"],
+    dimensions: { width: 260, depth: 260, height: 1 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.7,
+    pros: ["Tidløst design som ikke går av moten","Elegant og moderne utseende","Praktisk og funksjonell løsning","Stilren og diskret"],
+    cons: ["Materialet kan vise slitasje over tid","Krever noe montering","Kan oppleves noe kompakt for større rom"],
+    review_summary: "Sengeteppe quiltet fra Høie er et solid valg for soverom. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Sengeteppe quiltet fra Høie gir et godt førsteinntrykk med sin elegant stil. Med dimensjoner på 260 × 260 × 1 cm passer den godt i soveromn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Sengeteppe quiltet holder god standard. Høie har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 1 999 kr er dette et rimelig alternativ med god kvalitet. Høie er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "hoie-ergonomisk-nakkepute",
+    name: "Ergonomisk nakkepute",
+    brand: "Høie",
+    category: "pute",
+    description: "Ergonomisk nakkepute fra Høie er en ergonomisk pute som passer perfekt i soverom. Med dimensjoner på 40 × 60 × 12 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 990,
+    image_url: "",
+    affiliate_url: "https://www.hoie.no/ergonomisk-nakkepute",
+    style_tags: ["ergonomisk","funksjonell"],
+    color_tags: ["hvit"],
+    room_tags: ["soverom"],
+    dimensions: { width: 40, depth: 60, height: 12 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.5,
+    pros: ["God verdi for pengene","Robust konstruksjon","Passer godt i skandinaviske hjem","Høy materialkvalitet"],
+    cons: ["Begrenset tilgjengelighet i alle butikker","Begrenset fargevalg","Leveringstiden kan være lang","Kan oppleves noe kompakt for større rom"],
+    review_summary: "Ergonomisk nakkepute fra Høie er et utmerket valg for soverom. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Ergonomisk nakkepute fra Høie gir et godt førsteinntrykk med sin ergonomisk stil. Med dimensjoner på 40 × 60 × 12 cm passer den godt i soveromn. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Ergonomisk nakkepute holder svært høy standard. Høie har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 990 kr er dette et rimelig alternativ med god kvalitet. Høie er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "hoie-helarsdyne-medium",
+    name: "Helårsdyne medium",
+    brand: "Høie",
+    category: "pute",
+    description: "Helårsdyne medium fra Høie er en allround pute som passer perfekt i soverom. Med dimensjoner på 200 × 220 × 4 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 2490,
+    image_url: "",
+    affiliate_url: "https://www.hoie.no/helårsdyne-medium",
+    style_tags: ["allround"],
+    color_tags: ["hvit"],
+    room_tags: ["soverom"],
+    dimensions: { width: 200, depth: 220, height: 4 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 4.4,
+    pros: ["Passer godt i skandinaviske hjem","Høy materialkvalitet","Tidløst design som ikke går av moten","Komfortabel i daglig bruk","Stilren og diskret"],
+    cons: ["Materialet kan vise slitasje over tid","Leveringstiden kan være lang","Prisen er i det øvre sjiktet"],
+    review_summary: "Helårsdyne medium fra Høie er et utmerket valg for soverom. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Helårsdyne medium fra Høie gir et godt førsteinntrykk med sin allround stil. Med dimensjoner på 200 × 220 × 4 cm passer den godt i soveromn. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Helårsdyne medium holder svært høy standard. Høie har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 2 490 kr er dette et rimelig alternativ med god kvalitet. Høie er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "hoie-junior-dynesett",
+    name: "Junior dynesett",
+    brand: "Høie",
+    category: "pute",
+    description: "Junior dynesett fra Høie er en funksjonell pute som passer perfekt i barnerom. Med dimensjoner på 100 × 140 × 3 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 899,
+    image_url: "",
+    affiliate_url: "https://www.hoie.no/junior-dynesett",
+    style_tags: ["funksjonell"],
+    color_tags: ["hvit"],
+    room_tags: ["barnerom"],
+    dimensions: { width: 100, depth: 140, height: 3 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 3.4,
+    pros: ["Solid byggekvalitet og gjennomtenkt design","Passer godt i skandinaviske hjem","Allsidig — passer i flere rom","Komfortabel i daglig bruk","Elegant og moderne utseende"],
+    cons: ["Leveringstiden kan være lang","Tung å flytte etter montering","Begrenset tilgjengelighet i alle butikker"],
+    review_summary: "Junior dynesett fra Høie er et solid valg for barnerom. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Junior dynesett fra Høie gir et godt førsteinntrykk med sin funksjonell stil. Med dimensjoner på 100 × 140 × 3 cm passer den godt i barneromn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Junior dynesett holder god standard. Høie har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 899 kr er dette et rimelig alternativ med god kvalitet. Høie er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "hoie-silkemyk-fiberpute",
+    name: "Silkemyk fiberpute",
+    brand: "Høie",
+    category: "pute",
+    description: "Silkemyk fiberpute fra Høie er en myk pute som passer perfekt i soverom. Med dimensjoner på 50 × 70 × 10 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 590,
+    image_url: "",
+    affiliate_url: "https://www.hoie.no/silkemyk-fiberpute",
+    style_tags: ["myk","komfort"],
+    color_tags: ["hvit"],
+    room_tags: ["soverom"],
+    dimensions: { width: 50, depth: 70, height: 10 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.4,
+    pros: ["Solid byggekvalitet og gjennomtenkt design","Høy materialkvalitet","Robust konstruksjon","Passer godt i skandinaviske hjem"],
+    cons: ["Krever noe montering","Prisen er i det øvre sjiktet","Materialet kan vise slitasje over tid","Tung å flytte etter montering"],
+    review_summary: "Silkemyk fiberpute fra Høie er et utmerket valg for soverom. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Silkemyk fiberpute fra Høie gir et godt førsteinntrykk med sin myk stil. Med dimensjoner på 50 × 70 × 10 cm passer den godt i soveromn. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Silkemyk fiberpute holder svært høy standard. Høie har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 590 kr er dette et rimelig alternativ med god kvalitet. Høie er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "hoie-vinterdyne-ekstra-varm",
+    name: "Vinterdyne ekstra varm",
+    brand: "Høie",
+    category: "pute",
+    description: "Vinterdyne ekstra varm fra Høie er en vinter pute som passer perfekt i soverom. Med dimensjoner på 200 × 220 × 6 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 3490,
+    image_url: "",
+    affiliate_url: "https://www.hoie.no/vinterdyne-ekstra-varm",
+    style_tags: ["vinter","luksus"],
+    color_tags: ["hvit"],
+    room_tags: ["soverom"],
+    dimensions: { width: 200, depth: 220, height: 6 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.3,
+    pros: ["Enkel montering med tydelig bruksanvisning","Praktisk og funksjonell løsning","Stilren og diskret","Komfortabel i daglig bruk","Svært god sittekomfort"],
+    cons: ["Leveringstiden kan være lang","Begrenset fargevalg","Vedlikehold krever litt ekstra oppmerksomhet","Fraktkostnadene kan være høye"],
+    review_summary: "Vinterdyne ekstra varm fra Høie er et solid valg for soverom. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Vinterdyne ekstra varm fra Høie gir et godt førsteinntrykk med sin vinter stil. Med dimensjoner på 200 × 220 × 6 cm passer den godt i soveromn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Vinterdyne ekstra varm holder god standard. Høie har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 3 490 kr er dette et rimelig alternativ med god kvalitet. Høie er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "hoie-bomull-sengesett",
+    name: "Bomull sengesett",
+    brand: "Høie",
+    category: "pute",
+    description: "Bomull sengesett fra Høie er en klassisk pute som passer perfekt i soverom. Med dimensjoner på 200 × 220 × 1 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 799,
+    image_url: "",
+    affiliate_url: "https://www.hoie.no/bomull-sengesett",
+    style_tags: ["klassisk"],
+    color_tags: ["hvit"],
+    room_tags: ["soverom"],
+    dimensions: { width: 200, depth: 220, height: 1 },
+    in_stock: true,
+    discount_code: "DESIGN15",
+    discount_percent: 15,
+    rating: 3.8,
+    pros: ["Elegant og moderne utseende","Allsidig — passer i flere rom","Enkel montering med tydelig bruksanvisning","Svært god sittekomfort","Tidløst design som ikke går av moten"],
+    cons: ["Fraktkostnadene kan være høye","Begrenset tilgjengelighet i alle butikker","Tung å flytte etter montering","Vedlikehold krever litt ekstra oppmerksomhet"],
+    review_summary: "Bomull sengesett fra Høie er et solid valg for soverom. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Bomull sengesett fra Høie gir et godt førsteinntrykk med sin klassisk stil. Med dimensjoner på 200 × 220 × 1 cm passer den godt i soveromn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Bomull sengesett holder god standard. Høie har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 799 kr er dette et rimelig alternativ med god kvalitet. Høie er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "hoie-duntopper-180x200",
+    name: "Duntopper 180x200",
+    brand: "Høie",
+    category: "pute",
+    description: "Duntopper 180x200 fra Høie er en luksus pute som passer perfekt i soverom. Med dimensjoner på 180 × 200 × 5 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 2290,
+    image_url: "",
+    affiliate_url: "https://www.hoie.no/duntopper-180x200",
+    style_tags: ["luksus","komfort"],
+    color_tags: ["hvit"],
+    room_tags: ["soverom"],
+    dimensions: { width: 180, depth: 200, height: 5 },
+    in_stock: true,
+    discount_code: "DESIGN20",
+    discount_percent: 20,
+    rating: 3.2,
+    pros: ["Premium finish og detaljer","Passer godt i skandinaviske hjem","Svært god sittekomfort","Elegant og moderne utseende"],
+    cons: ["Fraktkostnadene kan være høye","Kan oppleves noe kompakt for større rom","Prisen er i det øvre sjiktet"],
+    review_summary: "Duntopper 180x200 fra Høie er et solid valg for soverom. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Duntopper 180x200 fra Høie gir et godt førsteinntrykk med sin luksus stil. Med dimensjoner på 180 × 200 × 5 cm passer den godt i soveromn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Duntopper 180x200 holder god standard. Høie har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 2 290 kr er dette et rimelig alternativ med god kvalitet. Høie er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "hoie-putevar-satin-2-pk",
+    name: "Putevar satin 2-pk",
+    brand: "Høie",
+    category: "pute",
+    description: "Putevar satin 2-pk fra Høie er en elegant pute som passer perfekt i soverom. Med dimensjoner på 50 × 70 × 1 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 499,
+    image_url: "",
+    affiliate_url: "https://www.hoie.no/putevar-satin-2-pk",
+    style_tags: ["elegant","luksus"],
+    color_tags: ["champagne"],
+    room_tags: ["soverom"],
+    dimensions: { width: 50, depth: 70, height: 1 },
+    in_stock: true,
+    discount_code: "DESIGN15",
+    discount_percent: 15,
+    rating: 3.6,
+    pros: ["Høy materialkvalitet","Lett å vedlikeholde og rengjøre","Solid byggekvalitet og gjennomtenkt design","Svært god sittekomfort"],
+    cons: ["Leveringstiden kan være lang","Begrenset fargevalg","Fraktkostnadene kan være høye"],
+    review_summary: "Putevar satin 2-pk fra Høie er et solid valg for soverom. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Putevar satin 2-pk fra Høie gir et godt førsteinntrykk med sin elegant stil. Med dimensjoner på 50 × 70 × 1 cm passer den godt i soveromn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Putevar satin 2-pk holder god standard. Høie har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 499 kr er dette et rimelig alternativ med god kvalitet. Høie er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "ekornes-stressless-wing-recliner",
+    name: "Stressless Wing recliner",
+    brand: "Ekornes",
+    category: "stol",
+    description: "Stressless Wing recliner fra Ekornes er en komfort stol som passer perfekt i stue. Med dimensjoner på 76 × 73 × 101 cm er dette et premium valg. Finn de beste prisene på designinteriør.no.",
+    price: 24990,
+    image_url: "",
+    affiliate_url: "https://www.ekornes.no/stressless-wing-recliner",
+    style_tags: ["komfort","klassisk"],
+    color_tags: ["brun","skinn"],
+    room_tags: ["stue"],
+    dimensions: { width: 76, depth: 73, height: 101 },
+    in_stock: true,
+    discount_code: "DESIGN15",
+    discount_percent: 15,
+    rating: 4.3,
+    pros: ["Premium finish og detaljer","Lett å vedlikeholde og rengjøre","Høy materialkvalitet","Tidløst design som ikke går av moten","Enkel montering med tydelig bruksanvisning"],
+    cons: ["Krever noe montering","Fraktkostnadene kan være høye","Begrenset fargevalg","Prisen er i det øvre sjiktet"],
+    review_summary: "Stressless Wing recliner fra Ekornes er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Stressless Wing recliner fra Ekornes gir et godt førsteinntrykk med sin komfort stil. Med dimensjoner på 76 × 73 × 101 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Stressless Wing recliner holder svært høy standard. Ekornes har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. For prisen forventer man premium kvalitet, og dette produktet leverer."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 24 990 kr er dette en investering, men kvaliteten rettferdiggjør prisen. Ekornes er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "ekornes-stressless-mayfair-recliner",
+    name: "Stressless Mayfair recliner",
+    brand: "Ekornes",
+    category: "stol",
+    description: "Stressless Mayfair recliner fra Ekornes er en komfort stol som passer perfekt i stue. Med dimensjoner på 79 × 73 × 100 cm er dette et premium valg. Finn de beste prisene på designinteriør.no.",
+    price: 19990,
+    image_url: "",
+    affiliate_url: "https://www.ekornes.no/stressless-mayfair-recliner",
+    style_tags: ["komfort","moderne"],
+    color_tags: ["sort","skinn"],
+    room_tags: ["stue"],
+    dimensions: { width: 79, depth: 73, height: 100 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.6,
+    pros: ["Passer godt i skandinaviske hjem","Tidløst design som ikke går av moten","Allsidig — passer i flere rom","Elegant og moderne utseende","Høy materialkvalitet"],
+    cons: ["Tung å flytte etter montering","Krever noe montering","Vedlikehold krever litt ekstra oppmerksomhet"],
+    review_summary: "Stressless Mayfair recliner fra Ekornes er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Stressless Mayfair recliner fra Ekornes gir et godt førsteinntrykk med sin komfort stil. Med dimensjoner på 79 × 73 × 100 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Stressless Mayfair recliner holder svært høy standard. Ekornes har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. For prisen forventer man premium kvalitet, og dette produktet leverer."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 19 990 kr er dette en investering, men kvaliteten rettferdiggjør prisen. Ekornes er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "ekornes-stressless-sunrise-recliner",
+    name: "Stressless Sunrise recliner",
+    brand: "Ekornes",
+    category: "stol",
+    description: "Stressless Sunrise recliner fra Ekornes er en komfort stol som passer perfekt i stue. Med dimensjoner på 79 × 73 × 105 cm er dette et premium valg. Finn de beste prisene på designinteriør.no.",
+    price: 22990,
+    image_url: "",
+    affiliate_url: "https://www.ekornes.no/stressless-sunrise-recliner",
+    style_tags: ["komfort","skandinavisk"],
+    color_tags: ["beige","skinn"],
+    room_tags: ["stue"],
+    dimensions: { width: 79, depth: 73, height: 105 },
+    in_stock: true,
+    discount_code: "DESIGN15",
+    discount_percent: 15,
+    rating: 3.3,
+    pros: ["Premium finish og detaljer","Robust konstruksjon","Stilren og diskret","Solid byggekvalitet og gjennomtenkt design"],
+    cons: ["Prisen er i det øvre sjiktet","Kan oppleves noe kompakt for større rom","Fraktkostnadene kan være høye","Leveringstiden kan være lang"],
+    review_summary: "Stressless Sunrise recliner fra Ekornes er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Stressless Sunrise recliner fra Ekornes gir et godt førsteinntrykk med sin komfort stil. Med dimensjoner på 79 × 73 × 105 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Stressless Sunrise recliner holder god standard. Ekornes har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. For prisen forventer man premium kvalitet, og dette produktet leverer."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 22 990 kr er dette en investering, men kvaliteten rettferdiggjør prisen. Ekornes er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "ekornes-stressless-manhattan-3-seter",
+    name: "Stressless Manhattan 3-seter",
+    brand: "Ekornes",
+    category: "sofa",
+    description: "Stressless Manhattan 3-seter fra Ekornes er en luksus sofa som passer perfekt i stue. Med dimensjoner på 228 × 95 × 78 cm er dette et premium valg. Finn de beste prisene på designinteriør.no.",
+    price: 54990,
+    image_url: "",
+    affiliate_url: "https://www.ekornes.no/stressless-manhattan-3-seter",
+    style_tags: ["luksus","moderne"],
+    color_tags: ["grå","skinn"],
+    room_tags: ["stue"],
+    dimensions: { width: 228, depth: 95, height: 78 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.5,
+    pros: ["Robust konstruksjon","Komfortabel i daglig bruk","God verdi for pengene","Allsidig — passer i flere rom"],
+    cons: ["Vedlikehold krever litt ekstra oppmerksomhet","Krever noe montering","Leveringstiden kan være lang","Kan oppleves noe kompakt for større rom"],
+    review_summary: "Stressless Manhattan 3-seter fra Ekornes er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Stressless Manhattan 3-seter fra Ekornes gir et godt førsteinntrykk med sin luksus stil. Med dimensjoner på 228 × 95 × 78 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Stressless Manhattan 3-seter holder svært høy standard. Ekornes har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. For prisen forventer man premium kvalitet, og dette produktet leverer."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 54 990 kr er dette en investering, men kvaliteten rettferdiggjør prisen. Ekornes er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "ekornes-stressless-emily-2-seter",
+    name: "Stressless Emily 2-seter",
+    brand: "Ekornes",
+    category: "sofa",
+    description: "Stressless Emily 2-seter fra Ekornes er en moderne sofa som passer perfekt i stue. Med dimensjoner på 176 × 95 × 78 cm er dette et premium valg. Finn de beste prisene på designinteriør.no.",
+    price: 39990,
+    image_url: "",
+    affiliate_url: "https://www.ekornes.no/stressless-emily-2-seter",
+    style_tags: ["moderne","komfort"],
+    color_tags: ["brun","skinn"],
+    room_tags: ["stue"],
+    dimensions: { width: 176, depth: 95, height: 78 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 4.3,
+    pros: ["Allsidig — passer i flere rom","Enkel montering med tydelig bruksanvisning","Premium finish og detaljer","Stilren og diskret","Svært god sittekomfort"],
+    cons: ["Leveringstiden kan være lang","Begrenset fargevalg","Tung å flytte etter montering","Prisen er i det øvre sjiktet"],
+    review_summary: "Stressless Emily 2-seter fra Ekornes er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Stressless Emily 2-seter fra Ekornes gir et godt førsteinntrykk med sin moderne stil. Med dimensjoner på 176 × 95 × 78 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Stressless Emily 2-seter holder svært høy standard. Ekornes har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. For prisen forventer man premium kvalitet, og dette produktet leverer."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 39 990 kr er dette en investering, men kvaliteten rettferdiggjør prisen. Ekornes er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "ekornes-stressless-oslo-kontorstol",
+    name: "Stressless Oslo kontorstol",
+    brand: "Ekornes",
+    category: "stol",
+    description: "Stressless Oslo kontorstol fra Ekornes er en ergonomisk stol som passer perfekt i kontor. Med dimensjoner på 68 × 68 × 110 cm er dette et premium valg. Finn de beste prisene på designinteriør.no.",
+    price: 15990,
+    image_url: "",
+    affiliate_url: "https://www.ekornes.no/stressless-oslo-kontorstol",
+    style_tags: ["ergonomisk","moderne"],
+    color_tags: ["sort","skinn"],
+    room_tags: ["kontor"],
+    dimensions: { width: 68, depth: 68, height: 110 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.8,
+    pros: ["Komfortabel i daglig bruk","Passer godt i skandinaviske hjem","Høy materialkvalitet","Enkel montering med tydelig bruksanvisning","Svært god sittekomfort"],
+    cons: ["Prisen er i det øvre sjiktet","Materialet kan vise slitasje over tid","Begrenset fargevalg"],
+    review_summary: "Stressless Oslo kontorstol fra Ekornes er et solid valg for kontor. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Stressless Oslo kontorstol fra Ekornes gir et godt førsteinntrykk med sin ergonomisk stil. Med dimensjoner på 68 × 68 × 110 cm passer den godt i kontorn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Stressless Oslo kontorstol holder god standard. Ekornes har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. For prisen forventer man premium kvalitet, og dette produktet leverer."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 15 990 kr er dette en investering, men kvaliteten rettferdiggjør prisen. Ekornes er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "ekornes-stressless-wing-fotskammel",
+    name: "Stressless Wing fotskammel",
+    brand: "Ekornes",
+    category: "dekor",
+    description: "Stressless Wing fotskammel fra Ekornes er en komfort dekorasjon som passer perfekt i stue. Med dimensjoner på 54 × 40 × 42 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 7990,
+    image_url: "",
+    affiliate_url: "https://www.ekornes.no/stressless-wing-fotskammel",
+    style_tags: ["komfort","klassisk"],
+    color_tags: ["brun","skinn"],
+    room_tags: ["stue"],
+    dimensions: { width: 54, depth: 40, height: 42 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 4,
+    pros: ["Solid byggekvalitet og gjennomtenkt design","Tidløst design som ikke går av moten","Premium finish og detaljer","Komfortabel i daglig bruk"],
+    cons: ["Begrenset fargevalg","Vedlikehold krever litt ekstra oppmerksomhet","Begrenset tilgjengelighet i alle butikker","Leveringstiden kan være lang"],
+    review_summary: "Stressless Wing fotskammel fra Ekornes er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Stressless Wing fotskammel fra Ekornes gir et godt førsteinntrykk med sin komfort stil. Med dimensjoner på 54 × 40 × 42 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Stressless Wing fotskammel holder svært høy standard. Ekornes har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 7 990 kr får man et solid produkt som holder i mange år. Ekornes er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "ekornes-stressless-nordic-recliner",
+    name: "Stressless Nordic recliner",
+    brand: "Ekornes",
+    category: "stol",
+    description: "Stressless Nordic recliner fra Ekornes er en skandinavisk stol som passer perfekt i stue. Med dimensjoner på 77 × 73 × 100 cm er dette et premium valg. Finn de beste prisene på designinteriør.no.",
+    price: 21990,
+    image_url: "",
+    affiliate_url: "https://www.ekornes.no/stressless-nordic-recliner",
+    style_tags: ["skandinavisk","komfort"],
+    color_tags: ["grå","stoff"],
+    room_tags: ["stue"],
+    dimensions: { width: 77, depth: 73, height: 100 },
+    in_stock: true,
+    discount_code: "DESIGN15",
+    discount_percent: 15,
+    rating: 4.5,
+    pros: ["Passer godt i skandinaviske hjem","Solid byggekvalitet og gjennomtenkt design","Elegant og moderne utseende","Komfortabel i daglig bruk"],
+    cons: ["Krever noe montering","Begrenset fargevalg","Fraktkostnadene kan være høye","Prisen er i det øvre sjiktet"],
+    review_summary: "Stressless Nordic recliner fra Ekornes er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Stressless Nordic recliner fra Ekornes gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 77 × 73 × 100 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Stressless Nordic recliner holder svært høy standard. Ekornes har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. For prisen forventer man premium kvalitet, og dette produktet leverer."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 21 990 kr er dette en investering, men kvaliteten rettferdiggjør prisen. Ekornes er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "ekornes-stressless-consul-recliner",
+    name: "Stressless Consul recliner",
+    brand: "Ekornes",
+    category: "stol",
+    description: "Stressless Consul recliner fra Ekornes er en klassisk stol som passer perfekt i stue. Med dimensjoner på 72 × 70 × 97 cm er dette et premium valg. Finn de beste prisene på designinteriør.no.",
+    price: 16990,
+    image_url: "",
+    affiliate_url: "https://www.ekornes.no/stressless-consul-recliner",
+    style_tags: ["klassisk","komfort"],
+    color_tags: ["cognac","skinn"],
+    room_tags: ["stue"],
+    dimensions: { width: 72, depth: 70, height: 97 },
+    in_stock: true,
+    discount_code: "DESIGN20",
+    discount_percent: 20,
+    rating: 3.3,
+    pros: ["Praktisk og funksjonell løsning","Tidløst design som ikke går av moten","Stilren og diskret","Lett å vedlikeholde og rengjøre","God verdi for pengene"],
+    cons: ["Materialet kan vise slitasje over tid","Tung å flytte etter montering","Fraktkostnadene kan være høye","Vedlikehold krever litt ekstra oppmerksomhet"],
+    review_summary: "Stressless Consul recliner fra Ekornes er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Stressless Consul recliner fra Ekornes gir et godt førsteinntrykk med sin klassisk stil. Med dimensjoner på 72 × 70 × 97 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Stressless Consul recliner holder god standard. Ekornes har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. For prisen forventer man premium kvalitet, og dette produktet leverer."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 16 990 kr er dette en investering, men kvaliteten rettferdiggjør prisen. Ekornes er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "ekornes-stressless-bella-3-seter",
+    name: "Stressless Bella 3-seter",
+    brand: "Ekornes",
+    category: "sofa",
+    description: "Stressless Bella 3-seter fra Ekornes er en luksus sofa som passer perfekt i stue. Med dimensjoner på 220 × 93 × 80 cm er dette et premium valg. Finn de beste prisene på designinteriør.no.",
+    price: 49990,
+    image_url: "",
+    affiliate_url: "https://www.ekornes.no/stressless-bella-3-seter",
+    style_tags: ["luksus","skandinavisk"],
+    color_tags: ["hvit","skinn"],
+    room_tags: ["stue"],
+    dimensions: { width: 220, depth: 93, height: 80 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.4,
+    pros: ["Praktisk og funksjonell løsning","Allsidig — passer i flere rom","Lett å vedlikeholde og rengjøre","Solid byggekvalitet og gjennomtenkt design","Høy materialkvalitet"],
+    cons: ["Leveringstiden kan være lang","Begrenset fargevalg","Begrenset tilgjengelighet i alle butikker"],
+    review_summary: "Stressless Bella 3-seter fra Ekornes er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Stressless Bella 3-seter fra Ekornes gir et godt førsteinntrykk med sin luksus stil. Med dimensjoner på 220 × 93 × 80 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Stressless Bella 3-seter holder god standard. Ekornes har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. For prisen forventer man premium kvalitet, og dette produktet leverer."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 49 990 kr er dette en investering, men kvaliteten rettferdiggjør prisen. Ekornes er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "ekornes-stressless-mayfair-fotskammel",
+    name: "Stressless Mayfair fotskammel",
+    brand: "Ekornes",
+    category: "dekor",
+    description: "Stressless Mayfair fotskammel fra Ekornes er en komfort dekorasjon som passer perfekt i stue. Med dimensjoner på 54 × 40 × 42 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 5990,
+    image_url: "",
+    affiliate_url: "https://www.ekornes.no/stressless-mayfair-fotskammel",
+    style_tags: ["komfort"],
+    color_tags: ["sort","skinn"],
+    room_tags: ["stue"],
+    dimensions: { width: 54, depth: 40, height: 42 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.2,
+    pros: ["Passer godt i skandinaviske hjem","Robust konstruksjon","Komfortabel i daglig bruk","Tidløst design som ikke går av moten","God verdi for pengene"],
+    cons: ["Leveringstiden kan være lang","Begrenset fargevalg","Begrenset tilgjengelighet i alle butikker","Fraktkostnadene kan være høye"],
+    review_summary: "Stressless Mayfair fotskammel fra Ekornes er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Stressless Mayfair fotskammel fra Ekornes gir et godt førsteinntrykk med sin komfort stil. Med dimensjoner på 54 × 40 × 42 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Stressless Mayfair fotskammel holder svært høy standard. Ekornes har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 5 990 kr får man et solid produkt som holder i mange år. Ekornes er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "ekornes-stressless-sam-recliner",
+    name: "Stressless Sam recliner",
+    brand: "Ekornes",
+    category: "stol",
+    description: "Stressless Sam recliner fra Ekornes er en moderne stol som passer perfekt i stue. Med dimensjoner på 83 × 78 × 107 cm er dette et premium valg. Finn de beste prisene på designinteriør.no.",
+    price: 28990,
+    image_url: "",
+    affiliate_url: "https://www.ekornes.no/stressless-sam-recliner",
+    style_tags: ["moderne","luksus"],
+    color_tags: ["mørk brun","skinn"],
+    room_tags: ["stue"],
+    dimensions: { width: 83, depth: 78, height: 107 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.6,
+    pros: ["Komfortabel i daglig bruk","Høy materialkvalitet","Tidløst design som ikke går av moten","Robust konstruksjon","Elegant og moderne utseende"],
+    cons: ["Prisen er i det øvre sjiktet","Leveringstiden kan være lang","Vedlikehold krever litt ekstra oppmerksomhet","Kan oppleves noe kompakt for større rom"],
+    review_summary: "Stressless Sam recliner fra Ekornes er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Stressless Sam recliner fra Ekornes gir et godt førsteinntrykk med sin moderne stil. Med dimensjoner på 83 × 78 × 107 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Stressless Sam recliner holder god standard. Ekornes har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. For prisen forventer man premium kvalitet, og dette produktet leverer."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 28 990 kr er dette en investering, men kvaliteten rettferdiggjør prisen. Ekornes er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "ekornes-stressless-fiona-2-seter",
+    name: "Stressless Fiona 2-seter",
+    brand: "Ekornes",
+    category: "sofa",
+    description: "Stressless Fiona 2-seter fra Ekornes er en elegant sofa som passer perfekt i stue. Med dimensjoner på 182 × 92 × 76 cm er dette et premium valg. Finn de beste prisene på designinteriør.no.",
+    price: 44990,
+    image_url: "",
+    affiliate_url: "https://www.ekornes.no/stressless-fiona-2-seter",
+    style_tags: ["elegant","komfort"],
+    color_tags: ["grå","skinn"],
+    room_tags: ["stue"],
+    dimensions: { width: 182, depth: 92, height: 76 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.2,
+    pros: ["Enkel montering med tydelig bruksanvisning","Solid byggekvalitet og gjennomtenkt design","Lett å vedlikeholde og rengjøre","Praktisk og funksjonell løsning","Allsidig — passer i flere rom"],
+    cons: ["Fraktkostnadene kan være høye","Prisen er i det øvre sjiktet","Kan oppleves noe kompakt for større rom"],
+    review_summary: "Stressless Fiona 2-seter fra Ekornes er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Stressless Fiona 2-seter fra Ekornes gir et godt førsteinntrykk med sin elegant stil. Med dimensjoner på 182 × 92 × 76 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Stressless Fiona 2-seter holder svært høy standard. Ekornes har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. For prisen forventer man premium kvalitet, og dette produktet leverer."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 44 990 kr er dette en investering, men kvaliteten rettferdiggjør prisen. Ekornes er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "ekornes-stressless-skyline-recliner",
+    name: "Stressless Skyline recliner",
+    brand: "Ekornes",
+    category: "stol",
+    description: "Stressless Skyline recliner fra Ekornes er en moderne stol som passer perfekt i stue. Med dimensjoner på 80 × 75 × 110 cm er dette et premium valg. Finn de beste prisene på designinteriør.no.",
+    price: 26990,
+    image_url: "",
+    affiliate_url: "https://www.ekornes.no/stressless-skyline-recliner",
+    style_tags: ["moderne","komfort"],
+    color_tags: ["blå","skinn"],
+    room_tags: ["stue"],
+    dimensions: { width: 80, depth: 75, height: 110 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.5,
+    pros: ["Lett å vedlikeholde og rengjøre","Komfortabel i daglig bruk","Premium finish og detaljer","Robust konstruksjon"],
+    cons: ["Leveringstiden kan være lang","Prisen er i det øvre sjiktet","Tung å flytte etter montering","Begrenset tilgjengelighet i alle butikker"],
+    review_summary: "Stressless Skyline recliner fra Ekornes er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Stressless Skyline recliner fra Ekornes gir et godt førsteinntrykk med sin moderne stil. Med dimensjoner på 80 × 75 × 110 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Stressless Skyline recliner holder svært høy standard. Ekornes har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. For prisen forventer man premium kvalitet, og dette produktet leverer."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 26 990 kr er dette en investering, men kvaliteten rettferdiggjør prisen. Ekornes er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "ekornes-stressless-sofabord-oval",
+    name: "Stressless Sofabord Oval",
+    brand: "Ekornes",
+    category: "bord",
+    description: "Stressless Sofabord Oval fra Ekornes er en skandinavisk bord som passer perfekt i stue. Med dimensjoner på 120 × 70 × 45 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 8990,
+    image_url: "",
+    affiliate_url: "https://www.ekornes.no/stressless-sofabord-oval",
+    style_tags: ["skandinavisk","elegant"],
+    color_tags: ["eik","natur"],
+    room_tags: ["stue"],
+    dimensions: { width: 120, depth: 70, height: 45 },
+    in_stock: true,
+    discount_code: "DESIGN20",
+    discount_percent: 20,
+    rating: 4.7,
+    pros: ["Passer godt i skandinaviske hjem","Svært god sittekomfort","Premium finish og detaljer","God verdi for pengene"],
+    cons: ["Fraktkostnadene kan være høye","Leveringstiden kan være lang","Begrenset fargevalg"],
+    review_summary: "Stressless Sofabord Oval fra Ekornes er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Stressless Sofabord Oval fra Ekornes gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 120 × 70 × 45 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Stressless Sofabord Oval holder svært høy standard. Ekornes har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 8 990 kr får man et solid produkt som holder i mange år. Ekornes er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "drommerom-royal-kontinentalseng-180",
+    name: "Royal kontinentalseng 180",
+    brand: "Drømmerom",
+    category: "seng",
+    description: "Royal kontinentalseng 180 fra Drømmerom er en luksus seng som passer perfekt i soverom. Med dimensjoner på 180 × 200 × 115 cm er dette et premium valg. Finn de beste prisene på designinteriør.no.",
+    price: 19990,
+    image_url: "",
+    affiliate_url: "https://www.drommerom.no/royal-kontinentalseng-180",
+    style_tags: ["luksus","klassisk"],
+    color_tags: ["grå"],
+    room_tags: ["soverom"],
+    dimensions: { width: 180, depth: 200, height: 115 },
+    in_stock: true,
+    discount_code: "DESIGN15",
+    discount_percent: 15,
+    rating: 3.5,
+    pros: ["Allsidig — passer i flere rom","Praktisk og funksjonell løsning","Tidløst design som ikke går av moten","Enkel montering med tydelig bruksanvisning"],
+    cons: ["Leveringstiden kan være lang","Kan oppleves noe kompakt for større rom","Vedlikehold krever litt ekstra oppmerksomhet","Tung å flytte etter montering"],
+    review_summary: "Royal kontinentalseng 180 fra Drømmerom er et solid valg for soverom. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Royal kontinentalseng 180 fra Drømmerom gir et godt førsteinntrykk med sin luksus stil. Med dimensjoner på 180 × 200 × 115 cm passer den godt i soveromn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Royal kontinentalseng 180 holder god standard. Drømmerom har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. For prisen forventer man premium kvalitet, og dette produktet leverer."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 19 990 kr er dette en investering, men kvaliteten rettferdiggjør prisen. Drømmerom er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "drommerom-cloud-madrass-pocket-150",
+    name: "Cloud madrass pocket 150",
+    brand: "Drømmerom",
+    category: "seng",
+    description: "Cloud madrass pocket 150 fra Drømmerom er en komfort seng som passer perfekt i soverom. Med dimensjoner på 150 × 200 × 25 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 7990,
+    image_url: "",
+    affiliate_url: "https://www.drommerom.no/cloud-madrass-pocket-150",
+    style_tags: ["komfort"],
+    color_tags: ["hvit"],
+    room_tags: ["soverom"],
+    dimensions: { width: 150, depth: 200, height: 25 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.7,
+    pros: ["Solid byggekvalitet og gjennomtenkt design","Premium finish og detaljer","Robust konstruksjon","Passer godt i skandinaviske hjem","Tidløst design som ikke går av moten"],
+    cons: ["Materialet kan vise slitasje over tid","Fraktkostnadene kan være høye","Begrenset tilgjengelighet i alle butikker"],
+    review_summary: "Cloud madrass pocket 150 fra Drømmerom er et solid valg for soverom. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Cloud madrass pocket 150 fra Drømmerom gir et godt førsteinntrykk med sin komfort stil. Med dimensjoner på 150 × 200 × 25 cm passer den godt i soveromn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Cloud madrass pocket 150 holder god standard. Drømmerom har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 7 990 kr får man et solid produkt som holder i mange år. Drømmerom er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "drommerom-nordic-rammeseng-eik",
+    name: "Nordic rammeseng eik",
+    brand: "Drømmerom",
+    category: "seng",
+    description: "Nordic rammeseng eik fra Drømmerom er en skandinavisk seng som passer perfekt i soverom. Med dimensjoner på 160 × 210 × 40 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 8990,
+    image_url: "",
+    affiliate_url: "https://www.drommerom.no/nordic-rammeseng-eik",
+    style_tags: ["skandinavisk"],
+    color_tags: ["eik","natur"],
+    room_tags: ["soverom"],
+    dimensions: { width: 160, depth: 210, height: 40 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 4.3,
+    pros: ["Solid byggekvalitet og gjennomtenkt design","Komfortabel i daglig bruk","Lett å vedlikeholde og rengjøre","Stilren og diskret"],
+    cons: ["Materialet kan vise slitasje over tid","Krever noe montering","Kan oppleves noe kompakt for større rom","Prisen er i det øvre sjiktet"],
+    review_summary: "Nordic rammeseng eik fra Drømmerom er et utmerket valg for soverom. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Nordic rammeseng eik fra Drømmerom gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 160 × 210 × 40 cm passer den godt i soveromn. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Nordic rammeseng eik holder svært høy standard. Drømmerom har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 8 990 kr får man et solid produkt som holder i mange år. Drømmerom er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "drommerom-elegant-sengegavl-polstret",
+    name: "Elegant sengegavl polstret",
+    brand: "Drømmerom",
+    category: "seng",
+    description: "Elegant sengegavl polstret fra Drømmerom er en moderne seng som passer perfekt i soverom. Med dimensjoner på 180 × 10 × 120 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 4990,
+    image_url: "",
+    affiliate_url: "https://www.drommerom.no/elegant-sengegavl-polstret",
+    style_tags: ["moderne","elegant"],
+    color_tags: ["beige"],
+    room_tags: ["soverom"],
+    dimensions: { width: 180, depth: 10, height: 120 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.6,
+    pros: ["Allsidig — passer i flere rom","Komfortabel i daglig bruk","Passer godt i skandinaviske hjem","Solid byggekvalitet og gjennomtenkt design"],
+    cons: ["Fraktkostnadene kan være høye","Materialet kan vise slitasje over tid","Begrenset tilgjengelighet i alle butikker","Tung å flytte etter montering"],
+    review_summary: "Elegant sengegavl polstret fra Drømmerom er et utmerket valg for soverom. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Elegant sengegavl polstret fra Drømmerom gir et godt førsteinntrykk med sin moderne stil. Med dimensjoner på 180 × 10 × 120 cm passer den godt i soveromn. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Elegant sengegavl polstret holder svært høy standard. Drømmerom har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 4 990 kr er dette et rimelig alternativ med god kvalitet. Drømmerom er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "drommerom-family-kontinentalseng-180",
+    name: "Family kontinentalseng 180",
+    brand: "Drømmerom",
+    category: "seng",
+    description: "Family kontinentalseng 180 fra Drømmerom er en komfort seng som passer perfekt i soverom. Med dimensjoner på 180 × 200 × 105 cm er dette et premium valg. Finn de beste prisene på designinteriør.no.",
+    price: 14990,
+    image_url: "",
+    affiliate_url: "https://www.drommerom.no/family-kontinentalseng-180",
+    style_tags: ["komfort","familie"],
+    color_tags: ["mørk grå"],
+    room_tags: ["soverom"],
+    dimensions: { width: 180, depth: 200, height: 105 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.5,
+    pros: ["Tidløst design som ikke går av moten","Praktisk og funksjonell løsning","Enkel montering med tydelig bruksanvisning","Solid byggekvalitet og gjennomtenkt design","Robust konstruksjon"],
+    cons: ["Fraktkostnadene kan være høye","Tung å flytte etter montering","Vedlikehold krever litt ekstra oppmerksomhet","Materialet kan vise slitasje over tid"],
+    review_summary: "Family kontinentalseng 180 fra Drømmerom er et solid valg for soverom. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Family kontinentalseng 180 fra Drømmerom gir et godt førsteinntrykk med sin komfort stil. Med dimensjoner på 180 × 200 × 105 cm passer den godt i soveromn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Family kontinentalseng 180 holder god standard. Drømmerom har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. For prisen forventer man premium kvalitet, og dette produktet leverer."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 14 990 kr får man et solid produkt som holder i mange år. Drømmerom er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "drommerom-dream-nattbord-2-pk",
+    name: "Dream nattbord 2-pk",
+    brand: "Drømmerom",
+    category: "bord",
+    description: "Dream nattbord 2-pk fra Drømmerom er en moderne bord som passer perfekt i soverom. Med dimensjoner på 50 × 40 × 55 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 3990,
+    image_url: "",
+    affiliate_url: "https://www.drommerom.no/dream-nattbord-2-pk",
+    style_tags: ["moderne"],
+    color_tags: ["hvit","eik"],
+    room_tags: ["soverom"],
+    dimensions: { width: 50, depth: 40, height: 55 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.3,
+    pros: ["Tidløst design som ikke går av moten","Solid byggekvalitet og gjennomtenkt design","Lett å vedlikeholde og rengjøre","Høy materialkvalitet","Robust konstruksjon"],
+    cons: ["Kan oppleves noe kompakt for større rom","Krever noe montering","Begrenset fargevalg"],
+    review_summary: "Dream nattbord 2-pk fra Drømmerom er et utmerket valg for soverom. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Dream nattbord 2-pk fra Drømmerom gir et godt førsteinntrykk med sin moderne stil. Med dimensjoner på 50 × 40 × 55 cm passer den godt i soveromn. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Dream nattbord 2-pk holder svært høy standard. Drømmerom har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 3 990 kr er dette et rimelig alternativ med god kvalitet. Drømmerom er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "drommerom-harmony-kommode-bred",
+    name: "Harmony kommode bred",
+    brand: "Drømmerom",
+    category: "kommode",
+    description: "Harmony kommode bred fra Drømmerom er en skandinavisk kommode som passer perfekt i soverom. Med dimensjoner på 120 × 45 × 80 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 6990,
+    image_url: "",
+    affiliate_url: "https://www.drommerom.no/harmony-kommode-bred",
+    style_tags: ["skandinavisk"],
+    color_tags: ["hvit"],
+    room_tags: ["soverom"],
+    dimensions: { width: 120, depth: 45, height: 80 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.3,
+    pros: ["Svært god sittekomfort","Premium finish og detaljer","Passer godt i skandinaviske hjem","Komfortabel i daglig bruk"],
+    cons: ["Vedlikehold krever litt ekstra oppmerksomhet","Krever noe montering","Prisen er i det øvre sjiktet","Begrenset fargevalg"],
+    review_summary: "Harmony kommode bred fra Drømmerom er et solid valg for soverom. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Harmony kommode bred fra Drømmerom gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 120 × 45 × 80 cm passer den godt i soveromn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Harmony kommode bred holder god standard. Drømmerom har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 6 990 kr får man et solid produkt som holder i mange år. Drømmerom er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "drommerom-cloud-topper-latex",
+    name: "Cloud topper latex",
+    brand: "Drømmerom",
+    category: "seng",
+    description: "Cloud topper latex fra Drømmerom er en komfort seng som passer perfekt i soverom. Med dimensjoner på 180 × 200 × 7 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 4490,
+    image_url: "",
+    affiliate_url: "https://www.drommerom.no/cloud-topper-latex",
+    style_tags: ["komfort"],
+    color_tags: ["hvit"],
+    room_tags: ["soverom"],
+    dimensions: { width: 180, depth: 200, height: 7 },
+    in_stock: true,
+    discount_code: "DESIGN20",
+    discount_percent: 20,
+    rating: 3.5,
+    pros: ["Stilren og diskret","Robust konstruksjon","Høy materialkvalitet","Tidløst design som ikke går av moten"],
+    cons: ["Leveringstiden kan være lang","Fraktkostnadene kan være høye","Begrenset fargevalg"],
+    review_summary: "Cloud topper latex fra Drømmerom er et solid valg for soverom. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Cloud topper latex fra Drømmerom gir et godt førsteinntrykk med sin komfort stil. Med dimensjoner på 180 × 200 × 7 cm passer den godt i soveromn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Cloud topper latex holder god standard. Drømmerom har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 4 490 kr er dette et rimelig alternativ med god kvalitet. Drømmerom er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "drommerom-zen-rammeseng-sort",
+    name: "Zen rammeseng sort",
+    brand: "Drømmerom",
+    category: "seng",
+    description: "Zen rammeseng sort fra Drømmerom er en moderne seng som passer perfekt i soverom. Med dimensjoner på 160 × 210 × 35 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 6990,
+    image_url: "",
+    affiliate_url: "https://www.drommerom.no/zen-rammeseng-sort",
+    style_tags: ["moderne","minimalistisk"],
+    color_tags: ["sort"],
+    room_tags: ["soverom"],
+    dimensions: { width: 160, depth: 210, height: 35 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.4,
+    pros: ["Solid byggekvalitet og gjennomtenkt design","Elegant og moderne utseende","Høy materialkvalitet","Tidløst design som ikke går av moten","Lett å vedlikeholde og rengjøre"],
+    cons: ["Tung å flytte etter montering","Krever noe montering","Vedlikehold krever litt ekstra oppmerksomhet"],
+    review_summary: "Zen rammeseng sort fra Drømmerom er et utmerket valg for soverom. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Zen rammeseng sort fra Drømmerom gir et godt førsteinntrykk med sin moderne stil. Med dimensjoner på 160 × 210 × 35 cm passer den godt i soveromn. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Zen rammeseng sort holder svært høy standard. Drømmerom har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 6 990 kr får man et solid produkt som holder i mange år. Drømmerom er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "drommerom-classic-kommode-smal",
+    name: "Classic kommode smal",
+    brand: "Drømmerom",
+    category: "kommode",
+    description: "Classic kommode smal fra Drømmerom er en klassisk kommode som passer perfekt i soverom. Med dimensjoner på 60 × 40 × 100 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 4490,
+    image_url: "",
+    affiliate_url: "https://www.drommerom.no/classic-kommode-smal",
+    style_tags: ["klassisk"],
+    color_tags: ["hvit","eik"],
+    room_tags: ["soverom"],
+    dimensions: { width: 60, depth: 40, height: 100 },
+    in_stock: true,
+    discount_code: "DESIGN20",
+    discount_percent: 20,
+    rating: 3.3,
+    pros: ["Enkel montering med tydelig bruksanvisning","Solid byggekvalitet og gjennomtenkt design","Praktisk og funksjonell løsning","Stilren og diskret","God verdi for pengene"],
+    cons: ["Materialet kan vise slitasje over tid","Krever noe montering","Tung å flytte etter montering","Begrenset tilgjengelighet i alle butikker"],
+    review_summary: "Classic kommode smal fra Drømmerom er et solid valg for soverom. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Classic kommode smal fra Drømmerom gir et godt førsteinntrykk med sin klassisk stil. Med dimensjoner på 60 × 40 × 100 cm passer den godt i soveromn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Classic kommode smal holder god standard. Drømmerom har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 4 490 kr er dette et rimelig alternativ med god kvalitet. Drømmerom er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "drommerom-dream-madrass-hybrid",
+    name: "Dream madrass hybrid",
+    brand: "Drømmerom",
+    category: "seng",
+    description: "Dream madrass hybrid fra Drømmerom er en premium seng som passer perfekt i soverom. Med dimensjoner på 180 × 200 × 28 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 9990,
+    image_url: "",
+    affiliate_url: "https://www.drommerom.no/dream-madrass-hybrid",
+    style_tags: ["premium","komfort"],
+    color_tags: ["hvit"],
+    room_tags: ["soverom"],
+    dimensions: { width: 180, depth: 200, height: 28 },
+    in_stock: true,
+    discount_code: "DESIGN15",
+    discount_percent: 15,
+    rating: 4.6,
+    pros: ["Enkel montering med tydelig bruksanvisning","Praktisk og funksjonell løsning","Allsidig — passer i flere rom","Høy materialkvalitet"],
+    cons: ["Kan oppleves noe kompakt for større rom","Leveringstiden kan være lang","Begrenset tilgjengelighet i alle butikker"],
+    review_summary: "Dream madrass hybrid fra Drømmerom er et utmerket valg for soverom. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Dream madrass hybrid fra Drømmerom gir et godt førsteinntrykk med sin premium stil. Med dimensjoner på 180 × 200 × 28 cm passer den godt i soveromn. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Dream madrass hybrid holder svært høy standard. Drømmerom har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 9 990 kr får man et solid produkt som holder i mange år. Drømmerom er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "drommerom-lux-sengegavl-floyel",
+    name: "Lux sengegavl fløyel",
+    brand: "Drømmerom",
+    category: "seng",
+    description: "Lux sengegavl fløyel fra Drømmerom er en luksus seng som passer perfekt i soverom. Med dimensjoner på 180 × 12 × 130 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 5990,
+    image_url: "",
+    affiliate_url: "https://www.drommerom.no/lux-sengegavl-fløyel",
+    style_tags: ["luksus","elegant"],
+    color_tags: ["grønn"],
+    room_tags: ["soverom"],
+    dimensions: { width: 180, depth: 12, height: 130 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 3.9,
+    pros: ["Høy materialkvalitet","Solid byggekvalitet og gjennomtenkt design","Praktisk og funksjonell løsning","Premium finish og detaljer","Stilren og diskret"],
+    cons: ["Kan oppleves noe kompakt for større rom","Begrenset fargevalg","Fraktkostnadene kan være høye","Materialet kan vise slitasje over tid"],
+    review_summary: "Lux sengegavl fløyel fra Drømmerom er et solid valg for soverom. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Lux sengegavl fløyel fra Drømmerom gir et godt førsteinntrykk med sin luksus stil. Med dimensjoner på 180 × 12 × 130 cm passer den godt i soveromn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Lux sengegavl fløyel holder god standard. Drømmerom har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 5 990 kr får man et solid produkt som holder i mange år. Drømmerom er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "drommerom-simple-nattbord-eik",
+    name: "Simple nattbord eik",
+    brand: "Drømmerom",
+    category: "bord",
+    description: "Simple nattbord eik fra Drømmerom er en skandinavisk bord som passer perfekt i soverom. Med dimensjoner på 45 × 38 × 50 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 2490,
+    image_url: "",
+    affiliate_url: "https://www.drommerom.no/simple-nattbord-eik",
+    style_tags: ["skandinavisk","minimalistisk"],
+    color_tags: ["eik"],
+    room_tags: ["soverom"],
+    dimensions: { width: 45, depth: 38, height: 50 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.8,
+    pros: ["Praktisk og funksjonell løsning","Svært god sittekomfort","Elegant og moderne utseende","Tidløst design som ikke går av moten","Lett å vedlikeholde og rengjøre"],
+    cons: ["Kan oppleves noe kompakt for større rom","Leveringstiden kan være lang","Begrenset tilgjengelighet i alle butikker"],
+    review_summary: "Simple nattbord eik fra Drømmerom er et solid valg for soverom. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Simple nattbord eik fra Drømmerom gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 45 × 38 × 50 cm passer den godt i soveromn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Simple nattbord eik holder god standard. Drømmerom har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 2 490 kr er dette et rimelig alternativ med god kvalitet. Drømmerom er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "drommerom-junior-seng-90x200",
+    name: "Junior seng 90x200",
+    brand: "Drømmerom",
+    category: "seng",
+    description: "Junior seng 90x200 fra Drømmerom er en funksjonell seng som passer perfekt i barnerom. Med dimensjoner på 90 × 200 × 35 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 4990,
+    image_url: "",
+    affiliate_url: "https://www.drommerom.no/junior-seng-90x200",
+    style_tags: ["funksjonell"],
+    color_tags: ["hvit"],
+    room_tags: ["barnerom"],
+    dimensions: { width: 90, depth: 200, height: 35 },
+    in_stock: true,
+    discount_code: "DESIGN15",
+    discount_percent: 15,
+    rating: 4.7,
+    pros: ["Komfortabel i daglig bruk","Allsidig — passer i flere rom","Solid byggekvalitet og gjennomtenkt design","Passer godt i skandinaviske hjem","Stilren og diskret"],
+    cons: ["Begrenset fargevalg","Kan oppleves noe kompakt for større rom","Leveringstiden kan være lang"],
+    review_summary: "Junior seng 90x200 fra Drømmerom er et utmerket valg for barnerom. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Junior seng 90x200 fra Drømmerom gir et godt førsteinntrykk med sin funksjonell stil. Med dimensjoner på 90 × 200 × 35 cm passer den godt i barneromn. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Junior seng 90x200 holder svært høy standard. Drømmerom har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 4 990 kr er dette et rimelig alternativ med god kvalitet. Drømmerom er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "drommerom-comfort-justerbar-seng",
+    name: "Comfort justerbar seng",
+    brand: "Drømmerom",
+    category: "seng",
+    description: "Comfort justerbar seng fra Drømmerom er en ergonomisk seng som passer perfekt i soverom. Med dimensjoner på 180 × 200 × 50 cm er dette et premium valg. Finn de beste prisene på designinteriør.no.",
+    price: 24990,
+    image_url: "",
+    affiliate_url: "https://www.drommerom.no/comfort-justerbar-seng",
+    style_tags: ["ergonomisk","luksus"],
+    color_tags: ["grå"],
+    room_tags: ["soverom"],
+    dimensions: { width: 180, depth: 200, height: 50 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.3,
+    pros: ["Solid byggekvalitet og gjennomtenkt design","God verdi for pengene","Lett å vedlikeholde og rengjøre","Praktisk og funksjonell løsning"],
+    cons: ["Prisen er i det øvre sjiktet","Begrenset fargevalg","Fraktkostnadene kan være høye","Begrenset tilgjengelighet i alle butikker"],
+    review_summary: "Comfort justerbar seng fra Drømmerom er et solid valg for soverom. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Comfort justerbar seng fra Drømmerom gir et godt førsteinntrykk med sin ergonomisk stil. Med dimensjoner på 180 × 200 × 50 cm passer den godt i soveromn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Comfort justerbar seng holder god standard. Drømmerom har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. For prisen forventer man premium kvalitet, og dette produktet leverer."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 24 990 kr er dette en investering, men kvaliteten rettferdiggjør prisen. Drømmerom er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "fagmobler-bergen-3-seter-sofa",
+    name: "Bergen 3-seter sofa",
+    brand: "Fagmøbler",
+    category: "sofa",
+    description: "Bergen 3-seter sofa fra Fagmøbler er en skandinavisk sofa som passer perfekt i stue. Med dimensjoner på 220 × 92 × 82 cm er dette et premium valg. Finn de beste prisene på designinteriør.no.",
+    price: 12990,
+    image_url: "",
+    affiliate_url: "https://www.fagmobler.no/bergen-3-seter-sofa",
+    style_tags: ["skandinavisk","komfort"],
+    color_tags: ["grå"],
+    room_tags: ["stue"],
+    dimensions: { width: 220, depth: 92, height: 82 },
+    in_stock: true,
+    discount_code: "DESIGN20",
+    discount_percent: 20,
+    rating: 4.1,
+    pros: ["God verdi for pengene","Praktisk og funksjonell løsning","Passer godt i skandinaviske hjem","Svært god sittekomfort","Lett å vedlikeholde og rengjøre"],
+    cons: ["Krever noe montering","Tung å flytte etter montering","Fraktkostnadene kan være høye","Begrenset fargevalg"],
+    review_summary: "Bergen 3-seter sofa fra Fagmøbler er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Bergen 3-seter sofa fra Fagmøbler gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 220 × 92 × 82 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Bergen 3-seter sofa holder svært høy standard. Fagmøbler har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. For prisen forventer man premium kvalitet, og dette produktet leverer."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 12 990 kr får man et solid produkt som holder i mange år. Fagmøbler er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "fagmobler-trondheim-spisebord",
+    name: "Trondheim spisebord",
+    brand: "Fagmøbler",
+    category: "bord",
+    description: "Trondheim spisebord fra Fagmøbler er en skandinavisk bord som passer perfekt i spisestue. Med dimensjoner på 180 × 90 × 75 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 9990,
+    image_url: "",
+    affiliate_url: "https://www.fagmobler.no/trondheim-spisebord",
+    style_tags: ["skandinavisk","rustikk"],
+    color_tags: ["eik","natur"],
+    room_tags: ["spisestue"],
+    dimensions: { width: 180, depth: 90, height: 75 },
+    in_stock: true,
+    discount_code: "DESIGN20",
+    discount_percent: 20,
+    rating: 3.5,
+    pros: ["Enkel montering med tydelig bruksanvisning","Robust konstruksjon","Passer godt i skandinaviske hjem","Allsidig — passer i flere rom","Solid byggekvalitet og gjennomtenkt design"],
+    cons: ["Fraktkostnadene kan være høye","Materialet kan vise slitasje over tid","Kan oppleves noe kompakt for større rom","Prisen er i det øvre sjiktet"],
+    review_summary: "Trondheim spisebord fra Fagmøbler er et solid valg for spisestue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Trondheim spisebord fra Fagmøbler gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 180 × 90 × 75 cm passer den godt i spisestuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Trondheim spisebord holder god standard. Fagmøbler har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 9 990 kr får man et solid produkt som holder i mange år. Fagmøbler er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "fagmobler-stavanger-spisestol",
+    name: "Stavanger spisestol",
+    brand: "Fagmøbler",
+    category: "stol",
+    description: "Stavanger spisestol fra Fagmøbler er en skandinavisk stol som passer perfekt i spisestue. Med dimensjoner på 48 × 56 × 84 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 2490,
+    image_url: "",
+    affiliate_url: "https://www.fagmobler.no/stavanger-spisestol",
+    style_tags: ["skandinavisk"],
+    color_tags: ["hvit","eik"],
+    room_tags: ["spisestue"],
+    dimensions: { width: 48, depth: 56, height: 84 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.5,
+    pros: ["Tidløst design som ikke går av moten","Allsidig — passer i flere rom","Høy materialkvalitet","God verdi for pengene"],
+    cons: ["Fraktkostnadene kan være høye","Materialet kan vise slitasje over tid","Kan oppleves noe kompakt for større rom","Leveringstiden kan være lang"],
+    review_summary: "Stavanger spisestol fra Fagmøbler er et utmerket valg for spisestue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Stavanger spisestol fra Fagmøbler gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 48 × 56 × 84 cm passer den godt i spisestuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Stavanger spisestol holder svært høy standard. Fagmøbler har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 2 490 kr er dette et rimelig alternativ med god kvalitet. Fagmøbler er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "fagmobler-kristiansand-bokhylle",
+    name: "Kristiansand bokhylle",
+    brand: "Fagmøbler",
+    category: "hylle",
+    description: "Kristiansand bokhylle fra Fagmøbler er en klassisk hylle som passer perfekt i stue. Med dimensjoner på 100 × 35 × 200 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 6990,
+    image_url: "",
+    affiliate_url: "https://www.fagmobler.no/kristiansand-bokhylle",
+    style_tags: ["klassisk"],
+    color_tags: ["hvit"],
+    room_tags: ["stue","kontor"],
+    dimensions: { width: 100, depth: 35, height: 200 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.1,
+    pros: ["Elegant og moderne utseende","Enkel montering med tydelig bruksanvisning","Praktisk og funksjonell løsning","Tidløst design som ikke går av moten","God verdi for pengene"],
+    cons: ["Leveringstiden kan være lang","Tung å flytte etter montering","Kan oppleves noe kompakt for større rom","Begrenset tilgjengelighet i alle butikker"],
+    review_summary: "Kristiansand bokhylle fra Fagmøbler er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Kristiansand bokhylle fra Fagmøbler gir et godt førsteinntrykk med sin klassisk stil. Med dimensjoner på 100 × 35 × 200 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Kristiansand bokhylle holder svært høy standard. Fagmøbler har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 6 990 kr får man et solid produkt som holder i mange år. Fagmøbler er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "fagmobler-alesund-tv-benk",
+    name: "Ålesund TV-benk",
+    brand: "Fagmøbler",
+    category: "kommode",
+    description: "Ålesund TV-benk fra Fagmøbler er en moderne kommode som passer perfekt i stue. Med dimensjoner på 160 × 42 × 50 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 5490,
+    image_url: "",
+    affiliate_url: "https://www.fagmobler.no/ålesund-tv-benk",
+    style_tags: ["moderne"],
+    color_tags: ["eik","hvit"],
+    room_tags: ["stue"],
+    dimensions: { width: 160, depth: 42, height: 50 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.3,
+    pros: ["Solid byggekvalitet og gjennomtenkt design","Passer godt i skandinaviske hjem","God verdi for pengene","Robust konstruksjon"],
+    cons: ["Prisen er i det øvre sjiktet","Leveringstiden kan være lang","Tung å flytte etter montering","Vedlikehold krever litt ekstra oppmerksomhet"],
+    review_summary: "Ålesund TV-benk fra Fagmøbler er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Ålesund TV-benk fra Fagmøbler gir et godt førsteinntrykk med sin moderne stil. Med dimensjoner på 160 × 42 × 50 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Ålesund TV-benk holder svært høy standard. Fagmøbler har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 5 490 kr får man et solid produkt som holder i mange år. Fagmøbler er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "fagmobler-drammen-hjornesofa",
+    name: "Drammen hjørnesofa",
+    brand: "Fagmøbler",
+    category: "sofa",
+    description: "Drammen hjørnesofa fra Fagmøbler er en moderne sofa som passer perfekt i stue. Med dimensjoner på 270 × 200 × 85 cm er dette et premium valg. Finn de beste prisene på designinteriør.no.",
+    price: 19990,
+    image_url: "",
+    affiliate_url: "https://www.fagmobler.no/drammen-hjørnesofa",
+    style_tags: ["moderne","komfort"],
+    color_tags: ["mørk grå"],
+    room_tags: ["stue"],
+    dimensions: { width: 270, depth: 200, height: 85 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.5,
+    pros: ["Tidløst design som ikke går av moten","Høy materialkvalitet","Premium finish og detaljer","Komfortabel i daglig bruk"],
+    cons: ["Leveringstiden kan være lang","Begrenset fargevalg","Prisen er i det øvre sjiktet","Kan oppleves noe kompakt for større rom"],
+    review_summary: "Drammen hjørnesofa fra Fagmøbler er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Drammen hjørnesofa fra Fagmøbler gir et godt førsteinntrykk med sin moderne stil. Med dimensjoner på 270 × 200 × 85 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Drammen hjørnesofa holder god standard. Fagmøbler har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. For prisen forventer man premium kvalitet, og dette produktet leverer."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 19 990 kr er dette en investering, men kvaliteten rettferdiggjør prisen. Fagmøbler er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "fagmobler-tromso-lenestol",
+    name: "Tromsø lenestol",
+    brand: "Fagmøbler",
+    category: "stol",
+    description: "Tromsø lenestol fra Fagmøbler er en skandinavisk stol som passer perfekt i stue. Med dimensjoner på 72 × 78 × 90 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 5990,
+    image_url: "",
+    affiliate_url: "https://www.fagmobler.no/tromsø-lenestol",
+    style_tags: ["skandinavisk","koselig"],
+    color_tags: ["grønn"],
+    room_tags: ["stue"],
+    dimensions: { width: 72, depth: 78, height: 90 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.7,
+    pros: ["Svært god sittekomfort","Lett å vedlikeholde og rengjøre","Solid byggekvalitet og gjennomtenkt design","Passer godt i skandinaviske hjem"],
+    cons: ["Leveringstiden kan være lang","Begrenset fargevalg","Vedlikehold krever litt ekstra oppmerksomhet","Kan oppleves noe kompakt for større rom"],
+    review_summary: "Tromsø lenestol fra Fagmøbler er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Tromsø lenestol fra Fagmøbler gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 72 × 78 × 90 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Tromsø lenestol holder svært høy standard. Fagmøbler har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 5 990 kr får man et solid produkt som holder i mange år. Fagmøbler er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "fagmobler-hamar-sofabord-oval",
+    name: "Hamar sofabord oval",
+    brand: "Fagmøbler",
+    category: "bord",
+    description: "Hamar sofabord oval fra Fagmøbler er en skandinavisk bord som passer perfekt i stue. Med dimensjoner på 110 × 65 × 42 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 4990,
+    image_url: "",
+    affiliate_url: "https://www.fagmobler.no/hamar-sofabord-oval",
+    style_tags: ["skandinavisk"],
+    color_tags: ["eik"],
+    room_tags: ["stue"],
+    dimensions: { width: 110, depth: 65, height: 42 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.6,
+    pros: ["Tidløst design som ikke går av moten","Stilren og diskret","Komfortabel i daglig bruk","Høy materialkvalitet"],
+    cons: ["Prisen er i det øvre sjiktet","Kan oppleves noe kompakt for større rom","Materialet kan vise slitasje over tid","Krever noe montering"],
+    review_summary: "Hamar sofabord oval fra Fagmøbler er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Hamar sofabord oval fra Fagmøbler gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 110 × 65 × 42 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Hamar sofabord oval holder god standard. Fagmøbler har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 4 990 kr er dette et rimelig alternativ med god kvalitet. Fagmøbler er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "fagmobler-fredrikstad-modulreol",
+    name: "Fredrikstad modulreol",
+    brand: "Fagmøbler",
+    category: "hylle",
+    description: "Fredrikstad modulreol fra Fagmøbler er en moderne hylle som passer perfekt i stue. Med dimensjoner på 160 × 35 × 180 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 8990,
+    image_url: "",
+    affiliate_url: "https://www.fagmobler.no/fredrikstad-modulreol",
+    style_tags: ["moderne","funksjonell"],
+    color_tags: ["hvit","eik"],
+    room_tags: ["stue","kontor"],
+    dimensions: { width: 160, depth: 35, height: 180 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.4,
+    pros: ["Tidløst design som ikke går av moten","Lett å vedlikeholde og rengjøre","Svært god sittekomfort","Komfortabel i daglig bruk","Premium finish og detaljer"],
+    cons: ["Begrenset tilgjengelighet i alle butikker","Fraktkostnadene kan være høye","Tung å flytte etter montering"],
+    review_summary: "Fredrikstad modulreol fra Fagmøbler er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Fredrikstad modulreol fra Fagmøbler gir et godt førsteinntrykk med sin moderne stil. Med dimensjoner på 160 × 35 × 180 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Fredrikstad modulreol holder god standard. Fagmøbler har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 8 990 kr får man et solid produkt som holder i mange år. Fagmøbler er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "fagmobler-lillehammer-sovesofa",
+    name: "Lillehammer sovesofa",
+    brand: "Fagmøbler",
+    category: "sofa",
+    description: "Lillehammer sovesofa fra Fagmøbler er en funksjonell sofa som passer perfekt i stue. Med dimensjoner på 200 × 90 × 82 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 8990,
+    image_url: "",
+    affiliate_url: "https://www.fagmobler.no/lillehammer-sovesofa",
+    style_tags: ["funksjonell","kompakt"],
+    color_tags: ["blå"],
+    room_tags: ["stue","gjesterom"],
+    dimensions: { width: 200, depth: 90, height: 82 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4,
+    pros: ["God verdi for pengene","Enkel montering med tydelig bruksanvisning","Passer godt i skandinaviske hjem","Høy materialkvalitet"],
+    cons: ["Begrenset fargevalg","Prisen er i det øvre sjiktet","Tung å flytte etter montering","Fraktkostnadene kan være høye"],
+    review_summary: "Lillehammer sovesofa fra Fagmøbler er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Lillehammer sovesofa fra Fagmøbler gir et godt førsteinntrykk med sin funksjonell stil. Med dimensjoner på 200 × 90 × 82 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Lillehammer sovesofa holder svært høy standard. Fagmøbler har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 8 990 kr får man et solid produkt som holder i mange år. Fagmøbler er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "fagmobler-sandefjord-skjenk",
+    name: "Sandefjord skjenk",
+    brand: "Fagmøbler",
+    category: "kommode",
+    description: "Sandefjord skjenk fra Fagmøbler er en skandinavisk kommode som passer perfekt i stue. Med dimensjoner på 150 × 42 × 80 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 7990,
+    image_url: "",
+    affiliate_url: "https://www.fagmobler.no/sandefjord-skjenk",
+    style_tags: ["skandinavisk"],
+    color_tags: ["eik","hvit"],
+    room_tags: ["stue","spisestue"],
+    dimensions: { width: 150, depth: 42, height: 80 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.6,
+    pros: ["Høy materialkvalitet","Robust konstruksjon","Svært god sittekomfort","Enkel montering med tydelig bruksanvisning"],
+    cons: ["Krever noe montering","Prisen er i det øvre sjiktet","Materialet kan vise slitasje over tid"],
+    review_summary: "Sandefjord skjenk fra Fagmøbler er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Sandefjord skjenk fra Fagmøbler gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 150 × 42 × 80 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Sandefjord skjenk holder god standard. Fagmøbler har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 7 990 kr får man et solid produkt som holder i mange år. Fagmøbler er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "fagmobler-bodo-spisestol-polstret",
+    name: "Bodø spisestol polstret",
+    brand: "Fagmøbler",
+    category: "stol",
+    description: "Bodø spisestol polstret fra Fagmøbler er en moderne stol som passer perfekt i spisestue. Med dimensjoner på 50 × 58 × 86 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 3490,
+    image_url: "",
+    affiliate_url: "https://www.fagmobler.no/bodø-spisestol-polstret",
+    style_tags: ["moderne","komfort"],
+    color_tags: ["grå","eik"],
+    room_tags: ["spisestue"],
+    dimensions: { width: 50, depth: 58, height: 86 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 4.7,
+    pros: ["Premium finish og detaljer","God verdi for pengene","Svært god sittekomfort","Høy materialkvalitet","Solid byggekvalitet og gjennomtenkt design"],
+    cons: ["Materialet kan vise slitasje over tid","Prisen er i det øvre sjiktet","Tung å flytte etter montering"],
+    review_summary: "Bodø spisestol polstret fra Fagmøbler er et utmerket valg for spisestue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Bodø spisestol polstret fra Fagmøbler gir et godt førsteinntrykk med sin moderne stil. Med dimensjoner på 50 × 58 × 86 cm passer den godt i spisestuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Bodø spisestol polstret holder svært høy standard. Fagmøbler har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 3 490 kr er dette et rimelig alternativ med god kvalitet. Fagmøbler er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "fagmobler-molde-uttrekksbord",
+    name: "Molde uttrekksbord",
+    brand: "Fagmøbler",
+    category: "bord",
+    description: "Molde uttrekksbord fra Fagmøbler er en funksjonell bord som passer perfekt i spisestue. Med dimensjoner på 160 × 90 × 75 cm er dette et premium valg. Finn de beste prisene på designinteriør.no.",
+    price: 11990,
+    image_url: "",
+    affiliate_url: "https://www.fagmobler.no/molde-uttrekksbord",
+    style_tags: ["funksjonell","skandinavisk"],
+    color_tags: ["hvit"],
+    room_tags: ["spisestue"],
+    dimensions: { width: 160, depth: 90, height: 75 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.2,
+    pros: ["Premium finish og detaljer","Elegant og moderne utseende","Solid byggekvalitet og gjennomtenkt design","Praktisk og funksjonell løsning","Allsidig — passer i flere rom"],
+    cons: ["Leveringstiden kan være lang","Begrenset fargevalg","Fraktkostnadene kan være høye"],
+    review_summary: "Molde uttrekksbord fra Fagmøbler er et utmerket valg for spisestue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Molde uttrekksbord fra Fagmøbler gir et godt førsteinntrykk med sin funksjonell stil. Med dimensjoner på 160 × 90 × 75 cm passer den godt i spisestuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Molde uttrekksbord holder svært høy standard. Fagmøbler har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. For prisen forventer man premium kvalitet, og dette produktet leverer."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 11 990 kr får man et solid produkt som holder i mange år. Fagmøbler er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "fagmobler-narvik-kommode-6-skuffer",
+    name: "Narvik kommode 6 skuffer",
+    brand: "Fagmøbler",
+    category: "kommode",
+    description: "Narvik kommode 6 skuffer fra Fagmøbler er en skandinavisk kommode som passer perfekt i soverom. Med dimensjoner på 100 × 45 × 80 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 5990,
+    image_url: "",
+    affiliate_url: "https://www.fagmobler.no/narvik-kommode-6-skuffer",
+    style_tags: ["skandinavisk"],
+    color_tags: ["hvit"],
+    room_tags: ["soverom"],
+    dimensions: { width: 100, depth: 45, height: 80 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4,
+    pros: ["Lett å vedlikeholde og rengjøre","Premium finish og detaljer","Elegant og moderne utseende","Solid byggekvalitet og gjennomtenkt design"],
+    cons: ["Tung å flytte etter montering","Begrenset tilgjengelighet i alle butikker","Begrenset fargevalg","Leveringstiden kan være lang"],
+    review_summary: "Narvik kommode 6 skuffer fra Fagmøbler er et utmerket valg for soverom. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Narvik kommode 6 skuffer fra Fagmøbler gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 100 × 45 × 80 cm passer den godt i soveromn. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Narvik kommode 6 skuffer holder svært høy standard. Fagmøbler har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 5 990 kr får man et solid produkt som holder i mange år. Fagmøbler er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "fagmobler-tonsberg-vitrine",
+    name: "Tønsberg vitrine",
+    brand: "Fagmøbler",
+    category: "hylle",
+    description: "Tønsberg vitrine fra Fagmøbler er en klassisk hylle som passer perfekt i stue. Med dimensjoner på 90 × 40 × 180 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 7490,
+    image_url: "",
+    affiliate_url: "https://www.fagmobler.no/tønsberg-vitrine",
+    style_tags: ["klassisk","elegant"],
+    color_tags: ["hvit","glass"],
+    room_tags: ["stue","spisestue"],
+    dimensions: { width: 90, depth: 40, height: 180 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.3,
+    pros: ["Høy materialkvalitet","God verdi for pengene","Lett å vedlikeholde og rengjøre","Premium finish og detaljer"],
+    cons: ["Prisen er i det øvre sjiktet","Krever noe montering","Tung å flytte etter montering"],
+    review_summary: "Tønsberg vitrine fra Fagmøbler er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Tønsberg vitrine fra Fagmøbler gir et godt førsteinntrykk med sin klassisk stil. Med dimensjoner på 90 × 40 × 180 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Tønsberg vitrine holder god standard. Fagmøbler har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 7 490 kr får man et solid produkt som holder i mange år. Fagmøbler er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "ikea-friheten-sovesofa",
+    name: "FRIHETEN sovesofa",
+    brand: "IKEA",
+    category: "sofa",
+    description: "FRIHETEN sovesofa fra IKEA er en funksjonell sofa som passer perfekt i stue. Med dimensjoner på 230 × 105 × 83 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 5495,
+    image_url: "",
+    affiliate_url: "https://www.ikea.com/no/friheten-sovesofa",
+    style_tags: ["funksjonell","moderne"],
+    color_tags: ["grå"],
+    room_tags: ["stue","gjesterom"],
+    dimensions: { width: 230, depth: 105, height: 83 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.3,
+    pros: ["Komfortabel i daglig bruk","Stilren og diskret","Svært god sittekomfort","Høy materialkvalitet","Lett å vedlikeholde og rengjøre"],
+    cons: ["Krever noe montering","Leveringstiden kan være lang","Prisen er i det øvre sjiktet","Begrenset fargevalg"],
+    review_summary: "FRIHETEN sovesofa fra IKEA er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "FRIHETEN sovesofa fra IKEA gir et godt førsteinntrykk med sin funksjonell stil. Med dimensjoner på 230 × 105 × 83 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på FRIHETEN sovesofa holder svært høy standard. IKEA har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 5 495 kr får man et solid produkt som holder i mange år. IKEA er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "ikea-landskrona-3-seter-sofa",
+    name: "LANDSKRONA 3-seter sofa",
+    brand: "IKEA",
+    category: "sofa",
+    description: "LANDSKRONA 3-seter sofa fra IKEA er en moderne sofa som passer perfekt i stue. Med dimensjoner på 204 × 89 × 78 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 7999,
+    image_url: "",
+    affiliate_url: "https://www.ikea.com/no/landskrona-3-seter-sofa",
+    style_tags: ["moderne"],
+    color_tags: ["grønn"],
+    room_tags: ["stue"],
+    dimensions: { width: 204, depth: 89, height: 78 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 4.8,
+    pros: ["Høy materialkvalitet","Solid byggekvalitet og gjennomtenkt design","Stilren og diskret","Tidløst design som ikke går av moten","Lett å vedlikeholde og rengjøre"],
+    cons: ["Begrenset tilgjengelighet i alle butikker","Leveringstiden kan være lang","Begrenset fargevalg","Vedlikehold krever litt ekstra oppmerksomhet"],
+    review_summary: "LANDSKRONA 3-seter sofa fra IKEA er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "LANDSKRONA 3-seter sofa fra IKEA gir et godt førsteinntrykk med sin moderne stil. Med dimensjoner på 204 × 89 × 78 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på LANDSKRONA 3-seter sofa holder svært høy standard. IKEA har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 7 999 kr får man et solid produkt som holder i mange år. IKEA er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "ikea-uppland-2-seter-sofa",
+    name: "UPPLAND 2-seter sofa",
+    brand: "IKEA",
+    category: "sofa",
+    description: "UPPLAND 2-seter sofa fra IKEA er en klassisk sofa som passer perfekt i stue. Med dimensjoner på 186 × 94 × 83 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 6499,
+    image_url: "",
+    affiliate_url: "https://www.ikea.com/no/uppland-2-seter-sofa",
+    style_tags: ["klassisk","komfort"],
+    color_tags: ["beige"],
+    room_tags: ["stue"],
+    dimensions: { width: 186, depth: 94, height: 83 },
+    in_stock: true,
+    discount_code: "DESIGN15",
+    discount_percent: 15,
+    rating: 3.6,
+    pros: ["Solid byggekvalitet og gjennomtenkt design","God verdi for pengene","Praktisk og funksjonell løsning","Komfortabel i daglig bruk","Enkel montering med tydelig bruksanvisning"],
+    cons: ["Prisen er i det øvre sjiktet","Krever noe montering","Begrenset fargevalg"],
+    review_summary: "UPPLAND 2-seter sofa fra IKEA er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "UPPLAND 2-seter sofa fra IKEA gir et godt førsteinntrykk med sin klassisk stil. Med dimensjoner på 186 × 94 × 83 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på UPPLAND 2-seter sofa holder god standard. IKEA har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 6 499 kr får man et solid produkt som holder i mange år. IKEA er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "ikea-alex-skrivebord",
+    name: "ALEX skrivebord",
+    brand: "IKEA",
+    category: "bord",
+    description: "ALEX skrivebord fra IKEA er en funksjonell bord som passer perfekt i kontor. Med dimensjoner på 131 × 60 × 76 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 2499,
+    image_url: "",
+    affiliate_url: "https://www.ikea.com/no/alex-skrivebord",
+    style_tags: ["funksjonell","moderne"],
+    color_tags: ["hvit"],
+    room_tags: ["kontor","soverom"],
+    dimensions: { width: 131, depth: 60, height: 76 },
+    in_stock: true,
+    discount_code: "DESIGN20",
+    discount_percent: 20,
+    rating: 3.2,
+    pros: ["Tidløst design som ikke går av moten","God verdi for pengene","Robust konstruksjon","Høy materialkvalitet","Stilren og diskret"],
+    cons: ["Fraktkostnadene kan være høye","Materialet kan vise slitasje over tid","Leveringstiden kan være lang","Begrenset fargevalg"],
+    review_summary: "ALEX skrivebord fra IKEA er et solid valg for kontor. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "ALEX skrivebord fra IKEA gir et godt førsteinntrykk med sin funksjonell stil. Med dimensjoner på 131 × 60 × 76 cm passer den godt i kontorn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på ALEX skrivebord holder god standard. IKEA har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 2 499 kr er dette et rimelig alternativ med god kvalitet. IKEA er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "ikea-vittsj-hylle",
+    name: "VITTSJÖ hylle",
+    brand: "IKEA",
+    category: "hylle",
+    description: "VITTSJÖ hylle fra IKEA er en minimalistisk hylle som passer perfekt i stue. Med dimensjoner på 51 × 36 × 175 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 699,
+    image_url: "",
+    affiliate_url: "https://www.ikea.com/no/vittsj-hylle",
+    style_tags: ["minimalistisk","industriell"],
+    color_tags: ["sort","glass"],
+    room_tags: ["stue","kontor"],
+    dimensions: { width: 51, depth: 36, height: 175 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.5,
+    pros: ["Svært god sittekomfort","Lett å vedlikeholde og rengjøre","Solid byggekvalitet og gjennomtenkt design","Allsidig — passer i flere rom","Premium finish og detaljer"],
+    cons: ["Kan oppleves noe kompakt for større rom","Vedlikehold krever litt ekstra oppmerksomhet","Prisen er i det øvre sjiktet","Materialet kan vise slitasje over tid"],
+    review_summary: "VITTSJÖ hylle fra IKEA er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "VITTSJÖ hylle fra IKEA gir et godt førsteinntrykk med sin minimalistisk stil. Med dimensjoner på 51 × 36 × 175 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på VITTSJÖ hylle holder svært høy standard. IKEA har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 699 kr er dette et rimelig alternativ med god kvalitet. IKEA er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "ikea-lisabo-spisebord",
+    name: "LISABO spisebord",
+    brand: "IKEA",
+    category: "bord",
+    description: "LISABO spisebord fra IKEA er en skandinavisk bord som passer perfekt i spisestue. Med dimensjoner på 140 × 78 × 74 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 2499,
+    image_url: "",
+    affiliate_url: "https://www.ikea.com/no/lisabo-spisebord",
+    style_tags: ["skandinavisk"],
+    color_tags: ["askefiner"],
+    room_tags: ["spisestue","kjøkken"],
+    dimensions: { width: 140, depth: 78, height: 74 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 4.2,
+    pros: ["Svært god sittekomfort","Robust konstruksjon","Tidløst design som ikke går av moten","Lett å vedlikeholde og rengjøre"],
+    cons: ["Fraktkostnadene kan være høye","Krever noe montering","Begrenset fargevalg"],
+    review_summary: "LISABO spisebord fra IKEA er et utmerket valg for spisestue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "LISABO spisebord fra IKEA gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 140 × 78 × 74 cm passer den godt i spisestuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på LISABO spisebord holder svært høy standard. IKEA har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 2 499 kr er dette et rimelig alternativ med god kvalitet. IKEA er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "ikea-nordli-kommode-6-skuffer",
+    name: "NORDLI kommode 6 skuffer",
+    brand: "IKEA",
+    category: "kommode",
+    description: "NORDLI kommode 6 skuffer fra IKEA er en moderne kommode som passer perfekt i soverom. Med dimensjoner på 120 × 43 × 76 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 2999,
+    image_url: "",
+    affiliate_url: "https://www.ikea.com/no/nordli-kommode-6-skuffer",
+    style_tags: ["moderne","minimalistisk"],
+    color_tags: ["hvit"],
+    room_tags: ["soverom"],
+    dimensions: { width: 120, depth: 43, height: 76 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.4,
+    pros: ["Svært god sittekomfort","Elegant og moderne utseende","Allsidig — passer i flere rom","Passer godt i skandinaviske hjem","Lett å vedlikeholde og rengjøre"],
+    cons: ["Fraktkostnadene kan være høye","Materialet kan vise slitasje over tid","Krever noe montering"],
+    review_summary: "NORDLI kommode 6 skuffer fra IKEA er et solid valg for soverom. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "NORDLI kommode 6 skuffer fra IKEA gir et godt førsteinntrykk med sin moderne stil. Med dimensjoner på 120 × 43 × 76 cm passer den godt i soveromn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på NORDLI kommode 6 skuffer holder god standard. IKEA har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 2 999 kr er dette et rimelig alternativ med god kvalitet. IKEA er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "ikea-stockholm-sofabord",
+    name: "STOCKHOLM sofabord",
+    brand: "IKEA",
+    category: "bord",
+    description: "STOCKHOLM sofabord fra IKEA er en skandinavisk bord som passer perfekt i stue. Med dimensjoner på 180 × 59 × 40 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 3499,
+    image_url: "",
+    affiliate_url: "https://www.ikea.com/no/stockholm-sofabord",
+    style_tags: ["skandinavisk","premium"],
+    color_tags: ["valnøtt"],
+    room_tags: ["stue"],
+    dimensions: { width: 180, depth: 59, height: 40 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.7,
+    pros: ["Robust konstruksjon","Passer godt i skandinaviske hjem","Stilren og diskret","Enkel montering med tydelig bruksanvisning"],
+    cons: ["Leveringstiden kan være lang","Begrenset fargevalg","Krever noe montering","Begrenset tilgjengelighet i alle butikker"],
+    review_summary: "STOCKHOLM sofabord fra IKEA er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "STOCKHOLM sofabord fra IKEA gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 180 × 59 × 40 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på STOCKHOLM sofabord holder svært høy standard. IKEA har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 3 499 kr er dette et rimelig alternativ med god kvalitet. IKEA er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "ikea-sinnerlig-bordlampe",
+    name: "SINNERLIG bordlampe",
+    brand: "IKEA",
+    category: "lampe",
+    description: "SINNERLIG bordlampe fra IKEA er en naturlig lampe som passer perfekt i stue. Med dimensjoner på 22 × 22 × 53 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 599,
+    image_url: "",
+    affiliate_url: "https://www.ikea.com/no/sinnerlig-bordlampe",
+    style_tags: ["naturlig","bohem"],
+    color_tags: ["bambus"],
+    room_tags: ["stue","soverom"],
+    dimensions: { width: 22, depth: 22, height: 53 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.4,
+    pros: ["Robust konstruksjon","Tidløst design som ikke går av moten","God verdi for pengene","Passer godt i skandinaviske hjem"],
+    cons: ["Leveringstiden kan være lang","Begrenset fargevalg","Fraktkostnadene kan være høye"],
+    review_summary: "SINNERLIG bordlampe fra IKEA er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "SINNERLIG bordlampe fra IKEA gir et godt førsteinntrykk med sin naturlig stil. Med dimensjoner på 22 × 22 × 53 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på SINNERLIG bordlampe holder god standard. IKEA har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 599 kr er dette et rimelig alternativ med god kvalitet. IKEA er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "ikea-raskog-trillebord",
+    name: "RÅSKOG trillebord",
+    brand: "IKEA",
+    category: "bord",
+    description: "RÅSKOG trillebord fra IKEA er en funksjonell bord som passer perfekt i kjøkken. Med dimensjoner på 35 × 45 × 78 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 399,
+    image_url: "",
+    affiliate_url: "https://www.ikea.com/no/råskog-trillebord",
+    style_tags: ["funksjonell","kompakt"],
+    color_tags: ["turkis"],
+    room_tags: ["kjøkken","bad"],
+    dimensions: { width: 35, depth: 45, height: 78 },
+    in_stock: true,
+    discount_code: "DESIGN15",
+    discount_percent: 15,
+    rating: 3.6,
+    pros: ["God verdi for pengene","Stilren og diskret","Praktisk og funksjonell løsning","Tidløst design som ikke går av moten"],
+    cons: ["Prisen er i det øvre sjiktet","Fraktkostnadene kan være høye","Begrenset fargevalg","Tung å flytte etter montering"],
+    review_summary: "RÅSKOG trillebord fra IKEA er et solid valg for kjøkken. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "RÅSKOG trillebord fra IKEA gir et godt førsteinntrykk med sin funksjonell stil. Med dimensjoner på 35 × 45 × 78 cm passer den godt i kjøkkenn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på RÅSKOG trillebord holder god standard. IKEA har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 399 kr er dette et rimelig alternativ med god kvalitet. IKEA er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "ikea-fj-llbo-hylle",
+    name: "FJÄLLBO hylle",
+    brand: "IKEA",
+    category: "hylle",
+    description: "FJÄLLBO hylle fra IKEA er en industriell hylle som passer perfekt i stue. Med dimensjoner på 100 × 36 × 136 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 1499,
+    image_url: "",
+    affiliate_url: "https://www.ikea.com/no/fj-llbo-hylle",
+    style_tags: ["industriell","rustikk"],
+    color_tags: ["sort","tre"],
+    room_tags: ["stue","kontor"],
+    dimensions: { width: 100, depth: 36, height: 136 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 4.4,
+    pros: ["Solid byggekvalitet og gjennomtenkt design","Passer godt i skandinaviske hjem","Enkel montering med tydelig bruksanvisning","Lett å vedlikeholde og rengjøre","Praktisk og funksjonell løsning"],
+    cons: ["Leveringstiden kan være lang","Begrenset fargevalg","Begrenset tilgjengelighet i alle butikker","Krever noe montering"],
+    review_summary: "FJÄLLBO hylle fra IKEA er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "FJÄLLBO hylle fra IKEA gir et godt førsteinntrykk med sin industriell stil. Med dimensjoner på 100 × 36 × 136 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på FJÄLLBO hylle holder svært høy standard. IKEA har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 1 499 kr er dette et rimelig alternativ med god kvalitet. IKEA er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "ikea-havsta-vitrine",
+    name: "HAVSTA vitrine",
+    brand: "IKEA",
+    category: "hylle",
+    description: "HAVSTA vitrine fra IKEA er en klassisk hylle som passer perfekt i stue. Med dimensjoner på 81 × 37 × 134 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 3999,
+    image_url: "",
+    affiliate_url: "https://www.ikea.com/no/havsta-vitrine",
+    style_tags: ["klassisk"],
+    color_tags: ["hvit"],
+    room_tags: ["stue"],
+    dimensions: { width: 81, depth: 37, height: 134 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.5,
+    pros: ["Høy materialkvalitet","Premium finish og detaljer","Praktisk og funksjonell løsning","Enkel montering med tydelig bruksanvisning","Lett å vedlikeholde og rengjøre"],
+    cons: ["Prisen er i det øvre sjiktet","Leveringstiden kan være lang","Vedlikehold krever litt ekstra oppmerksomhet","Tung å flytte etter montering"],
+    review_summary: "HAVSTA vitrine fra IKEA er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "HAVSTA vitrine fra IKEA gir et godt førsteinntrykk med sin klassisk stil. Med dimensjoner på 81 × 37 × 134 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på HAVSTA vitrine holder svært høy standard. IKEA har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 3 999 kr er dette et rimelig alternativ med god kvalitet. IKEA er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "ikea-s-derhamn-3-seter-sofa",
+    name: "SÖDERHAMN 3-seter sofa",
+    brand: "IKEA",
+    category: "sofa",
+    description: "SÖDERHAMN 3-seter sofa fra IKEA er en moderne sofa som passer perfekt i stue. Med dimensjoner på 198 × 99 × 83 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 6999,
+    image_url: "",
+    affiliate_url: "https://www.ikea.com/no/s-derhamn-3-seter-sofa",
+    style_tags: ["moderne","modulær"],
+    color_tags: ["hvit"],
+    room_tags: ["stue"],
+    dimensions: { width: 198, depth: 99, height: 83 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.6,
+    pros: ["Enkel montering med tydelig bruksanvisning","Høy materialkvalitet","Robust konstruksjon","Allsidig — passer i flere rom","Tidløst design som ikke går av moten"],
+    cons: ["Vedlikehold krever litt ekstra oppmerksomhet","Krever noe montering","Begrenset fargevalg","Materialet kan vise slitasje over tid"],
+    review_summary: "SÖDERHAMN 3-seter sofa fra IKEA er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "SÖDERHAMN 3-seter sofa fra IKEA gir et godt førsteinntrykk med sin moderne stil. Med dimensjoner på 198 × 99 × 83 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på SÖDERHAMN 3-seter sofa holder god standard. IKEA har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 6 999 kr får man et solid produkt som holder i mange år. IKEA er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "ikea-gr-nlid-2-seter-sofa",
+    name: "GRÖNLID 2-seter sofa",
+    brand: "IKEA",
+    category: "sofa",
+    description: "GRÖNLID 2-seter sofa fra IKEA er en komfort sofa som passer perfekt i stue. Med dimensjoner på 177 × 98 × 86 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 5999,
+    image_url: "",
+    affiliate_url: "https://www.ikea.com/no/gr-nlid-2-seter-sofa",
+    style_tags: ["komfort","klassisk"],
+    color_tags: ["beige"],
+    room_tags: ["stue"],
+    dimensions: { width: 177, depth: 98, height: 86 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.8,
+    pros: ["Stilren og diskret","Enkel montering med tydelig bruksanvisning","Premium finish og detaljer","Svært god sittekomfort","Elegant og moderne utseende"],
+    cons: ["Kan oppleves noe kompakt for større rom","Begrenset fargevalg","Leveringstiden kan være lang"],
+    review_summary: "GRÖNLID 2-seter sofa fra IKEA er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "GRÖNLID 2-seter sofa fra IKEA gir et godt førsteinntrykk med sin komfort stil. Med dimensjoner på 177 × 98 × 86 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på GRÖNLID 2-seter sofa holder god standard. IKEA har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 5 999 kr får man et solid produkt som holder i mange år. IKEA er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "ikea-brimnes-seng-med-oppbevaring",
+    name: "BRIMNES seng med oppbevaring",
+    brand: "IKEA",
+    category: "seng",
+    description: "BRIMNES seng med oppbevaring fra IKEA er en funksjonell seng som passer perfekt i soverom. Med dimensjoner på 166 × 206 × 47 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 3499,
+    image_url: "",
+    affiliate_url: "https://www.ikea.com/no/brimnes-seng-med-oppbevaring",
+    style_tags: ["funksjonell","kompakt"],
+    color_tags: ["hvit"],
+    room_tags: ["soverom"],
+    dimensions: { width: 166, depth: 206, height: 47 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 3.3,
+    pros: ["Stilren og diskret","Høy materialkvalitet","Tidløst design som ikke går av moten","Elegant og moderne utseende"],
+    cons: ["Krever noe montering","Materialet kan vise slitasje over tid","Begrenset tilgjengelighet i alle butikker","Begrenset fargevalg"],
+    review_summary: "BRIMNES seng med oppbevaring fra IKEA er et solid valg for soverom. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "BRIMNES seng med oppbevaring fra IKEA gir et godt førsteinntrykk med sin funksjonell stil. Med dimensjoner på 166 × 206 × 47 cm passer den godt i soveromn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på BRIMNES seng med oppbevaring holder god standard. IKEA har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 3 499 kr er dette et rimelig alternativ med god kvalitet. IKEA er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "jysk-askim-kontinentalseng-180",
+    name: "ASKIM kontinentalseng 180",
+    brand: "Jysk",
+    category: "seng",
+    description: "ASKIM kontinentalseng 180 fra Jysk er en komfort seng som passer perfekt i soverom. Med dimensjoner på 180 × 200 × 105 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 7999,
+    image_url: "",
+    affiliate_url: "https://www.jysk.no/askim-kontinentalseng-180",
+    style_tags: ["komfort"],
+    color_tags: ["grå"],
+    room_tags: ["soverom"],
+    dimensions: { width: 180, depth: 200, height: 105 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.5,
+    pros: ["God verdi for pengene","Tidløst design som ikke går av moten","Enkel montering med tydelig bruksanvisning","Robust konstruksjon","Allsidig — passer i flere rom"],
+    cons: ["Krever noe montering","Prisen er i det øvre sjiktet","Fraktkostnadene kan være høye","Begrenset tilgjengelighet i alle butikker"],
+    review_summary: "ASKIM kontinentalseng 180 fra Jysk er et utmerket valg for soverom. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "ASKIM kontinentalseng 180 fra Jysk gir et godt førsteinntrykk med sin komfort stil. Med dimensjoner på 180 × 200 × 105 cm passer den godt i soveromn. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på ASKIM kontinentalseng 180 holder svært høy standard. Jysk har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 7 999 kr får man et solid produkt som holder i mange år. Jysk er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "jysk-vedde-madrass-150x200",
+    name: "VEDDE madrass 150x200",
+    brand: "Jysk",
+    category: "seng",
+    description: "VEDDE madrass 150x200 fra Jysk er en komfort seng som passer perfekt i soverom. Med dimensjoner på 150 × 200 × 22 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 3999,
+    image_url: "",
+    affiliate_url: "https://www.jysk.no/vedde-madrass-150x200",
+    style_tags: ["komfort"],
+    color_tags: ["hvit"],
+    room_tags: ["soverom"],
+    dimensions: { width: 150, depth: 200, height: 22 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.3,
+    pros: ["Allsidig — passer i flere rom","Premium finish og detaljer","Solid byggekvalitet og gjennomtenkt design","Passer godt i skandinaviske hjem","Robust konstruksjon"],
+    cons: ["Begrenset fargevalg","Prisen er i det øvre sjiktet","Tung å flytte etter montering"],
+    review_summary: "VEDDE madrass 150x200 fra Jysk er et solid valg for soverom. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "VEDDE madrass 150x200 fra Jysk gir et godt førsteinntrykk med sin komfort stil. Med dimensjoner på 150 × 200 × 22 cm passer den godt i soveromn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på VEDDE madrass 150x200 holder god standard. Jysk har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 3 999 kr er dette et rimelig alternativ med god kvalitet. Jysk er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "jysk-brekstad-hagebord",
+    name: "BREKSTAD hagebord",
+    brand: "Jysk",
+    category: "bord",
+    description: "BREKSTAD hagebord fra Jysk er en rustikk bord som passer perfekt i utendørs. Med dimensjoner på 200 × 100 × 74 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 2999,
+    image_url: "",
+    affiliate_url: "https://www.jysk.no/brekstad-hagebord",
+    style_tags: ["rustikk"],
+    color_tags: ["tre","natur"],
+    room_tags: ["utendørs"],
+    dimensions: { width: 200, depth: 100, height: 74 },
+    in_stock: true,
+    discount_code: "DESIGN15",
+    discount_percent: 15,
+    rating: 4.6,
+    pros: ["Robust konstruksjon","Komfortabel i daglig bruk","Solid byggekvalitet og gjennomtenkt design","Tidløst design som ikke går av moten"],
+    cons: ["Materialet kan vise slitasje over tid","Fraktkostnadene kan være høye","Prisen er i det øvre sjiktet","Leveringstiden kan være lang"],
+    review_summary: "BREKSTAD hagebord fra Jysk er et utmerket valg for utendørs. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "BREKSTAD hagebord fra Jysk gir et godt førsteinntrykk med sin rustikk stil. Med dimensjoner på 200 × 100 × 74 cm passer den godt i uterommet. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på BREKSTAD hagebord holder svært høy standard. Jysk har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 2 999 kr er dette et rimelig alternativ med god kvalitet. Jysk er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "jysk-skive-hagestol-2-pk",
+    name: "SKIVE hagestol 2-pk",
+    brand: "Jysk",
+    category: "stol",
+    description: "SKIVE hagestol 2-pk fra Jysk er en funksjonell stol som passer perfekt i utendørs. Med dimensjoner på 57 × 60 × 86 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 1499,
+    image_url: "",
+    affiliate_url: "https://www.jysk.no/skive-hagestol-2-pk",
+    style_tags: ["funksjonell"],
+    color_tags: ["sort"],
+    room_tags: ["utendørs"],
+    dimensions: { width: 57, depth: 60, height: 86 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.7,
+    pros: ["Elegant og moderne utseende","Komfortabel i daglig bruk","Tidløst design som ikke går av moten","Passer godt i skandinaviske hjem","Solid byggekvalitet og gjennomtenkt design"],
+    cons: ["Vedlikehold krever litt ekstra oppmerksomhet","Prisen er i det øvre sjiktet","Krever noe montering"],
+    review_summary: "SKIVE hagestol 2-pk fra Jysk er et utmerket valg for utendørs. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "SKIVE hagestol 2-pk fra Jysk gir et godt førsteinntrykk med sin funksjonell stil. Med dimensjoner på 57 × 60 × 86 cm passer den godt i uterommet. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på SKIVE hagestol 2-pk holder svært høy standard. Jysk har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 1 499 kr er dette et rimelig alternativ med god kvalitet. Jysk er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "jysk-nordby-gardin-140x245",
+    name: "NORDBY gardin 140x245",
+    brand: "Jysk",
+    category: "gardin",
+    description: "NORDBY gardin 140x245 fra Jysk er en skandinavisk gardin som passer perfekt i stue. Med dimensjoner på 140 × 1 × 245 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 399,
+    image_url: "",
+    affiliate_url: "https://www.jysk.no/nordby-gardin-140x245",
+    style_tags: ["skandinavisk"],
+    color_tags: ["hvit","lin"],
+    room_tags: ["stue","soverom"],
+    dimensions: { width: 140, depth: 1, height: 245 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.2,
+    pros: ["Passer godt i skandinaviske hjem","Solid byggekvalitet og gjennomtenkt design","Premium finish og detaljer","Svært god sittekomfort","Elegant og moderne utseende"],
+    cons: ["Leveringstiden kan være lang","Begrenset tilgjengelighet i alle butikker","Begrenset fargevalg","Kan oppleves noe kompakt for større rom"],
+    review_summary: "NORDBY gardin 140x245 fra Jysk er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "NORDBY gardin 140x245 fra Jysk gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 140 × 1 × 245 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på NORDBY gardin 140x245 holder svært høy standard. Jysk har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 399 kr er dette et rimelig alternativ med god kvalitet. Jysk er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "jysk-agerso-formorkgardin",
+    name: "AGERSØ formørkgardin",
+    brand: "Jysk",
+    category: "gardin",
+    description: "AGERSØ formørkgardin fra Jysk er en funksjonell gardin som passer perfekt i soverom. Med dimensjoner på 140 × 1 × 245 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 599,
+    image_url: "",
+    affiliate_url: "https://www.jysk.no/agersø-formørkgardin",
+    style_tags: ["funksjonell"],
+    color_tags: ["grå"],
+    room_tags: ["soverom"],
+    dimensions: { width: 140, depth: 1, height: 245 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.5,
+    pros: ["Praktisk og funksjonell løsning","Tidløst design som ikke går av moten","Stilren og diskret","Premium finish og detaljer"],
+    cons: ["Prisen er i det øvre sjiktet","Materialet kan vise slitasje over tid","Kan oppleves noe kompakt for større rom"],
+    review_summary: "AGERSØ formørkgardin fra Jysk er et solid valg for soverom. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "AGERSØ formørkgardin fra Jysk gir et godt førsteinntrykk med sin funksjonell stil. Med dimensjoner på 140 × 1 × 245 cm passer den godt i soveromn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på AGERSØ formørkgardin holder god standard. Jysk har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 599 kr er dette et rimelig alternativ med god kvalitet. Jysk er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "jysk-villerup-teppe-160x230",
+    name: "VILLERUP teppe 160x230",
+    brand: "Jysk",
+    category: "teppe",
+    description: "VILLERUP teppe 160x230 fra Jysk er en moderne teppe som passer perfekt i stue. Med dimensjoner på 160 × 230 × 1 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 1499,
+    image_url: "",
+    affiliate_url: "https://www.jysk.no/villerup-teppe-160x230",
+    style_tags: ["moderne"],
+    color_tags: ["grå","hvit"],
+    room_tags: ["stue"],
+    dimensions: { width: 160, depth: 230, height: 1 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.6,
+    pros: ["God verdi for pengene","Passer godt i skandinaviske hjem","Svært god sittekomfort","Høy materialkvalitet"],
+    cons: ["Leveringstiden kan være lang","Begrenset fargevalg","Krever noe montering"],
+    review_summary: "VILLERUP teppe 160x230 fra Jysk er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "VILLERUP teppe 160x230 fra Jysk gir et godt førsteinntrykk med sin moderne stil. Med dimensjoner på 160 × 230 × 1 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på VILLERUP teppe 160x230 holder god standard. Jysk har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 1 499 kr er dette et rimelig alternativ med god kvalitet. Jysk er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "jysk-fjelldal-pute-50x50",
+    name: "FJELLDAL pute 50x50",
+    brand: "Jysk",
+    category: "pute",
+    description: "FJELLDAL pute 50x50 fra Jysk er en skandinavisk pute som passer perfekt i stue. Med dimensjoner på 50 × 50 × 12 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 199,
+    image_url: "",
+    affiliate_url: "https://www.jysk.no/fjelldal-pute-50x50",
+    style_tags: ["skandinavisk"],
+    color_tags: ["sennep"],
+    room_tags: ["stue"],
+    dimensions: { width: 50, depth: 50, height: 12 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.3,
+    pros: ["God verdi for pengene","Tidløst design som ikke går av moten","Enkel montering med tydelig bruksanvisning","Passer godt i skandinaviske hjem","Solid byggekvalitet og gjennomtenkt design"],
+    cons: ["Fraktkostnadene kan være høye","Kan oppleves noe kompakt for større rom","Begrenset fargevalg","Krever noe montering"],
+    review_summary: "FJELLDAL pute 50x50 fra Jysk er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "FJELLDAL pute 50x50 fra Jysk gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 50 × 50 × 12 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på FJELLDAL pute 50x50 holder svært høy standard. Jysk har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 199 kr er dette et rimelig alternativ med god kvalitet. Jysk er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "jysk-halsted-barnegardin",
+    name: "HALSTED barnegardin",
+    brand: "Jysk",
+    category: "gardin",
+    description: "HALSTED barnegardin fra Jysk er en leken gardin som passer perfekt i barnerom. Med dimensjoner på 140 × 1 × 175 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 299,
+    image_url: "",
+    affiliate_url: "https://www.jysk.no/halsted-barnegardin",
+    style_tags: ["leken"],
+    color_tags: ["rosa"],
+    room_tags: ["barnerom"],
+    dimensions: { width: 140, depth: 1, height: 175 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.7,
+    pros: ["Premium finish og detaljer","Elegant og moderne utseende","Allsidig — passer i flere rom","Stilren og diskret","Komfortabel i daglig bruk"],
+    cons: ["Fraktkostnadene kan være høye","Krever noe montering","Begrenset fargevalg","Tung å flytte etter montering"],
+    review_summary: "HALSTED barnegardin fra Jysk er et utmerket valg for barnerom. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "HALSTED barnegardin fra Jysk gir et godt førsteinntrykk med sin leken stil. Med dimensjoner på 140 × 1 × 175 cm passer den godt i barneromn. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på HALSTED barnegardin holder svært høy standard. Jysk har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 299 kr er dette et rimelig alternativ med god kvalitet. Jysk er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "jysk-hobro-sofabord",
+    name: "HOBRO sofabord",
+    brand: "Jysk",
+    category: "bord",
+    description: "HOBRO sofabord fra Jysk er en skandinavisk bord som passer perfekt i stue. Med dimensjoner på 110 × 60 × 42 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 1999,
+    image_url: "",
+    affiliate_url: "https://www.jysk.no/hobro-sofabord",
+    style_tags: ["skandinavisk"],
+    color_tags: ["eik","sort"],
+    room_tags: ["stue"],
+    dimensions: { width: 110, depth: 60, height: 42 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.9,
+    pros: ["Komfortabel i daglig bruk","Solid byggekvalitet og gjennomtenkt design","Svært god sittekomfort","Stilren og diskret"],
+    cons: ["Materialet kan vise slitasje over tid","Tung å flytte etter montering","Vedlikehold krever litt ekstra oppmerksomhet"],
+    review_summary: "HOBRO sofabord fra Jysk er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "HOBRO sofabord fra Jysk gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 110 × 60 × 42 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på HOBRO sofabord holder god standard. Jysk har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 1 999 kr er dette et rimelig alternativ med god kvalitet. Jysk er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "jysk-lyngby-tv-benk",
+    name: "LYNGBY TV-benk",
+    brand: "Jysk",
+    category: "kommode",
+    description: "LYNGBY TV-benk fra Jysk er en skandinavisk kommode som passer perfekt i stue. Med dimensjoner på 150 × 40 × 50 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 2499,
+    image_url: "",
+    affiliate_url: "https://www.jysk.no/lyngby-tv-benk",
+    style_tags: ["skandinavisk"],
+    color_tags: ["eik"],
+    room_tags: ["stue"],
+    dimensions: { width: 150, depth: 40, height: 50 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.7,
+    pros: ["Allsidig — passer i flere rom","Komfortabel i daglig bruk","Tidløst design som ikke går av moten","Premium finish og detaljer","Svært god sittekomfort"],
+    cons: ["Fraktkostnadene kan være høye","Leveringstiden kan være lang","Begrenset fargevalg"],
+    review_summary: "LYNGBY TV-benk fra Jysk er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "LYNGBY TV-benk fra Jysk gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 150 × 40 × 50 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på LYNGBY TV-benk holder god standard. Jysk har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 2 499 kr er dette et rimelig alternativ med god kvalitet. Jysk er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "jysk-orsta-kommode",
+    name: "ØRSTA kommode",
+    brand: "Jysk",
+    category: "kommode",
+    description: "ØRSTA kommode fra Jysk er en skandinavisk kommode som passer perfekt i soverom. Med dimensjoner på 80 × 40 × 100 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 2999,
+    image_url: "",
+    affiliate_url: "https://www.jysk.no/ørsta-kommode",
+    style_tags: ["skandinavisk"],
+    color_tags: ["hvit","eik"],
+    room_tags: ["soverom"],
+    dimensions: { width: 80, depth: 40, height: 100 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.4,
+    pros: ["Enkel montering med tydelig bruksanvisning","Tidløst design som ikke går av moten","Premium finish og detaljer","Høy materialkvalitet"],
+    cons: ["Krever noe montering","Fraktkostnadene kan være høye","Prisen er i det øvre sjiktet","Kan oppleves noe kompakt for større rom"],
+    review_summary: "ØRSTA kommode fra Jysk er et utmerket valg for soverom. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "ØRSTA kommode fra Jysk gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 80 × 40 × 100 cm passer den godt i soveromn. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på ØRSTA kommode holder svært høy standard. Jysk har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 2 999 kr er dette et rimelig alternativ med god kvalitet. Jysk er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "jysk-gedser-solseng",
+    name: "GEDSER solseng",
+    brand: "Jysk",
+    category: "stol",
+    description: "GEDSER solseng fra Jysk er en avslappet stol som passer perfekt i utendørs. Med dimensjoner på 60 × 190 × 35 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 1999,
+    image_url: "",
+    affiliate_url: "https://www.jysk.no/gedser-solseng",
+    style_tags: ["avslappet"],
+    color_tags: ["sort"],
+    room_tags: ["utendørs"],
+    dimensions: { width: 60, depth: 190, height: 35 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.2,
+    pros: ["Lett å vedlikeholde og rengjøre","Praktisk og funksjonell løsning","Elegant og moderne utseende","Premium finish og detaljer"],
+    cons: ["Krever noe montering","Fraktkostnadene kan være høye","Kan oppleves noe kompakt for større rom"],
+    review_summary: "GEDSER solseng fra Jysk er et utmerket valg for utendørs. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "GEDSER solseng fra Jysk gir et godt førsteinntrykk med sin avslappet stil. Med dimensjoner på 60 × 190 × 35 cm passer den godt i uterommet. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på GEDSER solseng holder svært høy standard. Jysk har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 1 999 kr er dette et rimelig alternativ med god kvalitet. Jysk er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "jysk-egeby-sengesett-200x220",
+    name: "EGEBY sengesett 200x220",
+    brand: "Jysk",
+    category: "pute",
+    description: "EGEBY sengesett 200x220 fra Jysk er en klassisk pute som passer perfekt i soverom. Med dimensjoner på 200 × 220 × 1 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 499,
+    image_url: "",
+    affiliate_url: "https://www.jysk.no/egeby-sengesett-200x220",
+    style_tags: ["klassisk"],
+    color_tags: ["hvit","grå"],
+    room_tags: ["soverom"],
+    dimensions: { width: 200, depth: 220, height: 1 },
+    in_stock: true,
+    discount_code: "DESIGN20",
+    discount_percent: 20,
+    rating: 4,
+    pros: ["Stilren og diskret","God verdi for pengene","Svært god sittekomfort","Lett å vedlikeholde og rengjøre"],
+    cons: ["Leveringstiden kan være lang","Begrenset tilgjengelighet i alle butikker","Materialet kan vise slitasje over tid","Fraktkostnadene kan være høye"],
+    review_summary: "EGEBY sengesett 200x220 fra Jysk er et utmerket valg for soverom. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "EGEBY sengesett 200x220 fra Jysk gir et godt førsteinntrykk med sin klassisk stil. Med dimensjoner på 200 × 220 × 1 cm passer den godt i soveromn. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på EGEBY sengesett 200x220 holder svært høy standard. Jysk har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 499 kr er dette et rimelig alternativ med god kvalitet. Jysk er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "jysk-salling-skrivebord",
+    name: "SALLING skrivebord",
+    brand: "Jysk",
+    category: "bord",
+    description: "SALLING skrivebord fra Jysk er en moderne bord som passer perfekt i kontor. Med dimensjoner på 120 × 60 × 75 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 1999,
+    image_url: "",
+    affiliate_url: "https://www.jysk.no/salling-skrivebord",
+    style_tags: ["moderne","kompakt"],
+    color_tags: ["hvit","eik"],
+    room_tags: ["kontor","soverom"],
+    dimensions: { width: 120, depth: 60, height: 75 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.6,
+    pros: ["Solid byggekvalitet og gjennomtenkt design","Enkel montering med tydelig bruksanvisning","Praktisk og funksjonell løsning","Allsidig — passer i flere rom","Komfortabel i daglig bruk"],
+    cons: ["Materialet kan vise slitasje over tid","Leveringstiden kan være lang","Begrenset tilgjengelighet i alle butikker"],
+    review_summary: "SALLING skrivebord fra Jysk er et utmerket valg for kontor. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "SALLING skrivebord fra Jysk gir et godt førsteinntrykk med sin moderne stil. Med dimensjoner på 120 × 60 × 75 cm passer den godt i kontorn. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på SALLING skrivebord holder svært høy standard. Jysk har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 1 999 kr er dette et rimelig alternativ med god kvalitet. Jysk er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "kid2-harmony-pyntepute-45x45",
+    name: "Harmony pyntepute 45x45",
+    brand: "Kid",
+    category: "pute",
+    description: "Harmony pyntepute 45x45 fra Kid er en skandinavisk pute som passer perfekt i stue. Med dimensjoner på 45 × 45 × 12 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 299,
+    image_url: "",
+    affiliate_url: "https://www.kid.no/harmony-pyntepute-45x45",
+    style_tags: ["skandinavisk"],
+    color_tags: ["dus rosa"],
+    room_tags: ["stue","soverom"],
+    dimensions: { width: 45, depth: 45, height: 12 },
+    in_stock: true,
+    discount_code: "DESIGN15",
+    discount_percent: 15,
+    rating: 4.4,
+    pros: ["Praktisk og funksjonell løsning","Komfortabel i daglig bruk","Solid byggekvalitet og gjennomtenkt design","Allsidig — passer i flere rom","Høy materialkvalitet"],
+    cons: ["Leveringstiden kan være lang","Materialet kan vise slitasje over tid","Krever noe montering"],
+    review_summary: "Harmony pyntepute 45x45 fra Kid er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Harmony pyntepute 45x45 fra Kid gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 45 × 45 × 12 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Harmony pyntepute 45x45 holder svært høy standard. Kid har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 299 kr er dette et rimelig alternativ med god kvalitet. Kid er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "kid2-nature-lingardin",
+    name: "Nature lingardin",
+    brand: "Kid",
+    category: "gardin",
+    description: "Nature lingardin fra Kid er en naturlig gardin som passer perfekt i stue. Med dimensjoner på 140 × 1 × 250 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 599,
+    image_url: "",
+    affiliate_url: "https://www.kid.no/nature-lingardin",
+    style_tags: ["naturlig"],
+    color_tags: ["lin","natur"],
+    room_tags: ["stue"],
+    dimensions: { width: 140, depth: 1, height: 250 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 4.2,
+    pros: ["Solid byggekvalitet og gjennomtenkt design","Passer godt i skandinaviske hjem","Enkel montering med tydelig bruksanvisning","Premium finish og detaljer","Svært god sittekomfort"],
+    cons: ["Begrenset fargevalg","Leveringstiden kan være lang","Fraktkostnadene kan være høye","Materialet kan vise slitasje over tid"],
+    review_summary: "Nature lingardin fra Kid er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Nature lingardin fra Kid gir et godt førsteinntrykk med sin naturlig stil. Med dimensjoner på 140 × 1 × 250 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Nature lingardin holder svært høy standard. Kid har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 599 kr er dette et rimelig alternativ med god kvalitet. Kid er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "kid2-velvet-formorkgardin",
+    name: "Velvet formørkgardin",
+    brand: "Kid",
+    category: "gardin",
+    description: "Velvet formørkgardin fra Kid er en elegant gardin som passer perfekt i soverom. Med dimensjoner på 140 × 1 × 250 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 899,
+    image_url: "",
+    affiliate_url: "https://www.kid.no/velvet-formørkgardin",
+    style_tags: ["elegant"],
+    color_tags: ["mørk blå"],
+    room_tags: ["soverom"],
+    dimensions: { width: 140, depth: 1, height: 250 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 4,
+    pros: ["Tidløst design som ikke går av moten","Enkel montering med tydelig bruksanvisning","Lett å vedlikeholde og rengjøre","Praktisk og funksjonell løsning"],
+    cons: ["Begrenset fargevalg","Tung å flytte etter montering","Fraktkostnadene kan være høye","Begrenset tilgjengelighet i alle butikker"],
+    review_summary: "Velvet formørkgardin fra Kid er et utmerket valg for soverom. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Velvet formørkgardin fra Kid gir et godt førsteinntrykk med sin elegant stil. Med dimensjoner på 140 × 1 × 250 cm passer den godt i soveromn. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Velvet formørkgardin holder svært høy standard. Kid har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 899 kr er dette et rimelig alternativ med god kvalitet. Kid er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "kid2-scandi-teppe-160x230",
+    name: "Scandi teppe 160x230",
+    brand: "Kid",
+    category: "teppe",
+    description: "Scandi teppe 160x230 fra Kid er en skandinavisk teppe som passer perfekt i stue. Med dimensjoner på 160 × 230 × 1 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 1999,
+    image_url: "",
+    affiliate_url: "https://www.kid.no/scandi-teppe-160x230",
+    style_tags: ["skandinavisk"],
+    color_tags: ["grå","hvit"],
+    room_tags: ["stue"],
+    dimensions: { width: 160, depth: 230, height: 1 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.9,
+    pros: ["Enkel montering med tydelig bruksanvisning","Premium finish og detaljer","Høy materialkvalitet","Stilren og diskret"],
+    cons: ["Leveringstiden kan være lang","Fraktkostnadene kan være høye","Tung å flytte etter montering","Begrenset fargevalg"],
+    review_summary: "Scandi teppe 160x230 fra Kid er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Scandi teppe 160x230 fra Kid gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 160 × 230 × 1 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Scandi teppe 160x230 holder god standard. Kid har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 1 999 kr er dette et rimelig alternativ med god kvalitet. Kid er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "kid2-bohem-teppe-rund",
+    name: "Bohem teppe rund",
+    brand: "Kid",
+    category: "teppe",
+    description: "Bohem teppe rund fra Kid er en bohem teppe som passer perfekt i stue. Med dimensjoner på 150 × 150 × 1 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 1299,
+    image_url: "",
+    affiliate_url: "https://www.kid.no/bohem-teppe-rund",
+    style_tags: ["bohem"],
+    color_tags: ["flerfarget"],
+    room_tags: ["stue","soverom"],
+    dimensions: { width: 150, depth: 150, height: 1 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 4.6,
+    pros: ["Enkel montering med tydelig bruksanvisning","Tidløst design som ikke går av moten","Lett å vedlikeholde og rengjøre","Stilren og diskret"],
+    cons: ["Tung å flytte etter montering","Prisen er i det øvre sjiktet","Materialet kan vise slitasje over tid","Krever noe montering"],
+    review_summary: "Bohem teppe rund fra Kid er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Bohem teppe rund fra Kid gir et godt førsteinntrykk med sin bohem stil. Med dimensjoner på 150 × 150 × 1 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Bohem teppe rund holder svært høy standard. Kid har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 1 299 kr er dette et rimelig alternativ med god kvalitet. Kid er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "kid2-nordic-duftlys-3-pk",
+    name: "Nordic duftlys 3-pk",
+    brand: "Kid",
+    category: "dekor",
+    description: "Nordic duftlys 3-pk fra Kid er en skandinavisk dekorasjon som passer perfekt i stue. Med dimensjoner på 8 × 8 × 10 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 249,
+    image_url: "",
+    affiliate_url: "https://www.kid.no/nordic-duftlys-3-pk",
+    style_tags: ["skandinavisk","koselig"],
+    color_tags: ["hvit"],
+    room_tags: ["stue","soverom"],
+    dimensions: { width: 8, depth: 8, height: 10 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.6,
+    pros: ["Premium finish og detaljer","Enkel montering med tydelig bruksanvisning","God verdi for pengene","Lett å vedlikeholde og rengjøre"],
+    cons: ["Fraktkostnadene kan være høye","Begrenset fargevalg","Tung å flytte etter montering"],
+    review_summary: "Nordic duftlys 3-pk fra Kid er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Nordic duftlys 3-pk fra Kid gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 8 × 8 × 10 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Nordic duftlys 3-pk holder svært høy standard. Kid har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 249 kr er dette et rimelig alternativ med god kvalitet. Kid er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "kid2-glass-vase-sylinder",
+    name: "Glass vase sylinder",
+    brand: "Kid",
+    category: "dekor",
+    description: "Glass vase sylinder fra Kid er en minimalistisk dekorasjon som passer perfekt i stue. Med dimensjoner på 12 × 12 × 25 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 199,
+    image_url: "",
+    affiliate_url: "https://www.kid.no/glass-vase-sylinder",
+    style_tags: ["minimalistisk"],
+    color_tags: ["klar"],
+    room_tags: ["stue"],
+    dimensions: { width: 12, depth: 12, height: 25 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4,
+    pros: ["Stilren og diskret","Solid byggekvalitet og gjennomtenkt design","Passer godt i skandinaviske hjem","Lett å vedlikeholde og rengjøre"],
+    cons: ["Begrenset tilgjengelighet i alle butikker","Leveringstiden kan være lang","Tung å flytte etter montering"],
+    review_summary: "Glass vase sylinder fra Kid er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Glass vase sylinder fra Kid gir et godt førsteinntrykk med sin minimalistisk stil. Med dimensjoner på 12 × 12 × 25 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Glass vase sylinder holder svært høy standard. Kid har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 199 kr er dette et rimelig alternativ med god kvalitet. Kid er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "kid2-keramikk-vase-stor",
+    name: "Keramikk vase stor",
+    brand: "Kid",
+    category: "dekor",
+    description: "Keramikk vase stor fra Kid er en skandinavisk dekorasjon som passer perfekt i stue. Med dimensjoner på 15 × 15 × 30 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 399,
+    image_url: "",
+    affiliate_url: "https://www.kid.no/keramikk-vase-stor",
+    style_tags: ["skandinavisk"],
+    color_tags: ["terrakotta"],
+    room_tags: ["stue","gang"],
+    dimensions: { width: 15, depth: 15, height: 30 },
+    in_stock: true,
+    discount_code: "DESIGN15",
+    discount_percent: 15,
+    rating: 4.8,
+    pros: ["Praktisk og funksjonell løsning","Svært god sittekomfort","Komfortabel i daglig bruk","Enkel montering med tydelig bruksanvisning","Lett å vedlikeholde og rengjøre"],
+    cons: ["Materialet kan vise slitasje over tid","Vedlikehold krever litt ekstra oppmerksomhet","Prisen er i det øvre sjiktet","Krever noe montering"],
+    review_summary: "Keramikk vase stor fra Kid er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Keramikk vase stor fra Kid gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 15 × 15 × 30 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Keramikk vase stor holder svært høy standard. Kid har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 399 kr er dette et rimelig alternativ med god kvalitet. Kid er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "kid2-faux-pels-pledd",
+    name: "Faux pels pledd",
+    brand: "Kid",
+    category: "pute",
+    description: "Faux pels pledd fra Kid er en luksus pute som passer perfekt i stue. Med dimensjoner på 150 × 200 × 2 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 699,
+    image_url: "",
+    affiliate_url: "https://www.kid.no/faux-pels-pledd",
+    style_tags: ["luksus","koselig"],
+    color_tags: ["hvit"],
+    room_tags: ["stue","soverom"],
+    dimensions: { width: 150, depth: 200, height: 2 },
+    in_stock: true,
+    discount_code: "DESIGN20",
+    discount_percent: 20,
+    rating: 3.6,
+    pros: ["Premium finish og detaljer","Enkel montering med tydelig bruksanvisning","Robust konstruksjon","Solid byggekvalitet og gjennomtenkt design"],
+    cons: ["Prisen er i det øvre sjiktet","Leveringstiden kan være lang","Begrenset tilgjengelighet i alle butikker"],
+    review_summary: "Faux pels pledd fra Kid er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Faux pels pledd fra Kid gir et godt førsteinntrykk med sin luksus stil. Med dimensjoner på 150 × 200 × 2 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Faux pels pledd holder god standard. Kid har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 699 kr er dette et rimelig alternativ med god kvalitet. Kid er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "kid2-monstret-pyntepute",
+    name: "Mønstret pyntepute",
+    brand: "Kid",
+    category: "pute",
+    description: "Mønstret pyntepute fra Kid er en bohem pute som passer perfekt i stue. Med dimensjoner på 50 × 50 × 15 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 349,
+    image_url: "",
+    affiliate_url: "https://www.kid.no/mønstret-pyntepute",
+    style_tags: ["bohem"],
+    color_tags: ["sennep","sort"],
+    room_tags: ["stue"],
+    dimensions: { width: 50, depth: 50, height: 15 },
+    in_stock: true,
+    discount_code: "DESIGN20",
+    discount_percent: 20,
+    rating: 4.2,
+    pros: ["Robust konstruksjon","God verdi for pengene","Praktisk og funksjonell løsning","Passer godt i skandinaviske hjem"],
+    cons: ["Vedlikehold krever litt ekstra oppmerksomhet","Krever noe montering","Prisen er i det øvre sjiktet"],
+    review_summary: "Mønstret pyntepute fra Kid er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Mønstret pyntepute fra Kid gir et godt førsteinntrykk med sin bohem stil. Med dimensjoner på 50 × 50 × 15 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Mønstret pyntepute holder svært høy standard. Kid har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 349 kr er dette et rimelig alternativ med god kvalitet. Kid er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "kid2-bambus-gardinring-10-pk",
+    name: "Bambus gardinring 10-pk",
+    brand: "Kid",
+    category: "dekor",
+    description: "Bambus gardinring 10-pk fra Kid er en naturlig dekorasjon som passer perfekt i stue. Med dimensjoner på 5 × 5 × 7 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 149,
+    image_url: "",
+    affiliate_url: "https://www.kid.no/bambus-gardinring-10-pk",
+    style_tags: ["naturlig"],
+    color_tags: ["natur"],
+    room_tags: ["stue","soverom"],
+    dimensions: { width: 5, depth: 5, height: 7 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.6,
+    pros: ["Stilren og diskret","Solid byggekvalitet og gjennomtenkt design","Høy materialkvalitet","Lett å vedlikeholde og rengjøre"],
+    cons: ["Prisen er i det øvre sjiktet","Tung å flytte etter montering","Vedlikehold krever litt ekstra oppmerksomhet","Begrenset tilgjengelighet i alle butikker"],
+    review_summary: "Bambus gardinring 10-pk fra Kid er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Bambus gardinring 10-pk fra Kid gir et godt førsteinntrykk med sin naturlig stil. Med dimensjoner på 5 × 5 × 7 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Bambus gardinring 10-pk holder svært høy standard. Kid har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 149 kr er dette et rimelig alternativ med god kvalitet. Kid er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "kid2-led-kubbelys-3-pk",
+    name: "LED kubbelys 3-pk",
+    brand: "Kid",
+    category: "dekor",
+    description: "LED kubbelys 3-pk fra Kid er en koselig dekorasjon som passer perfekt i stue. Med dimensjoner på 8 × 8 × 15 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 299,
+    image_url: "",
+    affiliate_url: "https://www.kid.no/led-kubbelys-3-pk",
+    style_tags: ["koselig"],
+    color_tags: ["hvit"],
+    room_tags: ["stue","soverom"],
+    dimensions: { width: 8, depth: 8, height: 15 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.8,
+    pros: ["Allsidig — passer i flere rom","Solid byggekvalitet og gjennomtenkt design","Passer godt i skandinaviske hjem","Enkel montering med tydelig bruksanvisning"],
+    cons: ["Leveringstiden kan være lang","Prisen er i det øvre sjiktet","Vedlikehold krever litt ekstra oppmerksomhet"],
+    review_summary: "LED kubbelys 3-pk fra Kid er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "LED kubbelys 3-pk fra Kid gir et godt førsteinntrykk med sin koselig stil. Med dimensjoner på 8 × 8 × 15 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på LED kubbelys 3-pk holder god standard. Kid har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 299 kr er dette et rimelig alternativ med god kvalitet. Kid er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "kid2-makram-veggdekor",
+    name: "Makramé veggdekor",
+    brand: "Kid",
+    category: "dekor",
+    description: "Makramé veggdekor fra Kid er en bohem dekorasjon som passer perfekt i stue. Med dimensjoner på 60 × 2 × 80 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 449,
+    image_url: "",
+    affiliate_url: "https://www.kid.no/makram-veggdekor",
+    style_tags: ["bohem"],
+    color_tags: ["natur"],
+    room_tags: ["stue","soverom"],
+    dimensions: { width: 60, depth: 2, height: 80 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.2,
+    pros: ["Komfortabel i daglig bruk","Høy materialkvalitet","Tidløst design som ikke går av moten","Solid byggekvalitet og gjennomtenkt design"],
+    cons: ["Begrenset tilgjengelighet i alle butikker","Tung å flytte etter montering","Materialet kan vise slitasje over tid"],
+    review_summary: "Makramé veggdekor fra Kid er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Makramé veggdekor fra Kid gir et godt førsteinntrykk med sin bohem stil. Med dimensjoner på 60 × 2 × 80 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Makramé veggdekor holder svært høy standard. Kid har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 449 kr er dette et rimelig alternativ med god kvalitet. Kid er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "kid2-pliss-gardin-100x160",
+    name: "Plissègardin 100x160",
+    brand: "Kid",
+    category: "gardin",
+    description: "Plissègardin 100x160 fra Kid er en funksjonell gardin som passer perfekt i stue. Med dimensjoner på 100 × 3 × 160 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 499,
+    image_url: "",
+    affiliate_url: "https://www.kid.no/pliss-gardin-100x160",
+    style_tags: ["funksjonell","moderne"],
+    color_tags: ["hvit"],
+    room_tags: ["stue","soverom","kjøkken"],
+    dimensions: { width: 100, depth: 3, height: 160 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.5,
+    pros: ["Tidløst design som ikke går av moten","Elegant og moderne utseende","Solid byggekvalitet og gjennomtenkt design","Passer godt i skandinaviske hjem","Svært god sittekomfort"],
+    cons: ["Leveringstiden kan være lang","Fraktkostnadene kan være høye","Kan oppleves noe kompakt for større rom"],
+    review_summary: "Plissègardin 100x160 fra Kid er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Plissègardin 100x160 fra Kid gir et godt førsteinntrykk med sin funksjonell stil. Med dimensjoner på 100 × 3 × 160 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Plissègardin 100x160 holder god standard. Kid har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 499 kr er dette et rimelig alternativ med god kvalitet. Kid er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "kid2-stoffserviett-4-pk",
+    name: "Stoffserviett 4-pk",
+    brand: "Kid",
+    category: "dekor",
+    description: "Stoffserviett 4-pk fra Kid er en elegant dekorasjon som passer perfekt i spisestue. Med dimensjoner på 45 × 45 × 1 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 179,
+    image_url: "",
+    affiliate_url: "https://www.kid.no/stoffserviett-4-pk",
+    style_tags: ["elegant"],
+    color_tags: ["lin","natur"],
+    room_tags: ["spisestue"],
+    dimensions: { width: 45, depth: 45, height: 1 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.5,
+    pros: ["Premium finish og detaljer","Solid byggekvalitet og gjennomtenkt design","Tidløst design som ikke går av moten","Svært god sittekomfort","Passer godt i skandinaviske hjem"],
+    cons: ["Leveringstiden kan være lang","Begrenset fargevalg","Prisen er i det øvre sjiktet"],
+    review_summary: "Stoffserviett 4-pk fra Kid er et utmerket valg for spisestue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Stoffserviett 4-pk fra Kid gir et godt førsteinntrykk med sin elegant stil. Med dimensjoner på 45 × 45 × 1 cm passer den godt i spisestuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Stoffserviett 4-pk holder svært høy standard. Kid har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 179 kr er dette et rimelig alternativ med god kvalitet. Kid er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "skeidar2-grand-3-seter-sofa",
+    name: "Grand 3-seter sofa",
+    brand: "Skeidar",
+    category: "sofa",
+    description: "Grand 3-seter sofa fra Skeidar er en klassisk sofa som passer perfekt i stue. Med dimensjoner på 230 × 95 × 85 cm er dette et premium valg. Finn de beste prisene på designinteriør.no.",
+    price: 16990,
+    image_url: "",
+    affiliate_url: "https://www.skeidar.no/grand-3-seter-sofa",
+    style_tags: ["klassisk","komfort"],
+    color_tags: ["beige"],
+    room_tags: ["stue"],
+    dimensions: { width: 230, depth: 95, height: 85 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.4,
+    pros: ["God verdi for pengene","Lett å vedlikeholde og rengjøre","Tidløst design som ikke går av moten","Komfortabel i daglig bruk","Allsidig — passer i flere rom"],
+    cons: ["Prisen er i det øvre sjiktet","Begrenset tilgjengelighet i alle butikker","Kan oppleves noe kompakt for større rom","Leveringstiden kan være lang"],
+    review_summary: "Grand 3-seter sofa fra Skeidar er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Grand 3-seter sofa fra Skeidar gir et godt førsteinntrykk med sin klassisk stil. Med dimensjoner på 230 × 95 × 85 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Grand 3-seter sofa holder svært høy standard. Skeidar har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. For prisen forventer man premium kvalitet, og dette produktet leverer."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 16 990 kr er dette en investering, men kvaliteten rettferdiggjør prisen. Skeidar er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "skeidar2-elegance-spisebord",
+    name: "Elegance spisebord",
+    brand: "Skeidar",
+    category: "bord",
+    description: "Elegance spisebord fra Skeidar er en elegant bord som passer perfekt i spisestue. Med dimensjoner på 200 × 100 × 75 cm er dette et premium valg. Finn de beste prisene på designinteriør.no.",
+    price: 12990,
+    image_url: "",
+    affiliate_url: "https://www.skeidar.no/elegance-spisebord",
+    style_tags: ["elegant","skandinavisk"],
+    color_tags: ["eik"],
+    room_tags: ["spisestue"],
+    dimensions: { width: 200, depth: 100, height: 75 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.9,
+    pros: ["Høy materialkvalitet","Stilren og diskret","God verdi for pengene","Tidløst design som ikke går av moten"],
+    cons: ["Leveringstiden kan være lang","Krever noe montering","Begrenset fargevalg","Begrenset tilgjengelighet i alle butikker"],
+    review_summary: "Elegance spisebord fra Skeidar er et solid valg for spisestue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Elegance spisebord fra Skeidar gir et godt førsteinntrykk med sin elegant stil. Med dimensjoner på 200 × 100 × 75 cm passer den godt i spisestuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Elegance spisebord holder god standard. Skeidar har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. For prisen forventer man premium kvalitet, og dette produktet leverer."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 12 990 kr får man et solid produkt som holder i mange år. Skeidar er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "skeidar2-comfort-tv-benk",
+    name: "Comfort TV-benk",
+    brand: "Skeidar",
+    category: "kommode",
+    description: "Comfort TV-benk fra Skeidar er en moderne kommode som passer perfekt i stue. Med dimensjoner på 180 × 45 × 55 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 5990,
+    image_url: "",
+    affiliate_url: "https://www.skeidar.no/comfort-tv-benk",
+    style_tags: ["moderne"],
+    color_tags: ["eik","hvit"],
+    room_tags: ["stue"],
+    dimensions: { width: 180, depth: 45, height: 55 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.2,
+    pros: ["Tidløst design som ikke går av moten","Enkel montering med tydelig bruksanvisning","Elegant og moderne utseende","Praktisk og funksjonell løsning","God verdi for pengene"],
+    cons: ["Leveringstiden kan være lang","Begrenset fargevalg","Krever noe montering","Tung å flytte etter montering"],
+    review_summary: "Comfort TV-benk fra Skeidar er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Comfort TV-benk fra Skeidar gir et godt førsteinntrykk med sin moderne stil. Med dimensjoner på 180 × 45 × 55 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Comfort TV-benk holder svært høy standard. Skeidar har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 5 990 kr får man et solid produkt som holder i mange år. Skeidar er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "skeidar2-royal-kontinentalseng",
+    name: "Royal kontinentalseng",
+    brand: "Skeidar",
+    category: "seng",
+    description: "Royal kontinentalseng fra Skeidar er en luksus seng som passer perfekt i soverom. Med dimensjoner på 180 × 200 × 110 cm er dette et premium valg. Finn de beste prisene på designinteriør.no.",
+    price: 19990,
+    image_url: "",
+    affiliate_url: "https://www.skeidar.no/royal-kontinentalseng",
+    style_tags: ["luksus","komfort"],
+    color_tags: ["grå"],
+    room_tags: ["soverom"],
+    dimensions: { width: 180, depth: 200, height: 110 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.1,
+    pros: ["Praktisk og funksjonell løsning","Høy materialkvalitet","Komfortabel i daglig bruk","Allsidig — passer i flere rom"],
+    cons: ["Krever noe montering","Begrenset fargevalg","Vedlikehold krever litt ekstra oppmerksomhet"],
+    review_summary: "Royal kontinentalseng fra Skeidar er et utmerket valg for soverom. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Royal kontinentalseng fra Skeidar gir et godt førsteinntrykk med sin luksus stil. Med dimensjoner på 180 × 200 × 110 cm passer den godt i soveromn. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Royal kontinentalseng holder svært høy standard. Skeidar har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. For prisen forventer man premium kvalitet, og dette produktet leverer."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 19 990 kr er dette en investering, men kvaliteten rettferdiggjør prisen. Skeidar er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "skeidar2-classic-kommode-eik",
+    name: "Classic kommode eik",
+    brand: "Skeidar",
+    category: "kommode",
+    description: "Classic kommode eik fra Skeidar er en skandinavisk kommode som passer perfekt i soverom. Med dimensjoner på 100 × 45 × 85 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 7990,
+    image_url: "",
+    affiliate_url: "https://www.skeidar.no/classic-kommode-eik",
+    style_tags: ["skandinavisk","klassisk"],
+    color_tags: ["eik"],
+    room_tags: ["soverom"],
+    dimensions: { width: 100, depth: 45, height: 85 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.3,
+    pros: ["Passer godt i skandinaviske hjem","Elegant og moderne utseende","Allsidig — passer i flere rom","Komfortabel i daglig bruk","God verdi for pengene"],
+    cons: ["Begrenset fargevalg","Materialet kan vise slitasje over tid","Vedlikehold krever litt ekstra oppmerksomhet"],
+    review_summary: "Classic kommode eik fra Skeidar er et utmerket valg for soverom. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Classic kommode eik fra Skeidar gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 100 × 45 × 85 cm passer den godt i soveromn. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Classic kommode eik holder svært høy standard. Skeidar har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 7 990 kr får man et solid produkt som holder i mange år. Skeidar er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "skeidar2-studio-bokhylle",
+    name: "Studio bokhylle",
+    brand: "Skeidar",
+    category: "hylle",
+    description: "Studio bokhylle fra Skeidar er en moderne hylle som passer perfekt i stue. Med dimensjoner på 90 × 35 × 200 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 6490,
+    image_url: "",
+    affiliate_url: "https://www.skeidar.no/studio-bokhylle",
+    style_tags: ["moderne"],
+    color_tags: ["hvit"],
+    room_tags: ["stue","kontor"],
+    dimensions: { width: 90, depth: 35, height: 200 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.7,
+    pros: ["Solid byggekvalitet og gjennomtenkt design","Passer godt i skandinaviske hjem","Stilren og diskret","Robust konstruksjon"],
+    cons: ["Krever noe montering","Fraktkostnadene kan være høye","Begrenset tilgjengelighet i alle butikker"],
+    review_summary: "Studio bokhylle fra Skeidar er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Studio bokhylle fra Skeidar gir et godt førsteinntrykk med sin moderne stil. Med dimensjoner på 90 × 35 × 200 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Studio bokhylle holder svært høy standard. Skeidar har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 6 490 kr får man et solid produkt som holder i mange år. Skeidar er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "skeidar2-lounge-hjornesofa",
+    name: "Lounge hjørnesofa",
+    brand: "Skeidar",
+    category: "sofa",
+    description: "Lounge hjørnesofa fra Skeidar er en moderne sofa som passer perfekt i stue. Med dimensjoner på 290 × 210 × 82 cm er dette et premium valg. Finn de beste prisene på designinteriør.no.",
+    price: 24990,
+    image_url: "",
+    affiliate_url: "https://www.skeidar.no/lounge-hjørnesofa",
+    style_tags: ["moderne","komfort"],
+    color_tags: ["mørk grå"],
+    room_tags: ["stue"],
+    dimensions: { width: 290, depth: 210, height: 82 },
+    in_stock: true,
+    discount_code: "DESIGN20",
+    discount_percent: 20,
+    rating: 4.2,
+    pros: ["Svært god sittekomfort","Høy materialkvalitet","Allsidig — passer i flere rom","Enkel montering med tydelig bruksanvisning"],
+    cons: ["Prisen er i det øvre sjiktet","Kan oppleves noe kompakt for større rom","Leveringstiden kan være lang"],
+    review_summary: "Lounge hjørnesofa fra Skeidar er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Lounge hjørnesofa fra Skeidar gir et godt førsteinntrykk med sin moderne stil. Med dimensjoner på 290 × 210 × 82 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Lounge hjørnesofa holder svært høy standard. Skeidar har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. For prisen forventer man premium kvalitet, og dette produktet leverer."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 24 990 kr er dette en investering, men kvaliteten rettferdiggjør prisen. Skeidar er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "skeidar2-oslo-spisestol-stoff",
+    name: "Oslo spisestol stoff",
+    brand: "Skeidar",
+    category: "stol",
+    description: "Oslo spisestol stoff fra Skeidar er en skandinavisk stol som passer perfekt i spisestue. Med dimensjoner på 48 × 56 × 85 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 2990,
+    image_url: "",
+    affiliate_url: "https://www.skeidar.no/oslo-spisestol-stoff",
+    style_tags: ["skandinavisk"],
+    color_tags: ["grå","eik"],
+    room_tags: ["spisestue"],
+    dimensions: { width: 48, depth: 56, height: 85 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 3.4,
+    pros: ["Elegant og moderne utseende","Høy materialkvalitet","God verdi for pengene","Robust konstruksjon","Allsidig — passer i flere rom"],
+    cons: ["Materialet kan vise slitasje over tid","Fraktkostnadene kan være høye","Krever noe montering"],
+    review_summary: "Oslo spisestol stoff fra Skeidar er et solid valg for spisestue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Oslo spisestol stoff fra Skeidar gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 48 × 56 × 85 cm passer den godt i spisestuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Oslo spisestol stoff holder god standard. Skeidar har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 2 990 kr er dette et rimelig alternativ med god kvalitet. Skeidar er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "skeidar2-nordic-nattbord",
+    name: "Nordic nattbord",
+    brand: "Skeidar",
+    category: "bord",
+    description: "Nordic nattbord fra Skeidar er en skandinavisk bord som passer perfekt i soverom. Med dimensjoner på 50 × 38 × 55 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 2490,
+    image_url: "",
+    affiliate_url: "https://www.skeidar.no/nordic-nattbord",
+    style_tags: ["skandinavisk"],
+    color_tags: ["eik"],
+    room_tags: ["soverom"],
+    dimensions: { width: 50, depth: 38, height: 55 },
+    in_stock: true,
+    discount_code: "DESIGN15",
+    discount_percent: 15,
+    rating: 4.2,
+    pros: ["Komfortabel i daglig bruk","Robust konstruksjon","Praktisk og funksjonell løsning","God verdi for pengene","Høy materialkvalitet"],
+    cons: ["Leveringstiden kan være lang","Fraktkostnadene kan være høye","Tung å flytte etter montering"],
+    review_summary: "Nordic nattbord fra Skeidar er et utmerket valg for soverom. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Nordic nattbord fra Skeidar gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 50 × 38 × 55 cm passer den godt i soveromn. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Nordic nattbord holder svært høy standard. Skeidar har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 2 490 kr er dette et rimelig alternativ med god kvalitet. Skeidar er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "skeidar2-flex-sovesofa",
+    name: "Flex sovesofa",
+    brand: "Skeidar",
+    category: "sofa",
+    description: "Flex sovesofa fra Skeidar er en funksjonell sofa som passer perfekt i stue. Med dimensjoner på 210 × 95 × 82 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 9990,
+    image_url: "",
+    affiliate_url: "https://www.skeidar.no/flex-sovesofa",
+    style_tags: ["funksjonell"],
+    color_tags: ["blå"],
+    room_tags: ["stue","gjesterom"],
+    dimensions: { width: 210, depth: 95, height: 82 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.5,
+    pros: ["Solid byggekvalitet og gjennomtenkt design","Passer godt i skandinaviske hjem","Allsidig — passer i flere rom","Enkel montering med tydelig bruksanvisning"],
+    cons: ["Krever noe montering","Materialet kan vise slitasje over tid","Begrenset tilgjengelighet i alle butikker","Kan oppleves noe kompakt for større rom"],
+    review_summary: "Flex sovesofa fra Skeidar er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Flex sovesofa fra Skeidar gir et godt førsteinntrykk med sin funksjonell stil. Med dimensjoner på 210 × 95 × 82 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Flex sovesofa holder svært høy standard. Skeidar har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 9 990 kr får man et solid produkt som holder i mange år. Skeidar er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "skeidar2-premium-skjenk",
+    name: "Premium skjenk",
+    brand: "Skeidar",
+    category: "kommode",
+    description: "Premium skjenk fra Skeidar er en skandinavisk kommode som passer perfekt i stue. Med dimensjoner på 160 × 42 × 80 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 8990,
+    image_url: "",
+    affiliate_url: "https://www.skeidar.no/premium-skjenk",
+    style_tags: ["skandinavisk","elegant"],
+    color_tags: ["eik","hvit"],
+    room_tags: ["stue","spisestue"],
+    dimensions: { width: 160, depth: 42, height: 80 },
+    in_stock: true,
+    discount_code: "DESIGN20",
+    discount_percent: 20,
+    rating: 4.7,
+    pros: ["Premium finish og detaljer","Solid byggekvalitet og gjennomtenkt design","Elegant og moderne utseende","God verdi for pengene"],
+    cons: ["Prisen er i det øvre sjiktet","Krever noe montering","Begrenset tilgjengelighet i alle butikker","Tung å flytte etter montering"],
+    review_summary: "Premium skjenk fra Skeidar er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Premium skjenk fra Skeidar gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 160 × 42 × 80 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Premium skjenk holder svært høy standard. Skeidar har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 8 990 kr får man et solid produkt som holder i mange år. Skeidar er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "skeidar2-harmony-lenestol",
+    name: "Harmony lenestol",
+    brand: "Skeidar",
+    category: "stol",
+    description: "Harmony lenestol fra Skeidar er en komfort stol som passer perfekt i stue. Med dimensjoner på 75 × 82 × 95 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 6990,
+    image_url: "",
+    affiliate_url: "https://www.skeidar.no/harmony-lenestol",
+    style_tags: ["komfort","skandinavisk"],
+    color_tags: ["grønn"],
+    room_tags: ["stue"],
+    dimensions: { width: 75, depth: 82, height: 95 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 3.8,
+    pros: ["Allsidig — passer i flere rom","God verdi for pengene","Passer godt i skandinaviske hjem","Høy materialkvalitet","Robust konstruksjon"],
+    cons: ["Fraktkostnadene kan være høye","Materialet kan vise slitasje over tid","Krever noe montering","Leveringstiden kan være lang"],
+    review_summary: "Harmony lenestol fra Skeidar er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Harmony lenestol fra Skeidar gir et godt førsteinntrykk med sin komfort stil. Med dimensjoner på 75 × 82 × 95 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Harmony lenestol holder god standard. Skeidar har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 6 990 kr får man et solid produkt som holder i mange år. Skeidar er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "skeidar2-design-sofabord-glass",
+    name: "Design sofabord glass",
+    brand: "Skeidar",
+    category: "bord",
+    description: "Design sofabord glass fra Skeidar er en moderne bord som passer perfekt i stue. Med dimensjoner på 120 × 60 × 42 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 4990,
+    image_url: "",
+    affiliate_url: "https://www.skeidar.no/design-sofabord-glass",
+    style_tags: ["moderne","elegant"],
+    color_tags: ["sort","glass"],
+    room_tags: ["stue"],
+    dimensions: { width: 120, depth: 60, height: 42 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.5,
+    pros: ["Passer godt i skandinaviske hjem","Lett å vedlikeholde og rengjøre","Solid byggekvalitet og gjennomtenkt design","Allsidig — passer i flere rom"],
+    cons: ["Leveringstiden kan være lang","Fraktkostnadene kan være høye","Tung å flytte etter montering","Materialet kan vise slitasje over tid"],
+    review_summary: "Design sofabord glass fra Skeidar er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Design sofabord glass fra Skeidar gir et godt førsteinntrykk med sin moderne stil. Med dimensjoner på 120 × 60 × 42 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Design sofabord glass holder god standard. Skeidar har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 4 990 kr er dette et rimelig alternativ med god kvalitet. Skeidar er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "skeidar2-ventura-uttrekksbord",
+    name: "Ventura uttrekksbord",
+    brand: "Skeidar",
+    category: "bord",
+    description: "Ventura uttrekksbord fra Skeidar er en funksjonell bord som passer perfekt i spisestue. Med dimensjoner på 180 × 95 × 75 cm er dette et premium valg. Finn de beste prisene på designinteriør.no.",
+    price: 14990,
+    image_url: "",
+    affiliate_url: "https://www.skeidar.no/ventura-uttrekksbord",
+    style_tags: ["funksjonell","skandinavisk"],
+    color_tags: ["hvit"],
+    room_tags: ["spisestue"],
+    dimensions: { width: 180, depth: 95, height: 75 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.5,
+    pros: ["Svært god sittekomfort","Stilren og diskret","Tidløst design som ikke går av moten","Enkel montering med tydelig bruksanvisning","Høy materialkvalitet"],
+    cons: ["Fraktkostnadene kan være høye","Krever noe montering","Tung å flytte etter montering","Vedlikehold krever litt ekstra oppmerksomhet"],
+    review_summary: "Ventura uttrekksbord fra Skeidar er et solid valg for spisestue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Ventura uttrekksbord fra Skeidar gir et godt førsteinntrykk med sin funksjonell stil. Med dimensjoner på 180 × 95 × 75 cm passer den godt i spisestuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Ventura uttrekksbord holder god standard. Skeidar har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. For prisen forventer man premium kvalitet, og dette produktet leverer."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 14 990 kr får man et solid produkt som holder i mange år. Skeidar er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "skeidar2-master-garderobe-skyvedor",
+    name: "Master garderobe skyvedør",
+    brand: "Skeidar",
+    category: "kommode",
+    description: "Master garderobe skyvedør fra Skeidar er en moderne kommode som passer perfekt i soverom. Med dimensjoner på 200 × 62 × 220 cm er dette et premium valg. Finn de beste prisene på designinteriør.no.",
+    price: 14990,
+    image_url: "",
+    affiliate_url: "https://www.skeidar.no/master-garderobe-skyvedør",
+    style_tags: ["moderne"],
+    color_tags: ["hvit","speil"],
+    room_tags: ["soverom"],
+    dimensions: { width: 200, depth: 62, height: 220 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.6,
+    pros: ["Komfortabel i daglig bruk","Stilren og diskret","Lett å vedlikeholde og rengjøre","Solid byggekvalitet og gjennomtenkt design"],
+    cons: ["Materialet kan vise slitasje over tid","Leveringstiden kan være lang","Begrenset tilgjengelighet i alle butikker","Begrenset fargevalg"],
+    review_summary: "Master garderobe skyvedør fra Skeidar er et utmerket valg for soverom. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Master garderobe skyvedør fra Skeidar gir et godt førsteinntrykk med sin moderne stil. Med dimensjoner på 200 × 62 × 220 cm passer den godt i soveromn. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Master garderobe skyvedør holder svært høy standard. Skeidar har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. For prisen forventer man premium kvalitet, og dette produktet leverer."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 14 990 kr får man et solid produkt som holder i mange år. Skeidar er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "mobelringen2-comfort-3-seter-sofa",
+    name: "Comfort 3-seter sofa",
+    brand: "Møbelringen",
+    category: "sofa",
+    description: "Comfort 3-seter sofa fra Møbelringen er en komfort sofa som passer perfekt i stue. Med dimensjoner på 225 × 92 × 83 cm er dette et premium valg. Finn de beste prisene på designinteriør.no.",
+    price: 13990,
+    image_url: "",
+    affiliate_url: "https://www.mobelringen.no/comfort-3-seter-sofa",
+    style_tags: ["komfort","skandinavisk"],
+    color_tags: ["beige"],
+    room_tags: ["stue"],
+    dimensions: { width: 225, depth: 92, height: 83 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 3.9,
+    pros: ["Tidløst design som ikke går av moten","Solid byggekvalitet og gjennomtenkt design","Praktisk og funksjonell løsning","Svært god sittekomfort","Høy materialkvalitet"],
+    cons: ["Tung å flytte etter montering","Prisen er i det øvre sjiktet","Kan oppleves noe kompakt for større rom"],
+    review_summary: "Comfort 3-seter sofa fra Møbelringen er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Comfort 3-seter sofa fra Møbelringen gir et godt førsteinntrykk med sin komfort stil. Med dimensjoner på 225 × 92 × 83 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Comfort 3-seter sofa holder god standard. Møbelringen har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. For prisen forventer man premium kvalitet, og dette produktet leverer."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 13 990 kr får man et solid produkt som holder i mange år. Møbelringen er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "mobelringen2-nature-spisebord-massiv-eik",
+    name: "Nature spisebord massiv eik",
+    brand: "Møbelringen",
+    category: "bord",
+    description: "Nature spisebord massiv eik fra Møbelringen er en skandinavisk bord som passer perfekt i spisestue. Med dimensjoner på 200 × 100 × 75 cm er dette et premium valg. Finn de beste prisene på designinteriør.no.",
+    price: 11990,
+    image_url: "",
+    affiliate_url: "https://www.mobelringen.no/nature-spisebord-massiv-eik",
+    style_tags: ["skandinavisk","rustikk"],
+    color_tags: ["eik"],
+    room_tags: ["spisestue"],
+    dimensions: { width: 200, depth: 100, height: 75 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.2,
+    pros: ["Robust konstruksjon","Tidløst design som ikke går av moten","Komfortabel i daglig bruk","Solid byggekvalitet og gjennomtenkt design"],
+    cons: ["Fraktkostnadene kan være høye","Tung å flytte etter montering","Leveringstiden kan være lang","Materialet kan vise slitasje over tid"],
+    review_summary: "Nature spisebord massiv eik fra Møbelringen er et utmerket valg for spisestue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Nature spisebord massiv eik fra Møbelringen gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 200 × 100 × 75 cm passer den godt i spisestuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Nature spisebord massiv eik holder svært høy standard. Møbelringen har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. For prisen forventer man premium kvalitet, og dette produktet leverer."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 11 990 kr får man et solid produkt som holder i mange år. Møbelringen er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "mobelringen2-classic-spisestol",
+    name: "Classic spisestol",
+    brand: "Møbelringen",
+    category: "stol",
+    description: "Classic spisestol fra Møbelringen er en skandinavisk stol som passer perfekt i spisestue. Med dimensjoner på 50 × 55 × 84 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 2790,
+    image_url: "",
+    affiliate_url: "https://www.mobelringen.no/classic-spisestol",
+    style_tags: ["skandinavisk"],
+    color_tags: ["grå","eik"],
+    room_tags: ["spisestue"],
+    dimensions: { width: 50, depth: 55, height: 84 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.9,
+    pros: ["Stilren og diskret","Lett å vedlikeholde og rengjøre","Svært god sittekomfort","Praktisk og funksjonell løsning","Komfortabel i daglig bruk"],
+    cons: ["Materialet kan vise slitasje over tid","Fraktkostnadene kan være høye","Kan oppleves noe kompakt for større rom"],
+    review_summary: "Classic spisestol fra Møbelringen er et solid valg for spisestue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Classic spisestol fra Møbelringen gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 50 × 55 × 84 cm passer den godt i spisestuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Classic spisestol holder god standard. Møbelringen har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 2 790 kr er dette et rimelig alternativ med god kvalitet. Møbelringen er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "mobelringen2-dream-kontinentalseng",
+    name: "Dream kontinentalseng",
+    brand: "Møbelringen",
+    category: "seng",
+    description: "Dream kontinentalseng fra Møbelringen er en komfort seng som passer perfekt i soverom. Med dimensjoner på 180 × 200 × 108 cm er dette et premium valg. Finn de beste prisene på designinteriør.no.",
+    price: 16990,
+    image_url: "",
+    affiliate_url: "https://www.mobelringen.no/dream-kontinentalseng",
+    style_tags: ["komfort","luksus"],
+    color_tags: ["mørk grå"],
+    room_tags: ["soverom"],
+    dimensions: { width: 180, depth: 200, height: 108 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.5,
+    pros: ["Praktisk og funksjonell løsning","Allsidig — passer i flere rom","Solid byggekvalitet og gjennomtenkt design","Stilren og diskret","Elegant og moderne utseende"],
+    cons: ["Prisen er i det øvre sjiktet","Vedlikehold krever litt ekstra oppmerksomhet","Begrenset fargevalg"],
+    review_summary: "Dream kontinentalseng fra Møbelringen er et utmerket valg for soverom. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Dream kontinentalseng fra Møbelringen gir et godt førsteinntrykk med sin komfort stil. Med dimensjoner på 180 × 200 × 108 cm passer den godt i soveromn. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Dream kontinentalseng holder svært høy standard. Møbelringen har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. For prisen forventer man premium kvalitet, og dette produktet leverer."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 16 990 kr er dette en investering, men kvaliteten rettferdiggjør prisen. Møbelringen er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "mobelringen2-harmony-teppe-200x300",
+    name: "Harmony teppe 200x300",
+    brand: "Møbelringen",
+    category: "teppe",
+    description: "Harmony teppe 200x300 fra Møbelringen er en skandinavisk teppe som passer perfekt i stue. Med dimensjoner på 200 × 300 × 1 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 3990,
+    image_url: "",
+    affiliate_url: "https://www.mobelringen.no/harmony-teppe-200x300",
+    style_tags: ["skandinavisk"],
+    color_tags: ["beige","hvit"],
+    room_tags: ["stue"],
+    dimensions: { width: 200, depth: 300, height: 1 },
+    in_stock: true,
+    discount_code: "DESIGN20",
+    discount_percent: 20,
+    rating: 4.7,
+    pros: ["Tidløst design som ikke går av moten","Allsidig — passer i flere rom","Stilren og diskret","Enkel montering med tydelig bruksanvisning"],
+    cons: ["Kan oppleves noe kompakt for større rom","Fraktkostnadene kan være høye","Leveringstiden kan være lang"],
+    review_summary: "Harmony teppe 200x300 fra Møbelringen er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Harmony teppe 200x300 fra Møbelringen gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 200 × 300 × 1 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Harmony teppe 200x300 holder svært høy standard. Møbelringen har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 3 990 kr er dette et rimelig alternativ med god kvalitet. Møbelringen er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "mobelringen2-studio-hjornesofa",
+    name: "Studio hjørnesofa",
+    brand: "Møbelringen",
+    category: "sofa",
+    description: "Studio hjørnesofa fra Møbelringen er en moderne sofa som passer perfekt i stue. Med dimensjoner på 280 × 195 × 85 cm er dette et premium valg. Finn de beste prisene på designinteriør.no.",
+    price: 21990,
+    image_url: "",
+    affiliate_url: "https://www.mobelringen.no/studio-hjørnesofa",
+    style_tags: ["moderne"],
+    color_tags: ["grå"],
+    room_tags: ["stue"],
+    dimensions: { width: 280, depth: 195, height: 85 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 3.8,
+    pros: ["Stilren og diskret","Lett å vedlikeholde og rengjøre","Komfortabel i daglig bruk","Høy materialkvalitet"],
+    cons: ["Kan oppleves noe kompakt for større rom","Materialet kan vise slitasje over tid","Prisen er i det øvre sjiktet","Krever noe montering"],
+    review_summary: "Studio hjørnesofa fra Møbelringen er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Studio hjørnesofa fra Møbelringen gir et godt førsteinntrykk med sin moderne stil. Med dimensjoner på 280 × 195 × 85 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Studio hjørnesofa holder god standard. Møbelringen har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. For prisen forventer man premium kvalitet, og dette produktet leverer."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 21 990 kr er dette en investering, men kvaliteten rettferdiggjør prisen. Møbelringen er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "mobelringen2-urban-sofabord",
+    name: "Urban sofabord",
+    brand: "Møbelringen",
+    category: "bord",
+    description: "Urban sofabord fra Møbelringen er en moderne bord som passer perfekt i stue. Med dimensjoner på 120 × 60 × 45 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 4490,
+    image_url: "",
+    affiliate_url: "https://www.mobelringen.no/urban-sofabord",
+    style_tags: ["moderne","industriell"],
+    color_tags: ["eik","sort"],
+    room_tags: ["stue"],
+    dimensions: { width: 120, depth: 60, height: 45 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.7,
+    pros: ["Solid byggekvalitet og gjennomtenkt design","Tidløst design som ikke går av moten","Premium finish og detaljer","Passer godt i skandinaviske hjem"],
+    cons: ["Kan oppleves noe kompakt for større rom","Prisen er i det øvre sjiktet","Tung å flytte etter montering"],
+    review_summary: "Urban sofabord fra Møbelringen er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Urban sofabord fra Møbelringen gir et godt førsteinntrykk med sin moderne stil. Med dimensjoner på 120 × 60 × 45 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Urban sofabord holder god standard. Møbelringen har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 4 490 kr er dette et rimelig alternativ med god kvalitet. Møbelringen er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "mobelringen2-zen-lenestol",
+    name: "Zen lenestol",
+    brand: "Møbelringen",
+    category: "stol",
+    description: "Zen lenestol fra Møbelringen er en minimalistisk stol som passer perfekt i stue. Med dimensjoner på 70 × 75 × 90 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 5990,
+    image_url: "",
+    affiliate_url: "https://www.mobelringen.no/zen-lenestol",
+    style_tags: ["minimalistisk"],
+    color_tags: ["sort"],
+    room_tags: ["stue"],
+    dimensions: { width: 70, depth: 75, height: 90 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 3.5,
+    pros: ["Stilren og diskret","Passer godt i skandinaviske hjem","Enkel montering med tydelig bruksanvisning","Premium finish og detaljer"],
+    cons: ["Prisen er i det øvre sjiktet","Begrenset tilgjengelighet i alle butikker","Kan oppleves noe kompakt for større rom","Leveringstiden kan være lang"],
+    review_summary: "Zen lenestol fra Møbelringen er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Zen lenestol fra Møbelringen gir et godt førsteinntrykk med sin minimalistisk stil. Med dimensjoner på 70 × 75 × 90 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Zen lenestol holder god standard. Møbelringen har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 5 990 kr får man et solid produkt som holder i mange år. Møbelringen er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "mobelringen2-scandia-spisestol-polstret",
+    name: "Scandia spisestol polstret",
+    brand: "Møbelringen",
+    category: "stol",
+    description: "Scandia spisestol polstret fra Møbelringen er en skandinavisk stol som passer perfekt i spisestue. Med dimensjoner på 48 × 58 × 86 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 3490,
+    image_url: "",
+    affiliate_url: "https://www.mobelringen.no/scandia-spisestol-polstret",
+    style_tags: ["skandinavisk","komfort"],
+    color_tags: ["blå","eik"],
+    room_tags: ["spisestue"],
+    dimensions: { width: 48, depth: 58, height: 86 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4.7,
+    pros: ["Robust konstruksjon","Komfortabel i daglig bruk","Svært god sittekomfort","Elegant og moderne utseende"],
+    cons: ["Begrenset fargevalg","Krever noe montering","Begrenset tilgjengelighet i alle butikker"],
+    review_summary: "Scandia spisestol polstret fra Møbelringen er et utmerket valg for spisestue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Scandia spisestol polstret fra Møbelringen gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 48 × 58 × 86 cm passer den godt i spisestuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Scandia spisestol polstret holder svært høy standard. Møbelringen har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 3 490 kr er dette et rimelig alternativ med god kvalitet. Møbelringen er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "mobelringen2-nordic-uttrekksbord",
+    name: "Nordic uttrekksbord",
+    brand: "Møbelringen",
+    category: "bord",
+    description: "Nordic uttrekksbord fra Møbelringen er en skandinavisk bord som passer perfekt i spisestue. Med dimensjoner på 160 × 90 × 75 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 9990,
+    image_url: "",
+    affiliate_url: "https://www.mobelringen.no/nordic-uttrekksbord",
+    style_tags: ["skandinavisk","funksjonell"],
+    color_tags: ["hvit"],
+    room_tags: ["spisestue"],
+    dimensions: { width: 160, depth: 90, height: 75 },
+    in_stock: true,
+    discount_code: "DESIGN20",
+    discount_percent: 20,
+    rating: 4.2,
+    pros: ["Svært god sittekomfort","Enkel montering med tydelig bruksanvisning","Elegant og moderne utseende","Tidløst design som ikke går av moten","Praktisk og funksjonell løsning"],
+    cons: ["Tung å flytte etter montering","Krever noe montering","Begrenset fargevalg"],
+    review_summary: "Nordic uttrekksbord fra Møbelringen er et utmerket valg for spisestue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Nordic uttrekksbord fra Møbelringen gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 160 × 90 × 75 cm passer den godt i spisestuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Nordic uttrekksbord holder svært høy standard. Møbelringen har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 9 990 kr får man et solid produkt som holder i mange år. Møbelringen er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "mobelringen2-cozy-2-seter-sofa",
+    name: "Cozy 2-seter sofa",
+    brand: "Møbelringen",
+    category: "sofa",
+    description: "Cozy 2-seter sofa fra Møbelringen er en kompakt sofa som passer perfekt i stue. Med dimensjoner på 170 × 88 × 80 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 9990,
+    image_url: "",
+    affiliate_url: "https://www.mobelringen.no/cozy-2-seter-sofa",
+    style_tags: ["kompakt","skandinavisk"],
+    color_tags: ["rosa"],
+    room_tags: ["stue"],
+    dimensions: { width: 170, depth: 88, height: 80 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 4,
+    pros: ["Komfortabel i daglig bruk","Tidløst design som ikke går av moten","God verdi for pengene","Premium finish og detaljer","Svært god sittekomfort"],
+    cons: ["Fraktkostnadene kan være høye","Vedlikehold krever litt ekstra oppmerksomhet","Kan oppleves noe kompakt for større rom","Prisen er i det øvre sjiktet"],
+    review_summary: "Cozy 2-seter sofa fra Møbelringen er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Cozy 2-seter sofa fra Møbelringen gir et godt førsteinntrykk med sin kompakt stil. Med dimensjoner på 170 × 88 × 80 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Cozy 2-seter sofa holder svært høy standard. Møbelringen har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 9 990 kr får man et solid produkt som holder i mange år. Møbelringen er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "mobelringen2-vintage-teppe-160x230",
+    name: "Vintage teppe 160x230",
+    brand: "Møbelringen",
+    category: "teppe",
+    description: "Vintage teppe 160x230 fra Møbelringen er en vintage teppe som passer perfekt i stue. Med dimensjoner på 160 × 230 × 1 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 2990,
+    image_url: "",
+    affiliate_url: "https://www.mobelringen.no/vintage-teppe-160x230",
+    style_tags: ["vintage"],
+    color_tags: ["flerfarget"],
+    room_tags: ["stue"],
+    dimensions: { width: 160, depth: 230, height: 1 },
+    in_stock: true,
+    discount_code: "",
+    discount_percent: 0,
+    rating: 3.7,
+    pros: ["God verdi for pengene","Tidløst design som ikke går av moten","Komfortabel i daglig bruk","Praktisk og funksjonell løsning"],
+    cons: ["Fraktkostnadene kan være høye","Prisen er i det øvre sjiktet","Tung å flytte etter montering","Krever noe montering"],
+    review_summary: "Vintage teppe 160x230 fra Møbelringen er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Vintage teppe 160x230 fra Møbelringen gir et godt førsteinntrykk med sin vintage stil. Med dimensjoner på 160 × 230 × 1 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Vintage teppe 160x230 holder god standard. Møbelringen har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 2 990 kr er dette et rimelig alternativ med god kvalitet. Møbelringen er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "mobelringen2-modern-tv-benk",
+    name: "Modern TV-benk",
+    brand: "Møbelringen",
+    category: "kommode",
+    description: "Modern TV-benk fra Møbelringen er en moderne kommode som passer perfekt i stue. Med dimensjoner på 160 × 40 × 50 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 5490,
+    image_url: "",
+    affiliate_url: "https://www.mobelringen.no/modern-tv-benk",
+    style_tags: ["moderne"],
+    color_tags: ["eik","hvit"],
+    room_tags: ["stue"],
+    dimensions: { width: 160, depth: 40, height: 50 },
+    in_stock: true,
+    discount_code: "DESIGN10",
+    discount_percent: 10,
+    rating: 4.1,
+    pros: ["Svært god sittekomfort","Komfortabel i daglig bruk","Solid byggekvalitet og gjennomtenkt design","Praktisk og funksjonell løsning","God verdi for pengene"],
+    cons: ["Tung å flytte etter montering","Begrenset fargevalg","Leveringstiden kan være lang"],
+    review_summary: "Modern TV-benk fra Møbelringen er et utmerket valg for stue. Vi anbefaler dette produktet for de som setter pris på kvalitet og design.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Modern TV-benk fra Møbelringen gir et godt førsteinntrykk med sin moderne stil. Med dimensjoner på 160 × 40 × 50 cm passer den godt i stuen. Designet oser av kvalitet og omtanke for detaljer."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Modern TV-benk holder svært høy standard. Møbelringen har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 5 490 kr får man et solid produkt som holder i mange år. Møbelringen er kjent for å levere kvalitetsprodukter, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "mobelringen2-oslo-kommode-4-skuffer",
+    name: "Oslo kommode 4 skuffer",
+    brand: "Møbelringen",
+    category: "kommode",
+    description: "Oslo kommode 4 skuffer fra Møbelringen er en skandinavisk kommode som passer perfekt i soverom. Med dimensjoner på 80 × 42 × 95 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 5990,
+    image_url: "",
+    affiliate_url: "https://www.mobelringen.no/oslo-kommode-4-skuffer",
+    style_tags: ["skandinavisk"],
+    color_tags: ["hvit"],
+    room_tags: ["soverom"],
+    dimensions: { width: 80, depth: 42, height: 95 },
+    in_stock: true,
+    discount_code: "DESIGN15",
+    discount_percent: 15,
+    rating: 3.9,
+    pros: ["God verdi for pengene","Svært god sittekomfort","Premium finish og detaljer","Enkel montering med tydelig bruksanvisning","Høy materialkvalitet"],
+    cons: ["Begrenset fargevalg","Krever noe montering","Materialet kan vise slitasje over tid"],
+    review_summary: "Oslo kommode 4 skuffer fra Møbelringen er et solid valg for soverom. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Oslo kommode 4 skuffer fra Møbelringen gir et godt førsteinntrykk med sin skandinavisk stil. Med dimensjoner på 80 × 42 × 95 cm passer den godt i soveromn. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Oslo kommode 4 skuffer holder god standard. Møbelringen har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 5 990 kr får man et solid produkt som holder i mange år. Møbelringen er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
+  {
+    id: "mobelringen2-silk-teppe-200x300",
+    name: "Silk teppe 200x300",
+    brand: "Møbelringen",
+    category: "teppe",
+    description: "Silk teppe 200x300 fra Møbelringen er en luksus teppe som passer perfekt i stue. Med dimensjoner på 200 × 300 × 1 cm er dette et populært valg. Finn de beste prisene på designinteriør.no.",
+    price: 4990,
+    image_url: "",
+    affiliate_url: "https://www.mobelringen.no/silk-teppe-200x300",
+    style_tags: ["luksus"],
+    color_tags: ["grå"],
+    room_tags: ["stue"],
+    dimensions: { width: 200, depth: 300, height: 1 },
+    in_stock: true,
+    discount_code: "DESIGN15",
+    discount_percent: 15,
+    rating: 3.3,
+    pros: ["Robust konstruksjon","Tidløst design som ikke går av moten","Enkel montering med tydelig bruksanvisning","Svært god sittekomfort"],
+    cons: ["Vedlikehold krever litt ekstra oppmerksomhet","Tung å flytte etter montering","Fraktkostnadene kan være høye","Leveringstiden kan være lang"],
+    review_summary: "Silk teppe 200x300 fra Møbelringen er et solid valg for stue. Et godt alternativ i sin prisklasse med noen små forbedringspunkter.",
+    review_sections: [
+      {
+        heading: "Førsteinntrykk og design",
+        content: "Silk teppe 200x300 fra Møbelringen gir et godt førsteinntrykk med sin luksus stil. Med dimensjoner på 200 × 300 × 1 cm passer den godt i stuen. Designet er gjennomtenkt og funksjonelt."
+      },
+      {
+        heading: "Kvalitet og materialer",
+        content: "Materialkvaliteten på Silk teppe 200x300 holder god standard. Møbelringen har lagt vekt på detaljer og finish, noe som synes i hverdagsbruk. Til denne prisen får man overraskende mye for pengene."
+      },
+      {
+        heading: "Pris og verdi",
+        content: "Til 4 990 kr er dette et rimelig alternativ med god kvalitet. Møbelringen er kjent for konkurransedyktige priser, og dette produktet er intet unntak."
+      }
+    ],
+  },
 ];

@@ -29,9 +29,9 @@ const categories = [
 ];
 
 const brands = [
-  "Bohus", "Bolia", "Christiania Glasmagasin", "Clas Ohlson",
-  "Drømmerom", "Ekornes", "Elkjøp", "Fagmøbler",
-  "Frederik Bagger", "HAY", "Home & Cottage", "HTH",
+  "A-Møbler", "Bohus", "Bolia", "Chilli", "Christiania Glasmagasin",
+  "Clas Ohlson", "COOP Obs", "Drømmerom", "Ekornes", "Elkjøp",
+  "Fagmøbler", "Frederik Bagger", "HAY", "Home & Cottage", "HTH",
   "Hulténs", "Hødnebø", "Høie", "IKEA", "Introni",
   "Jysk", "Kid", "Kitch'n", "Kremmerhuset",
   "Lampemesteren", "Lunehjem.no", "Lånna Möbler",

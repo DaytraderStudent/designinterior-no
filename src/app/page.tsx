@@ -3,7 +3,6 @@ import CategoryNav from "@/components/landing/CategoryNav";
 import CampaignBanner from "@/components/landing/CampaignBanner";
 import PopularProducts from "@/components/landing/PopularProducts";
 import FeaturesGrid from "@/components/landing/FeaturesGrid";
-import HowItWorks from "@/components/landing/HowItWorks";
 import LatestReviews from "@/components/landing/LatestReviews";
 import BrandLogos from "@/components/landing/BrandLogos";
 import Footer from "@/components/landing/Footer";
@@ -17,8 +16,7 @@ export default function Home() {
       <CampaignBanner />
       <PopularProducts />
       <LatestReviews />
-      <HowItWorks />
-      <BrandLogos />
+<BrandLogos />
       <Footer />
     </main>
   );

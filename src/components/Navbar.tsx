@@ -27,7 +27,6 @@ export default function Navbar() {
           className="flex items-center gap-2.5 font-display text-xl font-bold tracking-tight text-foreground"
         >
           <svg viewBox="0 0 32 32" fill="none" className="h-8 w-8 shrink-0" xmlns="http://www.w3.org/2000/svg">
-            <rect width="32" height="32" rx="7" fill="#2a2118"/>
             <path d="M16 6L26 13V27H6V13L16 6Z" stroke="#c4a87a" strokeWidth="1.8" strokeLinejoin="round"/>
             <rect x="13" y="20" width="6" height="7" rx="0.5" stroke="#c4a87a" strokeWidth="1.4"/>
             <rect x="20" y="14" width="4" height="4" rx="0.5" stroke="#c4a87a" strokeWidth="1.2"/>

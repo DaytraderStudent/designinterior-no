@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <!-- Background circle -->
+  <circle cx="256" cy="256" r="256" fill="#2a2118"/>
+  <!-- Stylized house/room outline -->
+  <path d="M256 100L380 200V400H132V200L256 100Z" stroke="#c4a87a" stroke-width="16" stroke-linejoin="round" fill="none"/>
+  <!-- Door -->
+  <rect x="224" y="300" width="64" height="100" rx="4" stroke="#c4a87a" stroke-width="12" fill="none"/>
+  <!-- Window -->
+  <rect x="296" y="220" width="52" height="52" rx="4" stroke="#c4a87a" stroke-width="10" fill="none"/>
+  <line x1="322" y1="220" x2="322" y2="272" stroke="#c4a87a" stroke-width="6"/>
+  <line x1="296" y1="246" x2="348" y2="246" stroke="#c4a87a" stroke-width="6"/>
+  <!-- Lamp hanging inside -->
+  <line x1="190" y1="200" x2="190" y2="240" stroke="#c4a87a" stroke-width="6"/>
+  <path d="M170 240Q190 260 210 240" stroke="#c4a87a" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <!-- Small "di" text -->
+  <text x="256" y="455" text-anchor="middle" font-family="serif" font-weight="700" font-size="56" fill="#c4a87a" letter-spacing="4">di</text>
+</svg>

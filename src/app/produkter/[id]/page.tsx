@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import {
   Star, ThumbsUp, ThumbsDown, CheckCircle, ExternalLink,
-  Ruler, Tag, Palette, Home, ShoppingBag, Ticket, ArrowRight, Sparkles, ImageIcon,
+  Ruler, Tag, Palette, Home, ShoppingBag, ArrowRight,
 } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -32,12 +32,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { id } = await params;
   const product = products.find((p) => p.id === id);
   if (!product) return { title: "Produkt ikke funnet" };
-  const discountedPrice = Math.round(product.price * (1 - product.discount_percent / 100));
   return {
-    title: `${product.name} fra ${product.brand} — Spar ${product.discount_percent}% med kode | designinteriør.no`,
-    description: `Les vår anmeldelse av ${product.name} fra ${product.brand}. Bruk kode ${product.discount_code} og spar ${formatNOK(product.price - discountedPrice)}. Pris fra ${formatNOK(discountedPrice)}.`,
+    title: `${product.name} fra ${product.brand} — Anmeldelse | designinteriør.no`,
+    description: `Les vår anmeldelse av ${product.name} fra ${product.brand}. Pris ${formatNOK(product.price)}. Rating: ${product.rating}/5.`,
     openGraph: {
-      title: `${product.name} — ${product.rating}/5 | Spar ${product.discount_percent}%`,
+      title: `${product.name} — ${product.rating}/5 | designinteriør.no`,
       description: product.review_summary,
       images: [{ url: product.image_url, alt: product.name }],
     },
@@ -66,89 +65,20 @@ function StarRating({ rating, size = "md" }: { rating: number; size?: "sm" | "md
   );
 }
 
-function BuyButton({ brand, affiliate_url, discountPercent, size = "lg" }: {
-  brand: string; affiliate_url: string; discountPercent?: number; size?: "lg" | "default";
+function BuyButton({ brand, affiliate_url, size = "lg" }: {
+  brand: string; affiliate_url: string; size?: "lg" | "default";
 }) {
   return (
     <Button asChild size={size} className="gap-2 bg-green-600 hover:bg-green-700 text-white font-semibold shadow-lg shadow-green-600/20">
       <a href={affiliate_url} target="_blank" rel="noopener noreferrer">
         <ShoppingBag className="h-4 w-4" />
-        {discountPercent ? `Kjøp med ${discountPercent}% rabatt hos ${brand}` : `Kjøp hos ${brand}`}
+        Kjøp hos {brand}
         <ArrowRight className="h-4 w-4" />
       </a>
     </Button>
   );
 }
 
-function DiscountSection({ price, discountPercent, discountCode, brand, affiliateUrl }: {
-  price: number; discountPercent: number; discountCode: string; brand: string; affiliateUrl: string;
-}) {
-  const savings = Math.round(price * (discountPercent / 100));
-  const discountedPrice = price - savings;
-
-  return (
-    <Card className="border-2 border-green-500/30 bg-gradient-to-br from-green-500/5 to-emerald-500/5 overflow-hidden">
-      <CardContent className="p-0">
-        {/* Top banner */}
-        <div className="bg-green-600 text-white px-5 py-2.5 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <Ticket className="h-4 w-4" />
-            <span className="font-semibold text-sm">Eksklusiv rabatt fra designinteriør.no</span>
-          </div>
-          <Badge className="bg-white/20 text-white border-white/30 text-xs">
-            Spar {discountPercent}%
-          </Badge>
-        </div>
-
-        <div className="p-5">
-          {/* Price comparison */}
-          <div className="flex items-center gap-6 mb-5">
-            <div>
-              <p className="text-xs text-muted-foreground mb-0.5">Ordinær pris</p>
-              <p className="font-mono text-xl text-muted-foreground line-through">{formatNOK(price)}</p>
-            </div>
-            <div className="text-2xl text-muted-foreground/30">→</div>
-            <div>
-              <p className="text-xs text-green-600 font-medium mb-0.5">Din pris med kode</p>
-              <p className="font-mono text-3xl font-bold text-green-600">{formatNOK(discountedPrice)}</p>
-            </div>
-            <div className="ml-auto">
-              <div className="bg-green-100 dark:bg-green-900/30 rounded-xl px-4 py-2.5 text-center">
-                <p className="text-xs text-green-700 dark:text-green-400">Du sparer</p>
-                <p className="font-mono text-xl font-bold text-green-700 dark:text-green-400">{formatNOK(savings)}</p>
-              </div>
-            </div>
-          </div>
-
-          {/* Coupon code */}
-          <div className="flex items-center gap-3 mb-4">
-            <div className="flex-1 bg-muted/60 border-2 border-dashed border-green-500/40 rounded-lg px-4 py-3 flex items-center justify-between">
-              <div>
-                <p className="text-[10px] uppercase tracking-wider text-muted-foreground mb-0.5">Rabattkode</p>
-                <p className="font-mono text-lg font-bold tracking-widest text-foreground">{discountCode}</p>
-              </div>
-              <Ticket className="h-5 w-5 text-green-500" />
-            </div>
-          </div>
-
-          <p className="text-xs text-muted-foreground mb-4">
-            Bruk koden <strong>{discountCode}</strong> i kassen hos {brand} for å få {discountPercent}% rabatt.
-            Tilbudet gjelder så lenge lageret rekker.
-          </p>
-
-          {/* CTA */}
-          <Button asChild size="lg" className="w-full gap-2 bg-green-600 hover:bg-green-700 text-white font-semibold shadow-lg shadow-green-600/20">
-            <a href={affiliateUrl} target="_blank" rel="noopener noreferrer">
-              <ShoppingBag className="h-5 w-5" />
-              Kjøp med {discountPercent}% rabatt hos {brand}
-              <ArrowRight className="h-4 w-4" />
-            </a>
-          </Button>
-        </div>
-      </CardContent>
-    </Card>
-  );
-}
 
 export default async function ProductPage({ params }: Props) {
   const { id } = await params;
@@ -158,8 +88,6 @@ export default async function ProductPage({ params }: Props) {
   const related = products
     .filter((p) => p.category === product.category && p.id !== product.id)
     .slice(0, 4);
-
-  const discountedPrice = Math.round(product.price * (1 - product.discount_percent / 100));
 
   // JSON-LD with Review + Offer structured data
   const jsonLd = {
@@ -183,7 +111,7 @@ export default async function ProductPage({ params }: Props) {
     },
     offers: {
       "@type": "Offer",
-      price: discountedPrice,
+      price: product.price,
       priceCurrency: "NOK",
       availability: product.in_stock ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
     },
@@ -244,24 +172,14 @@ export default async function ProductPage({ params }: Props) {
                 {product.description}
               </p>
 
-              {/* Price with discount teaser */}
-              <div className="flex items-end gap-3 mb-2">
-                <span className="font-mono text-lg text-muted-foreground line-through">{formatNOK(product.price)}</span>
-                <span className="font-mono text-3xl font-bold text-green-600">{formatNOK(discountedPrice)}</span>
-                <Badge className="bg-green-600 text-white border-0 mb-1">-{product.discount_percent}%</Badge>
-              </div>
-              <div className="rounded-lg bg-green-50 dark:bg-green-950/30 border border-green-200 dark:border-green-900 p-3 mb-5">
-                <p className="text-sm font-semibold text-green-800 dark:text-green-300">
-                  💰 Spar {formatNOK(product.price - discountedPrice)} via designinteriør.no
-                </p>
-                <p className="text-xs text-green-700 dark:text-green-400 mt-1">
-                  Bruk kode <span className="font-mono font-bold">{product.discount_code}</span> ved kjøp hos {product.brand}. Du får denne rabatten kun via vår lenke.
-                </p>
+              {/* Price */}
+              <div className="mb-5">
+                <span className="font-mono text-3xl font-bold text-foreground">{formatNOK(product.price)}</span>
               </div>
 
               {/* Top buy button + try in room */}
               <div className="flex gap-3 mb-6">
-                <BuyButton brand={product.brand} affiliate_url={product.affiliate_url} discountPercent={product.discount_percent} />
+                <BuyButton brand={product.brand} affiliate_url={product.affiliate_url} />
                 <Button asChild variant="outline" size="lg" className="gap-2">
                   <Link href="/design">
                     Prøv i rommet ditt
@@ -305,17 +223,6 @@ export default async function ProductPage({ params }: Props) {
                 </div>
               </div>
             </div>
-          </div>
-
-          {/* ============ DISCOUNT / COUPON SECTION ============ */}
-          <div className="mb-12">
-            <DiscountSection
-              price={product.price}
-              discountPercent={product.discount_percent}
-              discountCode={product.discount_code}
-              brand={product.brand}
-              affiliateUrl={product.affiliate_url}
-            />
           </div>
 
           {/* ============ OUR REVIEW ============ */}
@@ -388,7 +295,7 @@ export default async function ProductPage({ params }: Props) {
           </div>
 
           {/* ============ BOTTOM BUY CTA ============ */}
-          <Card className="border-2 border-green-500/20 bg-green-500/5 mb-12">
+          <Card className="border-2 border-primary/20 bg-primary/5 mb-12">
             <CardContent className="p-6">
               <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
                 <div>
@@ -396,12 +303,11 @@ export default async function ProductPage({ params }: Props) {
                     Klar til å kjøpe {product.name}?
                   </h3>
                   <p className="text-sm text-muted-foreground">
-                    Bruk kode <span className="font-mono font-bold text-green-600">{product.discount_code}</span> og spar{" "}
-                    <span className="font-semibold text-green-600">{formatNOK(product.price - discountedPrice)}</span> hos {product.brand}
+                    Pris {formatNOK(product.price)} hos {product.brand}
                   </p>
                 </div>
                 <div className="flex gap-3 shrink-0">
-                  <BuyButton brand={product.brand} affiliate_url={product.affiliate_url} discountPercent={product.discount_percent} />
+                  <BuyButton brand={product.brand} affiliate_url={product.affiliate_url} />
                 </div>
               </div>
             </CardContent>
@@ -414,9 +320,7 @@ export default async function ProductPage({ params }: Props) {
                 Lignende produkter
               </h2>
               <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-4">
-                {related.map((p) => {
-                  const relDiscount = Math.round(p.price * (1 - p.discount_percent / 100));
-                  return (
+                {related.map((p) => (
                     <Link key={p.id} href={`/produkter/${p.id}`}>
                       <Card className="overflow-hidden group hover:shadow-md transition-all">
                         <div className="aspect-square bg-muted relative overflow-hidden">
@@ -428,19 +332,11 @@ export default async function ProductPage({ params }: Props) {
                             sizes="25vw"
                             unoptimized
                           />
-                          <div className="absolute top-2 right-2">
-                            <Badge className="bg-green-600 text-white border-0 text-[10px]">
-                              -{p.discount_percent}%
-                            </Badge>
-                          </div>
                         </div>
                         <div className="p-3">
                           <Badge variant="secondary" className="text-xs mb-1">{p.brand}</Badge>
                           <p className="text-sm font-medium line-clamp-1">{p.name}</p>
-                          <div className="flex items-center gap-2 mt-1">
-                            <p className="font-mono text-xs text-muted-foreground line-through">{formatNOK(p.price)}</p>
-                            <p className="font-mono text-sm font-bold text-green-600">{formatNOK(relDiscount)}</p>
-                          </div>
+                          <p className="font-mono text-sm font-bold text-foreground mt-1">{formatNOK(p.price)}</p>
                           <div className="flex items-center gap-0.5 mt-1">
                             <Star className="h-3 w-3 fill-amber-400 text-amber-400" />
                             <span className="text-xs font-medium">{p.rating.toFixed(1)}</span>
@@ -448,8 +344,7 @@ export default async function ProductPage({ params }: Props) {
                         </div>
                       </Card>
                     </Link>
-                  );
-                })}
+                ))}
               </div>
             </div>
           )}

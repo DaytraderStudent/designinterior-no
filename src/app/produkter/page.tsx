@@ -102,19 +102,6 @@ export default function ProdukterPage() {
           </p>
         </div>
 
-        {/* Savings banner */}
-        <div className="mb-8 rounded-xl bg-green-50 dark:bg-green-950/30 border border-green-200 dark:border-green-900 p-4 flex items-center gap-3 max-w-2xl mx-auto">
-          <span className="text-2xl">💰</span>
-          <div>
-            <p className="text-sm font-semibold text-green-800 dark:text-green-300">
-              Spar penger med våre eksklusive rabattkoder
-            </p>
-            <p className="text-xs text-green-700 dark:text-green-400 mt-0.5">
-              Kjøp via designinteriør.no og få opptil 20% rabatt hos butikkene. Se etter produkter merket med rabattkode.
-            </p>
-          </div>
-        </div>
-
         {/* Search and filters */}
         <div className="mb-8 space-y-4">
           <div className="flex gap-3">
@@ -216,14 +203,7 @@ export default function ProdukterPage() {
 
         {/* Product grid */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
-          {filtered.map((product) => {
-            const hasDiscount = product.discount_percent && product.discount_percent > 0;
-            const discountedPrice = hasDiscount
-              ? Math.round(product.price * (1 - (product.discount_percent || 0) / 100))
-              : product.price;
-            const savings = product.price - discountedPrice;
-
-            return (
+          {filtered.map((product) => (
               <Link key={product.id} href={`/produkter/${product.id}`}>
                 <Card className="overflow-hidden group hover:shadow-md transition-all duration-200 h-full">
                   <div className="relative">
@@ -234,11 +214,6 @@ export default function ProdukterPage() {
                       className="aspect-square"
                       iconSize="lg"
                     />
-                    {hasDiscount && (
-                      <div className="absolute top-2 left-2 bg-green-600 text-white text-[11px] font-bold px-2 py-0.5 rounded-lg">
-                        -{product.discount_percent}%
-                      </div>
-                    )}
                   </div>
                   <div className="p-3">
                     <div className="flex items-center justify-between mb-1.5">
@@ -253,36 +228,9 @@ export default function ProdukterPage() {
                     <h3 className="font-medium text-sm mb-1 line-clamp-1">
                       {product.name}
                     </h3>
-
-                    {hasDiscount ? (
-                      <div>
-                        <div className="flex items-baseline gap-1.5">
-                          <span className="font-mono text-sm font-bold text-green-700">
-                            {formatNOK(discountedPrice)}
-                          </span>
-                          <span className="font-mono text-xs text-muted-foreground line-through">
-                            {formatNOK(product.price)}
-                          </span>
-                        </div>
-                        <p className="text-xs font-semibold text-green-600 mt-0.5">
-                          Spar {formatNOK(savings)} via oss
-                        </p>
-                      </div>
-                    ) : (
-                      <p className="font-mono text-sm font-bold text-foreground">
-                        {formatNOK(product.price)}
-                      </p>
-                    )}
-
-                    {product.discount_code && (
-                      <div className="mt-1.5">
-                        <span className="inline-block bg-secondary border border-dashed border-accent/40 rounded px-2 py-0.5">
-                          <span className="text-[10px] text-muted-foreground mr-1">KODE</span>
-                          <span className="text-xs font-mono font-bold text-accent">{product.discount_code}</span>
-                        </span>
-                      </div>
-                    )}
-
+                    <p className="font-mono text-sm font-bold text-foreground">
+                      {formatNOK(product.price)}
+                    </p>
                     <div className="mt-2 text-xs text-muted-foreground">
                       {product.dimensions.width} × {product.dimensions.depth} ×{" "}
                       {product.dimensions.height} cm
@@ -290,8 +238,7 @@ export default function ProdukterPage() {
                   </div>
                 </Card>
               </Link>
-            );
-          })}
+          ))}
         </div>
 
         {filtered.length === 0 && (

@@ -13,8 +13,8 @@ export interface Product {
   room_tags: string[];
   dimensions: { width: number; depth: number; height: number };
   in_stock: boolean;
-  discount_code: string;
-  discount_percent: number;
+  discount_code?: string;
+  discount_percent?: number;
   rating: number;
   pros: string[];
   cons: string[];

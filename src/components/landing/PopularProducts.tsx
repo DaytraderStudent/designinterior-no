@@ -94,11 +94,6 @@ export default function PopularProducts() {
                     className="aspect-square group-hover:scale-[1.03] transition-transform duration-500"
                     iconSize="lg"
                   />
-                  {product.discount_percent && product.discount_percent > 0 && (
-                    <div className="absolute top-3 left-3 bg-green-600 text-white text-[11px] font-bold px-2.5 py-1 rounded-lg">
-                      -{product.discount_percent}%
-                    </div>
-                  )}
                 </div>
                 <div className="p-4">
                   <p className="text-xs text-muted-foreground mb-1">{product.brand}</p>

@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     template: "%s | designinteriør.no",
   },
   description:
-    "Norges uavhengige interiørguide. Sammenlign priser fra 30+ butikker, les ærlige anmeldelser, og spar penger med eksklusive rabattkoder.",
+    "Norges uavhengige interiørguide. Sammenlign priser fra 30+ butikker og les ærlige anmeldelser av møbler og interiør.",
   metadataBase: new URL("https://xn--designinterir-mnb.no"),
   openGraph: {
     type: "website",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     siteName: "designinteriør.no",
     title: "designinteriør.no – Sammenlign møbelpriser og les anmeldelser",
     description:
-      "Sammenlign priser fra 30+ norske møbelbutikker. Les uavhengige anmeldelser og spar penger med eksklusive rabattkoder.",
+      "Sammenlign priser fra 30+ norske møbelbutikker. Les uavhengige anmeldelser av møbler og interiør.",
     images: [{ url: "/images/hero.jpg", width: 1920, height: 1080, alt: "designinteriør.no" }],
   },
   twitter: {

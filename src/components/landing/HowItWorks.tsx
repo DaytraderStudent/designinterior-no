@@ -18,8 +18,8 @@ const steps = [
   {
     icon: Tag,
     num: "03",
-    title: "Spar med rabattkoder",
-    description: "Bruk eksklusive rabattkoder og få de beste prisene direkte hos butikkene.",
+    title: "Kjøp til beste pris",
+    description: "Sammenlign priser og gå direkte til butikken for å kjøpe til best mulig pris.",
   },
 ];
 

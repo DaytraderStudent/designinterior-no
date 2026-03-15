@@ -1,6 +1,5 @@
 import Hero from "@/components/landing/Hero";
 import CategoryNav from "@/components/landing/CategoryNav";
-import HowItWorks from "@/components/landing/HowItWorks";
 import CampaignBanner from "@/components/landing/CampaignBanner";
 import PopularProducts from "@/components/landing/PopularProducts";
 import FeaturesGrid from "@/components/landing/FeaturesGrid";
@@ -16,7 +15,6 @@ export default function Home() {
       <ScrollReveal>
         <CategoryNav />
       </ScrollReveal>
-      <HowItWorks />
       <ScrollReveal>
         <FeaturesGrid />
       </ScrollReveal>

@@ -1,13 +1,19 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, ShoppingBag, Store, Star } from "lucide-react";
+
+const trustStats = [
+  { icon: ShoppingBag, value: "336+", label: "Produkter" },
+  { icon: Store, value: "30+", label: "Butikker" },
+  { icon: Star, value: "4.5", label: "Snittrating" },
+];
 
 export default function Hero() {
   return (
     <section className="relative">
       {/* Full-width hero with lifestyle image */}
-      <div className="relative min-h-[480px] sm:min-h-[540px] lg:min-h-[600px] flex items-center overflow-hidden">
+      <div className="relative min-h-[520px] sm:min-h-[580px] lg:min-h-[640px] flex items-center overflow-hidden">
         {/* Background image */}
         <Image
           src="/images/hero.jpg"
@@ -18,7 +24,7 @@ export default function Hero() {
           sizes="100vw"
         />
         {/* Dark overlay for text readability */}
-        <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-black/10" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/75 via-black/45 to-black/10" />
         {/* Subtle noise texture */}
         <div className="absolute inset-0 opacity-[0.03] mix-blend-overlay" style={{
           backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.7' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.05'/%3E%3C/svg%3E")`
@@ -43,7 +49,7 @@ export default function Hero() {
             </h1>
 
             <p
-              className="text-white/65 text-lg sm:text-xl leading-relaxed mb-10 max-w-lg animate-fade-up"
+              className="text-white/65 text-lg sm:text-xl leading-relaxed mb-8 max-w-lg animate-fade-up"
               style={{ animationDelay: "0.3s" }}
             >
               Vi sammenligner priser fra Norges største møbelbutikker og skriver
@@ -51,7 +57,7 @@ export default function Hero() {
             </p>
 
             <div
-              className="flex flex-wrap gap-3 animate-fade-up"
+              className="flex flex-wrap gap-3 mb-10 animate-fade-up"
               style={{ animationDelay: "0.4s" }}
             >
               <Button
@@ -75,10 +81,27 @@ export default function Hero() {
                 </Link>
               </Button>
             </div>
+
+            {/* Trust indicators */}
+            <div
+              className="flex items-center gap-6 sm:gap-8 animate-fade-up"
+              style={{ animationDelay: "0.55s" }}
+            >
+              {trustStats.map((stat) => (
+                <div key={stat.label} className="flex items-center gap-2.5">
+                  <div className="flex items-center justify-center w-9 h-9 rounded-lg bg-white/10 backdrop-blur-sm border border-white/10">
+                    <stat.icon className="w-4 h-4 text-[#c4a87a]" />
+                  </div>
+                  <div>
+                    <p className="text-white font-bold text-sm leading-none">{stat.value}</p>
+                    <p className="text-white/40 text-xs mt-0.5">{stat.label}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
-
     </section>
   );
 }

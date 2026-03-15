@@ -120,6 +120,47 @@
   animation: fadeSlideUp 0.6s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 
+/* Glassmorphism hover on product cards */
+.product-card:hover {
+  background: hsla(var(--card), 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-color: hsl(var(--border));
+}
+
+/* Marquee animation */
+@keyframes marqueeForward {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+@keyframes marqueeReverse {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}
+.marquee-forward {
+  animation: marqueeForward 40s linear infinite;
+}
+.marquee-reverse {
+  animation: marqueeReverse 40s linear infinite;
+}
+.marquee-container:hover .marquee-forward,
+.marquee-container:hover .marquee-reverse {
+  animation-play-state: paused;
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .marquee-forward,
+  .marquee-reverse {
+    animation: none;
+  }
+  .animate-fade-up {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+}
+
 /* Before/after slider */
 .before-after-slider {
   position: relative;
